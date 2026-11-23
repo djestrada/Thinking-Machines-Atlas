@@ -55,3 +55,5 @@
   - 'Full audit of the 179 relations. 11 changed: four had the wrong type (6.05→6.06 is an objection; 4.06 responds to the frame problem rather than paralleling it; 3.06 responds to 1.04; 1.17 is a case for the AI effect, 1.16), four editorial links were softened to ‘parallels’ or ‘bears on’ (7.14–2.11, 8.06–8.04, 8.06–8.03, 7.16–2.12), two notes that only repeated a row’s name were rewritten (2.07), and a duplicate (11.06→11.08) was removed.'
 - - 23 Nov 2026
   - 'Moved to GitHub (djestrada/Thinking-Machines-Atlas). The table now lives as one file per argument in content/, and the workbook and Atlas are built from those files on every change. Content is under CC BY-SA 4.0 and code under MIT.'
+- - 23 Nov 2026
+  - 'The Atlas is now published at https://djestrada.github.io/Thinking-Machines-Atlas/. The page is a complete HTML document (it had been rendering in quirks mode, without mobile scaling), the ladder sets its columns by the width of the map rather than the window so all seven rungs fit on a laptop screen, and the header links to the workbook download and to GitHub.'

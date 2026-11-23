@@ -49,6 +49,7 @@ nav.views .later { opacity: .62; }
 button:focus-visible, .chip:focus-visible, .arg:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .layout { display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; }
 @media (min-width: 1240px) { .layout { grid-template-columns: minmax(0, 1fr) 360px; } }
+@media (min-width: 1240px) and (max-width: 1499px) { .layout { grid-template-columns: minmax(0, 1fr) 320px; } }
 main { min-width: 0; display: grid; gap: 0; }
 .plate { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; min-width: 0; }
 .plate-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 18px; padding: 14px 16px 6px; }
@@ -103,12 +104,13 @@ svg text { font-family: var(--narrow); fill: var(--ink); }
 .gate .chips { flex-direction: row !important; flex-wrap: wrap; align-items: flex-start !important; }
 .gate h3, .rhead h3 { margin: 0; font-family: var(--narrow); font-weight: 600; font-size: 15px; line-height: 1.2; }
 .lad-h { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 8px; }
-.rung-h { background: var(--band); border-radius: 5px; padding: 10px; display: grid; gap: 7px; align-content: start; min-width: 0; }
+.rung-h { background: var(--band); border-radius: 5px; padding: 8px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 7px; align-content: start; min-width: 0; }
 .rung-h h3 { margin: 0; font-family: var(--narrow); font-weight: 600; font-size: 15px; line-height: 1.2; }
 .rung-h .why { overflow-wrap: break-word; margin: 0; font-size: 12.5px; line-height: 1.35; color: var(--muted); font-style: italic; }
 .rung-h .chips { flex-direction: column; align-items: stretch; }
 .rung-h .cl { display: flex; gap: 4px; flex-wrap: wrap; }
-.rung-h .arg { flex-direction: column; align-items: flex-start; gap: 0; }
+.rung-h .arg { flex-direction: column; align-items: stretch; gap: 0; width: 100%; }
+.rung-h .arg span:last-child { overflow-wrap: break-word; hyphens: auto; }
 .ladder-axis { margin-top: 8px; font-family: var(--narrow); font-size: 12.5px; color: var(--muted); }
 .ladder-axis .ax { display: flex; align-items: center; gap: 8px; }
 .ladder-axis .ax i { flex: 1; height: 0; border-top: 1.5px solid var(--muted); position: relative; }
@@ -118,8 +120,11 @@ svg text { font-family: var(--narrow); fill: var(--ink); }
 .gsec .ladp b { font-family: var(--narrow); }
 .idl { all: unset; cursor: pointer; font-family: var(--mono); font-size: .88em; color: var(--accent); border-bottom: 1px dotted var(--accent); }
 .idl:focus-visible { outline: 2px solid var(--accent); }
-@media (max-width: 1600px) { .lad-h { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
-@media (max-width: 760px) { .lad-h { grid-template-columns: repeat(2, minmax(0, 1fr)); } .gate { grid-template-columns: minmax(0,1fr); } .gate .ghead { grid-column: auto; } }
+.ladder { container-type: inline-size; }
+@container (max-width: 900px) { .lad-h { gap: 6px; } .rung-h { padding: 6px; } .rung-h h3 { font-size: 14px; } .rung-h .arg { font-size: 12px; } .rung-h .why { font-size: 12px; } }
+@container (max-width: 740px) { .lad-h { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@container (max-width: 480px) { .lad-h { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 760px) { .gate { grid-template-columns: minmax(0,1fr); } .gate .ghead { grid-column: auto; } }
 
 /* exchanges */
 .ex { border-top: 1px solid var(--line); padding: 16px 16px 20px; }
@@ -245,7 +250,7 @@ aside { min-width: 0; }
 .panel h3 { font-family: var(--display); font-weight: 700; font-size: 18px; line-height: 1.25; margin: 6px 0 8px; text-wrap: balance; }
 .panel p { margin: 0 0 10px; font-size: 14.5px; }
 .panel .src { font-size: 13px; color: var(--muted); }
-.panel a { color: var(--accent); word-break: break-word; }
+.panel a, header a, footer a { color: var(--accent); word-break: break-word; }
 .panel ul { list-style: none; padding: 0; margin: 6px 0 0; display: grid; gap: 4px; }
 .panel li button { all: unset; cursor: pointer; font-size: 13.5px; line-height: 1.35; display: block; }
 .panel li button:hover .nm, .panel li button:focus-visible .nm { text-decoration: underline; }
@@ -265,7 +270,7 @@ footer .credit { margin: 10px 0 0; padding-top: 10px; border-top: 1px solid var(
   <header>
     <h1>Thinking Machines Atlas</h1>
     <p><span id="nargs">123</span> arguments for and against machine minds. The overview follows the questions the debate asks, in order. Each cluster shows its exchanges: what is contested, the moves on each side, and where the argument goes next.</p>
-    <p>A companion to the workbook <i>Arguments for and against thinking machines</i>; row IDs match.</p>
+    <p>A companion to the workbook <a href="https://djestrada.github.io/Thinking-Machines-Atlas/AI_arguments_table.xlsx"><i>Arguments for and against thinking machines</i></a> (download, .xlsx); row IDs match. Sources, corrections and suggestions: <a href="https://github.com/djestrada/Thinking-Machines-Atlas">GitHub</a>.</p>
   </header>
   <nav class="views" id="views" aria-label="Views"></nav>
   <div class="layout">
@@ -384,6 +389,9 @@ function drawOverview(main) {
         const cl = h("div", { className: "cl" }); cl.appendChild(h("span", { className: "sidelab" }, "Clusters ")); r.c.forEach(k => cl.appendChild(clusterBtn(k))); c.appendChild(cl);
         LH.appendChild(c);
       });
+      // soft hyphens for long words in the narrow rung columns (browsers without an English hyphenation dictionary break them mid-letter otherwise)
+      const SHY = { Computationalism: "Computa\u00ADtionalism", Connectionism: "Connec\u00ADtionism", Systematicity: "Systema\u00ADticity", Phenomenology: "Phenomeno\u00ADlogy", Heideggerian: "Heideg\u00ADgerian", consciousness: "conscious\u00ADness", realizability: "realiz\u00ADability", Distributional: "Distribu\u00ADtional", "non-representational": "non-repre\u00ADsentational", "observer-relative": "observer-\u200Brelative" };
+      LH.querySelectorAll(".arg span:last-child").forEach(sp => { sp.textContent = sp.textContent.split(" ").map(w => SHY[w] || w).join(" "); });
       lad.appendChild(h("div", { className: "ladder-axis" }, `<div class="ax"><span>thinner conditions</span><i></i><span>thicker conditions</span></div>`));
       const more = h("button", { type: "button", className: "chip ladder-more" }, "How the rungs connect: read the Guide"); more.onclick = () => { go("guide"); setTimeout(() => { const t = document.getElementById("g-ladder"); if (t) t.scrollIntoView({ behavior: "smooth" }); }, 60); };
       lad.appendChild(more);
