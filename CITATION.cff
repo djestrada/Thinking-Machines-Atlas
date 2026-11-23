@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use the Thinking Machines Atlas, please cite it as below."
+type: dataset
+title: "Thinking Machines Atlas: arguments for and against machine minds"
+abstract: >-
+  A teaching map of the debate over whether machines can think, understand,
+  feel, act or matter morally: arguments for and against, in 11 clusters,
+  with sources, responses and the relations between them, published as an
+  interactive atlas and a workbook. Created and edited by Daniel Estrada (NJIT).
+  Drafted and built with Claude (Anthropic); reviewed by AI models.
+authors:
+  - family-names: Estrada
+    given-names: Daniel
+    affiliation: New Jersey Institute of Technology
+repository-code: "https://github.com/djestrada/Thinking-Machines-Atlas"
+url: "https://djestrada.github.io/Thinking-Machines-Atlas/"
+license:
+  - CC-BY-SA-4.0
+  - MIT
+keywords:
+  - philosophy of artificial intelligence
+  - philosophy of mind
+  - machine consciousness
+  - Turing test
+  - Chinese Room
+  - large language models
+  - AI moral status
+  - open educational resource
