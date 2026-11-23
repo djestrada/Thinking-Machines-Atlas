@@ -1,0 +1,134 @@
+# Exchanges for cluster 2. Each exchange has a title, the claim in dispute, moves, what "stands" afterwards, and passes
+# (hand-offs to rows in other clusters: id and why).
+# Each move: key (unique in the exchange), side (A affirms the claim, M reframes it, D denies it), type (a short label),
+# id (the row it draws on; omit for a move with no row of its own and give a label instead), gist, and to (the key of the
+# move it answers, or "claim"). A move with groups lists several rows under headings (items: id, reply, optional pass_).
+# Every row in the cluster must appear in at least one exchange; the build checks this.
+- title: The Chinese Room and the replies
+  claim: Running the right program is enough for understanding (what Searle calls strong AI).
+  moves:
+  - key: m1
+    side: D
+    type: Counterexample
+    id: '2.01'
+    gist: Searle follows the program for Chinese by hand. Fluent answers come out; he understands none of it.
+    to: claim
+  - key: m2
+    side: A
+    type: Redescription
+    id: '2.02'
+    gist: Searle in the room is one part of a system. The whole system understands.
+    to: m1
+  - key: m3
+    side: D
+    type: Rejoinder
+    label: Searle’s rejoinder (in 2.01)
+    gist: Let him memorize the rules and work outdoors. He is now the whole system, and still understands nothing.
+    to: m2
+  - key: m4
+    side: A
+    type: Refinement
+    id: '2.03'
+    gist: The program creates a virtual mind distinct from the man. Memorizing the rules does not touch it.
+    to: m3
+  - key: m5
+    side: A
+    type: Added condition
+    id: '2.04'
+    gist: Concede the room, but connect the program to cameras and motors.
+    to: m1
+  - key: m6
+    side: D
+    type: Rejoinder
+    label: Searle’s rejoinder (in 2.01)
+    gist: Camera inputs reach the man as more symbols. Nothing changes.
+    to: m5
+  - key: m7
+    side: A
+    type: Different program
+    id: '2.05'
+    gist: Simulate a Chinese speaker’s brain, neuron by neuron.
+    to: m1
+  - key: m8
+    side: D
+    type: Rejoinder
+    label: Searle’s rejoinder (in 2.01)
+    gist: A man operating water pipes that simulate the neurons still understands nothing; the simulation copies only the formal structure.
+    to: m7
+  - key: m8b
+    side: D
+    type: Generalization
+    id: '2.07'
+    gist: A simulated storm makes nobody wet. Simulating a brain is not duplicating its causal powers.
+    to: m8
+  - key: m9
+    side: M
+    type: Method challenge
+    id: '2.06'
+    gist: We picture a slow, simple rule-follower. That intuition is unreliable for a system fast and complex enough to pass.
+    to: m1
+  - key: m10
+    side: D
+    type: Formalization
+    id: '2.08'
+    gist: Programs are syntax, minds have semantics, and syntax is not sufficient for semantics.
+    to: claim
+  - key: m11
+    side: D
+    type: Generalization
+    id: '2.09'
+    gist: Nothing is a computer intrinsically; computation is relative to an observer.
+    to: m10
+  stands: 'There is no agreed verdict on which reply works. The fight moves from programs to meaning: what would connect a system’s symbols to the world?'
+  passes:
+  - id: '5.03'
+    why: an earlier, parallel move against functionalism
+  - id: '5.05'
+    why: Searle’s positive view
+  - id: '7.02'
+    why: the room updated for LLMs
+  - id: '1.12'
+    why: a related counterexample, aimed at behavior rather than programs
+- title: What fixes meaning?
+  claim: A machine’s symbols could mean something to the machine itself, not only to us.
+  moves:
+  - key: n1
+    side: D
+    type: Distinction
+    id: '2.10'
+    gist: Artifacts’ meanings are derived from ours. Only minds have original intentionality.
+    to: claim
+  - key: n2
+    side: M
+    type: Dissolution
+    id: '2.11'
+    gist: There is no further fact. Having beliefs is being well predicted by the intentional stance.
+    to: n1
+  - key: n3
+    side: D
+    type: Problem
+    id: '2.13'
+    gist: Meanings in a pure symbol system are parasitic on ours, like a Chinese–Chinese dictionary. Only symbols grounded in sensorimotor categories, which a robot could have, mean something to the system.
+    to: claim
+  - key: n4
+    side: A
+    type: Naturalization
+    id: '2.12'
+    gist: Causal and historical relations to the world fix content, and a machine could stand in them.
+    to: n1
+  - key: n5
+    side: M
+    type: Conceptual remark
+    id: '2.14'
+    gist: '“A machine cannot think” is not an empirical claim: we say “thinks” of human beings and what resembles them, so the question concerns our concepts.'
+    to: claim
+  stands: 'Grounding is the question that language models revived: can text alone ground meaning? Naturalized semantics and the intentional stance offer different routes to yes.'
+  passes:
+  - id: '7.02'
+    why: the octopus test
+  - id: '7.01'
+    why: meaning from patterns of use
+  - id: '1.13'
+    why: Harnad’s robotic test
+  - id: '9.03'
+    why: the relational route, for moral status

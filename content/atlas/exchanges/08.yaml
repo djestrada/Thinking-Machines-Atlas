@@ -1,0 +1,88 @@
+# Exchanges for cluster 8. Each exchange has a title, the claim in dispute, moves, what "stands" afterwards, and passes
+# (hand-offs to rows in other clusters: id and why).
+# Each move: key (unique in the exchange), side (A affirms the claim, M reframes it, D denies it), type (a short label),
+# id (the row it draws on; omit for a move with no row of its own and give a label instead), gist, and to (the key of the
+# move it answers, or "claim"). A move with groups lists several rows under headings (items: id, reply, optional pass_).
+# Every row in the cluster must appear in at least one exchange; the build checks this.
+- title: Can machines be agents?
+  claim: Artificial systems can be genuine agents.
+  moves:
+  - key: a1
+    side: D
+    type: Condition
+    id: '8.01'
+    gist: Genuine understanding requires answerability to norms and caring about getting things right; reliable response is not enough.
+    to: claim
+  - key: a2
+    side: D
+    type: Condition
+    id: '8.02'
+    gist: Agency needs a system that constitutes itself and generates its own norms, which most artifacts do not.
+    to: claim
+  - key: a3
+    side: A
+    type: Change of level
+    id: '8.03'
+    gist: At the right level of abstraction, interactivity, autonomy and adaptability suffice for moral agency, without full mental states.
+    to: a1
+  - key: a4
+    side: M
+    type: Matter of degree
+    id: '8.06'
+    gist: Treat agency as graded along goal-directedness, autonomy and efficacy.
+    to: claim
+  - key: a5
+    side: M
+    type: Reframe
+    id: '8.05'
+    gist: Agency belongs to assemblages of humans and artifacts, not to individual minds.
+    to: claim
+  - key: a6
+    side: A
+    type: Minimal agency
+    id: '8.07'
+    gist: Reinforcement learning systems that learn from outcomes and choose actions in pursuit of goals meet plausible conditions for minimal agency.
+    to: a2
+  stands: Thin and graded notions of agency fit current systems; thick, normative notions do not. Which notion matters depends on whether the question is about prediction, design or blame.
+  passes:
+  - id: '4.07'
+    why: life–mind continuity
+  - id: '2.10'
+    why: original intentionality
+  - id: '10.07'
+    why: posthumanist critiques
+- title: Who answers for what machines do?
+  claim: Someone can properly be held responsible for what learning systems do.
+  moves:
+  - key: r1
+    side: D
+    type: Gap
+    id: '8.04'
+    gist: When a learning system acts in ways no one could foresee or control, no one may be properly responsible.
+    to: claim
+  - key: r2
+    side: M
+    type: Distribute it
+    id: '8.05'
+    gist: Spread responsibility across the human–machine system that acts.
+    to: r1
+  - key: r3
+    side: M
+    type: Separate accountability from responsibility
+    id: '8.03'
+    gist: An artificial agent can be held accountable, and its behavior corrected, even where no one is blameworthy.
+    to: r1
+  - key: r4
+    side: M
+    type: Four gaps
+    label: Santoni de Sio & Mecacci (2021), in 8.04
+    gist: There are four gaps, in culpability, moral and public accountability and active responsibility; designing for meaningful human control can close them.
+    to: r1
+  stands: The gap widens as models act through tools and long chains of steps. Common proposals assign responsibility in advance to developers and deployers, or spread it across the system.
+  passes:
+  - id: '10.01'
+    why: decisions that should not be delegated
+  - id: '4.10'
+    why: hybrid human–machine cognition
+  - id: '11.06'
+    why: the alignment problem

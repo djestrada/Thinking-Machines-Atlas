@@ -1,0 +1,302 @@
+# The overview: the five questions (Q0-Q4) in order.
+# Each question has a lede, lanes (one answer each: label, optional note, ids = row IDs shown as chips) and a "next" line.
+# Q2 has, instead of lanes, the gate (no / practice / yes columns, note, reply) and the rungs of the ladder.
+# Each rung: label, why, pro (proposes the condition), yes (says machines can meet it), no (says it is not enough, or machines lack it),
+# c (clusters to link), and optionally step (how the debate reached this rung) and jumps (arguments that skip rungs; used in the text version).
+- key: Q0
+  q: Who asks, and why?
+  lede: Before asking whether machines think, ask who is asking, and why. Whose interests does the question serve? What does it distract us from? What should never be handed to machines? Who counts as a person?
+  lanes:
+  - label: Whose interests and knowledge does the question serve, and what does it hide?
+    ids:
+    - '10.12'
+    - '10.13'
+    - '10.03'
+    - '10.04'
+    - '10.05'
+    - '10.06'
+    - '10.14'
+    - '10.01'
+  - label: Who counts as a person, and in which traditions?
+    ids:
+    - '10.07'
+    - '10.08'
+    - '10.09'
+    - '10.10'
+    - '10.11'
+  next: With that in view, the first question is whether there is anything to find out.
+- key: Q1
+  q: Is there a fact of the matter?
+  lede: Is it a fact about a system whether it thinks, understands or matters morally? Or is that something we confer, by how we treat it?
+  lanes:
+  - label: Yes, it is a fact about the system
+    note: Most arguments on both sides assume this. Searle and Chalmers doubt that machines have it; functionalists think they could.
+    ids:
+    - '2.01'
+    - '6.04'
+    - '5.01'
+    - '5.04'
+    - '2.12'
+    - '6.09'
+  - label: The question itself is in question
+    note: Turing called “Can machines think?” too meaningless to discuss, and replaced it with a test.
+    ids:
+    - '1.01'
+    - '1.14'
+    - '1.16'
+    - '2.14'
+    - '7.05'
+    - '6.06'
+  - label: It depends, partly or wholly, on how we treat it
+    note: 'Dennett (2.11) takes a middle view: the patterns are real, but which stance fits them is partly a practical matter. The others put the answer in relationships and practice.'
+    ids:
+    - '2.11'
+    - '7.14'
+    - '9.03'
+    - '10.08'
+  next: 'If it is a fact, what would make it true? Each rung of the ladder below is one answer. If it depends on how we treat it, the later questions become questions about practice: who is recognized, and on what terms (Q0 and Q4).'
+- key: Q2
+  q: What would it take, and can computation supply it?
+  lede: 'A ladder of proposed conditions, roughly from thinner to thicker. Most rungs answer a counterexample to the one before; two come from separate traditions, and some arguments skip a rung or go back. The Guide’s section “Reading the Q2 ladder” sets this out. First comes a gate: can computation reach any rung at all? Chip colours show each argument’s stance on its cluster’s question, not whether it agrees with the column it sits in.'
+  gate:
+    label: 'The gate: can computation get onto the ladder?'
+    'no':
+    - '1.04'
+    - '3.01'
+    - '3.02'
+    practice:
+    - '3.04'
+    - '3.05'
+    - '1.10'
+    - '7.10'
+    'yes':
+    - '3.03'
+    note: Two kinds of limit. Formal limits say computation cannot, in principle, do what a mind does. Practical limits grant that machine thought is possible, and ask whether it is feasible.
+    reply: 'The standard reply: these limits apply to human minds too.'
+    reply_id: '3.06'
+  rungs:
+  - label: Behavior
+    why: 'Turing: if it plays the imitation game as well as we do, what else could we ask? Harnad raises the bar to all our capacities.'
+    pro:
+    - '1.01'
+    - '1.06'
+    - '1.13'
+    'yes': []
+    'no':
+    - '1.12'
+    - '1.15'
+    - '1.05'
+    - '1.07'
+    - '1.08'
+    c:
+    - '1'
+    jumps:
+    - to: 4
+      text: Harnad (1.13) asks for robotic as well as verbal capacities, which ground symbols in the world.
+    - to: 7
+      text: Jefferson (1.05) asks for feeling, not just behavior.
+  - label: Running the right program
+    why: 'Strong AI, in Searle’s term: the right program is a mind, and behavior is only evidence of it.'
+    pro:
+    - '5.08'
+    - '5.10'
+    - '2.02'
+    - '2.03'
+    'yes': []
+    'no':
+    - '2.01'
+    - '2.08'
+    - '2.09'
+    - '2.07'
+    c:
+    - '2'
+    step: 'Blockhead and the ELIZA effect: matching behavior is not enough, so look at the program that produces it.'
+  - label: Functional organization
+    why: 'Functionalism: what matters is how the system is organized, not what it is made of.'
+    pro:
+    - '5.01'
+    - '5.09'
+    - '2.05'
+    - '5.04'
+    'yes': []
+    'no':
+    - '5.02'
+    - '5.03'
+    - '5.07'
+    c:
+    - '2'
+    - '5'
+    step: The Chinese Room says a program is not enough; the brain simulator reply and functionalism answer that what matters is the causal organization that runs it, whatever it is made of.
+    jumps:
+    - to: 6
+      text: 'IIT (5.06) goes from organization straight to physical structure, skipping life: non-living neuromorphic hardware could qualify.'
+  - label: Grounding in the world
+    why: Symbols must be connected to what they are about.
+    pro:
+    - '2.13'
+    'yes':
+    - '2.04'
+    - '2.12'
+    - '7.01'
+    - '7.18'
+    'no':
+    - '2.10'
+    - '7.02'
+    - '7.03'
+    c:
+    - '2'
+    - '7'
+    step: 'The robot reply and the grounding problem: even the right organization needs its symbols connected to what they are about.'
+  - label: Embodiment and life
+    why: Intelligence needs a body in the world, and perhaps a living one for which things matter.
+    pro:
+    - '4.01'
+    - '4.02'
+    - '4.07'
+    'yes':
+    - '4.04'
+    - '4.06'
+    - '4.08'
+    'no':
+    - '4.05'
+    - '4.09'
+    c:
+    - '4'
+    step: 'Dreyfus and the enactivists: connection to the world is not enough without a body that acts in it, and perhaps a life that is at stake.'
+    jumps:
+    - to: 3
+      text: Enactive AI (4.08) treats life as a kind of organization that could be built.
+  - label: The right substrate
+    why: What the system is made of matters, not just the software it runs.
+    pro:
+    - '5.05'
+    - '5.06'
+    - '1.09'
+    'yes':
+    - '5.04'
+    'no': []
+    c:
+    - '5'
+    step: 'A separate tradition. Even a self-maintaining artificial system might not be enough: on these views, what the system is made of matters, not just how it is organized.'
+  - label: Felt experience
+    why: Even the right physical system seems to leave experience unexplained.
+    pro:
+    - '1.05'
+    - '6.01'
+    - '6.02'
+    - '6.03'
+    - '6.04'
+    'yes':
+    - '5.04'
+    - '6.06'
+    - '6.07'
+    - '6.08'
+    'no':
+    - '4.09'
+    - '5.05'
+    c:
+    - '6'
+    step: 'A separate tradition (Nagel, Jackson, Chalmers): even the right physical system seems to leave felt experience unexplained.'
+    jumps:
+    - to: 3
+      text: Fading qualia (5.04) argues that organization fixes experience, which brings this rung back to rung 3.
+    - to: 3
+      text: Illusionism (6.06) explains the sense of experience by a self-model, again a matter of organization.
+  pro_label: Proposes this condition
+  yes_label: Says machines can meet it
+  no_label: Says it is not enough, or machines lack it
+  next: The thinner the condition you accept, the easier it is to test. Behavior is visible, organization partly, experience hardly at all.
+- key: Q3
+  q: How could we tell?
+  lede: Whatever the answer to Q2, we need evidence. The methods differ in what they look at and how easily they are fooled.
+  lanes:
+  - label: Watch what it does
+    ids:
+    - '1.01'
+    - '1.13'
+    - '1.17'
+    - '7.08'
+    - '7.09'
+  - label: Extrapolate from scale
+    note: Claims about what more scale will bring, not tests for a mind. Both are disputed.
+    ids:
+    - '7.06'
+    - '7.07'
+  - label: Behavior can mislead
+    ids:
+    - '1.12'
+    - '1.15'
+    - '1.18'
+    - '6.11'
+    - '7.11'
+    - '10.02'
+    - '5.11'
+  - label: Look inside
+    ids:
+    - '7.10'
+    - '7.12'
+    - '7.13'
+  - label: Apply theories of consciousness
+    ids:
+    - '6.07'
+    - '6.08'
+    - '6.09'
+    - '6.10'
+  - label: Ask what kind of thing it is
+    ids:
+    - '7.04'
+    - '7.05'
+    - '7.14'
+    - '7.17'
+  - label: Ask whether it is saying anything
+    ids:
+    - '7.15'
+    - '7.16'
+  - label: Take its words and actions as evidence, as with other minds
+    ids:
+    - '1.06'
+    - '6.12'
+    - '9.04'
+    - '9.14'
+  next: 'Because the evidence stays uncertain, the last questions are answered under uncertainty: assign responsibility in advance, take precautions about welfare, manage risk.'
+- key: Q4
+  q: What follows?
+  lede: 'Some of these questions arise whether or not machines think: responsibility, misuse, our relationships with machines. Others depend on the earlier answers: what is owed to a machine depends on whether it can feel, and the case for catastrophic risk assumes that it pursues goals.'
+  lanes:
+  - label: Can it act, and who is responsible?
+    ids:
+    - '8.01'
+    - '8.02'
+    - '8.03'
+    - '8.04'
+    - '8.05'
+    - '8.06'
+    - '8.07'
+    - '4.10'
+  - label: Is anything owed to it?
+    ids:
+    - '9.01'
+    - '9.02'
+    - '9.04'
+    - '9.05'
+    - '9.06'
+    - '9.07'
+    - '9.08'
+    - '9.09'
+    - '9.10'
+    - '9.11'
+    - '9.12'
+    - '9.13'
+  - label: Could it harm us?
+    ids:
+    - '11.01'
+    - '11.02'
+    - '11.03'
+    - '11.04'
+    - '11.05'
+    - '11.06'
+    - '11.07'
+    - '11.08'
+    - '11.09'
+    - '11.10'
+  next: null

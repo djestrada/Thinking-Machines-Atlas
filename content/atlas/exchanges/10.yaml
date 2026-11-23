@@ -1,0 +1,112 @@
+# Exchanges for cluster 10. Each exchange has a title, the claim in dispute, moves, what "stands" afterwards, and passes
+# (hand-offs to rows in other clusters: id and why).
+# Each move: key (unique in the exchange), side (A affirms the claim, M reframes it, D denies it), type (a short label),
+# id (the row it draws on; omit for a move with no row of its own and give a label instead), gist, and to (the key of the
+# move it answers, or "claim"). A move with groups lists several rows under headings (items: id, reply, optional pass_).
+# Every row in the cluster must appear in at least one exchange; the build checks this.
+- title: Can the question be asked apart from who builds the machines?
+  claim: Whether machines think can be studied apart from who builds them, and why.
+  moves:
+  - key: q1
+    side: D
+    type: Limits of delegation
+    id: '10.01'
+    gist: What a machine can do does not settle what it should be allowed to do. Some decisions call for judgment, not calculation.
+    to: claim
+  - key: q2
+    side: D
+    type: Loaded vocabulary
+    id: '10.02'
+    gist: Calling AI systems intelligent, or saying they think and know, shapes what the public and researchers believe they are.
+    to: claim
+  - key: q3
+    side: D
+    type: Gendered knower
+    id: '10.06'
+    gist: AI builds in a model of the knower, of knowledge and of reason that is masculine, so bias is part of the design.
+    to: claim
+  - key: q4
+    side: D
+    type: Hidden labor and power
+    id: '10.03'
+    gist: Talk of intelligence hides the extraction, labor and power that produce AI systems.
+    to: claim
+  - key: q5
+    side: D
+    type: Ideological roots
+    id: '10.04'
+    gist: The idea of AGI carries ideologies rooted in eugenics and techno-utopianism, and these steer research.
+    to: claim
+  - key: q6
+    side: D
+    type: Colonial pattern
+    id: '10.05'
+    gist: Who defines intelligence, and who benefits from it, follows colonial patterns of extraction.
+    to: claim
+  - key: q7
+    side: D
+    type: Distraction
+    id: '10.12'
+    gist: 'Talk of thinking machines and superintelligence draws attention from documented harms of systems in use now: exploited labor, data taken without consent, concentrated power, discrimination.'
+    to: claim
+  - key: q8
+    side: D
+    type: Hidden costs
+    id: '10.13'
+    gist: Systems built from data and energy encode bias, extend surveillance and carry large environmental costs, which framing them as minds can hide.
+    to: claim
+  - key: q9
+    side: D
+    type: Racialized imagery
+    id: '10.14'
+    gist: AI is mostly imagined as white, which ties machine intelligence to old racial hierarchies of intelligence and power.
+    to: claim
+  stands: Clusters 1 to 6 mostly proceed on this assumption without defending it, and these critiques deny it. They are not mainly about whether machines think, though some also deny it. What they share is the denial that the question can be answered neutrally. The concept of intelligence, the words used for machines and the decision to build them all serve interests, so examining those interests is part of answering it.
+  passes:
+  - id: '11.08'
+    why: existential-risk discourse
+  - id: '1.15'
+    why: the ELIZA effect
+  - id: '4.02'
+    why: Dreyfus, on whom Adam draws
+- title: Where is the line between person and thing?
+  claim: Machines could have a place among persons.
+  moves:
+  - key: y1
+    side: M
+    type: Critique of the test
+    id: '10.08'
+    gist: Property-based criteria admit only human-like beings, so the answer is fixed before the machine is considered.
+    to: claim
+  - key: y2
+    side: M
+    type: Reframe
+    id: '10.07'
+    gist: The human/machine boundary is a political construction, and minds are not individual possessions.
+    to: claim
+  - key: y3
+    side: M
+    type: Other starting point
+    id: '10.09'
+    gist: Indigenous kinship and Ubuntu locate personhood in relations, not individual capacities.
+    to: claim
+  - key: y4
+    side: A
+    type: Affirmation
+    id: '10.10'
+    gist: Buddha-nature is present in all things, the machines people build included.
+    to: claim
+  - key: y5
+    side: M
+    type: Other starting point
+    id: '10.11'
+    gist: Shinto cosmograms give non-human entities, machines included, real roles in collective life.
+    to: claim
+  stands: These traditions move the question from what a machine has to how it is related to others, which converges with the relational views of moral status.
+  passes:
+  - id: '9.03'
+    why: social-relational approaches
+  - id: '8.05'
+    why: distributed agency
+  - id: '2.11'
+    why: the intentional stance

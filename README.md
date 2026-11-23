@@ -22,7 +22,8 @@ Created and edited by Daniel Estrada (NJIT). Drafted and built with Claude (Anth
 | `content/project.yaml` | Clusters and their questions, families of arguments, the five kernel questions |
 | `content/ai_models/` | Each AI model's AI on AI entry, the prompt used to collect them, and withdrawn entries |
 | `content/*.yaml` | The workbook README, the Kernel, Families and Existing surveys tabs, the changelog |
-| `build/` | The scripts that build the Atlas and the workbook. The overview, Guide and exchanges are still written in `build/build_data.py` and `build/ex_3_11.py` |
+| `content/atlas/` | The Atlas's own text: the overview (`overview.yaml`), the exchanges for each cluster (`exchanges/`), the Guide and the short names on chips |
+| `build/` | The scripts that check `content/` and build the Atlas and the workbook |
 
 `content/` is the single source. Nothing in `site/` is edited by hand: every change to `main` rebuilds the site and publishes it.
 

@@ -1,0 +1,57 @@
+# Short names shown on chips, by row ID. Rows not listed use their argument name, shortened automatically
+# (text in brackets dropped, cut at about 34 characters).
+'3.06': The standard reply
+'1.06': Other minds (polite convention)
+'1.17': Winograd Schema Challenge
+'1.07': Various disabilities
+'1.08': Lovelace objection
+'1.14': Turing Test as thought experiment
+'1.09': Continuity in the nervous system
+'1.10': Informality of behavior
+'1.11': Extrasensory perception
+'2.08': Syntax is not semantics
+'2.10': Original vs. derived content
+'2.06': Intuition-pump objection
+'6.05': Searle against Dennett
+'3.02': 'Penrose: Gödel and quantum mind'
+'3.04': Intractability of learning
+'7.10': Limits of transformers
+'4.02': Dreyfus’s critique
+'4.07': Autopoiesis and life–mind
+'4.03': Heideggerian critiques
+'5.01': Multiple realizability
+'6.10': Could an LLM be conscious?
+'6.06': Illusionism
+'7.01': Distributional semantics
+'7.06': Scaling and the bitter lesson
+'7.05': Formal vs. functional competence
+'7.13': Mechanistic interpretability
+'8.01': Normative accounts of agency
+'8.02': Autonomy as self-constitution
+'8.06': Agency in LLM-based agents
+'9.06': Full rights dilemma
+'9.02': Personhood and rational agency
+'9.08': Robots should be slaves
+'9.03': Social-relational status
+'10.01': Weizenbaum on computer reason
+'10.03': AI as ideology
+'10.08': Critique of anthropocentrism
+'10.09': Indigenous kinship and Ubuntu
+'11.07': Deceptive alignment
+'2.14': Wittgenstein on “machines think”
+'4.05': 'Fuchs: no living partner'
+'11.04': Orthogonality vs. risk argument
+'5.08': Computationalism
+'5.10': Systematicity challenge
+'10.12': Hype as distraction
+'10.13': Hidden costs
+'6.12': Heterophenomenology
+'5.11': The harder problem (Block)
+'7.17': Cultural and social technologies
+'7.18': LLMs understand us
+'8.07': Minimal agency in RL systems
+'9.12': Moratorium on synthetic minds
+'9.13': Digital minds (Shulman & Bostrom)
+'9.14': Self-reports as evidence
+'10.14': The whiteness of AI
+'11.10': Power-seeking AI (Carlsmith)

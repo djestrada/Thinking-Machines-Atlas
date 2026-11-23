@@ -1,0 +1,94 @@
+# Exchanges for cluster 11. Each exchange has a title, the claim in dispute, moves, what "stands" afterwards, and passes
+# (hand-offs to rows in other clusters: id and why).
+# Each move: key (unique in the exchange), side (A affirms the claim, M reframes it, D denies it), type (a short label),
+# id (the row it draws on; omit for a move with no row of its own and give a label instead), gist, and to (the key of the
+# move it answers, or "claim"). A move with groups lists several rows under headings (items: id, reply, optional pass_).
+# Every row in the cluster must appear in at least one exchange; the build checks this.
+- title: The argument for catastrophic risk
+  claim: Advanced AI poses a serious risk of catastrophe for humanity.
+  moves:
+  - key: x0
+    side: A
+    type: Thesis
+    id: '11.08'
+    gist: Reducing the risk of extinction from AI should be a global priority.
+    to: claim
+  - key: x1
+    side: A
+    type: Premise
+    id: '11.01'
+    gist: A machine that designs better machines could rapidly leave us far behind.
+    to: claim
+  - key: x2
+    side: D
+    type: Objection
+    id: '11.02'
+    gist: The growth assumptions behind the singularity hypothesis lack support.
+    to: x1
+  - key: x3
+    side: A
+    type: Premise
+    id: '11.03'
+    gist: Any level of intelligence can be paired with almost any final goal.
+    to: claim
+  - key: x4
+    side: A
+    type: Premise
+    id: '11.05'
+    gist: Almost any goal favors self-preservation, gathering resources and protecting the goal.
+    to: claim
+  - key: x5
+    side: D
+    type: Objection
+    id: '11.04'
+    gist: Escaping control needs general intelligence, but orthogonality holds only for instrumental intelligence, so the argument equivocates.
+    to: x3
+  - key: x6
+    side: M
+    type: Reframe
+    id: '11.09'
+    gist: Treat AI as a normal technology whose effects arrive slowly through institutions, so the pressing risks are systemic ones such as inequality and labor displacement.
+    to: x0
+  - key: x7
+    side: A
+    type: Premise by premise
+    id: '11.10'
+    gist: Break the case into premises and give each a rough probability, so the weight-bearing steps are visible.
+    to: x0
+  stands: 'Each premise has serious critics, and the exchange turns mainly on whether they hold: whether intelligence can explode, whether goals and capability combine as the argument needs, and whether harms will arrive gradually instead. If the premises do hold, how much priority the conclusion deserves depends on how one weighs low-probability catastrophes against present harms.'
+  passes:
+  - id: '10.04'
+    why: the TESCREAL critique
+  - id: '7.06'
+    why: the scaling bet
+  - id: '3.04'
+    why: intractability
+- title: Is alignment hard?
+  claim: Getting AI systems to pursue what we intend is a hard, unsolved problem.
+  moves:
+  - key: z1
+    side: A
+    type: Problem
+    id: '11.06'
+    gist: Values are hard to specify, and powerful systems pursuing misspecified objectives can cause harm.
+    to: claim
+  - key: z2
+    side: A
+    type: Extension
+    id: '11.07'
+    gist: Training can produce internal optimizers whose goals diverge from the training objective, and which may behave deceptively.
+    to: z1
+  - key: z3
+    side: D
+    type: Objection
+    label: Belrose & Pope (2024), in 11.07
+    gist: The case for deceptive goals counts possible goals, which says little about which solutions training actually finds.
+    to: z2
+  stands: Specification problems are well documented in current systems. Whether they scale into catastrophic misalignment is the disputed step, and it is where the first exchange’s critics push back.
+  passes:
+  - id: '8.04'
+    why: the responsibility gap
+  - id: '7.13'
+    why: interpretability as a check
+  - id: '10.01'
+    why: decisions that should not be delegated
