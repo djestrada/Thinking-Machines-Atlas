@@ -57,3 +57,5 @@
   - 'Moved to GitHub (djestrada/Thinking-Machines-Atlas). The table now lives as one file per argument in content/, and the workbook and Atlas are built from those files on every change. Content is under CC BY-SA 4.0 and code under MIT.'
 - - 23 Nov 2026
   - 'The Atlas is now published at https://djestrada.github.io/Thinking-Machines-Atlas/. The page is a complete HTML document (it had been rendering in quirks mode, without mobile scaling), the ladder sets its columns by the width of the map rather than the window so all seven rungs fit on a laptop screen, and the header links to the workbook download and to GitHub.'
+- - 23 Nov 2026
+  - 'The Atlas’s overview, exchanges, Guide and chip names moved out of the build scripts into content/atlas/, so they can be edited like the rows. The build now names the file and move when an ID is unknown or a move answers nothing.'

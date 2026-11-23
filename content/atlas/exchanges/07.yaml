@@ -1,0 +1,170 @@
+# Exchanges for cluster 7. Each exchange has a title, the claim in dispute, moves, what "stands" afterwards, and passes
+# (hand-offs to rows in other clusters: id and why).
+# Each move: key (unique in the exchange), side (A affirms the claim, M reframes it, D denies it), type (a short label),
+# id (the row it draws on; omit for a move with no row of its own and give a label instead), gist, and to (the key of the
+# move it answers, or "claim"). A move with groups lists several rows under headings (items: id, reply, optional pass_).
+# Every row in the cluster must appear in at least one exchange; the build checks this.
+- title: Do language models mean anything?
+  claim: A model trained only on text can acquire meaning.
+  moves:
+  - key: m1
+    side: D
+    type: Thought experiment
+    id: '7.02'
+    gist: An octopus tapping a cable learns the form of the messages, not their link to intentions and the world, and fails where that link matters.
+    to: claim
+  - key: m2
+    side: D
+    type: Diagnosis
+    id: '7.03'
+    gist: Models stitch forms together by probability without reference to meaning; fluency invites us to project understanding.
+    to: claim
+  - key: m3
+    side: A
+    type: Reply
+    id: '7.01'
+    gist: Much of meaning is recoverable from patterns of use (Harris’s distributional hypothesis, defended for LLMs by Piantadosi and Hill), so text can supply substantial semantic competence.
+    to: m1
+  - key: m4
+    side: A
+    type: Evidence
+    id: '7.12'
+    gist: Probes and interventions find internal models of the structure behind the text, such as a game’s board state.
+    to: m2
+  - key: m5
+    side: M
+    type: Method
+    id: '7.13'
+    gist: Settle it by reverse-engineering the model’s circuits rather than by watching its behavior.
+    to: m4
+  stands: Many researchers read interpretability results as telling against the strongest form of the parrot claim. Whether internal structure amounts to meaning is still disputed, and training on images and actions blurs the text-only premise.
+  passes:
+  - id: '2.13'
+    why: the symbol grounding problem
+  - id: '2.01'
+    why: the Chinese Room
+  - id: '10.02'
+    why: the critique of anthropomorphism
+- title: General intelligence, or patterns?
+  claim: Scaling language models yields general reasoning ability.
+  moves:
+  - key: k1
+    side: A
+    type: Bet
+    id: '7.06'
+    gist: General methods that scale with computation beat hand-built knowledge, so scale may be most of what is needed.
+    to: claim
+  - key: k2
+    side: A
+    type: Evidence
+    id: '7.07'
+    gist: Some abilities appear abruptly at scale, unpredicted by smaller models.
+    to: k1
+  - key: k2b
+    side: D
+    type: Measurement objection
+    label: Schaeffer, Miranda & Koyejo (2023), in 7.07
+    gist: The abrupt jumps largely disappear under continuous metrics; emergence may be an artifact of measurement.
+    to: k2
+  - key: k3
+    side: A
+    type: Evidence
+    id: '7.08'
+    gist: GPT-4’s breadth across tasks suggests an early, incomplete general intelligence.
+    to: claim
+  - key: k4
+    side: A
+    type: Evidence
+    id: '7.09'
+    gist: Large models pass some false-belief tasks.
+    to: claim
+  - key: k4b
+    side: D
+    type: Stress test
+    label: Ullman (2023), in 7.09
+    gist: Success fails on trivial alterations to the tasks.
+    to: k4
+  - key: k5
+    side: D
+    type: Stress test
+    id: '7.11'
+    gist: Performance drops under irrelevant changes and added complexity, which looks like pattern matching rather than reasoning.
+    to: k3
+  - key: k6
+    side: D
+    type: Formal limit
+    id: '7.10'
+    gist: Fixed-depth transformers cannot compute some functions without growing, though chain-of-thought relaxes some limits.
+    to: claim
+  - key: k7
+    side: M
+    type: Distinction
+    id: '7.05'
+    gist: Separate formal competence (strong) from functional competence (uneven); running them together causes over- and under-attribution.
+    to: k3
+  stands: The capabilities are real but uneven and sensitive to how a task is posed. Whether scale yields general reasoning is partly an empirical question and partly a question about what counts as reasoning and whether the tasks measure it.
+  passes:
+  - id: '3.04'
+    why: intractability
+  - id: '1.18'
+    why: shortcut learning
+  - id: '11.01'
+    why: the intelligence explosion
+- title: What kind of thing is a language model?
+  claim: Mental terms apply to language models themselves.
+  moves:
+  - key: w1
+    side: D
+    type: Critique
+    id: '7.04'
+    gist: 'Chomsky and colleagues claim models would learn impossible languages as readily as human ones, so they explain nothing about language and are tools, not thinkers. (Contested experimentally: Kallini et al. 2024.)'
+    to: claim
+  - key: w2
+    side: M
+    type: Reframe
+    id: '7.14'
+    gist: A model simulates text-producing processes. Mental terms apply, if at all, to the characters it plays.
+    to: claim
+  - key: w3
+    side: A
+    type: Affirmation
+    id: '7.18'
+    gist: Statistics at scale can amount to understanding; the models’ dialogue shows a real, if partial, grasp of concepts and other minds.
+    to: claim
+  - key: w4
+    side: M
+    type: Reframe
+    id: '7.17'
+    gist: Treat large models as cultural and social technologies, like print or markets, not as agents; ask how they reshape institutions.
+    to: claim
+  stands: 'One side applies mental terms to the models themselves, as partial understanders; Chomsky treats them as tools that show nothing about minds. The simulator and cultural-technology views both move the question: mental terms apply, if at all, to the characters a model plays, or the models are better understood as institutions than as minds.'
+  passes:
+  - id: '2.11'
+    why: the intentional stance
+  - id: '2.03'
+    why: the virtual mind reply
+  - id: '9.09'
+    why: counterfeit people
+- title: Do language models say anything?
+  claim: 'A language model’s outputs can be assertions: claims about the world that are true or false.'
+  moves:
+  - key: v1
+    side: A
+    type: Externalist argument
+    id: '7.16'
+    gist: Content depends on a speaker’s place in a linguistic community and causal history, not on inner understanding, so AI outputs can be held to the standards of assertion.
+    to: claim
+  - key: v2
+    side: D
+    type: Diagnosis
+    id: '7.15'
+    gist: Chatbots produce text with no concern for truth; their falsehoods are bullshit in Frankfurt’s sense, not lies or hallucinations.
+    to: claim
+  stands: If outputs can be assertions, errors are false claims and questions of reliability become questions of testimony. If they are bullshit, outputs are text to be checked, not claims to be believed. Both views agree that outputs should not be trusted without verification.
+  passes:
+  - id: '7.03'
+    why: stochastic parrots
+  - id: '2.12'
+    why: naturalized semantics
+  - id: '10.02'
+    why: the critique of anthropomorphism

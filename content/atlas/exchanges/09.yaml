@@ -1,0 +1,123 @@
+# Exchanges for cluster 9. Each exchange has a title, the claim in dispute, moves, what "stands" afterwards, and passes
+# (hand-offs to rows in other clusters: id and why).
+# Each move: key (unique in the exchange), side (A affirms the claim, M reframes it, D denies it), type (a short label),
+# id (the row it draws on; omit for a move with no row of its own and give a label instead), gist, and to (the key of the
+# move it answers, or "claim"). A move with groups lists several rows under headings (items: id, reply, optional pass_).
+# Every row in the cluster must appear in at least one exchange; the build checks this.
+- title: What grounds moral status?
+  claim: An AI system could have moral status.
+  moves:
+  - key: s1
+    side: A
+    type: Criterion
+    id: '9.01'
+    gist: Status follows the capacity to suffer, whatever the substrate.
+    to: claim
+  - key: s2
+    side: D
+    type: Stricter criterion
+    id: '9.02'
+    gist: Status requires rational agency, autonomy and self-awareness; current AI plausibly lacks them, so it lacks full status for now.
+    to: claim
+  - key: s3
+    side: A
+    type: Rule of evidence
+    id: '9.04'
+    gist: Behavior is our only access to these properties, so a robot that behaves like a being with status warrants like treatment.
+    to: claim
+  - key: s4
+    side: M
+    type: Reframe
+    id: '9.03'
+    gist: Status is constituted in social relations and practices, not discovered as a hidden property.
+    to: s1
+  - key: s5
+    side: M
+    type: Better evidence
+    id: '9.14'
+    gist: 'Make self-reports usable: train models to report checkable facts about themselves, then test whether the skill carries over to questions about experience.'
+    to: s3
+  - key: s6
+    side: A
+    type: Stronger claims
+    id: '9.13'
+    gist: Digital minds could gain more well-being from the same resources, or outnumber us, so fair terms of coexistence need planning now.
+    to: s1
+  stands: Property views make the answer depend on unresolved questions about consciousness; relational views make it depend on practice.
+  passes:
+  - id: '6.04'
+    why: the hard problem
+  - id: '6.11'
+    why: behavior can be gamed
+  - id: '10.08'
+    why: the critique of property-based thinking
+- title: What should we do under uncertainty?
+  claim: We should extend some moral protection to some AI systems now.
+  moves:
+  - key: p1
+    side: A
+    type: Precaution
+    id: '9.07'
+    gist: There is a non-negligible chance of conscious AI soon, so developers should assess and prepare for AI welfare now.
+    to: claim
+  - key: p2
+    side: A
+    type: Indirect reason
+    id: '9.05'
+    gist: Mistreating robots people empathize with may erode human empathy, which gives reasons to protect them whatever their inner life.
+    to: claim
+  - key: p3
+    side: M
+    type: Dilemma
+    id: '9.06'
+    gist: Granting or denying rights to systems of debatable status both risk serious wrong, so avoid building such systems.
+    to: claim
+  - key: p4
+    side: D
+    type: Objection
+    id: '9.08'
+    gist: Design machines as owned tools. Building moral patients is an avoidable mistake that diverts concern from people.
+    to: p1
+  - key: p5
+    side: D
+    type: Objection
+    id: '9.09'
+    gist: Systems that pass as persons threaten trust and should be treated like counterfeit money.
+    to: claim
+  - key: p6
+    side: M
+    type: Moratorium
+    id: '9.12'
+    gist: We may create suffering minds before we can recognize them, so pause research aimed at artificial consciousness until we understand it.
+    to: p1
+  stands: Two errors are possible, over- and under-attribution, and proposals differ on which to fear more. Several converge on avoiding systems whose status is genuinely debatable.
+  passes:
+  - id: '6.09'
+    why: indicator-based assessment
+  - id: '10.02'
+    why: anthropomorphism
+  - id: '1.15'
+    why: the ELIZA effect
+- title: Can a machine be a friend?
+  claim: A relationship with a machine can be a genuine friendship.
+  moves:
+  - key: f1
+    side: A
+    type: Argument from performance
+    id: '9.10'
+    gist: The conditions of Aristotelian friendship are either met well enough on the evidence of behavior, or set so high that many human friendships fail them too.
+    to: claim
+  - key: f2
+    side: D
+    type: Deception objection
+    id: '9.11'
+    gist: The comfort companion machines give depends on people being deceived, or deceiving themselves, about what the machine is, and it can displace human contact.
+    to: claim
+  stands: 'The question has moved from care robots to AI companion apps used by millions. It turns on the same disputes as moral status: whether behavior is enough evidence, and whether a one-sided relationship can still be good for the person in it.'
+  passes:
+  - id: '9.04'
+    why: ethical behaviourism
+  - id: '10.02'
+    why: anthropomorphism
+  - id: '1.15'
+    why: the ELIZA effect

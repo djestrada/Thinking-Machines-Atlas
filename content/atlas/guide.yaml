@@ -1,0 +1,107 @@
+# The Guide page: intro, senses of "mind", marks used in the Atlas, glossary terms, notes on dates and scope,
+# the section "Reading the Q2 ladder" (ladder: intro, steps, jumps, close), and the note on the AI on AI page.
+# Pairs are written as [term, explanation].
+intro: 'How to read the Atlas: what its marks mean and the terms it uses. The questions, placements, exchanges and families are interpretations, and the summaries are paraphrases, not quotations.'
+senses:
+- - Intelligence
+  - solving problems and reaching goals across many situations
+- - Linguistic competence
+  - producing and responding to language fluently
+- - Understanding
+  - grasping what words, situations or problems mean
+- - Intentionality
+  - having states that are about things, with content
+- - Consciousness
+  - there being something it is like to be the system; felt experience
+- - Self-awareness
+  - representing oneself as oneself
+- - Agency and autonomy
+  - acting on one’s own goals, and perhaps setting them
+- - Moral agency
+  - being answerable for what one does
+- - Sentience and moral status
+  - being able to fare well or badly, so that one’s interests count
+senses_note: A system might have some of these and not others. Passing a behavioral test does not settle consciousness or moral status, and doubts about consciousness do not show that a system lacks cognitive abilities. Each argument’s panel names its target.
+marks:
+- - Stance
+  - 'Green: for the possibility in the cluster’s question (that machines can think, understand, be conscious, act as agents or have moral status; in cluster 11, that AI poses serious risk). Red: against it. Grey: reframes or dissolves the question.'
+- - Chips
+  - 'Each chip is one argument: its ID (which matches the workbook) and a short name, with its stance on the left edge. Click it for the summary, source and links.'
+- - Ladder
+  - In Q2, each tile is a proposed condition, roughly from thinner to thicker. “Reading the Q2 ladder”, below, explains what moved the debate from one condition to the next.
+- - Checked summaries
+  - Every summary has been checked against an abstract, an encyclopedia entry or an open copy of the source. That is not a specialist’s review, so read the source before relying on a summary.
+- - Deflationary
+  - 'Grey is a second-order stance, not a shared doctrine: it covers views that dissolve the question, views that make it a matter of degree, and views that reject the property-first framing.'
+- - Exchanges
+  - Each cluster view shows exchanges. A contested claim sits at the top. Moves that affirm it are on the left, moves that reframe it in the middle, moves that deny it on the right. Numbers give the order, and arrows show what each move answers; hover over a move to trace its arrows.
+- - Hand-offs
+  - Coloured tags under “Where the argument goes next” lead to arguments in other clusters, in that cluster’s colour.
+- - Families
+  - Families group arguments that make the same kind of move in different clusters. Highlight one below the overview.
+- - AI on AI
+  - Ringed chips are a model’s strongest picks; faded, dashed chips its least convincing.
+terms:
+- - Behaviorism (about minds)
+  - the view that having a mind is a matter of behavior or dispositions to behave
+- - Functionalism
+  - the view that mental states are defined by their causal roles, so they could be realized in different materials
+- - Computationalism
+  - the view that thinking is computation over representations
+- - Connectionism
+  - modeling cognition with networks of simple units whose connection weights are learned
+- - Intentionality
+  - 'the aboutness of mental states: a belief is about something'
+- - Original vs derived intentionality
+  - meaning a system has in its own right, as opposed to meaning we assign to it (as with words on a page)
+- - Symbol grounding
+  - how a system’s symbols come to be connected to what they stand for
+- - Qualia
+  - the felt qualities of experience, such as how red looks
+- - The hard problem
+  - why physical processing is accompanied by experience at all
+- - Illusionism
+  - the view that experience, as we usually describe it, is an introspective illusion
+- - Heterophenomenology
+  - Dennett’s method of treating a subject’s reports about experience as data to be explained, without assuming they are true or false (6.12)
+- - Enactivism
+  - the view that mind arises from a living organism’s activity in its world
+- - Autopoiesis
+  - 'self-production: a living system continually producing and maintaining itself'
+- - Multiple realizability
+  - the same mental state being realized in different physical systems
+- - Moral patient
+  - a being to whom things can be owed; contrast moral agent, a being that can be answerable
+- - Alignment
+  - making an AI system pursue the goals its designers and users intend
+- - Orthogonality thesis
+  - the claim that intelligence and final goals can vary independently
+- - Instrumental convergence
+  - the claim that many final goals favor the same subgoals, such as acquiring resources
+dates: Claims about current AI systems describe studies published up to 2025 and early 2026. This part of the map will date fastest; check for newer work before relying on it.
+scope: This is a map of the debate about machine minds, not of AI ethics as a whole. Bias, surveillance, labor and environmental costs appear where they bear on how the question is framed and whose interests it serves (cluster 10).
+ladder:
+  intro: The ladder lists conditions that have been proposed for a machine to think, roughly from the thinnest (behavior) to the thickest (felt experience). It is an interpretation, not a settled hierarchy. Most rungs were proposed in reply to a counterexample to the rung before, so reading along the ladder retraces part of the debate’s history. Two rungs come from separate traditions, and some arguments skip rungs or go back.
+  steps:
+  - - From behavior to the right program
+    - 'Turing proposed that a machine that plays the imitation game as well as we do should be said to think (1.01). Block’s Blockhead (1.12) imagines a machine that passes a time-limited test by looking up stored replies, with no intelligence at all, and the ELIZA effect (1.15) shows how easily people credit a simple program with understanding. If the right behavior can come from a mindless process, what matters is how it is produced: the program. That is the position Searle called strong AI.'
+  - - From the program to functional organization
+    - 'Searle’s Chinese Room (2.01) targets strong AI: a person can run the program for Chinese by hand without understanding Chinese, so running a program is not enough. The best-known replies say that the person is only one part of the system (2.02), or that a program simulating a Chinese speaker’s brain, neuron by neuron, would understand (2.05). Both move the condition from the program as written to the organization of the whole running system, whatever it is made of: functionalism (5.01).'
+  - - From organization to grounding in the world
+    - 'The robot reply (2.04) grants that a system sealed off from the world might not understand, and connects the program to cameras and motors. Harnad’s symbol grounding problem (2.13) sharpens the point: a system’s symbols mean something only if they are connected to the things they are about, not just to other symbols. Language models raise the question again, since they learn from text alone (7.01, 7.02, 7.03).'
+  - - From grounding to a body and a life
+    - 'Dreyfus (4.02) and the phenomenologists argue that a connection to the world is not enough. Human intelligence is skilled bodily coping in a situation, not the manipulation of representations. Enactivists (4.07) go further: a mind belongs to a living system that maintains itself and for which things matter. Defenders of embodied and enactive AI (4.04, 4.06, 4.08) reply that artificial systems could meet these conditions.'
+  - - From life to the right substrate
+    - 'This rung comes from a different tradition. Searle’s biological naturalism (5.05) and integrated information theory (5.06) hold that what a system is made of, or its physical cause-and-effect structure, matters, not just how it is organized. It is the more demanding claim: even a self-maintaining artificial system might be made of the wrong stuff.'
+  - - From substrate to felt experience
+    - The top rung comes from the philosophy of consciousness. Nagel (6.01), Jackson (6.03) and Chalmers (6.02, 6.04) argue that even a complete physical account seems to leave felt experience unexplained. If thinking requires experience, no lower rung guarantees it, and it is not clear how anyone could tell (Q3).
+  jumps_title: Where the ladder is not one scale
+  jumps_intro: Some arguments do not climb one rung at a time.
+  jumps:
+  - Harnad’s Total Turing Test (1.13) keeps behavior as the test but asks for robotic as well as verbal abilities, the abilities that would ground symbols. It jumps from rung 1 to rung 4.
+  - 'Jefferson’s objection (1.05) jumps from behavior straight to felt experience: a machine would have to feel, not just respond.'
+  - 'Integrated information theory (5.06) skips life: it requires the right physical cause-and-effect structure, which non-living neuromorphic hardware could have.'
+  - 'Enactive AI (4.08) folds life back into organization: if life is a kind of self-maintaining organization, it could be built.'
+  - Chalmers’s fading qualia argument (5.04) holds that experience follows functional organization, which would bring the top rung back down to rung 3. Illusionism (6.06) also explains the sense of having experience in terms of organization, as a self-model.
+  close: So the ladder is best read as one path through the debate, which shows how each condition was proposed, not as a scale that every view accepts.
+aion_note: Read the AI on AI page as a case study in how AI systems argue about systems like themselves, not as a verdict. The assessments are generated and unsourced. A model’s first-person statements are not evidence that it has the states it describes. Its picks may reflect its training and its maker’s interests, and models agreeing does not make them right. Criticize them as you would any participant in the debate.

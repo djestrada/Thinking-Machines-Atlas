@@ -1,0 +1,121 @@
+# Exchanges for cluster 1. Each exchange has a title, the claim in dispute, moves, what "stands" afterwards, and passes
+# (hand-offs to rows in other clusters: id and why).
+# Each move: key (unique in the exchange), side (A affirms the claim, M reframes it, D denies it), type (a short label),
+# id (the row it draws on; omit for a move with no row of its own and give a label instead), gist, and to (the key of the
+# move it answers, or "claim"). A move with groups lists several rows under headings (items: id, reply, optional pass_).
+# Every row in the cluster must appear in at least one exchange; the build checks this.
+- title: Turing’s proposal and his nine objections
+  claim: If a machine can play the imitation game as well as a person, we should say that it thinks.
+  moves:
+  - key: t1
+    side: A
+    type: Proposal
+    id: '1.01'
+    gist: 'Replace “Can machines think?” with a question we can test: can it pass for a person in conversation?'
+    to: claim
+  - key: obj
+    side: D
+    type: Objections
+    title: Turing’s nine objections, sorted by how he answers them
+    to: claim
+    groups:
+    - label: Set aside
+      items:
+      - id: '1.02'
+        reply: limits God’s omnipotence; theology has misjudged science before
+      - id: '1.03'
+        reply: a consolation, not an argument
+    - label: Answered
+      items:
+      - id: '1.07'
+        reply: unsupported inductions from the machines we know; often the consciousness objection in disguise
+      - id: '1.08'
+        reply: machines surprise us; learning machines go beyond their orders
+      - id: '1.09'
+        reply: a discrete machine can imitate a continuous one closely enough
+      - id: '1.11'
+        reply: 'taken seriously: use a telepathy-proof room'
+    - label: Answered, but carried on elsewhere
+      items:
+      - id: '1.04'
+        reply: humans have limits too
+        pass_:
+        - '3.01'
+      - id: '1.05'
+        reply: we grant other people minds on the same evidence (see 1.06)
+        pass_:
+        - '6.04'
+      - id: '1.10'
+        reply: rules of conduct are not laws of behavior
+        pass_:
+        - '3.05'
+        - '4.02'
+  - key: t2
+    side: A
+    type: Reply
+    id: '1.06'
+    gist: We have no deeper access to other people. Consistency requires the same courtesy for a machine that behaves as they do.
+    to: obj:1.05
+  stands: Turing’s replies dispose of several objections, but three were passed on rather than settled. The consciousness objection became the hard problem, the mathematical objection the Gödelian arguments, and the informality objection the frame problem and Dreyfus’s critique.
+  passes:
+  - id: '6.04'
+    why: Jefferson’s objection, developed
+  - id: '3.01'
+    why: the mathematical objection, developed
+  - id: '3.05'
+    why: informality becomes the frame problem
+  - id: '4.02'
+    why: and Dreyfus’s critique
+- title: Is behavior enough?
+  claim: Behavior that matches a thinker’s is enough to show thought.
+  moves:
+  - key: b1
+    side: D
+    type: Counterexample
+    id: '1.12'
+    gist: A vast lookup table could pass a time-limited test with no intelligence at all. How behavior is produced matters.
+    to: claim
+  - key: b2
+    side: A
+    type: Raise the bar
+    id: '1.13'
+    gist: Concede that verbal behavior is not enough; demand indistinguishability across all our capacities, robotic as well as verbal.
+    to: claim
+  - key: b3
+    side: M
+    type: Reframe
+    id: '1.14'
+    gist: 'Gonçalves: the imitation game is a thought experiment, not a benchmark. Turing varied it to answer his opponents and to suggest a hypothesis about learning machines.'
+    to: claim
+  - key: b4
+    side: D
+    type: Case
+    id: '1.15'
+    gist: People attribute understanding to a simple pattern-matcher. Conversational competence is cheap.
+    to: claim
+  - key: b5
+    side: A
+    type: Better test
+    id: '1.17'
+    gist: Commonsense pronoun puzzles should be hard to pass by tricks.
+    to: b4
+  - key: b6
+    side: D
+    type: Case
+    id: '1.18'
+    gist: High scores can come from shortcuts that do not transfer, as with Clever Hans.
+    to: b5
+  - key: b7
+    side: A
+    type: Diagnosis
+    id: '1.16'
+    gist: Each time a test is passed, critics may redefine intelligence. If so, the denial is unfalsifiable, which takes away the skeptic’s reason for saying that behavior is not enough.
+    to: claim
+  stands: Behavior is now treated as evidence whose weight depends on how hard it is to fake, not as proof either way. The fight moves to how we could tell.
+  passes:
+  - id: '2.01'
+    why: a related counterexample, aimed at the right program rather than the right behavior
+  - id: '6.11'
+    why: faking the markers of consciousness
+  - id: '7.11'
+    why: shortcuts in LLM reasoning

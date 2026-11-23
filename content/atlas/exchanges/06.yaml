@@ -1,0 +1,100 @@
+# Exchanges for cluster 6. Each exchange has a title, the claim in dispute, moves, what "stands" afterwards, and passes
+# (hand-offs to rows in other clusters: id and why).
+# Each move: key (unique in the exchange), side (A affirms the claim, M reframes it, D denies it), type (a short label),
+# id (the row it draws on; omit for a move with no row of its own and give a label instead), gist, and to (the key of the
+# move it answers, or "claim"). A move with groups lists several rows under headings (items: id, reply, optional pass_).
+# Every row in the cluster must appear in at least one exchange; the build checks this.
+- title: The hard problem
+  claim: Explaining what a system does could explain its consciousness.
+  moves:
+  - key: h1
+    side: D
+    type: Challenge
+    id: '6.01'
+    gist: Experience has a subjective point of view that objective accounts leave out, so we cannot know what it is like to be a bat, or a machine.
+    to: claim
+  - key: h2
+    side: D
+    type: Thought experiment
+    id: '6.02'
+    gist: A physical or functional duplicate with no experience seems conceivable, so organization does not entail experience.
+    to: claim
+  - key: h3
+    side: D
+    type: Thought experiment
+    id: '6.03'
+    gist: Mary knows every physical fact about colour vision yet learns something on first seeing red.
+    to: claim
+  - key: h4
+    side: D
+    type: Diagnosis
+    id: '6.04'
+    gist: Explaining every function leaves open why there is experience at all. Functional success in AI would leave consciousness open.
+    to: claim
+  - key: h4b
+    side: M
+    type: Method
+    id: '6.12'
+    gist: Treat what a subject says about its experience as data to explain, neither true nor false. For AI, a model’s reports start the inquiry; they do not settle it.
+    to: h4
+  - key: h5
+    side: A
+    type: Explain the illusion
+    id: '6.06'
+    gist: 'Experience as we describe it is an introspective illusion (on Graziano’s version, the brain’s model of its own attention). Explain the illusion, and the functional explanation is complete: nothing is left over.'
+    to: h4
+  - key: h6
+    side: D
+    type: Rejoinder
+    id: '6.05'
+    gist: 'Searle, against Dennett’s earlier version of this view: it explains consciousness away by denying its first-person existence.'
+    to: h5
+  stands: There is no consensus. For AI, the hard problem means that functional success would leave consciousness an open question; illusionism turns it into a question about whether a system models itself in the right way.
+  passes:
+  - id: '1.05'
+    why: Jefferson’s objection to Turing
+  - id: '5.02'
+    why: absent qualia
+  - id: '9.01'
+    why: why it matters for moral status
+- title: Testing machines for consciousness
+  claim: Scientific theories of consciousness can tell us whether an AI system is conscious.
+  moves:
+  - key: c1
+    side: A
+    type: Method
+    id: '6.09'
+    gist: Assume computational functionalism, derive indicators from leading theories, and check systems against them. No current system was a strong candidate.
+    to: claim
+  - key: c2
+    side: A
+    type: Theory
+    id: '6.07'
+    gist: Consciousness as global broadcast in a limited workspace, which some say language agents partly approximate.
+    to: c1
+  - key: c3
+    side: A
+    type: Theory
+    id: '6.08'
+    gist: Consciousness as a system representing its own states, which could be built.
+    to: c1
+  - key: c4
+    side: A
+    type: Application
+    id: '6.10'
+    gist: 'Weighing the evidence: current LLMs are unlikely candidates, but their successors are serious ones.'
+    to: claim
+  - key: c5
+    side: D
+    type: Objection
+    id: '6.11'
+    gist: Systems trained on human data can reproduce the behavioral markers we rely on without the thing they mark.
+    to: c4
+  stands: The method is the field’s main tool, but it inherits the contested assumption of functionalism and needs markers, such as deep computational ones, that training cannot fake.
+  passes:
+  - id: '5.01'
+    why: the assumption it inherits
+  - id: '9.07'
+    why: the welfare policy built on it
+  - id: '1.15'
+    why: how easily the markers are produced

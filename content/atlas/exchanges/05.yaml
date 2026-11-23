@@ -1,0 +1,123 @@
+# Exchanges for cluster 5. Each exchange has a title, the claim in dispute, moves, what "stands" afterwards, and passes
+# (hand-offs to rows in other clusters: id and why).
+# Each move: key (unique in the exchange), side (A affirms the claim, M reframes it, D denies it), type (a short label),
+# id (the row it draws on; omit for a move with no row of its own and give a label instead), gist, and to (the key of the
+# move it answers, or "claim"). A move with groups lists several rows under headings (items: id, reply, optional pass_).
+# Every row in the cluster must appear in at least one exchange; the build checks this.
+- title: Does organization suffice?
+  claim: The right functional organization is enough for a mind, whatever it is made of.
+  moves:
+  - key: o1
+    side: A
+    type: Proposal
+    id: '5.01'
+    gist: Mental states are defined by functional role, and the same organization can be realized in many substrates.
+    to: claim
+  - key: o2
+    side: D
+    type: Counterexample
+    id: '5.02'
+    gist: A functional duplicate could lack experience, or have its experiences inverted.
+    to: o1
+  - key: o3
+    side: D
+    type: Counterexample
+    id: '5.03'
+    gist: A nation linked by radio to implement a brain’s organization would seem to have no experience.
+    to: o1
+  - key: o4
+    side: A
+    type: Reductio
+    id: '5.04'
+    gist: Replace neurons one by one. If experience faded while behavior stayed the same, the subject would be wrong about their own experience without noticing.
+    to: o2
+  - key: o5
+    side: D
+    type: Triviality
+    id: '5.07'
+    gist: Almost any physical system implements almost any computation, so “implements the right program” explains nothing.
+    to: o1
+  stands: Functionalism is still the working assumption of most research on AI consciousness, but its critics push the problem down to the substrate or up to experience itself.
+  passes:
+  - id: '6.09'
+    why: the method that assumes it
+  - id: '2.01'
+    why: the Chinese Room has the same shape
+  - id: '6.02'
+    why: zombies
+- title: Does the material matter?
+  claim: A conventional digital computer could be conscious in virtue of the software it runs.
+  moves:
+  - key: s1
+    side: D
+    type: Analogy
+    id: '5.05'
+    gist: Brains cause consciousness as stomachs cause digestion. Simulating either does not reproduce it; only a system with equivalent causal powers, which need not be biological, could be conscious.
+    to: claim
+  - key: s2
+    side: D
+    type: Theory
+    id: '5.06'
+    gist: On IIT, consciousness is intrinsic cause–effect structure, and conventional digital hardware has very little of it, whatever software it runs.
+    to: claim
+  - key: s3
+    side: A
+    type: Reply
+    id: '5.04'
+    gist: If gradual replacement with functional duplicates preserves experience, organization is what matters, so the right software could suffice.
+    to: s1
+  - key: s4
+    side: M
+    type: Epistemic limit
+    id: '5.11'
+    gist: If consciousness is physical, nothing we could observe would tell whether a functionally identical but physically different system shares it.
+    to: s3
+  stands: The dispute turns on whether consciousness depends on what a system does or on what it is made of. Critics of IIT note that it also implies some simple but highly integrated systems would be conscious.
+  passes:
+  - id: '4.09'
+    why: consciousness tied to living bodies
+  - id: '3.02'
+    why: non-computable physics
+  - id: '9.01'
+    why: why it matters for moral status
+- title: Symbols or networks?
+  claim: Thinking is computation over structured symbols.
+  moves:
+  - key: y1
+    side: A
+    type: Proposal
+    id: '5.08'
+    gist: A physical symbol system has the necessary and sufficient means for general intelligence; thinking is computation in a language of thought.
+    to: claim
+  - key: y2
+    side: D
+    type: Rival architecture
+    id: '5.09'
+    gist: Cognition is the parallel activity of simple units with learned connection weights; knowledge is distributed, not stored as symbols.
+    to: claim
+  - key: y3
+    side: A
+    type: Objection to the rival
+    id: '5.10'
+    gist: Thought is systematic, and only representations with constituent structure explain that; networks either fail or merely implement symbols.
+    to: y2
+  - key: y4
+    side: D
+    type: Reply
+    label: Smolensky (1988), in 5.10
+    gist: Networks can support structure-sensitive processing at a subsymbolic level without becoming classical.
+    to: y3
+  - key: y5
+    side: D
+    type: Empirical reply
+    label: Lake & Baroni (2023), in 5.10
+    gist: A meta-learning network matches human systematic generalization on a novel task.
+    to: y3
+  stands: The debate shaped cognitive science for decades and returned with deep learning. Whether large neural networks generalize systematically, or need symbolic structure added, is still disputed.
+  passes:
+  - id: '2.01'
+    why: the Chinese Room’s target
+  - id: '4.02'
+    why: Dreyfus against symbolic AI
+  - id: '7.11'
+    why: reasoning or pattern matching in LLMs

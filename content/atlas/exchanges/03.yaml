@@ -1,0 +1,64 @@
+# Exchanges for cluster 3. Each exchange has a title, the claim in dispute, moves, what "stands" afterwards, and passes
+# (hand-offs to rows in other clusters: id and why).
+# Each move: key (unique in the exchange), side (A affirms the claim, M reframes it, D denies it), type (a short label),
+# id (the row it draws on; omit for a move with no row of its own and give a label instead), gist, and to (the key of the
+# move it answers, or "claim"). A move with groups lists several rows under headings (items: id, reply, optional pass_).
+# Every row in the cluster must appear in at least one exchange; the build checks this.
+- title: Gödel and the mind
+  claim: Computation can, in principle, do whatever a mind does.
+  moves:
+  - key: g1
+    side: D
+    type: Formal argument
+    id: '3.01'
+    gist: For any consistent formal system strong enough for arithmetic there is a truth it cannot prove but we can see to be true.
+    to: claim
+  - key: g2
+    side: A
+    type: Rejoinder
+    id: '3.06'
+    gist: We can see the Gödel sentence is true only if we know the system is consistent, and nothing shows we can know that of the system that models us.
+    to: g1
+  - key: g3
+    side: D
+    type: Extension
+    id: '3.02'
+    gist: Mathematical understanding is non-algorithmic, and consciousness may rest on non-computable physics in the brain.
+    to: g1
+  - key: g4
+    side: A
+    type: Universality
+    id: '3.03'
+    gist: Any effective procedure can be run by a universal machine. If cognition is a computable physical process, a program could carry it out.
+    to: claim
+  stands: The Gödelian arguments are widely rejected, chiefly on the consistency point, and Penrose’s physics remains a minority conjecture. Universality shows only that computation could do whatever is computable, so the real question moves to what a mind needs.
+  passes:
+  - id: '1.04'
+    why: Turing’s version of the objection, and his answer
+  - id: '5.01'
+    why: if cognition is computable, functionalism becomes a live option
+  - id: '6.04'
+    why: Penrose’s target is consciousness
+- title: Possible, but feasible?
+  claim: Computation can, in practice, reach human-level cognition.
+  moves:
+  - key: f1
+    side: D
+    type: Problem
+    id: '3.05'
+    gist: After each action a system must settle what has changed and what is relevant, and no rule set seems to discharge that burden.
+    to: claim
+  - key: f2
+    side: D
+    type: Complexity result
+    id: '3.04'
+    gist: Under their formalization, learning human-level capacities from data is intractable in general, so scaling alone cannot be expected to get there.
+    to: claim
+  stands: 'Both arguments grant that machine thought is possible and dispute whether it is achievable. Replies come from other clusters: situated robotics for the frame problem; for intractability, doubts that worst-case results apply to the data and tasks actually faced.'
+  passes:
+  - id: '4.06'
+    why: situated robotics as an answer to the frame problem
+  - id: '4.02'
+    why: Dreyfus on relevance
+  - id: '7.06'
+    why: the scaling bet that intractability targets

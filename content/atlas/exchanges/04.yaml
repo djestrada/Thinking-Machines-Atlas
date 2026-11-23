@@ -1,0 +1,88 @@
+# Exchanges for cluster 4. Each exchange has a title, the claim in dispute, moves, what "stands" afterwards, and passes
+# (hand-offs to rows in other clusters: id and why).
+# Each move: key (unique in the exchange), side (A affirms the claim, M reframes it, D denies it), type (a short label),
+# id (the row it draws on; omit for a move with no row of its own and give a label instead), gist, and to (the key of the
+# move it answers, or "claim"). A move with groups lists several rows under headings (items: id, reply, optional pass_).
+# Every row in the cluster must appear in at least one exchange; the build checks this.
+- title: Can artificial systems have embodied intelligence?
+  claim: Artificial systems can have the embodied, situated intelligence that phenomenology describes.
+  moves:
+  - key: e1
+    side: M
+    type: Background (applied by Dreyfus)
+    id: '4.01'
+    gist: Perception and skill come from a lived body engaged with a world, not from internal representations.
+    to: claim
+  - key: e2
+    side: D
+    type: Critique
+    id: '4.02'
+    gist: Expertise rests on know-how and background practices that rules and facts cannot capture, so rule-based AI cannot be generally intelligent.
+    to: claim
+  - key: e3
+    side: D
+    type: Critique from within
+    id: '4.03'
+    gist: 'Winograd and Flores: design built on the representational view misunderstands understanding, which is grounded in being-in-the-world.'
+    to: claim
+  - key: e4
+    side: A
+    type: Change of approach
+    id: '4.06'
+    gist: Drop the central world model. Layered reactive systems coupled to their surroundings can behave intelligently; the world is its own best model.
+    to: e2
+  - key: e5
+    side: A
+    type: Turn the critique
+    id: '4.04'
+    gist: Embodied, embedded robotics carries out Heidegger’s critique of classical AI. A properly Heideggerian AI is possible.
+    to: e2
+  - key: e6
+    side: D
+    type: Deeper condition
+    id: '4.05'
+    gist: Understanding someone needs a living, feeling partner who shares a bodily form of life. Assembled systems can only simulate it.
+    to: claim
+  stands: Much of Dreyfus’s critique of rule-based AI is now widely granted. The dispute is whether embodied and learning systems answer it, or whether understanding needs life itself.
+  passes:
+  - id: '3.05'
+    why: the frame problem
+  - id: '2.04'
+    why: the robot reply
+  - id: '10.06'
+    why: feminist epistemology draws on this critique
+- title: Must a mind be alive?
+  claim: Mind does not require life.
+  moves:
+  - key: l1
+    side: D
+    type: Condition
+    id: '4.07'
+    gist: 'Mind is continuous with life: self-producing, precarious systems that generate their own norms. Digital computers lack this organization.'
+    to: claim
+  - key: l2
+    side: M
+    type: Accept and build
+    id: '4.08'
+    gist: 'Accept the condition and ask what an artificial system would need to meet it: design principles for an enactive AI.'
+    to: l1
+  - key: l3
+    side: D
+    type: Condition for consciousness
+    id: '4.09'
+    gist: Experience may depend on the predictive regulation of a living body. If so, conscious AI is unlikely along current trajectories, though more plausible as systems become more brain-like or life-like.
+    to: claim
+  - key: l4
+    side: M
+    type: Reframe
+    id: '4.10'
+    gist: Ask instead how AI becomes part of hybrid human–machine cognitive systems, as notebooks and other tools do.
+    to: claim
+  stands: If mind requires life, the question becomes whether artificial life is possible, not whether software can think. On this view current language models are not candidates; enactive AI asks what it would take to build one that is.
+  passes:
+  - id: '8.02'
+    why: autonomy as self-constitution
+  - id: '5.05'
+    why: biological naturalism
+  - id: '6.09'
+    why: the method the beast-machine view rejects

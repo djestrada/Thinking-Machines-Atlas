@@ -35,6 +35,17 @@ Every argument is one file, `content/rows/<cluster>/<id>.yaml`. On GitHub you ca
 - **Add a line to `content/changelog.yaml`** for anything a reader would notice.
 - **Say if you used an AI tool** to draft a change, and check what it wrote against the source yourself.
 
+## The overview, exchanges and Guide
+
+The Atlas's own text lives in `content/atlas/`, and each file starts with a short note on its fields.
+
+- `overview.yaml`: the five questions. Each lane lists the row IDs shown under it; the Q2 ladder lists, for each rung, the rows that propose the condition, say machines can meet it, or say it is not enough.
+- `exchanges/01.yaml` to `11.yaml`: one file per cluster. Each exchange has the claim in dispute and its moves. A move's `side` is A (affirms the claim), M (reframes it) or D (denies it), and `to` names the move it answers. Every row in a cluster must appear in at least one of its exchanges.
+- `guide.yaml`: the Guide page, including "Reading the Q2 ladder".
+- `short_names.yaml`: the names on chips, where the full name is too long.
+
+These files carry the Atlas's interpretation of the debate, so changes to them deserve more discussion than a fix to one row: open an issue first unless the change is small. The build checks that every ID exists and that every move answers something.
+
 ## AI on AI entries
 
 New entries are collected blind: the model is given review copies with no other model's entries. Build them with `./build_review_copies.sh`, give the model the files in `_out/review/` with `AI_on_AI_prompt.md`, and import its answer with `scripts/import_template.py` (see `content/ai_models/README.md`).
