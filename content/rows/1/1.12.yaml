@@ -1,0 +1,29 @@
+id: '1.12'
+cluster: '1'
+thread: Is behavior enough? Later critiques
+order: 12
+stance: Against
+arg: Blockhead (look-up table argument)
+target: Intelligence
+scope: Digital computers (any behavior-matching system)
+family: F02
+summary: Imagine a machine that passes a time-limited Turing test by retrieving pre-stored sensible conversations from a vast table. Its behavior is humanlike, but its processing involves no intelligence. So whether behavior is intelligent depends on the character of the internal information processing that produces it (“psychologism”), and behavior alone is not sufficient.
+orig: Block, N. (1981). Psychologism and behaviorism. Philosophical Review, 90(1), 5–43. https://philpapers.org/rec/BLOPAB
+link: https://philpapers.org/rec/BLOPAB
+further:
+- Millière & Buckner (2024), “A philosophical introduction to language models, Part I,” arXiv:2401.03910. Discusses LLMs in relation to Blockhead. https://arxiv.org/abs/2401.03910
+resp:
+- 'McDermott (2014), “On the claim that a table-lookup program could pass the Turing test,” Minds and Machines 24(2): 143–188. The table must be exhaustive, so it is not trivial; an optimized model of a mind could not be dismissed out of hand. https://philarchive.org/rec/MCDOTC'
+- 'Ben-Yami (2005), “Behaviorism and psychologism: Why Block’s argument against behaviorism is unsound,” Philosophical Psychology 18(2): 179–186. The lack of intelligence lies in the linguistic behavior, not the process. https://philpapers.org/rec/BENBAP'
+- 'Aaronson (2013), “Why philosophers should care about computational complexity,” in Copeland et al. (eds.), Computability: Turing, Gödel, Church, and Beyond, MIT Press. The table’s astronomical size undercuts the intuition. https://arxiv.org/abs/1108.1791'
+note: Large language models are the opposite of a look-up table (they compress and generalize), which is why Blockhead is usually thought not to apply directly. Whether compression of training data is enough for understanding is a Cluster 7 question.
+see_also:
+- '1.14'
+todo: ''
+ver: 'Block, McDermott, Ben-Yami checked via PhilPapers/PhilArchive records. Aaronson [unchecked]. Block’s DOI taken from a secondary reference list; confirm. Millière & Buckner Part I checked via search (arXiv listing and text mentioning Blockheads). Link check (19 Nov 2026): the JSTOR DOI previously given was from a secondary list and could not be confirmed; PhilPapers record (Philosophical Review 90(1): 5–43) used instead. Renumbered 19 Nov 2026 (previously 1.05). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Block, McDermott, Ben-Yami checked via PhilPapers/PhilArchive records. Aaronson [unchecked]. Block’s DOI taken from a secondary reference list; confirm. Millière & Buckner Part I checked via search (arXiv listing and text mentioning Blockheads). Link check (19 Nov 2026): the JSTOR DOI previously given was from a secondary list and could not be confirmed; PhilPapers record (Philosophical Review 90(1): 5–43) used instead. Renumbered 19 Nov 2026 (previously 1.05). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Index or catalogue record (links on to the publisher)
+- ''

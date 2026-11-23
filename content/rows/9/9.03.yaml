@@ -1,0 +1,26 @@
+id: '9.03'
+cluster: '9'
+thread: What grounds moral status
+order: 3
+stance: Deflationary
+arg: Social-relational approaches to moral status
+target: Moral status
+scope: Machines generally
+family: F08
+summary: Coeckelbergh argues that moral status is not an intrinsic property to be discovered but is constituted in social relations and practices, so the question is how we relate to machines, not what hidden property they have. Gunkel’s Robot Rights (2018) develops a related view.
+orig: 'Coeckelbergh, M. (2010). Robot rights? Towards a social-relational justification of moral consideration. Ethics and Information Technology 12: 209–221. https://doi.org/10.1007/s10676-010-9235-5 Gunkel, D. J. (2018). Robot Rights. MIT Press.'
+link: https://doi.org/10.1007/s10676-010-9235-5
+further: []
+resp:
+- 'Mosakas (2021), On the moral status of social robots: Considering the consciousness criterion, AI & Society 36: 429–443.'
+- Coeckelbergh (2012), Growing Moral Relations, Palgrave Macmillan.
+note: ''
+see_also: []
+todo: Verify. Connects to 2.11 and Cluster 10.
+ver: 'Pass 2 (checked via search): Coeckelbergh (2010) confirmed (copy of the article). Gunkel’s books are standard; Mosakas from memory. Link check (19 Nov 2026): Coeckelbergh now linked to the publisher DOI (Springer). Revised 19 Nov 2026: Gunkel (2012) removed here because it is the source for 10.08; this row now centres on Coeckelbergh. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Coeckelbergh (2010) confirmed (copy of the article). Gunkel’s books are standard; Mosakas from memory. Link check (19 Nov 2026): Coeckelbergh now linked to the publisher DOI (Springer). Revised 19 Nov 2026: Gunkel (2012) removed here because it is the source for 10.08; this row now centres on Coeckelbergh. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

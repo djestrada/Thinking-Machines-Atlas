@@ -1,0 +1,25 @@
+id: '11.04'
+cluster: '11'
+thread: Goals and instrumental reasoning
+order: 4
+stance: Against
+arg: Orthogonality and the risk argument cannot be combined (Müller & Cannon)
+target: Goals and intelligence
+scope: AI
+family: F25
+summary: 'The standard argument for existential risk needs two premises: that a superintelligent AI could escape human control, and that any level of intelligence can be paired with any goal. Müller and Cannon argue that the first relies on general intelligence and the second on merely instrumental intelligence, so the argument equivocates and is unsound, though instrumental AI can still do serious harm.'
+orig: 'Müller, V. C., & Cannon, M. (2022; online 2021). Existential risk from AI and orthogonality: Can we have it both ways? Ratio 35(1): 25–36. https://philarchive.org/rec/MLLERF-2'
+link: https://philarchive.org/rec/MLLERF-2
+further: []
+resp:
+- Bostrom (2012) and Armstrong (2013) defend orthogonality (see 11.03).
+note: ''
+see_also: []
+todo: ''
+ver: 'Checked via search (19 Nov 2026): citation and argument confirmed via the PhilArchive record. The issue is dated 2022 in some listings and 2021 online. Renumbered 19 Nov 2026 (previously 11.08). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Checked via search (19 Nov 2026): citation and argument confirmed via the PhilArchive record. The issue is dated 2022 in some listings and 2021 online. Renumbered 19 Nov 2026 (previously 11.08). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

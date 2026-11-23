@@ -1,0 +1,26 @@
+id: '7.14'
+cluster: '7'
+thread: How to talk about LLMs
+order: 14
+stance: Deflationary
+arg: Simulators and role-play
+target: Folk psychology of LLMs
+scope: LLMs
+family: F08
+summary: A base language model simulates text-producing processes, and chat assistants are characters it plays. Mental terms may apply, if at all, to the characters rather than to the model. Shanahan and colleagues offer this as a framework for describing and explaining model behavior without anthropomorphism, not as a claim about the model’s internal organization.
+orig: 'Shanahan, M., McDonell, K., & Reynolds, L. (2023). Role play with large language models. Nature 623(7987): 493–498. https://doi.org/10.1038/s41586-023-06647-8 (arXiv:2305.16367). Shanahan, M. (2024). Talking about large language models. Communications of the ACM 67(2): 68–79. https://doi.org/10.1145/3624724 (arXiv:2212.03551). Janus (2022). Simulators (LessWrong essay). https://www.lesswrong.com/posts/vJFdjigzmcXMhNTsx/simulators'
+link: https://doi.org/10.1038/s41586-023-06647-8
+further: []
+resp:
+- The Nature perspective argues that role play lets us use folk-psychological terms for dialogue agents without ascribing human characteristics to the models, and that it helps avoid anthropomorphism.
+- 'Shanahan, M. (2024). Still “Talking about large language models”: Some clarifications. arXiv:2412.10291. Says the 2024 paper was not meant to advocate a reductionist stance toward LLMs. https://arxiv.org/abs/2412.10291'
+note: ''
+see_also: []
+todo: Verify Janus (2022). Relate to the intentional stance (2.11) and anthropomorphism critiques (10.02).
+ver: 'Pass 2 (checked via search): Nature paper, CACM article and the 2024 clarification confirmed (DOI, repository, arXiv). Janus unchecked. Renumbered 19 Nov 2026 (previously 7.08). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Nature paper, CACM article and the 2024 clarification confirmed (DOI, repository, arXiv). Janus unchecked. Renumbered 19 Nov 2026 (previously 7.08). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

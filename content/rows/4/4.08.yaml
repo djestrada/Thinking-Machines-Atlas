@@ -1,0 +1,28 @@
+id: '4.08'
+cluster: '4'
+thread: Life–mind continuity
+order: 8
+stance: For
+arg: Enactive AI
+target: Autonomy; sense-making
+scope: Machines (artificial life, robotics)
+family: F12
+summary: Froese and Ziemke accept the enactive view that mind is grounded in self-producing, self-maintaining organization, and ask what an artificial system would need to have it. They propose design principles for an enactive AI, so the life–mind continuity thesis becomes a research program rather than a proof that machines cannot have minds.
+orig: 'Froese, T., & Ziemke, T. (2009). Enactive artificial intelligence: Investigating the systemic organization of life and mind. Artificial Intelligence 173(3–4): 466–500. https://www.sciencedirect.com/science/article/pii/S0004370208002105'
+link: https://www.sciencedirect.com/science/article/pii/S0004370208002105
+further:
+- 'Villalobos, M., & Dewhurst, J. (2018). Enactive autonomy in computational systems. Synthese 195: 1891–1908. Argues computational systems can be autonomous in the enactive sense. https://philarchive.org/archive/VILEAI-3'
+- Estrada, D. (2018). Conscious enactive computation. CEUR Workshop Proceedings 2287 (arXiv:1812.02578). Extends Villalobos & Dewhurst. https://digitalcommons.njit.edu/fac_pubs/8930
+resp:
+- Thompson (2007) and Fuchs (2024) hold that genuine sense-making requires a living body (see 4.07, 4.05).
+note: ''
+see_also:
+- '4.05'
+todo: ''
+ver: 'Checked via search (19 Nov 2026): Froese & Ziemke confirmed earlier (ScienceDirect); Villalobos & Dewhurst confirmed earlier (PhilArchive). The characterization of Froese & Ziemke’s design principles is from my reading of the abstract. Renumbered 19 Nov 2026 (previously 4.10). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Checked via search (19 Nov 2026): Froese & Ziemke confirmed earlier (ScienceDirect); Villalobos & Dewhurst confirmed earlier (PhilArchive). The characterization of Froese & Ziemke’s design principles is from my reading of the abstract. Renumbered 19 Nov 2026 (previously 4.10). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

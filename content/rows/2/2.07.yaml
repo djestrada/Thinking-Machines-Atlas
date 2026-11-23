@@ -1,0 +1,30 @@
+id: '2.07'
+cluster: '2'
+thread: Searle’s generalizations
+order: 7
+stance: Against
+arg: Simulation is not duplication
+target: Mind; consciousness
+scope: Digital computers
+family: F05
+summary: A computer simulation of a storm does not make anyone wet and a simulation of digestion does not digest; likewise, simulating a mind does not produce a mind. Running a program that models the brain is not enough to duplicate its causal powers.
+orig: Searle (1980), BBS 3(3), 417–457 (see 2.01). https://doi.org/10.1017/S0140525X00005756 Searle, J. R. (1984). Minds, Brains and Science. Harvard University Press.
+link: https://doi.org/10.1017/S0140525X00005756
+further:
+- Searle (1992). The Rediscovery of the Mind. MIT Press (see 5.05).
+resp:
+- 'Brain simulator reply: see 2.05.'
+- Chalmers (1996), The Conscious Mind (Oxford UP), argues that, unlike storms, mind is organizationally invariant (see 5.04).
+- Pylyshyn, Z. (1984). Computation and Cognition. MIT Press.
+note: This is the intuition behind most “only biology can do it” positions, including the beast-machine view (4.09).
+see_also:
+- '2.05'
+- '5.04'
+todo: ''
+ver: 'Searle 1980 checked earlier; the storm and digestion examples and the 1984 reference are from memory. Renumbered 19 Nov 2026 (previously 2.14). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Searle 1980 checked earlier; the storm and digestion examples and the 1984 reference are from memory. Renumbered 19 Nov 2026 (previously 2.14). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

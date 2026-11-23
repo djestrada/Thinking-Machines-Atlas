@@ -1,0 +1,57 @@
+# Dated changes, oldest first (first row is the header).
+- - Date
+  - Change
+- - 18–19 Nov 2026
+  - 'First complete draft: 11 clusters of arguments with sources, responses and verification against publisher and index records.'
+- - 19 Nov 2026
+  - Rows grouped by historical thread; Turing’s nine objections and the Chinese Room replies brought together; cluster 11 (risk and alignment) completed; rows renumbered.
+- - 19 Nov 2026
+  - Characterizations checked against the Stanford and Internet Encyclopedias of Philosophy; misattributions and pronoun errors corrected; author’s own work moved to further reading.
+- - 19 Nov 2026
+  - Relations extended to all clusters; Kernel and Families tabs rewritten; Atlas diagram published; AI on AI tab added.
+- - 19 Nov 2026
+  - Atlas rebuilt around four questions and a frame, with exchanges for every cluster; independent AI review of the exchanges applied.
+- - 19–20 Nov 2026
+  - 'Citation pass: unchecked citations confirmed against records and given links where free copies exist.'
+- - 20 Nov 2026
+  - 'Corrections after reviews by Gemini and ChatGPT: summaries of 1.01, 2.01, 2.11, 3.03, 3.04, 5.06, cluster 7 empirical rows, 8.04, 8.05, 9.07, 9.08, 10.09, 10.11 and cluster 11 qualified or corrected; drafting notes and placeholder entries removed; two unconfirmable citations removed; paywalled news links removed; relations checked for chronology (4 relabelled).'
+- - 20 Nov 2026
+  - 'New rows: computationalism (5.08), connectionism (5.09), the systematicity challenge (5.10), language models as bullshitters (7.15), AI outputs can have content (7.16), robot friendship (9.10), companion machines and deception (9.11), hype as distraction (10.12), hidden costs: bias, surveillance and environment (10.13).'
+- - 20 Nov 2026
+  - Sources improved for 1.06 (encyclopedia reading and Searle’s other-minds reply added) and 1.14 (now sourced to Gonçalves 2023, summary rewritten to match his argument, Proudfoot 2022 added).
+- - 20 Nov 2026
+  - The frame (“Who asks, and why?”) renamed Q0 and its introduction reworded; its four lanes reduced to two.
+- - 20 Nov 2026
+  - 'AI on AI put on an equal footing: one tab for every model, listed alphabetically, in the same template; Claude’s row remarks moved to their own tab. Gemini’s and ChatGPT’s first entries (collected after they had seen Claude’s) withdrawn, to be replaced by entries collected with one prompt in fresh sessions.'
+- - 20 Nov 2026
+  - Attribution added to the workbook, the Atlas and the Companion.
+- - 20 Nov 2026
+  - Claude’s, Gemini’s and Grok’s AI on AI entries collected in fresh sessions with the standard prompt and the review copies; the entry Claude wrote while building the Atlas withdrawn.
+- - 20 Nov 2026
+  - 'Fixes from the blind reviews: 1.01 (Turing’s 70 percent prediction), 2.02 (the Berkeley reply), 2.08 (primary source), 3.04 (citation), 6.06 (illusionism in general vs. Graziano), 7.11 (primary link), 8.02 (cross-reference); AI implications added to 6.02 and 6.03; responses added to 11.07; notes on the stances of 1.16 and 5.10; remaining drafting notes removed and open verification questions moved to the Verification tab; related rows filled from the Relations tab; cluster 10 put in ID order.'
+- - 20 Nov 2026
+  - 'Overview revised after the blind reviews: the Q2 gate split into limits in principle and in practice; the ladder’s ordering described as an interpretation; the substrate and felt-experience rungs filled in; realist arguments for machine minds added to Q1; scale and emergence moved to their own lane in Q3; the Q4 introduction says which questions depend on earlier answers; several exchange links and summaries corrected; agency (cluster 8) linked to risk (cluster 11); unchecked summaries flagged.'
+- - 21 Nov 2026
+  - Heterophenomenology added as 6.12 (Dennett 1991, 2003; responses from Zahavi 2007 and defenders of the hard problem), placed under Q3 and in the hard-problem exchange, with a Guide entry. In Q4, the relationship arguments (9.10, 9.11) joined the lane on what is owed to machines.
+- - 21 Nov 2026
+  - Language simplified across the README and the Atlas’s headings, instructions and Guide; in Q4, the lane on what is owed to machines renamed “Is anything owed to it?”, and Q4 retitled “What follows?”.
+- - 21 Nov 2026
+  - 'New rows suggested by the blind reviews: Block’s harder problem (5.11), AI as cultural technology (7.17), Agüera y Arcas on understanding (7.18), minimal agency in reinforcement learning (8.07), Metzinger’s moratorium (9.12), Shulman & Bostrom on digital minds (9.13), self-reports as evidence (9.14), the whiteness of AI (10.14), Carlsmith’s premise-by-premise risk argument (11.10). Responses added across cluster 10 and to 8.04; Church (1936), IIT 4.0, predictive processing and disability added as sources or further reading; notes on 4.10, 9.02, 9.09 and families F08 and F26; untruncated short names.'
+- - 21 Nov 2026
+  - 17 more summaries checked against abstracts, encyclopedia entries or open copies (1.01, 1.12, 1.13, 2.05, 2.07, 2.08, 2.09, 2.11, 6.09, 6.10, 7.02, 7.03, 7.05, 7.07, 7.08, 7.12, 7.14); corrections to 1.01 (Turing’s comparison case), 1.13 (Harnad’s caveat) and 6.09 (the report’s conclusion).
+- - 21 Nov 2026
+  - 'ChatGPT’s AI on AI entry added. Fixes from its review: Church–Turing universality (3.03) moved to a renamed family, “Computability and its limits” (F14), whose claim now distinguishes Gödelian, computability and feasibility results; the F10 note narrowed; notes on the stances of 1.17, 6.01, 7.04 and 9.05; alignment linked to the catastrophic-risk argument; the README separates the three levels of verification and the kinds of evidence in cluster 7.'
+- - 21 Nov 2026
+  - 'GLM’s AI on AI entry added. Fixes from its review: the arXiv link in 1.14 relabelled as a separate paper; 11.04 dated 2022; Gurnee & Tegmark cited in 7.12; wording in 2.02 and 7.11; a note on the stance of 7.09; exchange replies labelled by the row that cites them. The Q2 ladder redrawn vertically, with notes on what moved the debate between rungs and marked jumps for arguments that skip a rung or go back.'
+- - 21 Nov 2026
+  - Q2 ladder returned to its horizontal layout, with its thin-to-thick line, after a trial of vertical versions; a new Guide section, “Reading the Q2 ladder”, explains each step and the arguments that skip ahead or go back, summarized in the Kernel tab.
+- - 22 Nov 2026
+  - Each cluster’s question stated in the README and at the top of each cluster view, since stances are relative to it. Qwen’s AI on AI entry added; the four citations its review flagged as possibly invented (Jones & Bergen 2025, Seth 2025, Lawsen 2025, Narayanan & Kapoor 2025) were checked and are real.
+- - 22 Nov 2026
+  - The standard reply to the Gödelian arguments now has its own row, 3.06 (Turing 1950; Putnam 1960; Benacerraf 1967), linked from the Q2 gate and used in the Gödel exchange. Before this it appeared only inside 1.04, 3.01 and the exchange.
+- - 22 Nov 2026
+  - 'The remaining 75 summaries checked against abstracts, encyclopedia entries or open copies; every row is now checked. Corrections: 4.05 (Fuchs’s argument restated from his abstract), 8.06 (Dung’s five dimensions of agency), 9.07 (the report’s ‘realistic possibility’ wording), 8.03 (the free copy belongs to Floridi & Sanders, not Wallach & Allen), 3.06 (Lucas’s and Penrose’s replies). Mollo & Millière’s vector grounding paper is now published (2026). Links added for Sutton’s essay, LeCun’s position paper, McCarthy’s review of Weizenbaum, an open copy of Seth (2025) and the encyclopedia entry on Merleau-Ponty. Cross-references by row name replaced with row IDs.'
+- - 22 Nov 2026
+  - 'Full audit of the 179 relations. 11 changed: four had the wrong type (6.05→6.06 is an objection; 4.06 responds to the frame problem rather than paralleling it; 3.06 responds to 1.04; 1.17 is a case for the AI effect, 1.16), four editorial links were softened to ‘parallels’ or ‘bears on’ (7.14–2.11, 8.06–8.04, 8.06–8.03, 7.16–2.12), two notes that only repeated a row’s name were rewritten (2.07), and a duplicate (11.06→11.08) was removed.'
+- - 23 Nov 2026
+  - 'Moved to GitHub (djestrada/Thinking-Machines-Atlas). The table now lives as one file per argument in content/, and the workbook and Atlas are built from those files on every change. Content is under CC BY-SA 4.0 and code under MIT.'

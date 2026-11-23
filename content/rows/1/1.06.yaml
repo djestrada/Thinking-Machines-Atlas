@@ -1,0 +1,31 @@
+id: '1.06'
+cluster: '1'
+thread: Turing’s nine objections (1950)
+order: 6
+stance: For
+arg: Polite convention / argument from other minds
+target: Thinking; consciousness (attribution)
+scope: Machines generally
+family: F01
+summary: We have no direct access to anyone else’s mind; we attribute thought to other humans on behavioral grounds, as a matter of courtesy rather than proof. Consistency then requires extending the same convention to a machine whose behavior is indistinguishable. Rejecting it requires a principled difference between the cases, not mere prejudice.
+orig: Turing (1950), §6, reply to objection (4), the argument from consciousness. https://doi.org/10.1093/mind/LIX.236.433
+link: https://doi.org/10.1093/mind/LIX.236.433
+further:
+- Oppy & Dowe, “The Turing Test,” Stanford Encyclopedia of Philosophy (rev. 2021), §2.4. Reads Turing’s reply as claiming we have as much reason to credit a machine with thought as to credit other people. https://plato.stanford.edu/entries/turing-test/
+- 'Harnad (1991), “Other bodies, other minds,” Minds and Machines 1: 43–54. Frames Turing testing as our only evidence in the other-minds case. https://doi.org/10.1007/BF00360578 (free copy: https://eprints.soton.ac.uk/253379/)'
+resp:
+- 'Searle (1980), “Minds, brains, and programs,” Behavioral and Brain Sciences 3: 417–457, the “other minds reply”: the question is not how we know that others have minds but what we attribute when we say they do. https://doi.org/10.1017/S0140525X00005756'
+- 'Standard objection: the inference to other humans rests on shared biology, which machines lack. Developed in cluster 5.'
+- See 1.05 for Jefferson’s consciousness requirement.
+note: Training on human text may make LLM outputs behaviorally similar to ours for reasons unrelated to inner life. That weakens the convention’s force, since the similarity of behavior is explained by imitation (see 1.15, 1.18).
+see_also:
+- '1.01'
+- '1.13'
+todo: ''
+ver: 'Turing (primary) and Harnad checked via search. The “polite convention” passage location (§6, objection 4) is from my reading of Turing; confirm the section numbering against your edition. Characterization check (19 Nov 2026): objection and reply compared with the SEP Turing Test entry (https://plato.stanford.edu/entries/turing-test/). Where the entry is silent (e.g., the “polite convention”, “rules of conduct” vs. “laws of behaviour”, the appeal to God’s omnipotence), the wording is Turing’s own. Renumbered 19 Nov 2026 (previously 1.02). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Turing (primary) and Harnad checked via search. The “polite convention” passage location (§6, objection 4) is from my reading of Turing; confirm the section numbering against your edition. Characterization check (19 Nov 2026): objection and reply compared with the SEP Turing Test entry (https://plato.stanford.edu/entries/turing-test/). Where the entry is silent (e.g., the “polite convention”, “rules of conduct” vs. “laws of behaviour”, the appeal to God’s omnipotence), the wording is Turing’s own. Renumbered 19 Nov 2026 (previously 1.02). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

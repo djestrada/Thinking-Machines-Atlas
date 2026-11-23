@@ -1,0 +1,30 @@
+id: '2.03'
+cluster: '2'
+thread: The Chinese Room and the replies (1980)
+order: 3
+stance: For
+arg: Virtual mind reply
+target: Understanding; personal identity
+scope: Digital computers
+family: F06
+summary: A refinement of the systems reply. A running program may create a virtual agent or mind that is distinct from both the operator and the hardware. That virtual mind could understand Chinese even if the operator, who merely executes the program, does not. Searle’s trick of internalizing the room does not touch it, because the operator and the virtual mind are different things.
+orig: 'Cole, D. (1991). Artificial intelligence and personal identity. Synthese, 88(3), 399–417. Author’s copy: https://philosophy.as.uky.edu/sites/default/files/Artificial%20Intelligence%20and%20Personal%20Identity%20-%20David%20Cole.pdf'
+link: https://philosophy.as.uky.edu/sites/default/files/Artificial%20Intelligence%20and%20Personal%20Identity%20-%20David%20Cole.pdf
+further:
+- Rey, G. (1986). What’s really going on in Searle’s “Chinese room”? Philosophical Studies 50. https://doi.org/10.1007/BF00354586
+- Cole, D. The Chinese Room Argument. Stanford Encyclopedia of Philosophy (treats the virtual mind reply under the systems reply). https://plato.stanford.edu/entries/chinese-room/
+resp:
+- Searle’s answers to the virtual mind reply are summarized in SEP.
+- A general worry is that the reply posits a mind without saying what makes it a mind, which returns to the question of whether syntax suffices (2.08).
+note: Echoes talk of LLMs as simulating characters or personas rather than being them, which is developed in Cluster 7 (simulator and role-play framings).
+see_also:
+- '2.01'
+- '2.08'
+todo: ''
+ver: 'Weakly sourced. Rey 1986 appears only in a reference list. Cole 1991 [unchecked]. The characterization of the reply is from SEP’s table of contents and my own reading; check against the entry. Renumbered 19 Nov 2026 (previously 2.07). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Weakly sourced. Rey 1986 appears only in a reference list. Cole 1991 [unchecked]. The characterization of the reply is from SEP’s table of contents and my own reading; check against the entry. Renumbered 19 Nov 2026 (previously 2.07). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

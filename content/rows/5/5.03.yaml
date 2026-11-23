@@ -1,0 +1,26 @@
+id: '5.03'
+cluster: '5'
+thread: Thought experiments about functional duplicates
+order: 3
+stance: Against
+arg: China brain (the Chinese nation)
+target: Consciousness; qualia
+scope: Machines generally
+family: F05
+summary: Suppose the population of China, linked by radio, implemented a brain’s functional organization for an hour. Intuitively the nation would have no experience, so functional organization alone is not sufficient for mentality.
+orig: 'Block, N. (1978). Troubles with functionalism. Minnesota Studies in the Philosophy of Science 9: 261–325 (reprinted in Block, ed., Readings in Philosophy of Psychology, vol. 1, 1980, the edition SEP cites). Excerpt as “The China brain”: https://rintintin.colorado.edu/~vancecd/phil201/Block.pdf'
+link: https://rintintin.colorado.edu/~vancecd/phil201/Block.pdf
+further: []
+resp:
+- Lycan (1987), Consciousness, MIT Press.
+- 'Churchlands’ luminous room and the intuition-pump objection: see 2.05 and 2.06.'
+note: ''
+see_also: []
+todo: Block’s later treatments; the Chinese Room parallel.
+ver: 'Pass 2 (checked via search): the paper and the China brain passage confirmed via reprints; the volume and pages are the standard citation, not seen on a publisher record. Link check (19 Nov 2026): book chapter, no DOI; reprint copy kept. Characterization check (19 Nov 2026): content confirmed against the SEP Functionalism entry (https://plato.stanford.edu/entries/functionalism/), which cites the 1980 reprint. Renumbered 19 Nov 2026 (previously 5.02). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): the paper and the China brain passage confirmed via reprints; the volume and pages are the standard citation, not seen on a publisher record. Link check (19 Nov 2026): book chapter, no DOI; reprint copy kept. Characterization check (19 Nov 2026): content confirmed against the SEP Functionalism entry (https://plato.stanford.edu/entries/functionalism/), which cites the 1980 reprint. Renumbered 19 Nov 2026 (previously 5.02). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

@@ -1,0 +1,22 @@
+name: Correction
+description: A summary, stance, source or link that is wrong
+labels: [correction]
+body:
+  - type: input
+    id: row
+    attributes:
+      label: Row ID
+      description: For example 3.06 (shown on each argument in the Atlas and the workbook)
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: A citation or link that supports the correction, if you have one

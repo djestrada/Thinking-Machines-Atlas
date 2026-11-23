@@ -1,0 +1,27 @@
+id: '11.06'
+cluster: '11'
+thread: The alignment problem
+order: 6
+stance: For
+arg: The alignment problem
+target: Values; control
+scope: AI
+family: F24
+summary: 'It is difficult to specify human values in objectives that a powerful system will pursue faithfully, and misspecified objectives can lead to harm. Gabriel adds that alignment is a normative question as well as a technical one: whose values, given reasonable disagreement? Current systems show milder forms of the problem, such as reward hacking and sycophancy, though these alone do not establish the stronger claims of the risk argument.'
+orig: 'Russell, S. (2019). Human Compatible. Viking. Christian, B. (2020). The Alignment Problem. Norton. Gabriel, I. (2020). Artificial intelligence, values, and alignment. Minds and Machines 30: 411–437 (arXiv:2001.09768). https://arxiv.org/abs/2001.09768 Amodei, D., Olah, C., Steinhardt, J., Christiano, P., Schulman, J., & Mané, D. (2016). Concrete problems in AI safety. arXiv:1606.06565. https://arxiv.org/abs/1606.06565'
+link: https://arxiv.org/abs/2001.09768
+further: []
+resp:
+- 'Narayanan & Kapoor (2025) treat AI as a normal technology whose risks are better handled by existing institutions: see 11.09.'
+- Mitchell, M. (2021). Why AI is harder than we think. arXiv:2104.12871. https://arxiv.org/abs/2104.12871
+- Pinker, S. (2018). Enlightenment Now. Viking (chapter 19, “Existential Threats”).
+note: ''
+see_also: []
+todo: Verify. Add present-harms critics.
+ver: 'Checked via search (19 Nov 2026): Gabriel (journal listing; arXiv) and Amodei et al. (arXiv; Google Research page) confirmed. Russell and Christian are standard book citations. Renumbered 19 Nov 2026 (previously 11.04). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Checked via search (19 Nov 2026): Gabriel (journal listing; arXiv) and Amodei et al. (arXiv; Google Research page) confirmed. Russell and Christian are standard book citations. Renumbered 19 Nov 2026 (previously 11.04). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

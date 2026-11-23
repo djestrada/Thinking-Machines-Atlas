@@ -1,0 +1,32 @@
+id: '2.10'
+cluster: '2'
+thread: Intentionality and grounding
+order: 10
+stance: Against
+arg: Original vs. derived intentionality
+target: Meaning; intentionality
+scope: Machines generally (artifacts)
+family: F07
+summary: The meaning of symbols in books, words and computer states is derived from the intentions of those who use and interpret them. Minds have original, intrinsic intentionality. A computer’s states mean something only for us, so computers have at most derived or “as-if” content, whatever they can do.
+orig: |-
+  Searle (1980), BBS 3(3), 417–457; his reply is titled “Intrinsic intentionality” (pp. 450–456). https://doi.org/10.1017/S0140525X00005756
+  Haugeland, J. (1981). Semantic engines: An introduction to mind design. In J. Haugeland (Ed.), Mind Design. MIT Press. https://philarchive.org/rec/HAUSEA-3
+link: https://doi.org/10.1017/S0140525X00005756
+further:
+- Harnad (1990) frames the symbol grounding problem as meaning that is parasitic on interpretations in our heads (see 2.13). https://doi.org/10.1016/0167-2789(90)90087-6
+- 'Searle, J. R. (1983). Intentionality: An Essay in the Philosophy of Mind. Cambridge University Press.'
+resp:
+- 'Dennett: intentionality is a stance-dependent matter, so the original/derived line is not principled (2.11).'
+- 'Naturalized semantics: content is fixed by causal and historical relations a machine can have (2.12).'
+- Dennett (1980), The milk of human intentionality, BBS 3, 428–430. https://doi.org/10.1017/S0140525X0000580X
+note: Frames the question of whether an LLM’s outputs are about anything, or only mean something for us.
+see_also:
+- '2.13'
+todo: ''
+ver: 'Searle’s distinction is as reported in the 1980 paper’s reply title and secondary descriptions; page-level wording unchecked. Haugeland and Dennett (1980) from memory. Renumbered 19 Nov 2026 (previously 2.04). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Searle’s distinction is as reported in the 1980 paper’s reply title and secondary descriptions; page-level wording unchecked. Haugeland and Dennett (1980) from memory. Renumbered 19 Nov 2026 (previously 2.04). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

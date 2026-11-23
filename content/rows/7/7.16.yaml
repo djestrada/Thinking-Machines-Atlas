@@ -1,0 +1,25 @@
+id: '7.16'
+cluster: '7'
+thread: Assertion and testimony
+order: 16
+stance: For
+arg: AI outputs can have content (Cappelen & Dever)
+target: Assertion and meaning
+scope: AI systems generally
+family: F28
+summary: 'Cappelen and Dever argue that the outputs of AI systems can mean something and make claims. On externalist theories of meaning, content depends on a speaker’s place in a linguistic community and causal history rather than on inner understanding, so AI outputs can be held to the standards of assertion: we can ask whether what a system says is true.'
+orig: 'Cappelen, H., & Dever, J. (2021). Making AI Intelligible: Philosophical Foundations. Oxford University Press (open access). https://academic.oup.com/book/39386'
+link: https://academic.oup.com/book/39386
+further: []
+resp:
+- Hicks, Humphries and Slater (7.15) deny that current chatbots aim at truth at all.
+note: ''
+see_also: []
+todo: ''
+ver: Publisher record (open access) confirmed 20 Nov 2026; characterization from the book’s published description.
+ver_detail: Publisher record (open access) confirmed 20 Nov 2026; characterization from the book’s published description.
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

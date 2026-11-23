@@ -1,0 +1,27 @@
+id: '6.07'
+cluster: '6'
+thread: Scientific theories applied to AI
+order: 7
+stance: For
+arg: Global workspace theory and AI
+target: Consciousness
+scope: Current AI (some architectures)
+family: F10
+summary: If consciousness is global broadcast of information within a limited-capacity workspace, then AI systems with the right architecture could be conscious. Some work argues that language agents or deep-learning systems may already approximate parts of this.
+orig: 'Baars, B. J. (1988). A Cognitive Theory of Consciousness. Cambridge UP. Dehaene, S., & Naccache, L. (2001). Towards a cognitive neuroscience of consciousness: Basic evidence and a workspace framework. Cognition 79(1–2): 1–37. https://pubmed.ncbi.nlm.nih.gov/11164022/'
+link: https://pubmed.ncbi.nlm.nih.gov/11164022/
+further: []
+resp:
+- 'VanRullen, R., & Kanai, R. (2021). Deep learning and the global workspace theory. Trends in Neurosciences 44(9): 692–704. https://arxiv.org/abs/2012.10390'
+- 'Goldstein, S., & Kirk-Giannini, C. D. (2024). A case for AI consciousness: Language agents and global workspace theory. arXiv:2410.11407. https://arxiv.org/abs/2410.11407'
+- 'Opposing views: see 4.09, 5.05, 5.06.'
+note: ''
+see_also: []
+todo: Dehaene and colleagues on what AI would need; replies to Goldstein & Kirk-Giannini.
+ver: 'Pass 2 (checked via search): VanRullen & Kanai (arXiv, journal listing) and Goldstein & Kirk-Giannini (arXiv, PhilArchive) confirmed. Baars (1988) and Dehaene & Naccache (2001) from memory. Link check (19 Nov 2026): Goldstein & Kirk-Giannini found only as a preprint; arXiv kept. Primary-link check (19 Nov 2026): the link pointed to Goldstein & Kirk-Giannini (an application); it now points to Dehaene & Naccache (2001), confirmed on PubMed. Renumbered 19 Nov 2026 (previously 6.05). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): VanRullen & Kanai (arXiv, journal listing) and Goldstein & Kirk-Giannini (arXiv, PhilArchive) confirmed. Baars (1988) and Dehaene & Naccache (2001) from memory. Link check (19 Nov 2026): Goldstein & Kirk-Giannini found only as a preprint; arXiv kept. Primary-link check (19 Nov 2026): the link pointed to Goldstein & Kirk-Giannini (an application); it now points to Dehaene & Naccache (2001), confirmed on PubMed. Renumbered 19 Nov 2026 (previously 6.05). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Index or catalogue record (links on to the publisher)
+- ''

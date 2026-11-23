@@ -1,0 +1,27 @@
+id: '10.13'
+cluster: '10'
+thread: Power and political economy
+order: 13
+stance: Against
+arg: 'Hidden costs: bias, surveillance and environment'
+target: Framing of AI
+scope: AI generally
+family: F23
+summary: AI systems are built from data and energy and deployed within institutions. Benjamin shows how automated systems can encode and amplify racial discrimination while appearing neutral; Zuboff analyses how behavioral data are extracted for prediction and control; Strubell and colleagues and Luccioni and colleagues measure the energy and carbon costs of training and running large models. Framing these systems as minds in the making can hide such costs, and who bears them.
+orig: 'Benjamin, R. (2019). Race After Technology. Polity. Zuboff, S. (2019). The Age of Surveillance Capitalism. PublicAffairs. Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and policy considerations for deep learning in NLP. ACL 2019. https://aclanthology.org/P19-1355/ Luccioni, S., Jernite, Y., & Strubell, E. (2024). Power hungry processing: Watts driving the cost of AI deployment? FAccT 2024. https://arxiv.org/abs/2311.16863'
+link: https://aclanthology.org/P19-1355/
+further:
+- Crawford, K. (2021). Atlas of AI. Yale UP (see 10.03).
+- Whittaker, M., et al. (2019). Disability, Bias, and AI. AI Now Institute. How AI systems built on norms of the typical body and mind encode bias against disabled people. https://ainowinstitute.org/wp-content/uploads/2023/04/disabilitybiasai-2019.pdf
+resp:
+- Defenders of current development reply that costs must be weighed against benefits, and that efficiency gains and regulation can reduce energy use and bias; critics answer that the costs fall unequally.
+note: ''
+see_also: []
+todo: ''
+ver: Catalogue records (Benjamin, Zuboff), ACL Anthology (Strubell et al.) and arXiv (Luccioni et al.) confirmed 20 Nov 2026.
+ver_detail: Catalogue records (Benjamin, Zuboff), ACL Anthology (Strubell et al.) and arXiv (Luccioni et al.) confirmed 20 Nov 2026.
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

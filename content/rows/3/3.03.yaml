@@ -1,0 +1,30 @@
+id: '3.03'
+cluster: '3'
+thread: Computability and complexity
+order: 3
+stance: For
+arg: Church–Turing universality
+target: Cognition (simulability)
+scope: Digital computers
+family: F14
+summary: Any effectively calculable procedure can be carried out by a universal Turing machine. This is a thesis about computability, not about minds. Whether physical processes, and cognition in particular, are computable is a further question (the physical Church–Turing thesis, which Deutsch formulates for quantum physics). So universality shows only that if cognition is computable, a digital computer could in principle carry it out.
+orig: 'Turing, A. M. (1936). On computable numbers, with an application to the Entscheidungsproblem. Proceedings of the London Mathematical Society s2-42(1): 230–265. https://doi.org/10.1112/plms/s2-42.1.230 Deutsch, D. (1985). Quantum theory, the Church–Turing principle and the universal quantum computer. Proceedings of the Royal Society A 400: 97–117. Church, A. (1936). An unsolvable problem of elementary number theory. American Journal of Mathematics 58(2): 345–363. https://doi.org/10.2307/2371045'
+link: https://doi.org/10.1112/plms/s2-42.1.230
+further: []
+resp:
+- 'Copeland (SEP) distinguishes the original thesis about effective methods from later extensions to physics and cognition, and warns against conflating them (the “equivalence fallacy”): the thesis alone does not show that cognition is computable. https://plato.stanford.edu/entries/church-turing/'
+- 'Searle (1980, 1990): simulation is not duplication; see 2.09 and 2.07.'
+- 'Siegelmann, H. T. (1995). Computation beyond the Turing limit. Science 268(5210): 545–548. Analog recurrent networks with real weights exceed Turing computability.'
+- 'Copeland, B. J. (2002). Hypercomputation. Minds and Machines 12: 461–502. https://doi.org/10.1023/A:1021105915386; and Copeland (1998), see 3.02.'
+- 'Wells (1998), Turing’s analysis of computation and theories of cognitive architecture, Cognitive Science 22(3): 269–294.'
+- 'Bringsjord & Zenzen (2003), Superminds: People Harness Hypercomputation, and More, Kluwer. https://link.springer.com/978-1-4020-1094-1'
+note: ''
+see_also: []
+todo: SEP entries on the Church–Turing thesis and the computational theory of mind; Piccinini on the physical Church–Turing thesis.
+ver: 'Pass 2 (checked via search): Turing (1936) and Siegelmann confirmed. Deutsch, Copeland 2002 and Bringsjord & Zenzen from memory. Link check (19 Nov 2026): Wiley page confirmed; Wiley dates the issue 1937, the paper is conventionally cited as 1936. Characterization check (19 Nov 2026): the distinction between the thesis and its extensions checked against the SEP entry; Deutsch and Siegelmann not covered in the portion read. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Turing (1936) and Siegelmann confirmed. Deutsch, Copeland 2002 and Bringsjord & Zenzen from memory. Link check (19 Nov 2026): Wiley page confirmed; Wiley dates the issue 1937, the paper is conventionally cited as 1936. Characterization check (19 Nov 2026): the distinction between the thesis and its extensions checked against the SEP entry; Deutsch and Siegelmann not covered in the portion read. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

@@ -1,0 +1,28 @@
+id: '1.05'
+cluster: '1'
+thread: Turing’s nine objections (1950)
+order: 5
+stance: Against
+arg: Argument from consciousness (Jefferson)
+target: Thinking; creativity; consciousness
+scope: Machines generally (computers)
+family: F03
+summary: A machine’s output, such as a sonnet or a concerto, would not count as thinking unless the machine produced it because of thoughts and emotions it felt, and knew that it had done so, rather than through a chance fall of symbols. Behavior alone cannot establish the inner life that matters.
+orig: Jefferson, G. (1949). The mind of mechanical man (Lister Oration). British Medical Journal, 1(4616), 1105–1110. https://doi.org/10.1136/bmj.1.4616.1105
+link: https://doi.org/10.1136/bmj.1.4616.1105
+further:
+- Turing (1950) quotes and answers the argument; he is the standard source for its later fame. https://doi.org/10.1093/mind/LIX.236.433
+- Later descendants appear in Cluster 5 (qualia arguments) and Cluster 6 (consciousness).
+resp:
+- 'Turing (1950), §6(4): pushed to its limit the argument implies solipsism; the polite convention applies (1.06).'
+- 'Harnad (1991): the other-minds problem (1.06).'
+note: 'The argument is untouched by LLM fluency: the dispute is about whether fluent output requires felt experience, which is why it reappears in the consciousness debates about LLMs (Cluster 6).'
+see_also: []
+todo: ''
+ver: 'Jefferson’s citation (BMJ 1(4616):1105–1110) checked against PubMed Central listings. The summary of the argument’s content is from my own reading and a secondary source (Turing 1950); a direct check of Jefferson’s text is still needed. Characterization check (19 Nov 2026): objection and reply compared with the SEP Turing Test entry (https://plato.stanford.edu/entries/turing-test/). Where the entry is silent (e.g., the “polite convention”, “rules of conduct” vs. “laws of behaviour”, the appeal to God’s omnipotence), the wording is Turing’s own. Renumbered 19 Nov 2026 (previously 1.03). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Jefferson’s citation (BMJ 1(4616):1105–1110) checked against PubMed Central listings. The summary of the argument’s content is from my own reading and a secondary source (Turing 1950); a direct check of Jefferson’s text is still needed. Characterization check (19 Nov 2026): objection and reply compared with the SEP Turing Test entry (https://plato.stanford.edu/entries/turing-test/). Where the entry is silent (e.g., the “polite convention”, “rules of conduct” vs. “laws of behaviour”, the appeal to God’s omnipotence), the wording is Turing’s own. Renumbered 19 Nov 2026 (previously 1.03). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

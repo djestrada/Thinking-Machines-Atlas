@@ -1,0 +1,27 @@
+id: '5.02'
+cluster: '5'
+thread: Thought experiments about functional duplicates
+order: 2
+stance: Against
+arg: Absent and inverted qualia
+target: Consciousness; qualia
+scope: Machines generally
+family: F03
+summary: Two systems could be functionally identical while one lacks experience (absent qualia) or has differently quality experiences (inverted qualia), so functional role does not determine phenomenal character.
+orig: 'Block, N., & Fodor, J. A. (1972). What psychological states are not. Philosophical Review 81(2): 159–181. https://home.csulb.edu/~cwallis/382/readings/482/block.what.psch.states.not.1972.pdf Block, N. (1978). Troubles with functionalism (see 5.03), the version SEP associates most closely with these objections.'
+link: https://home.csulb.edu/~cwallis/382/readings/482/block.what.psch.states.not.1972.pdf
+further: []
+resp:
+- 'Shoemaker, S. (1975). Functionalism and qualia. Philosophical Studies 27: 291–315; and (1981) Absent qualia are impossible—a reply to Block, Philosophical Review 90(4): 581–599. Argues that absent qualia are impossible, while allowing that inverted qualia may be compatible with functionalism.'
+- Dennett (1988), Quining qualia, in Marcel & Bisiach (eds.), Consciousness in Contemporary Science, OUP.
+- 'Chalmers (1995): see 5.04.'
+note: ''
+see_also: []
+todo: Verify. Add recent discussions of inverted qualia and AI.
+ver: 'Pass 2 (checked via search): Block & Fodor confirmed (copy). Shoemaker 1975 and 1981 and Dennett 1988 from memory. Link check (19 Nov 2026): no publisher record found in this pass; copy kept. Characterization check (19 Nov 2026): Shoemaker (1975) was wrongly listed as an original source; he defends functionalism against absent qualia, so he now appears as a response. Checked against the SEP Functionalism entry. Renumbered 19 Nov 2026 (previously 5.03). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Block & Fodor confirmed (copy). Shoemaker 1975 and 1981 and Dennett 1988 from memory. Link check (19 Nov 2026): no publisher record found in this pass; copy kept. Characterization check (19 Nov 2026): Shoemaker (1975) was wrongly listed as an original source; he defends functionalism against absent qualia, so he now appears as a response. Checked against the SEP Functionalism entry. Renumbered 19 Nov 2026 (previously 5.03). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

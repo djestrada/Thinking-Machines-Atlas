@@ -1,0 +1,97 @@
+# The Existing surveys tab (first row is the header).
+- - Resource
+  - Type
+  - What it covers
+  - How it relates to this table
+  - Link
+  - Verification
+- - 'Müller, V. C. (2024). Philosophy of AI: A structured overview. In N. Smuha (Ed.), Cambridge Handbook on the Law, Ethics and Policy of AI, 1–25. Cambridge University Press. (Reprinted 2025 in Hähnel & Müller (Eds.), A Companion to Applied Philosophy of AI, Wiley.)'
+  - Survey chapter
+  - Main topics, arguments and positions in philosophy of AI, excluding ethics. A footnote says there are very few surveys and no recent ones, and lists Carter 2007, Copeland 1993, Dietrich 2002, Floridi 2003 and 2011, and Müller 2016.
+  - Closest structural overview found, and a good cross-check on cluster choices. It surveys topics rather than cataloguing arguments with sources and responses. Does not cover ethics.
+  - https://philarchive.org/rec/MLLPOA
+  - Checked via PhilArchive record and draft text.
+- - 'Millière, R., & Buckner, C. (2024). A philosophical introduction to language models, Part I: Continuity with classic debates. arXiv:2401.03910.'
+  - Opinionated survey
+  - 'LLMs in relation to classic debates: compositionality, language acquisition, semantic competence, grounding, world models, cultural transmission.'
+  - Directly relevant to Cluster 7 and to how classic arguments (e.g., Blockhead) are applied to LLMs.
+  - https://arxiv.org/abs/2401.03910
+  - Checked via arXiv listing.
+- - 'Millière, R., & Buckner, C. (2024). A philosophical introduction to language models, Part II: The way forward. arXiv:2405.03207.'
+  - Opinionated survey
+  - Interpretability and causal intervention methods, multimodality, agency, consciousness criteria, reproducibility, LLMs as cognitive models.
+  - Relevant to clusters 6 and 7 and to the benchmark-validity row (1.18).
+  - https://arxiv.org/abs/2405.03207
+  - Checked via arXiv listing.
+- - Mitchell, M., & Krakauer, D. C. (2023). The debate over understanding in AI’s large language models. PNAS, 120(13), e2215907120.
+  - Perspective article
+  - Describes arguments made for and against LLM understanding.
+  - A compact for/against map of the LLM-understanding debate; useful for Cluster 7.
+  - https://doi.org/10.1073/pnas.2215907120
+  - Checked via arXiv (2210.13966), PubMed Central and publisher records.
+- - Oppy, G., & Dowe, D. The Turing Test. Stanford Encyclopedia of Philosophy.
+  - Encyclopedia entry
+  - The Turing test and its literature.
+  - Per-argument bibliography; useful for checking Cluster 1.
+  - https://plato.stanford.edu/entries/turing-test/
+  - Opened and checked 20 Nov 2026 (substantive revision 2021).
+- - 'Surveys cited by Müller: Carter (2007); Copeland (1993); Dietrich (2002); Floridi (2003, 2011); Müller (2016).'
+  - Earlier surveys
+  - Earlier overviews of philosophy of AI named in Müller’s footnote.
+  - Earlier overviews; not compared with this table.
+  - ''
+  - Names taken from Müller’s footnote only; full references and contents not checked.
+- - Stanford Encyclopedia of Philosophy and Internet Encyclopedia of Philosophy entries on individual topics (e.g., Chinese Room, functionalism, computational theory of mind).
+  - Encyclopedia entries
+  - Per-argument bibliographies and replies.
+  - Best used argument by argument to cross-check each cluster as it is built.
+  - ''
+  - Used row by row; see each row’s further reading.
+- - Cole, D. The Chinese Room Argument. Stanford Encyclopedia of Philosophy (revised 2024).
+  - Encyclopedia entry
+  - Searle’s argument, its historical background, the main replies (systems, robot, brain simulator, other minds, intuition) and larger issues (syntax and semantics, intentionality, simulation vs. duplication).
+  - Best single survey for Cluster 2; used to check the list of replies.
+  - https://plato.stanford.edu/entries/chinese-room/
+  - Checked via search results (entry structure and text); not read in full.
+- - Hauser, L. Chinese Room Argument. Internet Encyclopedia of Philosophy.
+  - Encyclopedia entry
+  - Replies and rejoinders, including the combination and many mansions replies, and a section on the connectionist reply.
+  - Complements SEP; useful for the less-discussed replies.
+  - https://iep.utm.edu/chinese-room/
+  - Checked via search result snippets (table of contents); not read in full. Author (Larry Hauser) confirmed in the link check.
+- - 'Preston, J., & Bishop, M. (Eds.) (2002). Views into the Chinese Room: New Essays on Searle and Artificial Intelligence. Oxford University Press.'
+  - Edited volume
+  - Essays on Searle’s argument.
+  - A scholarly collection to cross-check Cluster 2 and to mine for citations.
+  - ''
+  - Seen only in a reading list; contents not checked.
+- - 'Horn, R. E., Yoshimi, J., McBride, R., & Deering, M. (1998). Mapping Great Debates: Can Computers Think? Seven argumentation maps and handbook. MacroVU Inc., Bainbridge Island, WA.'
+  - Argument maps
+  - Seven large maps tracing more than 800 arguments, rebuttals and counterrebuttals about whether computers can think, by several hundred scholars, in a Toulmin-style format. One map asks whether machines must be conscious in order to think. Later translated into an online debate map (2007).
+  - The closest direct precedent found. It predates LLMs and later topics (moral status, risk), is static, and does not tag scope. Useful as a completeness check on the classic core of clusters 1–5. See also Horn’s ISSA paper describing the method.
+  - https://rozenbergquarterly.com/?p=13887
+  - Checked via search results (ISSA paper, a 2007 blog post, a 1999 talk abstract). The maps’ own site (macrovu.com) was seen only as a link in a syllabus; whether it is live is unchecked.
+- - 'Dietrich, E., Fields, C., Sullins, J. P., Van Heuveln, B., & Zebrowski, R. (2021). Great Philosophical Objections to Artificial Intelligence: The History and Legacy of the AI Wars. Bloomsbury Academic.'
+  - Monograph
+  - Surveys the most famous philosophical arguments against building a machine with human-level intelligence, organized as a series of “wars” (consciousness, meaning, the frame problem, rationality and creativity, and others), with a bibliography.
+  - Covers the against side in depth for the classic period. Does not cover the for side, the LLM debates, or moral status in the same way.
+  - https://www.perlego.com/book/2059613/great-philosophical-objections-to-artificial-intelligence-the-history-and-legacy-of-the-ai-wars-pdf
+  - Checked via publisher and library listings; all five authors confirmed on the book’s listing in the link check (19 Nov 2026).
+- - Frankish, K., & Ramsey, W. M. (Eds.) (2014). The Cambridge Handbook of Artificial Intelligence. Cambridge University Press.
+  - Handbook
+  - Includes chapters on philosophical foundations, philosophical challenges, artificial emotions and machine consciousness, and the ethics of AI.
+  - Pre-LLM reference with useful bibliographies; its chapters point to a comprehensive PhilPapers bibliography of the philosophy of AI.
+  - https://www.cambridge.org/core/books/cambridge-handbook-of-artificial-intelligence/philosophical-foundations/5C3626F0F8F3A9E4D5148A8DAAB908B1
+  - Table of contents and chapter pages checked via search results.
+- - Chalmers, D., & Bourget, D. (repeatedly updated). Philosophy of Artificial Intelligence. PhilPapers bibliography.
+  - Bibliography
+  - A comprehensive bibliography organized by sections and subsections.
+  - A bibliography for finding further literature, not a map of arguments.
+  - ''
+  - Known from a citation in the Handbook; current version not opened.
+- - 'Carter, M. (2007). Minds and Computers: An Introduction to the Philosophy of Artificial Intelligence. Edinburgh University Press.'
+  - Textbook
+  - Introduces the philosophy of mind and the computational theory of mind, which the book defends.
+  - A textbook that defends one position; one of the earlier surveys Müller lists.
+  - ''
+  - Seen only as an annotated reference in the Handbook; not opened.

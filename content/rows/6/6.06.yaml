@@ -1,0 +1,26 @@
+id: '6.06'
+cluster: '6'
+thread: Explaining consciousness or explaining it away?
+order: 6
+stance: Deflationary
+arg: Illusionism and the attention schema
+target: Consciousness
+scope: Machines generally
+family: F09
+summary: 'Illusionists (Dennett, Frankish) hold that consciousness as we describe it, with intrinsic phenomenal qualities, is an introspective illusion: there is no such property to explain, only our representation of it. On Graziano’s version, the illusion is produced by a model the brain has of its own attention. Systems with similar self-models might seem conscious to themselves, and the metaphysical question becomes a question about those models.'
+orig: 'Dennett, D. C. (1991). Consciousness Explained. Little, Brown. Frankish, K. (2016). Illusionism as a theory of consciousness. Journal of Consciousness Studies 23(11–12): 11–39. Graziano, M. S. A. (2013). Consciousness and the Social Brain. Oxford UP. AI-specific statement: Graziano, M. S. A. (2017). The attention schema theory: A foundation for engineering artificial consciousness. Frontiers in Robotics and AI 4: 60. https://www.frontiersin.org/articles/10.3389/frobt.2017.00060'
+link: https://www.frontiersin.org/articles/10.3389/frobt.2017.00060
+further: []
+resp:
+- 'Chalmers, D. J. (2018). The meta-problem of consciousness. Journal of Consciousness Studies 25(9–10): 6–61. https://philarchive.org/archive/CHATMO-32'
+- Strawson, G. (2018). The consciousness deniers. New York Review of Books (online).
+note: ''
+see_also: []
+todo: Verify. Look for the most developed critical replies.
+ver: 'Pass 2 (checked via search): Graziano (2017) and Chalmers (2018) confirmed. Frankish (2016) and Strawson (2018) from memory. Primary-link check (19 Nov 2026): the linked Graziano (2017) paper is now listed in Original source. Renumbered 19 Nov 2026 (previously 6.08). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Graziano (2017) and Chalmers (2018) confirmed. Frankish (2016) and Strawson (2018) from memory. Primary-link check (19 Nov 2026): the linked Graziano (2017) paper is now listed in Original source. Renumbered 19 Nov 2026 (previously 6.08). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

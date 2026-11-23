@@ -1,0 +1,28 @@
+id: '5.01'
+cluster: '5'
+thread: Functionalism
+order: 1
+stance: For
+arg: Multiple realizability and machine functionalism
+target: Mental states
+scope: Machines generally
+family: F06
+summary: Mental states are individuated by functional (causal-computational) role, not physical makeup. Since the same organization can be realized in different substrates, minds are not tied to neurons and could be realized in machines.
+orig: Putnam, H. (1960). Minds and machines. In Hook (Ed.), Dimensions of Mind. NYU Press. Putnam, H. (1967). Psychological predicates. In Capitan & Merrill (Eds.), Art, Mind, and Religion. Pittsburgh UP (reprinted as “The nature of mental states”). https://philpapers.org/versions/PUTPP-2
+link: https://philpapers.org/versions/PUTPP-2
+further:
+- Bickle, J. Multiple Realizability. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/multiple-realizability/
+resp:
+- 'Kim, J. (1992). Multiple realization and the metaphysics of reduction. Philosophy and Phenomenological Research 52(1): 1–26. Accepts that multiple realization blocks a general reduction of psychology but argues for local, structure-specific reductions.'
+- 'Bechtel, W., & Mundale, J. (1999). Multiple realizability revisited: Linking cognitive and neural states. Philosophy of Science 66(2): 175–207. Argue that neuroscience’s cross-species successes, at a common grain of analysis, undercut the claim that radical multiple realizability blocks mind–brain identities. https://cambridge.org/core/journals/philosophy-of-science/article/multiple-realizability-revisited-linking-cognitive-and-neural-states/CE76AF4DF244DC284054E5FEFE9E82E1'
+- Polger, T., & Shapiro, L. (2016). The Multiple Realization Book. Oxford UP. Argue that the widespread multiple realization functionalism needs is not well supported empirically.
+note: ''
+see_also: []
+todo: SEP entries on functionalism and multiple realizability.
+ver: 'Pass 2 (checked via search): Putnam (1967, PhilPapers) and Bechtel & Mundale (Cambridge record) confirmed. Putnam (1960), Kim and Polger & Shapiro from memory. Link check (19 Nov 2026): book chapter, no DOI; PhilPapers record kept. Characterization check (19 Nov 2026): Kim, Bechtel & Mundale and Polger & Shapiro characterized as the SEP Multiple Realizability entry presents them. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Putnam (1967, PhilPapers) and Bechtel & Mundale (Cambridge record) confirmed. Putnam (1960), Kim and Polger & Shapiro from memory. Link check (19 Nov 2026): book chapter, no DOI; PhilPapers record kept. Characterization check (19 Nov 2026): Kim, Bechtel & Mundale and Polger & Shapiro characterized as the SEP Multiple Realizability entry presents them. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Index or catalogue record (links on to the publisher)
+- ''

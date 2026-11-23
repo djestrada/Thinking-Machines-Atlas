@@ -1,0 +1,27 @@
+id: '7.02'
+cluster: '7'
+thread: Meaning and grounding
+order: 2
+stance: Against
+arg: The octopus test
+target: Meaning; understanding
+scope: LLMs
+family: F07
+summary: A system trained only on linguistic form, like an octopus tapping a cable between two speakers, cannot learn meaning, since meaning links form to communicative intent and the world. It will fail where the link matters.
+orig: 'Bender, E. M., & Koller, A. (2020). Climbing towards NLU: On meaning, form, and understanding in the age of data. Proceedings of the 58th Annual Meeting of the ACL, 5185–5198. https://doi.org/10.18653/v1/2020.acl-main.463'
+link: https://doi.org/10.18653/v1/2020.acl-main.463
+further: []
+resp:
+- 'Piantadosi & Hill (2022), arXiv:2208.02957: the octopus test assumes that reference determines meaning, which they dispute. https://arxiv.org/abs/2208.02957'
+- 'Søgaard, A. (2023). Grounding the vector space of an octopus: Word meaning from raw text. Minds and Machines (published online January 2023). Takes aim at the view that computers cannot learn reference from raw text alone.'
+- Mollo, D. C., & Millière, R. (forthcoming). The vector grounding problem. Philosophy and the Mind Sciences; arXiv:2304.01481. https://arxiv.org/abs/2304.01481 (see 2.13).
+note: ''
+see_also: []
+todo: Confirm Søgaard’s volume, pages and DOI. Look for later empirical tests of the octopus scenario.
+ver: 'Pass 2 (checked via search): Bender & Koller (DOI, ACL Anthology), Piantadosi & Hill and Mollo & Millière confirmed. Søgaard seen only in a related-articles listing. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Bender & Koller (DOI, ACL Anthology), Piantadosi & Hill and Mollo & Millière confirmed. Søgaard seen only in a related-articles listing. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- volume, pages and DOI of one response not confirmed

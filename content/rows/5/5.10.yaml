@@ -1,0 +1,26 @@
+id: '5.10'
+cluster: '5'
+thread: Symbols or networks?
+order: 10
+stance: For
+arg: The systematicity challenge to connectionism (Fodor & Pylyshyn)
+target: Cognitive architecture
+scope: Neural networks; language models
+family: F27
+summary: 'Fodor and Pylyshyn argue that thought is systematic: anyone who can think “John loves Mary” can think “Mary loves John”. Classical symbol systems explain this because their representations have constituent structure; connectionist networks do not, unless they merely implement a classical architecture. They defend machine thought, but only of the classical kind. The argument has returned in debates over whether neural networks and language models generalize systematically.'
+orig: 'Fodor, J. A., & Pylyshyn, Z. W. (1988). Connectionism and cognitive architecture: A critical analysis. Cognition 28(1–2): 3–71. https://philarchive.org/rec/FODCAC'
+link: https://philarchive.org/rec/FODCAC
+further: []
+resp:
+- Smolensky (1988) argues that networks can support structure-sensitive processing at a subsymbolic level without becoming classical. https://doi.org/10.1017/S0140525X00052432
+- 'Lake, B. M., & Baroni, M. (2023). Human-like systematic generalization through a meta-learning neural network. Nature 623: 115–121. https://doi.org/10.1038/s41586-023-06668-3'
+note: Stance is For because Fodor and Pylyshyn defend machine thought of the classical kind. The argument counts against connectionist networks, current language models included, as models of thought; students filtering on For should read it with that in mind.
+see_also: []
+todo: ''
+ver: Fodor & Pylyshyn (PhilArchive record), Smolensky (journal DOI) and Lake & Baroni (journal and PMC records) confirmed 20 Nov 2026.
+ver_detail: Fodor & Pylyshyn (PhilArchive record), Smolensky (journal DOI) and Lake & Baroni (journal and PMC records) confirmed 20 Nov 2026.
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

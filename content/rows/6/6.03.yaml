@@ -1,0 +1,27 @@
+id: '6.03'
+cluster: '6'
+thread: The hard problem and its arguments
+order: 3
+stance: Against
+arg: Knowledge argument (Mary’s room)
+target: Consciousness
+scope: Machines generally
+family: F03
+summary: 'Mary knows all the physical facts about color vision but learns something new on first seeing red, so physical information is not all the information. Applied to AI: knowing everything about how a machine processes colour information would not by itself tell us whether it experiences colour.'
+orig: 'Jackson, F. (1982). Epiphenomenal qualia. Philosophical Quarterly 32(127): 127–136. https://doi.org/10.2307/2960077 Jackson, F. (1986). What Mary didn’t know. Journal of Philosophy 83(5): 291–295. Copy: https://openresearch-repository.anu.edu.au/entities/publication/c579f4cd-8f93-4b88-8799-42bdb70be501'
+link: https://doi.org/10.2307/2960077
+further:
+- 'Nida-Rümelin, M., & O Conaill, D. Qualia: The Knowledge Argument. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/qualia-knowledge/'
+resp:
+- 'Lewis (1988), What experience teaches; Nemirow (1990): the ability hypothesis.'
+- Jackson himself concluded in 1995 that something must be wrong with the argument, and later (2003, 2007) defended a representationalist view on which phenomenal states can be accounted for in physicalist terms.
+note: ''
+see_also: []
+todo: Verify details of the replies.
+ver: 'Pass 2 (checked via search): Jackson (1982) confirmed (DOI). The 1986 paper and the replies from memory. Characterization check (19 Nov 2026): date and nature of Jackson’s change of view corrected (1995, not c. 1998) against the SEP entry. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Jackson (1982) confirmed (DOI). The 1986 paper and the replies from memory. Characterization check (19 Nov 2026): date and nature of Jackson’s change of view corrected (1995, not c. 1998) against the SEP entry. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

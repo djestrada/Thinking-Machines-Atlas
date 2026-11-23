@@ -1,0 +1,30 @@
+id: '2.04'
+cluster: '2'
+thread: The Chinese Room and the replies (1980)
+order: 4
+stance: For
+arg: Robot reply
+target: Understanding; meaning
+scope: Digital computers; robots
+family: F07
+summary: Concede that a program shut in a room cannot understand. Put the computer in a robot with cameras, microphones and motors, so that its symbols are causally connected to the world. Those causal connections could supply the meanings and give it genuine understanding.
+orig: Stated and answered in Searle (1980), Minds, brains, and programs, BBS 3(3), 417–457 (see p. 420). https://doi.org/10.1017/S0140525X00005756
+link: https://doi.org/10.1017/S0140525X00005756
+further:
+- Crane, T. (1991). The Mechanical Mind. Penguin. According to the SEP entry on the Chinese Room, Crane’s discussion ends with a version of the robot reply.
+- Harnad (1991) develops the idea into the Total Turing Test (see 1.13). https://doi.org/10.1007/BF00360578
+- 'Mollo & Millière (2026), The vector grounding problem, Philosophy and the Mind Sciences 7(1): 1–28, https://doi.org/10.33735/phimisci.2026.12307 (arXiv:2304.01481). Argue that embodiment and multimodality are neither necessary nor sufficient for grounding. https://arxiv.org/abs/2304.01481'
+resp:
+- 'Searle (1980): the same experiment applies. Put the room inside the robot; the camera input and motor output are just more uninterpreted symbols to the man inside. Sensors add syntax, not semantics.'
+- 'Harnad’s verdict on the reply: it contained the seeds of an answer, but invoking sensors to strengthen the systems reply was the wrong use of them (Searle’s Chinese Room Argument, Macmillan Encyclopedia of Philosophy entry): https://eprints.soton.ac.uk/260424/1/chineseroom.html'
+note: Whether multimodal or robotic AI gets us any closer is the live form of this dispute. Mollo & Millière deny that embodiment is what matters; Cluster 4 gives the opposite, enactivist view.
+see_also:
+- '1.13'
+todo: ''
+ver: 'Searle 1980, Harnad 1991 and Mollo & Millière checked via search. Crane 1991 is from a SEP-derived snippet only. Renumbered 19 Nov 2026 (previously 2.08). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Searle 1980, Harnad 1991 and Mollo & Millière checked via search. Crane 1991 is from a SEP-derived snippet only. Renumbered 19 Nov 2026 (previously 2.08). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

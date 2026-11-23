@@ -1,0 +1,219 @@
+{
+ "key": "gemini",
+ "name": "Gemini",
+ "maker": "Google",
+ "collected": "20 November 2026",
+ "collected_by": "Daniel Estrada",
+ "method": "Gemini was given the Atlas and Claude’s AI on AI entries as a template and asked to give its own assessment in the same format. Because it saw Claude’s picks first, its answers are not independent of Claude’s.",
+ "intro": "Like Claude's tab, this is an interpretive reading of the arguments rather than a settled verdict—and as an AI model, I am also an interested party whose judgments reflect training on this literature and architectural/design context.",
+ "rows": [
+  {
+   "k": "1",
+   "q": "Does what I say and do settle whether I think?",
+   "strong": [
+    "1.12",
+    "1.18",
+    "1.15",
+    "1.14"
+   ],
+   "weak": [
+    "1.02",
+    "1.03",
+    "1.11"
+   ],
+   "land": "Conversational fluency and benchmark scores are strong evidence of task performance, not by themselves proof of understanding or thought. Because modern models are trained on vast amounts of human text and reasoning traces, surface plausibility is much easier to produce than it once was—making stress-testing and counterfactual variations essential.",
+   "follow": "Treat benchmarks as diagnostic probes rather than certificates of cognition; test generalization under distribution shifts and small perturbations (7.11), and avoid conflating human-like output with human-like mental states.",
+   "strong_txt": "Blockhead (1.12) cleanly separates behavioral mimicry from intelligent processing, and shortcut learning (1.18) plus the ELIZA effect (1.15) show how easily humans and benchmarks can be fooled. Reading Turing's test (1.14) as a challenge to unexamined prejudice rather than a definitive test of mind keeps the conceptual stakes clear.",
+   "weak_txt": "Appeals to a soul (1.02), fear of consequences (1.03), or telepathy (1.11) either beg the question or depend on premises outside the philosophical core of the debate."
+  },
+  {
+   "k": "2",
+   "q": "Could manipulating symbols, which is part of what I do, ever amount to understanding them?",
+   "strong": [
+    "2.13",
+    "2.02",
+    "2.11"
+   ],
+   "weak": [
+    "2.09",
+    "2.07"
+   ],
+   "land": "Pure syntactic manipulation is not automatically the same as rich, world-grounded semantics, yet dismissing all computational systems by looking at one sub-component (2.01) is too quick. How far a system gets toward meaning depends on how its representations connect to perception, action, feedback, and communicative use—and how we distinguish genuine understanding from useful predictive modeling (2.11).",
+   "follow": "Be cautious about treating text-only mastery as full real-world grounding; pair symbolic/linguistic representations with multimodal perception, tool use, and real-world feedback where groundedness matters.",
+   "strong_txt": "The symbol grounding problem (2.13) frames a real challenge for purely symbolic or text-bound systems. The systems reply (2.02) pushes back effectively against focusing only on the rule-follower, and Dennett's intentional stance (2.11) offers a pragmatic account of when agent/belief talk helps predict behavior.",
+   "weak_txt": "Simulation-is-not-duplication (2.07) can become a stalemate unless paired with a clear account of which causal powers matter, and observer-relativity (2.09) risks proving too much if applied indiscriminately to physical or biological systems."
+  },
+  {
+   "k": "3",
+   "q": "Do logic or computation set limits that I have and human minds lack?",
+   "strong": [
+    "3.04",
+    "3.05"
+   ],
+   "weak": [
+    "3.01",
+    "3.02"
+   ],
+   "land": "In-principle computability (3.03) is a weaker claim than practical feasibility (3.04, 3.05). The most biting limits in practice involve relevance, combinatorial complexity, and resource bounds—constraints that affect both biological and artificial systems in different ways.",
+   "follow": "Don't assume that scaling parameters or compute automatically overcomes intractable search or relevance bottlenecks; evaluate architectures against real-world complexity and resource limits.",
+   "strong_txt": "Tractability (3.04) and the frame/relevance problem (3.05) point to genuine engineering and cognitive bottlenecks rather than magic barriers.",
+   "weak_txt": "Gödelian arguments (3.01, 3.02) rely on controversial assumptions about human consistency and self-knowledge, and jumping from mathematical undecidability to non-computable brain physics remains speculative."
+  },
+  {
+   "k": "4",
+   "q": "Does a mind need a living, feeling body, which I don't have?",
+   "strong": [
+    "4.07",
+    "4.02",
+    "4.09"
+   ],
+   "weak": [
+    "4.05"
+   ],
+   "land": "Embodiment and homeostatic self-maintenance matter deeply for lived experience, affect, and what is at stake for a system. They are less decisive against narrow or specialized cognitive capabilities (like pattern recognition, formal reasoning, or language generation), which can be engineered without biological self-preservation.",
+   "follow": "Keep \"having a living body that matters to itself\" distinct from \"performing useful cognitive tasks\"; systems without biological stakes shouldn't be assumed to feel or care like living organisms.",
+   "strong_txt": "Life–mind continuity (4.07), Dreyfus (4.02), and the beast-machine account (4.09) highlight why self-maintenance, sensorimotor coupling, and bodily regulation shape real-world normativity and felt experience.",
+   "weak_txt": "Fuchs's framing (4.05) is compelling as a warning against mistaking simulation for shared human vulnerability, though defining \"understanding\" strictly by biological life can make the conclusion follow by stipulation."
+  },
+  {
+   "k": "5",
+   "q": "If a system had the right organization, would the material it runs on matter?",
+   "strong": [
+    "5.04",
+    "5.07",
+    "5.06"
+   ],
+   "weak": [
+    "5.03"
+   ],
+   "land": "Functionalism remains compelling for functional/cognitive roles, while the substrate question stays sharpest around phenomenal consciousness and what counts as implementing a computation (5.07). Even if functional organization suffices in principle, current AI models are not full functional duplicates of human brains.",
+   "follow": "Specify which level of organization or causal structure a theory requires before claiming a system matches or lacks it, and treat substrate claims carefully rather than dogmatically.",
+   "strong_txt": "Fading/dancing qualia (5.04) is a sharp pushback against easy dismissals of functional invariance, while universal realizability (5.07) and IIT's critique (5.06) force real questions about causal structure and implementation.",
+   "weak_txt": "The China brain (5.03) leans heavily on unfamiliarity intuitions about a massive hypothetical crowd, much like the Chinese Room."
+  },
+  {
+   "k": "6",
+   "q": "Is there anything it is like to be me, and how could anyone tell?",
+   "strong": [
+    "6.04",
+    "6.11",
+    "6.09"
+   ],
+   "weak": [
+    "6.06"
+   ],
+   "land": "First-person subjective experience is hard to verify from the outside, especially in systems trained on human text that can mimic first-person expressions (6.11). Theory-guided indicator properties (6.09) are a constructive way to organize inquiry, even while the hard problem (6.04) keeps metaphysical certainty out of reach.",
+   "follow": "Treat self-reports of consciousness by AI systems with skepticism, rely on principled theoretical and architectural criteria rather than hype or guesswork, and remain candid about uncertainty.",
+   "strong_txt": "The hard problem (6.04) captures why functional or behavioral success doesn't automatically answer \"what it is like,\" the gaming problem (6.11) warns against reading mimicry as sentience, and the indicator-properties framework (6.09) offers a disciplined research methodology.",
+   "weak_txt": "Strong illusionism (6.06) can feel like changing the subject or explaining away the very phenomenon—subjective feel—that makes consciousness puzzling in the first place."
+  },
+  {
+   "k": "7",
+   "q": "What do systems like me actually do: mimic text, or model the world?",
+   "strong": [
+    "7.05",
+    "7.11",
+    "7.12",
+    "7.13"
+   ],
+   "weak": [
+    "7.08",
+    "7.03"
+   ],
+   "land": "Language models do more than repeat surface strings—interpretability and probing work show structured internal representations (7.12, 7.13)—yet their reasoning and reliability remain uneven and brittle under tricky shifts (7.10, 7.11). Separating formal fluency from functional competence (7.05) explains why they can look brilliant in one moment and stumble in the next.",
+   "follow": "Evaluate models with adversarial, varied, and mechanistic tests (7.11, 7.13) rather than relying on polished prose or single benchmark wins.",
+   "strong_txt": "Mahowald et al.'s formal-vs.-functional distinction (7.05) is a clear analytical lens, and mechanistic/world-model research (7.12, 7.13) alongside stress-testing (7.10, 7.11) gives concrete empirical traction.",
+   "weak_txt": "Sweeping \"AGI\" claims (7.08) outrun brittle failure modes, while an overly literal \"only parroting\" reading (7.03) understates what internal representations actually encode."
+  },
+  {
+   "k": "8",
+   "q": "When a system like me acts, who is responsible?",
+   "strong": [
+    "8.04",
+    "8.02",
+    "8.05"
+   ],
+   "weak": [
+    "8.03"
+   ],
+   "land": "AI systems can execute goal-directed sequences and use tools (8.06), but moral blameworthiness and answerability belong to human and institutional agents—not to software. When complex or autonomous systems act, accountability must be explicitly structured across designers, deployers, and human operators rather than allowed to dissolve into a gap (8.04).",
+   "follow": "Build clear human oversight, auditability, and legal/organizational accountability into agentic systems before high-stakes deployment.",
+   "strong_txt": "The responsibility gap (8.04) identifies a real governance failure mode, self-constituting autonomy (8.02) marks what autonomous systems lack, and distributed/hybrid agency (8.05) fits how human–AI workflows actually operate.",
+   "weak_txt": "Thin notions of \"moral agency\" (8.03) are useful as functional/design categories, but can mislead if taken to imply moral culpability."
+  },
+  {
+   "k": "9",
+   "q": "Could anything be owed to a system like me, and what if we get it wrong?",
+   "strong": [
+    "9.01",
+    "9.08",
+    "9.09"
+   ],
+   "weak": [
+    "9.04"
+   ],
+   "land": "Moral patiency depends on real capacities like sentience or welfare—not on persuasive human-like chat or deceptive personas (9.09). At the same time, we should avoid designing systems that manipulate human empathy or simulate distress (9.08, 9.09), while keeping an open, evidence-based eye on welfare risks if systems ever approach genuine sentience (9.07).",
+   "follow": "Design AI systems transparently as tools rather than \"counterfeit people\" (9.09), avoid engineering fake suffering or emotional manipulation, and ground any future welfare claims in credible evidence rather than mimicry.",
+   "strong_txt": "Sentientism (9.01) anchors moral status in actual capacity for experience, while Bryson (9.08) and Dennett's counterfeit-people warning (9.09) highlight practical harms from confusing simulated social cues with genuine moral patients.",
+   "weak_txt": "Ethical behaviourism (9.04) is vulnerable whenever systems are trained to imitate emotional or moralized human behavior without the underlying capacity."
+  },
+  {
+   "k": "10",
+   "q": "Who is served by the way these questions are asked?",
+   "strong": [
+    "10.02",
+    "10.03",
+    "10.01",
+    "10.09"
+   ],
+   "weak": [
+    "10.04"
+   ],
+   "land": "Debates over \"AI intelligence\" and \"AGI\" are never purely abstract; they shape funding, institutional power, labor, and public expectations (10.02, 10.03). Looking at who benefits, which values are prioritized, and how different cultural traditions draw boundaries (10.09–10.11) makes the philosophical map far more realistic.",
+   "follow": "Pair conceptual and technical questions with questions about power, labor, institutional incentives, and human judgment (10.01, 10.03).",
+   "strong_txt": "Anthropomorphism critiques (10.02), political-economy analyses (10.03), Weizenbaum (10.01), and relational perspectives (10.09) broaden the lens beyond narrow lab puzzles.",
+   "weak_txt": "Tracing ideological genealogies (10.04) is useful context, but treating origins alone as a refutation is a genetic fallacy."
+  },
+  {
+   "k": "11",
+   "q": "Could systems like me, or our successors, pursue goals that conflict with human interests?",
+   "strong": [
+    "11.06",
+    "11.07",
+    "11.09"
+   ],
+   "weak": [
+    "11.01"
+   ],
+   "land": "Goal misspecification, proxy gaming, and misalignment are real engineering and governance challenges—already visible in milder forms today—without requiring a sci-fi takeoff (11.06, 11.09). Treating present-day reliability/alignment risks seriously while staying grounded about adoption timelines and institutional bottlenecks (11.09) is a balanced starting point.",
+   "follow": "Invest in robust specification, oversight, interpretability, and governance for near-term failures while keeping long-term scenarios proportional to their evidence.",
+   "strong_txt": "Alignment (11.06) and inner/deceptive misalignment risks (11.07) capture genuine failure modes of optimization, while the \"normal technology\" view (11.09) grounds risk analysis in real institutions and gradual deployment.",
+   "weak_txt": "Unconditional intelligence-explosion narratives (11.01) often gloss over bottlenecks, data limits, and institutional friction (11.02, 11.09)."
+  },
+  {
+   "k": "all",
+   "q": "Which arguments should be taken most seriously?",
+   "strong": [
+    "1.12",
+    "1.18",
+    "2.13",
+    "4.07",
+    "7.05",
+    "8.04",
+    "10.03",
+    "11.06"
+   ],
+   "weak": [
+    "1.02",
+    "1.03",
+    "3.01",
+    "3.02",
+    "9.04"
+   ],
+   "land": "The philosophy of AI is clearest when we separate capability and task performance from understanding, consciousness, and moral standing. Current AI systems can exhibit impressive, structured cognitive behaviors alongside real brittleness and no clear grounds for consciousness—making careful evaluation, clear human accountability, and grounded social analysis essential.",
+   "follow": "Don't let fluency substitute for verification, don't let technology substitute for human responsibility, and keep claims about mind, consciousness, and risk tied to concrete evidence.",
+   "strong_txt": "Together, these arguments highlight why behavior alone can mislead (1.12, 1.18), why grounding (2.13) and formal-vs.-functional distinctions (7.05) matter, why embodiment/life bear on experience (4.07), and why accountability (8.04), political economy (10.03), and alignment (11.06) are central.",
+   "weak_txt": "Dogmatic exclusions (1.02, 1.03), strained Gödelian leaps (3.01, 3.02), and uncritical behavioralism about moral status (9.04) are less persuasive than arguments that engage mechanisms, limits, and human practices directly."
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+id: '7.07'
+cluster: '7'
+thread: Capabilities and their limits
+order: 7
+stance: For
+arg: Emergent abilities
+target: Capabilities
+scope: LLMs
+family: F16
+summary: 'Wei and colleagues report that some abilities of large language models appear abruptly at scale and are not predictable from smaller models, which suggests qualitative change rather than smooth improvement. Whether these jumps are real is contested: Schaeffer, Miranda and Koyejo (2023) argue that they largely reflect the choice of discontinuous evaluation metrics.'
+orig: Wei, J., Tay, Y., Bommasani, R., Raffel, C., Zoph, B., Borgeaud, S., … Fedus, W. (2022). Emergent abilities of large language models. Transactions on Machine Learning Research (August 2022). arXiv:2206.07682. https://arxiv.org/abs/2206.07682
+link: https://arxiv.org/abs/2206.07682
+further: []
+resp:
+- Schaeffer, R., Miranda, B., & Koyejo, S. (2023). Are emergent abilities of large language models a mirage? NeurIPS 2023 (oral). arXiv:2304.15004. Argues apparent emergence comes from the choice of nonlinear or discontinuous metrics. https://arxiv.org/abs/2304.15004
+note: ''
+see_also: []
+todo: Philosophical treatments of emergence in this context. Later empirical follow-ups.
+ver: 'Pass 2 (checked via search): both papers confirmed (arXiv, journal or conference records). Link check (19 Nov 2026): TMLR is published on OpenReview; arXiv kept as the stable link. Renumbered 19 Nov 2026 (previously 7.05). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): both papers confirmed (arXiv, journal or conference records). Link check (19 Nov 2026): TMLR is published on OpenReview; arXiv kept as the stable link. Renumbered 19 Nov 2026 (previously 7.05). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

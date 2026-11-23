@@ -1,0 +1,30 @@
+id: '2.12'
+cluster: '2'
+thread: Intentionality and grounding
+order: 12
+stance: For
+arg: Naturalized semantics (informational and teleosemantic accounts)
+target: Meaning; intentionality
+scope: Machines generally
+family: F07
+summary: 'Mental content can be explained in non-mental terms: by causal-informational relations between states and what they track, or by the evolutionary or learning history that gave states their function. If so, intentionality is not a mysterious intrinsic property of brains. A machine with the right causal and historical relations to the world could have original content too.'
+orig: |-
+  Dretske, F. (1981). Knowledge and the Flow of Information. MIT Press / Blackwell.
+  Fodor, J. A. (1987). Psychosemantics. MIT Press.
+  Millikan, R. G. (1984). Language, Thought, and Other Biological Categories. MIT Press.
+link: ''
+further:
+- 'Mollo & Millière (2026), The vector grounding problem, Philosophy and the Mind Sciences 7(1): 1–28, https://doi.org/10.33735/phimisci.2026.12307. Draw on teleosemantic theories to argue that some LLMs can have referentially grounded internal states. https://arxiv.org/abs/2304.01481'
+resp:
+- Searle’s general line is that causal relations to the world do not add semantics to syntax; compare his reply to the robot reply (2.04).
+note: This is the main theoretical route for those who think LLMs can mean something. It shifts the question from “is there inner understanding?” to “what history and causal ties fix content?”
+see_also:
+- '2.04'
+todo: ''
+ver: 'Mollo & Millière checked via arXiv. Dretske and Fodor appear in reference lists only; Millikan from memory. Thin on objections. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Mollo & Millière checked via arXiv. Dretske and Fodor appear in reference lists only; Millikan from memory. Thin on objections. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- No free copy linked (book or paywalled)
+- ''

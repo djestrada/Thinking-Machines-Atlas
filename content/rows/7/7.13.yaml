@@ -1,0 +1,27 @@
+id: '7.13'
+cluster: '7'
+thread: Representation and mechanism
+order: 13
+stance: Deflationary
+arg: Mechanistic interpretability as evidence
+target: Understanding; representation
+scope: LLMs
+family: F17
+summary: Reverse-engineering the internal circuits and features of trained models gives direct evidence about what they compute, and may help settle disputes that behavioral tests cannot. Such findings show which computations underlie particular behaviors; they do not by themselves establish understanding or consciousness, and current methods explain only parts of what models do.
+orig: 'Olah, C., Cammarata, N., Schubert, L., Goh, G., Petrov, M., & Carter, S. (2020). Zoom in: An introduction to circuits. Distill 5(3): e00024.001. https://doi.org/10.23915/distill.00024.001 Elhage, N., et al. (2021). A mathematical framework for transformer circuits. https://transformer-circuits.pub/2021/framework/'
+link: https://doi.org/10.23915/distill.00024.001
+further: []
+resp:
+- 'Millière, R., & Buckner, C. (2024). A philosophical introduction to language models, Part II: The way forward. arXiv:2405.03207. Assesses interpretability and causal intervention methods philosophically. https://arxiv.org/abs/2405.03207'
+- Bolukbasi, T., et al. (2021). An interpretability illusion for BERT. arXiv:2104.07143. https://arxiv.org/abs/2104.07143
+- 'Turpin et al. (2023): see 7.11.'
+note: ''
+see_also: []
+todo: Verify Elhage et al. and Bolukbasi et al. Add methodological critiques of probing and circuit analysis.
+ver: 'Pass 2 (checked via search): Olah et al. (Distill record and DOI) and Millière & Buckner confirmed. Elhage et al. and Bolukbasi et al. unchecked. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Olah et al. (Distill record and DOI) and Millière & Buckner confirmed. Elhage et al. and Bolukbasi et al. unchecked. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

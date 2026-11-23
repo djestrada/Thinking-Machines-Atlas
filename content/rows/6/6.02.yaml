@@ -1,0 +1,28 @@
+id: '6.02'
+cluster: '6'
+thread: The hard problem and its arguments
+order: 2
+stance: Against
+arg: Zombie argument
+target: Consciousness
+scope: Machines generally
+family: F03
+summary: 'A being physically (or functionally) just like a conscious human but with no experience at all seems conceivable. If what is conceivable is possible, consciousness is not entailed by physical or functional organization. The idea goes back at least to Stout (1931) and Campbell’s “imitation man” (1970); Kirk (1974) gave early arguments for it and Chalmers (1996) developed the conceivability argument at length. Applied to AI: even a complete functional or physical specification of a machine would leave open whether it has any experience, and its behavior could not settle the question.'
+orig: 'Kirk, R. (1974). Zombies v. materialists (symposium with J. E. R. Squires). Proceedings of the Aristotelian Society, Supplementary Volume 48: 135–152. https://academic.oup.com/aristoteliansupp/article-abstract/48/1/135/1779753 Chalmers, D. J. (1996). The Conscious Mind. Oxford UP (ch. 3).'
+link: https://academic.oup.com/aristoteliansupp/article-abstract/48/1/135/1779753
+further:
+- Kirk, R. Zombies. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/zombies/
+resp:
+- 'Dennett, D. C. (1995). The unimagined preposterousness of zombies. Journal of Consciousness Studies 2(4): 322–326.'
+- Kirk himself later argued that zombies are not really conceivable (Kirk 2005, Zombies and Consciousness, Oxford UP).
+- 'Chalmers maintains a bibliography of zombie literature (“Zombies on the web”): https://consc.net/zombies/'
+note: ''
+see_also: []
+todo: Add the conceivability–possibility literature.
+ver: 'Pass 2 (checked via search): Kirk’s paper is listed in reference pages and Chalmers’s zombie bibliography; pages from memory. Dennett (1995) seen only as an uploaded copy. Link check (19 Nov 2026): Kirk (1974) now linked to the publisher (OUP). Characterization check (19 Nov 2026): origin of the idea and Kirk’s later view corrected against the SEP Zombies entry. Link check (19 Nov 2026): the OUP record lists the 1974 item as a symposium by Kirk and Squires; citation updated. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Kirk’s paper is listed in reference pages and Chalmers’s zombie bibliography; pages from memory. Dennett (1995) seen only as an uploaded copy. Link check (19 Nov 2026): Kirk (1974) now linked to the publisher (OUP). Characterization check (19 Nov 2026): origin of the idea and Kirk’s later view corrected against the SEP Zombies entry. Link check (19 Nov 2026): the OUP record lists the 1974 item as a symposium by Kirk and Squires; citation updated. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- one response seen only as a document copy

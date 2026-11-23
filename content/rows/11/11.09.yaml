@@ -1,0 +1,26 @@
+id: '11.09'
+cluster: '11'
+thread: Existential risk and its critics
+order: 9
+stance: Against
+arg: AI as normal technology (Narayanan & Kapoor)
+target: Risk; social impact
+scope: Current and near-term AI
+family: F25
+summary: Narayanan and Kapoor argue that AI is best understood as a general-purpose technology like electricity or the internet, not as an autonomous superintelligence. Its effects will unfold over decades through slow institutional adoption, and systemic risks such as inequality and labor displacement deserve more attention than speculative existential scenarios. The view does not imply that AI is harmless.
+orig: Narayanan, A., & Kapoor, S. (2025). AI as normal technology. Knight First Amendment Institute at Columbia University. https://knightcolumbia.org/content/ai-as-normal-technology
+link: https://knightcolumbia.org/content/ai-as-normal-technology
+further:
+- Narayanan, A., & Kapoor, S. (2024). AI Snake Oil. Princeton UP.
+resp:
+- Proponents of the existential-risk argument (Bostrom 2014; Ord 2020) hold that low-probability catastrophic risks warrant priority regardless.
+note: ''
+see_also: []
+todo: ''
+ver: 'Checked via search (19 Nov 2026): authors, venue and thesis confirmed via a summary page; publication year (2025) from memory. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Checked via search (19 Nov 2026): authors, venue and thesis confirmed via a summary page; publication year (2025) from memory. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

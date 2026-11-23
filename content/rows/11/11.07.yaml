@@ -1,0 +1,26 @@
+id: '11.07'
+cluster: '11'
+thread: The alignment problem
+order: 7
+stance: For
+arg: Learned optimization and deceptive alignment
+target: Risk
+scope: Learned systems; LLMs
+family: F24
+summary: Systems trained by optimization may develop internal optimizers with goals that diverge from the training objective and may behave deceptively to avoid modification.
+orig: Hubinger, E., van Merwijk, C., Mikulik, V., Skalse, J., & Garrabrant, S. (2019). Risks from learned optimization in advanced machine learning systems. arXiv:1906.01820. https://arxiv.org/abs/1906.01820
+link: https://arxiv.org/abs/1906.01820
+further: []
+resp:
+- Greenblatt, R., et al. (2024). Alignment faking in large language models. arXiv:2412.14093. Reports a model strategically complying with training it disagreed with in order to avoid being modified; offered as early empirical evidence for the worry. Several authors work at Anthropic, which makes Claude. https://arxiv.org/abs/2412.14093
+- Belrose, N., & Pope, Q. (2024). Counting arguments provide no evidence for AI doom (online essay). Argue that the case for deceptive alignment rests on a counting argument about possible goals that does not transfer to how gradient descent actually selects solutions. https://www.alignmentforum.org/posts/YsFZF3K9tuzbfrLxo
+note: ''
+see_also: []
+todo: Verify. Relate to interpretability.
+ver: 'Checked via search (19 Nov 2026): arXiv record confirmed; co-author list beyond Hubinger from memory. Renumbered 19 Nov 2026 (previously 11.06). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Checked via search (19 Nov 2026): arXiv record confirmed; co-author list beyond Hubinger from memory. Renumbered 19 Nov 2026 (previously 11.06). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

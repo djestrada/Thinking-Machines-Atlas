@@ -1,0 +1,26 @@
+id: '11.08'
+cluster: '11'
+thread: Existential risk and its critics
+order: 8
+stance: For
+arg: Existential risk from AI
+target: Risk
+scope: AI
+family: F24
+summary: 'Advanced AI could pose a risk to humanity’s survival or long-term prospects, and reducing that risk should be a global priority. This is the most demanding claim in the cluster: it depends on highly capable, goal-directed systems escaping human control, premises that other rows dispute.'
+orig: 'Bostrom, N. (2014). Superintelligence: Paths, Dangers, Strategies. Oxford UP. Ord, T. (2020). The Precipice. Bloomsbury. Center for AI Safety (2023). Statement on AI risk (one sentence: mitigating the risk of extinction from AI should be a global priority). https://safe.ai/work/statement-on-ai-risk'
+link: https://safe.ai/work/statement-on-ai-risk
+further: []
+resp:
+- 'Narayanan & Kapoor (2025): see 11.09.'
+- 'Critiques of the ideology behind existential-risk discourse: see the TESCREAL row in cluster 10 (10.04).'
+note: ''
+see_also: []
+todo: Verify. Source the academic critiques of the risk argument.
+ver: 'Checked via search (19 Nov 2026): the 2023 statement and its wording confirmed via several reports; its own web page not opened. Book citations standard. Renumbered 19 Nov 2026 (previously 11.05). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Checked via search (19 Nov 2026): the 2023 statement and its wording confirmed via several reports; its own web page not opened. Book citations standard. Renumbered 19 Nov 2026 (previously 11.05). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

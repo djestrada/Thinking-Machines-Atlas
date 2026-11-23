@@ -1,0 +1,28 @@
+id: '5.04'
+cluster: '5'
+thread: Thought experiments about functional duplicates
+order: 4
+stance: For
+arg: Fading and dancing qualia (organizational invariance)
+target: Consciousness
+scope: Machines generally
+family: F06
+summary: Replace neurons one at a time with functional duplicates. If experience faded or flickered while behavior stayed fixed, the subject would be badly wrong about their own experience without noticing. So experience is invariant under functional organization, and a silicon duplicate would be conscious.
+orig: Chalmers, D. J. (1995). Absent qualia, fading qualia, dancing qualia. In T. Metzinger (Ed.), Conscious Experience. Imprint Academic. https://consc.net/papers/qualia.html Chalmers, D. J. (1996). The Conscious Mind. Oxford UP (ch. 7).
+link: https://consc.net/papers/qualia.html
+further: []
+resp:
+- 'Pylyshyn, Z. (1980). The “causal power” of machines. Behavioral and Brain Sciences 3: 442–444 (commentary on Searle; an early replacement scenario). https://doi.org/10.1017/S0140525X0000594X'
+- 'Godfrey-Smith, P. (2016). Mind, matter, and metabolism. Journal of Philosophy 113(10): 481–506. Argues that the fine-grained physical activity of living cells matters for mind. Preprint: https://petergodfreysmith.com/metazoan.net/Mind_Matter_Metabolism_PGS_2015_preprint.htm'
+- Schneider, S. (2019). Artificial You. Princeton UP (the chip test).
+- Seth (2025), see 4.09, as a recent biological-naturalist reply.
+note: ''
+see_also: []
+todo: Verify. Add critical literature on the plausibility of the fading premises.
+ver: 'Pass 2 (checked via search): Chalmers (1995) and Godfrey-Smith (preprint and PhilPapers record) confirmed. Pylyshyn and Schneider from memory. Link check (19 Nov 2026): book chapter, no DOI; author’s page kept. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Chalmers (1995) and Godfrey-Smith (preprint and PhilPapers record) confirmed. Pylyshyn and Schneider from memory. Link check (19 Nov 2026): book chapter, no DOI; author’s page kept. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

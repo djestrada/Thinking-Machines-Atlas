@@ -1,0 +1,29 @@
+id: '1.09'
+cluster: '1'
+thread: Turing’s nine objections (1950)
+order: 9
+stance: Against
+arg: Argument from continuity in the nervous system
+target: Simulability
+scope: Digital computers
+family: F13
+summary: The nervous system is continuous while a digital computer is a discrete-state machine, so a digital computer cannot imitate it. Turing replies that a digital machine can approximate a continuous machine closely enough that an interrogator could not exploit the difference.
+orig: Turing (1950), §6, objection (7). https://doi.org/10.1093/mind/LIX.236.433
+link: https://doi.org/10.1093/mind/LIX.236.433
+further:
+- Maley, C. J. (2011). Analog and digital, continuous and discrete. Philosophical Studies 155.
+resp:
+- Turing (1950), §6(7), using the differential analyser as an example.
+- 'Whether analog computation goes beyond Turing computability: see 3.03 (hypercomputation).'
+note: Echoes current disputes over neuromorphic and analog hardware (see 5.06).
+see_also:
+- '3.03'
+- '5.06'
+todo: ''
+ver: 'Pass 1: from memory. Characterization check (19 Nov 2026): objection and reply compared with the SEP Turing Test entry (https://plato.stanford.edu/entries/turing-test/). Where the entry is silent (e.g., the “polite convention”, “rules of conduct” vs. “laws of behaviour”, the appeal to God’s omnipotence), the wording is Turing’s own. Renumbered 19 Nov 2026 (previously 1.16). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 1: from memory. Characterization check (19 Nov 2026): objection and reply compared with the SEP Turing Test entry (https://plato.stanford.edu/entries/turing-test/). Where the entry is silent (e.g., the “polite convention”, “rules of conduct” vs. “laws of behaviour”, the appeal to God’s omnipotence), the wording is Turing’s own. Renumbered 19 Nov 2026 (previously 1.16). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

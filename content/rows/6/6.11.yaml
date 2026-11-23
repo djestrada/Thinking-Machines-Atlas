@@ -1,0 +1,26 @@
+id: '6.11'
+cluster: '6'
+thread: Evidence and testing
+order: 11
+stance: Against
+arg: The gaming problem
+target: Evidence for sentience
+scope: LLMs and current AI
+family: F02
+summary: Systems trained on human-generated data may reproduce the behavioral markers we use to infer sentience without having it, so behavioral evidence is unreliable and invites gaming.
+orig: 'Birch, J. (2024). The Edge of Sentience: Risk and Precaution in Humans, Other Animals, and AI. Oxford University Press (open access). https://academic.oup.com/book/57949'
+link: https://academic.oup.com/book/57949
+further: []
+resp:
+- Related to the ELIZA effect (1.15) and shortcut learning (1.18).
+- Butlin et al. (6.09) try to work around it by looking at architecture.
+note: ''
+see_also: []
+todo: Birch’s proposals for non-gameable markers; verify any shorter articles.
+ver: 'Pass 2 (checked via search): the book and its open-access release confirmed (LSE, PhilArchive). Link check (19 Nov 2026): Birch now linked to the open-access book on OUP Academic. Renumbered 19 Nov 2026 (previously 6.07). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): the book and its open-access release confirmed (LSE, PhilArchive). Link check (19 Nov 2026): Birch now linked to the open-access book on OUP Academic. Renumbered 19 Nov 2026 (previously 6.07). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

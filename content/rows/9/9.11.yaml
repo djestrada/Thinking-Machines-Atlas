@@ -1,0 +1,26 @@
+id: '9.11'
+cluster: '9'
+thread: Relationships with machines
+order: 11
+stance: Against
+arg: Companion machines and deception (Sparrow & Sparrow)
+target: Care; companionship
+scope: Care robots; AI companions
+family: F29
+summary: 'Sparrow and Sparrow argue that using robots for the care and companionship of older people is ethically troubling: the comfort they give depends on people being deceived, or deceiving themselves, about what the machine is, and it risks reducing the human contact that care requires. The same worry now applies to AI companion apps.'
+orig: 'Sparrow, R., & Sparrow, L. (2006). In the hands of machines? The future of aged care. Minds and Machines 16: 141–161. https://doi.org/10.1007/s11023-006-9030-6 (author’s copy: https://robsparrow.com/wp-content/uploads/2006-Sparrow-In-The-Hands-Of-Machines.pdf)'
+link: https://doi.org/10.1007/s11023-006-9030-6
+further:
+- Turkle, S. (2011). Alone Together. Basic Books.
+resp:
+- Danaher (9.10) argues that robot friendship can have real value.
+note: ''
+see_also: []
+todo: ''
+ver: Journal DOI and author’s copy confirmed 20 Nov 2026.
+ver_detail: Journal DOI and author’s copy confirmed 20 Nov 2026.
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

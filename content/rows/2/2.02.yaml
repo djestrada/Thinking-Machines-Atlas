@@ -1,0 +1,30 @@
+id: '2.02'
+cluster: '2'
+thread: The Chinese Room and the replies (1980)
+order: 2
+stance: For
+arg: Systems reply
+target: Understanding
+scope: Digital computers
+family: F06
+summary: Searle in the room is only one part of a larger system that also includes the rulebook, the scratch paper and the database. Searle does not understand Chinese, but the system as a whole does. Understanding is a property of the whole running system, not of the component that executes the rules.
+orig: Stated and answered in Searle (1980), Minds, brains, and programs, Behavioral and Brain Sciences, 3(3), 417–457 (see pp. 419–420). Searle labels it the Berkeley reply; it was raised in discussion before the published commentaries. https://doi.org/10.1017/S0140525X00005756
+link: https://doi.org/10.1017/S0140525X00005756
+further:
+- Cole, D. The Chinese Room Argument. Stanford Encyclopedia of Philosophy. Treats the systems reply and its descendants. https://plato.stanford.edu/entries/chinese-room/
+- Preston, J., & Bishop, M. (Eds.) (2002). Views into the Chinese Room. Oxford University Press. https://philarchive.org/rec/PREVIT
+resp:
+- 'Searle (1980): let the man memorize the rulebook and do everything in his head; he is then the whole system and still understands no Chinese.'
+- 'Searle (1980): the reply has the absurd consequence that mind is everywhere, since many systems (even a stomach) can be described as processing information.'
+- Searle also says the reply begs the question by asserting that the system understands. A fuller statement of that rejoinder is in the SEP entry above.
+note: 'LLMs make the systems reply vivid: the unit that “understands,” if anything does, is the trained model running as a whole, not any single weight or operation.'
+see_also:
+- '2.06'
+todo: ''
+ver: 'Searle 1980 (DOI, text) and SEP entry checked via search. Searle’s three rejoinders are as reported in SEP, IEP and course notes seen in search results; the exact pages (419–420) are from SEP-derived text. Preston & Bishop is a listing only. Renumbered 19 Nov 2026 (previously 2.06). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Searle 1980 (DOI, text) and SEP entry checked via search. Searle’s three rejoinders are as reported in SEP, IEP and course notes seen in search results; the exact pages (419–420) are from SEP-derived text. Preston & Bishop is a listing only. Renumbered 19 Nov 2026 (previously 2.06). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

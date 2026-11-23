@@ -1,0 +1,26 @@
+id: '1.11'
+cluster: '1'
+thread: Turing’s nine objections (1950)
+order: 11
+stance: Against
+arg: Argument from extrasensory perception
+target: Validity of the test
+scope: Digital computers
+family: F26
+summary: If the interrogator or the human foil had telepathic powers, the imitation game would be compromised. Turing took the statistical evidence for telepathy seriously and proposed a telepathy-proof room.
+orig: Turing (1950), §6, objection (9). https://doi.org/10.1093/mind/LIX.236.433
+link: https://doi.org/10.1093/mind/LIX.236.433
+further:
+- Historical; little contemporary use.
+resp:
+- 'Turing (1950), §6(9): the telepathy-proof room. The premise is not accepted today.'
+note: A reminder of the period assumptions in the original paper.
+see_also: []
+todo: ''
+ver: 'Pass 1: from memory. Characterization check (19 Nov 2026): objection and reply compared with the SEP Turing Test entry (https://plato.stanford.edu/entries/turing-test/). Where the entry is silent (e.g., the “polite convention”, “rules of conduct” vs. “laws of behaviour”, the appeal to God’s omnipotence), the wording is Turing’s own. Renumbered 19 Nov 2026 (previously 1.18). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 1: from memory. Characterization check (19 Nov 2026): objection and reply compared with the SEP Turing Test entry (https://plato.stanford.edu/entries/turing-test/). Where the entry is silent (e.g., the “polite convention”, “rules of conduct” vs. “laws of behaviour”, the appeal to God’s omnipotence), the wording is Turing’s own. Renumbered 19 Nov 2026 (previously 1.18). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

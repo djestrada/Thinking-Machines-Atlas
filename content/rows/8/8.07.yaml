@@ -1,0 +1,24 @@
+id: '8.07'
+cluster: '8'
+thread: Distributed and artificial agency
+order: 6.5
+stance: For
+arg: Minimal agency in reinforcement learning systems (Butlin)
+target: Agency
+scope: Machines generally
+family: F18
+summary: 'Butlin argues that some artificial reinforcement learning systems meet plausible conditions for minimal agency: they learn from the outcomes of their actions and select actions in pursuit of goals, rather than merely responding. Agency in this thin sense need not involve consciousness or moral agency.'
+orig: 'Butlin, P. (2024). Reinforcement learning and artificial agency. Mind & Language 39(1): 22–38. https://doi.org/10.1111/mila.12458 Open copy: https://ora.ox.ac.uk/objects/uuid:9ad67f61-b7b0-46f3-ac81-2c65a8542f05'
+link: https://ora.ox.ac.uk/objects/uuid:9ad67f61-b7b0-46f3-ac81-2c65a8542f05
+further: []
+resp: []
+note: ''
+see_also: []
+todo: ''
+ver: ''
+ver_detail: ''
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

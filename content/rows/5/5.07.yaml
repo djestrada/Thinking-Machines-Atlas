@@ -1,0 +1,27 @@
+id: '5.07'
+cluster: '5'
+thread: What it is to implement a computation
+order: 7
+stance: Against
+arg: Universal realizability (triviality of computation)
+target: Computation
+scope: Digital computers
+family: F05
+summary: If computation is defined by mapping physical states onto formal states, nearly any sufficiently complex physical system implements nearly any computation, so “the brain implements program P” is trivially true and explains nothing.
+orig: 'Putnam, H. (1988). Representation and Reality. MIT Press (appendix: every ordinary open system realizes every abstract finite automaton). Searle (1990), Is the brain a digital computer? (see 2.09). https://philpapers.org/rec/SEAITB-2'
+link: https://philpapers.org/rec/SEAITB-2
+further: []
+resp:
+- 'Chalmers, D. J. (1996). Does a rock implement every finite-state automaton? Synthese 108(3): 309–333. Answers Putnam with a stricter, counterfactual account of implementation. https://consc.net/papers/rock.html'
+- 'Shagrir (2006): see 2.09.'
+- 'Piccinini, G. (2015). Physical Computation: A Mechanistic Account. Oxford UP. (Reviewed by Shagrir and by Rescorla: https://philsci-archive.pitt.edu/24297/)'
+note: ''
+see_also: []
+todo: Related literature on mechanistic accounts of computation.
+ver: 'Pass 2 (checked via search): Chalmers (1996, author’s page and Synthese record), Putnam’s appendix (via Chalmers) and Piccinini (via reviews) confirmed. Link check (19 Nov 2026): Chalmers (1996) now linked to Synthese (Springer); author’s copy kept in the text. Primary-link check (19 Nov 2026): the link pointed to Chalmers (1996), a response; it now points to Searle (1990), one of the original sources (Putnam 1988 is a book). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Chalmers (1996, author’s page and Synthese record), Putnam’s appendix (via Chalmers) and Piccinini (via reviews) confirmed. Link check (19 Nov 2026): Chalmers (1996) now linked to Synthese (Springer); author’s copy kept in the text. Primary-link check (19 Nov 2026): the link pointed to Chalmers (1996), a response; it now points to Searle (1990), one of the original sources (Putnam 1988 is a book). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Index or catalogue record (links on to the publisher)
+- ''

@@ -1,0 +1,26 @@
+id: '6.01'
+cluster: '6'
+thread: The hard problem and its arguments
+order: 1
+stance: Against
+arg: What it is like to be a bat
+target: Consciousness; subjectivity
+scope: Machines generally
+family: F03
+summary: Consciousness involves a subjective point of view that objective, third-personal accounts cannot capture, which makes it unclear how we could know what it is like to be a given machine.
+orig: 'Nagel, T. (1974). What is it like to be a bat? Philosophical Review 83(4): 435–450. https://www.jstor.org/stable/2183914'
+link: https://www.jstor.org/stable/2183914
+further: []
+resp:
+- Akins (1993), What is it like to be boring and myopic?, in Dahlbom (ed.), Dennett and His Critics, Blackwell.
+- Dennett (1991), Consciousness Explained.
+note: Marked Against because it questions whether objective accounts can capture experience; it does not by itself show that machines cannot be conscious.
+see_also: []
+todo: Recent discussions applying the question to LLMs.
+ver: 'Pass 2 (checked via search): Nagel (1974) confirmed via a copy of the Philosophical Review article. Akins (1993) from memory. Link check (19 Nov 2026): Nagel now linked to JSTOR; the previous copy’s address contained spaces and did not work as a link. Renumbered 19 Nov 2026 (previously 6.04). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Nagel (1974) confirmed via a copy of the Philosophical Review article. Akins (1993) from memory. Link check (19 Nov 2026): Nagel now linked to JSTOR; the previous copy’s address contained spaces and did not work as a link. Renumbered 19 Nov 2026 (previously 6.04). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Index or catalogue record (links on to the publisher)
+- ''

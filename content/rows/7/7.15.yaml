@@ -1,0 +1,25 @@
+id: '7.15'
+cluster: '7'
+thread: Assertion and testimony
+order: 15
+stance: Against
+arg: Language models as bullshitters
+target: Assertion and belief
+scope: LLMs
+family: F28
+summary: 'Hicks, Humphries and Slater argue that the false statements of ChatGPT and similar systems are better described as bullshit, in Harry Frankfurt’s sense, than as hallucinations or lies: the systems produce text with no concern for whether it is true. Calling errors “hallucinations” wrongly suggests a mind that perceives and misfires.'
+orig: 'Hicks, M. T., Humphries, J., & Slater, J. (2024). ChatGPT is bullshit. Ethics and Information Technology 26: 38. https://doi.org/10.1007/s10676-024-09775-5'
+link: https://doi.org/10.1007/s10676-024-09775-5
+further: []
+resp:
+- Cappelen and Dever (7.16) argue that AI outputs can have content and so can be true or false claims.
+note: ''
+see_also: []
+todo: ''
+ver: Journal record and DOI confirmed 20 Nov 2026 (open access).
+ver_detail: Journal record and DOI confirmed 20 Nov 2026 (open access).
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

@@ -1,0 +1,28 @@
+id: '3.06'
+cluster: '3'
+thread: Gödelian arguments
+order: 1.5
+stance: For
+arg: The standard reply to the Gödelian arguments
+target: Mathematical insight; mind
+scope: Digital computers (formal systems)
+family: F14
+summary: 'A reply to Lucas and Penrose. What we can see is only that if a formal system is consistent, its Gödel sentence is true, and a machine can prove that conditional too. To beat the machine we would have to know that the system is consistent, and nothing shows that we can know this of the system that would model us; human mathematicians are also fallible. Turing made a version of the point in 1950: Gödel limits any particular machine, but it has not been shown that the human intellect has no such limits. Putnam (1960) put it in terms of consistency, and Benacerraf (1967) argued that Lucas shows at most that, if we are machines, we cannot know which machine we are.'
+orig: 'Turing, A. M. (1950). Computing machinery and intelligence. Mind 59: 433–460, §6, objection (3). https://doi.org/10.1093/mind/LIX.236.433 Putnam, H. (1960). Minds and machines. In S. Hook (ed.), Dimensions of Mind, New York University Press, pp. 148–179. Benacerraf, P. (1967). God, the Devil, and Gödel. The Monist 51: 9–32.'
+link: https://iep.utm.edu/lp-argue/
+further:
+- 'Lucas–Penrose argument, Internet Encyclopedia of Philosophy: sets out the consistency reply and later versions of it. https://iep.utm.edu/lp-argue/'
+- Raatikainen, P. Gödel’s Incompleteness Theorems. Stanford Encyclopedia of Philosophy (section on minds and machines). https://plato.stanford.edu/entries/goedel-incompleteness/
+resp:
+- 'Lucas, J. R. (1968). Satan stultified: a rejoinder to Paul Benacerraf. The Monist 52: 145–158. Lucas’s reply to Benacerraf. Elsewhere Lucas grants that people are sometimes inconsistent, but holds that their inconsistencies are mistakes, not policies.'
+- Penrose (1994), Shadows of the Mind, replies that mathematicians’ mistakes can be corrected by their own standards, and that only what they grasp as unassailably true needs to be sound.
+note: Not an argument that machines think; it removes one argument that they cannot. Listed as For because it defends the possibility.
+see_also: []
+todo: ''
+ver: ''
+ver_detail: ''
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Encyclopedia entry open; originals may need library access
+- ''

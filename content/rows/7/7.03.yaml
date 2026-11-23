@@ -1,0 +1,28 @@
+id: '7.03'
+cluster: '7'
+thread: Meaning and grounding
+order: 3
+stance: Against
+arg: Stochastic parrots
+target: Understanding; meaning
+scope: LLMs
+family: F07
+summary: LLMs stitch together linguistic forms according to probabilities, without reference to meaning. Fluent output invites us to project understanding, and the systems carry social and environmental risks.
+orig: 'Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (FAccT ’21), 610–623. https://doi.org/10.1145/3442188.3445922'
+link: https://doi.org/10.1145/3442188.3445922
+further: []
+resp:
+- 'Mitchell, M., & Krakauer, D. C. (2023). The debate over understanding in AI’s large language models. PNAS 120(13): e2215907120. https://doi.org/10.1073/pnas.2215907120'
+- Piantadosi, S. T., & Hill, F. (2022). Meaning without reference in large language models. arXiv:2208.02957 (also NeurIPS 2022 workshop). Argues that LLMs likely capture important aspects of meaning as conceptual role. https://arxiv.org/abs/2208.02957
+- 'Sahlgren, M., & Carlsson, F. (2021). The singleton fallacy: Why current critiques of language models miss the point. Frontiers in Artificial Intelligence 4: 682578. Argues the critics assume that meaning and understanding are single uniform phenomena. https://doi.org/10.3389/frai.2021.682578'
+- Millière, R., & Buckner, C. (2024). A philosophical introduction to language models, Part I. arXiv:2401.03910. https://arxiv.org/abs/2401.03910
+note: ''
+see_also: []
+todo: Bender and colleagues’ replies to later critics. Check the paper’s “stochastic parrot” passage against how the term is used in the debate.
+ver: 'Pass 2 (checked via search): all four items confirmed against DOI, arXiv or journal records. Renumbered 19 Nov 2026 (previously 7.01). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): all four items confirmed against DOI, arXiv or journal records. Renumbered 19 Nov 2026 (previously 7.01). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

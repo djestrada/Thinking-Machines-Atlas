@@ -1,0 +1,30 @@
+id: '1.18'
+cluster: '1'
+thread: Behavioral evidence in practice
+order: 18
+stance: Against
+arg: Clever Hans / shortcut learning
+target: Intelligence; understanding
+scope: LLMs and current AI (machine learning)
+family: F02
+summary: Systems can score highly on benchmarks by exploiting unintended regularities that do not transfer to harder or different conditions, as the horse Clever Hans responded to cues from his questioner rather than doing arithmetic. High performance on a test is therefore not evidence of the intended capacity unless shortcuts are ruled out.
+orig: Geirhos, R., Jacobsen, J.-H., Michaelis, C., Zemel, R., Brendel, W., Bethge, M., & Wichmann, F. A. (2020). Shortcut learning in deep neural networks. Nature Machine Intelligence, 2(11), 665–673. https://doi.org/10.1038/s42256-020-00257-z
+link: https://doi.org/10.1038/s42256-020-00257-z
+further:
+- 'Lapuschkin et al. (2019), “Unmasking Clever Hans predictors and assessing what machines really learn,” Nature Communications 10: 1096. https://doi.org/10.1038/s41467-019-08987-4'
+- Millière & Buckner (2024), Part II, arXiv:2405.03207. Discusses benchmark saturation, gamification and construct validity. https://arxiv.org/abs/2405.03207
+- Jones & Bergen (2025) cite memorization and shortcut concerns as motivation for an interactive test. https://arxiv.org/abs/2503.23674
+resp:
+- 'Mainly methodological: out-of-distribution and adversarial testing; interpretability work on what models represent (Cluster 7).'
+- Geirhos et al. note shortcut learning also occurs in biological learners, a point that cuts against treating it as uniquely machine failure.
+note: Directly relevant to how to read LLM benchmark results, and a good bridge from behavioral criteria to the interpretability debates in Cluster 7.
+see_also:
+- '1.01'
+todo: ''
+ver: 'Geirhos et al. checked (DOI, publisher and repository records). Lapuschkin et al. [unchecked]. Millière & Buckner Part II checked via search. Renumbered 19 Nov 2026 (previously 1.09). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Geirhos et al. checked (DOI, publisher and repository records). Lapuschkin et al. [unchecked]. Millière & Buckner Part II checked via search. Renumbered 19 Nov 2026 (previously 1.09). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

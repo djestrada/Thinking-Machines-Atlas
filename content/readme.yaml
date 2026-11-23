@@ -1,0 +1,41 @@
+# Earlier README text still used by the workbook build.
+- 'Arguments For and Against Thinking Machines: a study resource'
+- 'Status: working draft. Clusters 1 and 2 are drafted at fuller depth (sources checked by search where marked). Clusters 3–10 are a pass 1 sketch (citations from memory, unchecked) with some of the author’s own citations checked. Cluster 11 is bracketed (see below).'
+- ''
+- How to read the table
+- 'Stance: For = supports machine thinking/mind/intelligence; Against = denies or doubts it; Deflationary = dissolves or reframes the question.'
+- 'Target: what the argument is about (thinking, understanding, consciousness, intelligence, agency, moral status). Many disputes are really about different targets.'
+- 'Scope: Machines generally / Digital computers / LLMs and current AI. Where an argument was written for one scope but is now applied to another, both are noted.'
+- 'Editorial note on current AI: Claude’s own synthesis for classroom discussion. It is NOT sourced and should be treated as a prompt for debate, not as scholarship.'
+- ''
+- Verification legend
+- Each row’s Verification column says what was checked. Citations marked [unchecked] were supplied from memory and have NOT yet been confirmed against a publisher, library or repository record; check them before distributing.
+- Links point to a DOI, repository or free full-text copy where one was found. Where no working link was verified, the cell says so.
+- ''
+- Cluster roadmap
+- 1. Behavioral and operational criteria (this draft)
+- '2. Searle and his critics: computation, meaning and intentionality (title provisional; see Families and Kernel tabs)'
+- 3. Formal and computational limits (Lucas–Penrose, Church–Turing, frame problem, complexity)
+- 4. Embodiment, enactivism, and life–mind continuity
+- 5. Functionalism and substrate (multiple realizability, China brain, qualia arguments, biological naturalism, IIT)
+- 6. Consciousness and sentience
+- 7. LLM-specific debates (stochastic parrots, octopus test, world models, emergence, simulators)
+- 8. Agency, autonomy, and normativity
+- 9. Moral status and welfare
+- 10. Critical and ideological approaches
+- '11. Intelligence explosion, orthogonality, and alignment (bracketed for now: some of these arguments assume machines can think, and others apply whether or not machines are intelligent)'
+- ''
+- 'Arguments deliberately deferred from Cluster 1: Searle’s Chinese Room (Cluster 2); the argument from informality of behavior and Dreyfus (Cluster 4); Gödelian arguments (Cluster 3); Birch’s “gaming problem” and Schwitzgebel on mimicry (Cluster 6); stochastic parrots and the octopus test (Cluster 7).'
+- null
+- Tabs
+- Each cluster has its own tab. “Stance” is For / Against / Deflationary and is colour-shaded; use the filter to isolate one side. Rows within a tab are grouped For, then Against, then Deflationary.
+- 'Relations: an edge list (from, relation, to) linking arguments within and across clusters. It is meant as raw material for diagrams of the whole structure.'
+- 'Existing surveys: scholarly overviews found so far that partly cover the same ground, with notes on how they relate to this table.'
+- 'Kernel: a provisional, editorial reading of the top-level questions that the families keep returning to.'
+- 'Families: groups of variants of the same argument, with a core claim for each. Each row on a cluster tab names its family. Cluster titles are provisional and may be replaced by debate-based titles once the kernel stabilizes.'
+- 'Pass system: pass 1 sketched the canonical arguments and sources from memory; pass 2 (blue column headers) checked citations by search and added links. Every row’s Verification column says what was confirmed and what is still from memory or marked [unchecked]. Where a checked source differed from the pass 1 recollection, the table follows the checked source (for example, Kosinski’s theory-of-mind paper was retitled and published in PNAS in 2024; the reply to Shojaee et al. now lists a single author). Link policy: the Primary link column points to the publisher’s page or DOI wherever one was confirmed; free copies (PhilArchive, author pages, repositories) are given alongside in the source text. Rows whose only version is a preprint or a book say so in the Verification column.'
+- Families, Kernel and Relations currently cover clusters 1–2 only and will be extended once more clusters have been checked.
+- null
+- Gap check (pass 2, step c)
+- 'Existing resources found so far (see Existing surveys): Horn et al. (1998), a set of seven argumentation maps of the “Can computers think?” debate with 800+ arguments; Dietrich et al. (2021), a book-length survey of the objections; Müller (2024), a structured overview; Millière & Buckner (2024) and Mitchell & Krakauer (2023) for LLMs; Cambridge Handbook (2014); and encyclopedia entries.'
+- 'What I have not found, in a limited search: a current, source-cited table that covers both sides, includes LLM-era and moral-status debates, and tags each argument’s scope. This is a claim about what I found, not proof that none exists; a further check of recent handbooks and PhilPapers is still to be done.'

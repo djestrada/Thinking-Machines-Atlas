@@ -1,0 +1,26 @@
+id: '9.08'
+cluster: '9'
+thread: Against treating machines as moral patients
+order: 8
+stance: Against
+arg: Robots should be slaves; patiency is not a virtue
+target: Moral status; design ethics
+scope: AI and robots
+family: F22
+summary: In a deliberately provocative argument, Bryson holds that machines are owned artifacts and should be designed as tools. Building systems that deserve moral consideration is an avoidable design mistake that diverts moral concern from humans.
+orig: 'Bryson, J. J. (2010). Robots should be slaves. In Y. Wilks (Ed.), Close Engagements with Artificial Companions, 63–74. John Benjamins. Bryson, J. J. (2018). Patiency is not a virtue: The design of intelligent systems and systems of ethics. Ethics and Information Technology 20(1): 15–26. https://doi.org/10.1007/s10676-018-9448-6 University record: https://researchportal.bath.ac.uk/en/publications/patiency-is-not-a-virtue-the-design-of-intelligent-systems-and-sy/'
+link: https://doi.org/10.1007/s10676-018-9448-6
+further: []
+resp:
+- Gunkel (2018), Robot Rights, MIT Press.
+- 'Coeckelbergh (2010), Robot rights? Towards a social-relational justification of moral consideration, Ethics and Information Technology 12: 209–221.'
+note: ''
+see_also: []
+todo: Verify.
+ver: 'Pass 2 (checked via search): Bryson (2018) confirmed (university record). The 2010 chapter is a standard citation, not separately searched. Link check (19 Nov 2026): Bryson (2018) now linked to the publisher DOI (Springer); university record kept in the text. Renumbered 19 Nov 2026 (previously 9.07). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Bryson (2018) confirmed (university record). The 2010 chapter is a standard citation, not separately searched. Link check (19 Nov 2026): Bryson (2018) now linked to the publisher DOI (Springer); university record kept in the text. Renumbered 19 Nov 2026 (previously 9.07). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''
