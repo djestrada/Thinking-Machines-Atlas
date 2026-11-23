@@ -76,7 +76,7 @@
 - - head
   - The Atlas
 - - text
-  - 'Thinking Machines Atlas, the interactive companion: https://claude.ai/artifact/PUiafw3rggoZgJVzAxoJji. The overview follows the five questions in order, with each argument placed under the answer it gives. Each cluster view shows its exchanges. The AI on AI page shows each model’s assessment and compares them. The Guide explains every mark and has a glossary.'
+  - 'Thinking Machines Atlas, the interactive companion: https://djestrada.github.io/Thinking-Machines-Atlas/. Source files, corrections and suggestions: https://github.com/djestrada/Thinking-Machines-Atlas. The overview follows the five questions in order, with each argument placed under the answer it gives. Each cluster view shows its exchanges. The AI on AI page shows each model’s assessment and compares them. The Guide explains every mark and has a glossary.'
 - - text
   - ''
 - - head

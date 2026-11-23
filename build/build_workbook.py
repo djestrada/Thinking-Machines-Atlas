@@ -52,7 +52,7 @@ if os.environ.get("BLIND") == "1":   # review copy: no model's AI on AI entries,
         if isinstance(l, list) and isinstance(l[1], str):
             if l[1].startswith("AI on AI:"):
                 l[1] = "AI on AI: in this review copy the tab holds only the empty template that each AI model fills in. No model’s entries are included."
-            l[1] = l[1].replace("Thinking Machines Atlas, the interactive companion: https://claude.ai/artifact/PUiafw3rggoZgJVzAxoJji.", "Thinking Machines Atlas, the interactive companion, supplied with this workbook.")
+            l[1] = l[1].replace("Thinking Machines Atlas, the interactive companion: https://djestrada.github.io/Thinking-Machines-Atlas/. Source files, corrections and suggestions: https://github.com/djestrada/Thinking-Machines-Atlas.", "Thinking Machines Atlas, the interactive companion, supplied with this workbook.")
 for line in _RD:
     kind, txt = (line if isinstance(line, list) else ["text", line])
     c = ws.cell(row=r, column=1, value=txt)

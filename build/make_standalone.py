@@ -1,6 +1,6 @@
 """Single self-contained copy of the Atlas: data inlined, with its own doctype and head."""
 import json, os
-html = open("site/index.html").read()
+html = open("_out/index_fragment.html").read()
 data = open(os.environ.get("ATLAS_JSON", "site/data.json")).read().replace("</", "<\\/")
 html = html.replace('fetch("data.json").then(r => r.json()).then(data => {',
                     'Promise.resolve(JSON.parse(document.getElementById("atlas-data").textContent)).then(data => {')
