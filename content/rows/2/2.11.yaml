@@ -1,0 +1,30 @@
+id: '2.11'
+cluster: '2'
+thread: Intentionality and grounding
+order: 11
+stance: Deflationary
+arg: The intentional stance
+target: Belief; meaning; intentionality
+scope: Machines generally
+family: F08
+summary: Dennett holds that to have beliefs and desires is to be a system whose behavior is reliably predicted by treating it as a rational agent with beliefs and desires, because that strategy tracks real patterns in what it does. He denies that there is a further, intrinsic fact of “original intentionality” beyond such patterns. This is a contested middle position, neither the view that beliefs are useful fictions nor the view that they are inner states independent of any interpretation. Applied to machines, the question becomes whether the stance works for them, and how well.
+orig: |-
+  Dennett, D. C. (1971). Intentional systems. Journal of Philosophy, 68(4), 87–106. https://www.pdcnet.org/jphil/content/jphil_1971_0068_0004_0087_0106
+  Dennett, D. C. (1987). The Intentional Stance. MIT Press.
+link: https://www.pdcnet.org/jphil/content/jphil_1971_0068_0004_0087_0106
+further:
+- Dennett, D. C. (1991). Real patterns. Journal of Philosophy, 88(1), 27–51. https://dl.tufts.edu/concern/pdfs/wp988x11s A realism about patterns that supports the stance.
+resp:
+- 'Searle (1980): intrinsic intentionality differs from the “as-if” intentionality we attribute to thermostats and computers. Attribution is not possession.'
+- The ELIZA effect (1.15) suggests that attribution can be cheaply induced, which some take to show the stance cannot discriminate real from apparent understanding.
+note: Related to the relational approaches to moral status in 9.03, which also treat status as conferred rather than discovered.
+see_also:
+- '2.12'
+todo: ''
+ver: 'Dennett 1971 checked (JSTOR-derived text; DOI from a library index). Dennett 1987 and 1991 are listing entries. Responses are partly my own synthesis. Link check (19 Nov 2026): the JSTOR DOI previously given could not be confirmed; the journal’s own host (Philosophy Documentation Center) used instead. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Dennett 1971 checked (JSTOR-derived text; DOI from a library index). Dennett 1987 and 1991 are listing entries. Responses are partly my own synthesis. Link check (19 Nov 2026): the JSTOR DOI previously given could not be confirmed; the journal’s own host (Philosophy Documentation Center) used instead. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

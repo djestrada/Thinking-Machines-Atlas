@@ -1,0 +1,30 @@
+id: '6.05'
+cluster: '6'
+thread: Explaining consciousness or explaining it away?
+order: 5
+stance: Against
+arg: Searle’s critique of Dennett on consciousness (the 1995 exchange)
+target: Consciousness; first-person ontology
+scope: Machines generally
+family: F09
+summary: Searle argues that Dennett’s Consciousness Explained explains consciousness away by redescribing it in third-person terms, denying the first-person ontology that is the very thing to be explained. Dennett replies that the view of an intrinsic, non-functional property is untenable and that Searle’s alternative is mysterious.
+orig: 'Searle, J. R. (1995). The mystery of consciousness (Parts I and II). New York Review of Books, 2 and 16 November 1995. Dennett, D. C., & Searle, J. R. (1995). The mystery of consciousness: An exchange. New York Review of Books, 21 December 1995.'
+link: ''
+further:
+- Searle, J. R. (1997). The Mystery of Consciousness. New York Review Books (with exchanges with Dennett and Chalmers).
+- Dennett, D. C. (1991). Consciousness Explained. Little, Brown.
+resp:
+- Dennett’s replies in the exchange (as above).
+- 'Illusionism, a later descendant of Dennett’s side: see 6.06.'
+note: 'A compact classroom case of the split at the top of the kernel: whether there is a further fact about consciousness that functional accounts miss.'
+see_also:
+- '2.11'
+- '5.05'
+todo: ''
+ver: 'Checked via search: the NYRB articles (2 November and 21 December 1995) and the 1997 book with the Dennett and Chalmers exchanges. Moved 19 Nov 2026 from cluster 2 to cluster 6: the exchange is about consciousness, not meaning. Renumbered 19 Nov 2026 (previously 2.13). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Checked via search: the NYRB articles (2 November and 21 December 1995) and the 1997 book with the Dennett and Chalmers exchanges. Moved 19 Nov 2026 from cluster 2 to cluster 6: the exchange is about consciousness, not meaning. Renumbered 19 Nov 2026 (previously 2.13). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- No free copy linked (book or paywalled)
+- ''

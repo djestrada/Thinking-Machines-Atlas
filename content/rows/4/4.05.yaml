@@ -1,0 +1,28 @@
+id: '4.05'
+cluster: '4'
+thread: Phenomenology and AI
+order: 5
+stance: Against
+arg: No understanding without a living, feeling partner (Fuchs)
+target: Understanding; subjectivity
+scope: Robots; chatbots; LLMs
+family: F11
+summary: Fuchs argues that understanding someone, as opposed to processing something, rests on the implicit assumption that our counterpart has subjectivity, and he ties subjectivity and consciousness to the aliveness of an organism. Artificial systems are not alive, so they can only simulate subjectivity, however convincing the simulation. He expects the line between simulated and real subjectivity to blur in practice, and argues against designing systems that systematically pretend to be subjects.
+orig: 'Fuchs, T. (2024). Understanding Sophia? On human interaction with artificial agents. Phenomenology and the Cognitive Sciences 23: 21–42 (online 2022). https://doi.org/10.1007/s11097-022-09848-0'
+link: https://doi.org/10.1007/s11097-022-09848-0
+further: []
+resp:
+- The ELIZA effect (1.15) and anthropomorphism critiques (10.02) make a similar empirical point about projection.
+- Functionalist and enactive-AI positions (5.01, 4.08) reject the claim that only living bodies can be subjects.
+note: ''
+see_also:
+- '4.07'
+- '4.09'
+todo: ''
+ver: 'Checked via search (19 Nov 2026): Fuchs’s thesis, concepts and citation (volume, pages, DOI) confirmed from the article itself. Renumbered 19 Nov 2026 (previously 4.09). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Checked via search (19 Nov 2026): Fuchs’s thesis, concepts and citation (volume, pages, DOI) confirmed from the article itself. Renumbered 19 Nov 2026 (previously 4.09). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

@@ -1,0 +1,36 @@
+id: '1.01'
+cluster: '1'
+thread: Turing’s imitation game (1950)
+order: 1
+stance: For
+arg: Turing Test (Imitation Game)
+target: Thinking / intelligence
+scope: Digital computers (Turing’s target); now routinely applied to LLMs
+family: F01
+summary: 'Turing proposes replacing the vague question “Can machines think?” with an imitation game: in a text-only conversation, will an interrogator be fooled by a machine as often as by a man pretending to be a woman? It is usually read as asking whether a machine can pass for a human. He predicted that in about fifty years an average interrogator would have no more than a 70 percent chance of making the right identification after five minutes of questioning, and he answered nine objections. The game itself is a proposal for what to ask. The further claim that passing it would warrant attributing thought rests on separate arguments, chiefly the appeal to other minds (1.06).'
+orig: Turing, A. M. (1950). Computing machinery and intelligence. Mind, 59(236), 433–460. https://doi.org/10.1093/mind/LIX.236.433
+link: https://doi.org/10.1093/mind/LIX.236.433
+further:
+- Jones & Bergen (2025), “Large language models pass the Turing test,” arXiv:2503.23674. GPT-4.5 with a persona prompt was judged human more often than the real human participants. https://arxiv.org/abs/2503.23674
+- 'Copeland (2000), “The Turing test,” Minds and Machines 10(4): 519–539. https://doi.org/10.1023/A:1011285919106'
+- 'Moor (2001), “The status and future of the Turing test,” Minds and Machines 11(1): 77–93. https://doi.org/10.1023/A:1011218925467'
+- 'Saygin, Cicekli & Akman (2000), “Turing test: 50 years later,” Minds and Machines 10(4): 463–518.'
+- 'Further reading: Estrada, D. (2018). Value alignment, fair play, and the rights of service robots. AIES ’18: 102–107. Reads Turing’s appeal to “fair play” for machines as bearing on value alignment. https://doi.org/10.1145/3278721.3278730'
+resp:
+- 'Block (1981): behavior is not sufficient. See 1.12.'
+- 'Searle (1980), “Minds, brains, and programs,” Behavioral and Brain Sciences 3(3): 417–457. A mindless symbol-manipulator could pass (Cluster 2).'
+- 'Hayes & Ford (1995), “Turing test considered harmful,” IJCAI-95, vol. 1: 972–977. Passing it is not a sensible goal for AI. https://courses.cs.umbc.edu/471/papers/hayes95.pdf'
+- 'French (1990), “Subcognition and the limits of the Turing test,” Mind 99: 53–66. The test probes human-specific subcognition.'
+- 'Harnad (1991): a verbal-only test is insufficient. See 1.13.'
+- 'Too easy (fallible judges) or too hard (machine must deceive): Gunderson, K. (1964), The imitation game, Mind 73: 234–245; French, R. M. (2000), The Turing Test: the first 50 years, Trends in Cognitive Sciences 4(3): 115–122; summarized in Jones & Bergen (2025).'
+note: 'LLMs now plausibly pass short, text-only versions. The live question shifts from “can anything pass?” to “what does passing show?”: intelligence, or substitutability and deception.'
+see_also:
+- '1.06'
+todo: ''
+ver: 'Turing, Jones & Bergen, Hayes & Ford, Copeland, Moor, Searle (existence) checked via search. French 1990 and Saygin 2000 checked only as bibliographic listings. Gunderson 1964 and French 2000 [unchecked]. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Turing, Jones & Bergen, Hayes & Ford, Copeland, Moor, Searle (existence) checked via search. French 1990 and Saygin 2000 checked only as bibliographic listings. Gunderson 1964 and French 2000 [unchecked]. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

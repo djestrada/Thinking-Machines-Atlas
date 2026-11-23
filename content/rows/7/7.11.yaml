@@ -1,0 +1,28 @@
+id: '7.11'
+cluster: '7'
+thread: Capabilities and their limits
+order: 11
+stance: Against
+arg: Reasoning or pattern matching?
+target: Reasoning
+scope: LLMs
+family: F02
+summary: 'Mirzadeh and colleagues find that models’ accuracy on grade-school math problems drops when names or numbers are changed, when an irrelevant clause is added, or as problems get longer. They read this as pattern matching rather than formal reasoning, though the two need not be exclusive: reasoning may itself be carried out by learned patterns. A follow-up by Shojaee and colleagues (2025) reported that reasoning models collapse on harder puzzles; Lawsen’s reply, listed under responses, targets that follow-up.'
+orig: |-
+  Mirzadeh, I., Alizadeh, K., Shahrokhi, H., Tuzel, O., Bengio, S., & Farajtabar, M. (2025). GSM-Symbolic: Understanding the limitations of mathematical reasoning in large language models. ICLR 2025. arXiv:2410.05229. https://arxiv.org/abs/2410.05229
+  Shojaee, P., Mirzadeh, I., Alizadeh, K., Horton, M., Bengio, S., & Farajtabar, M. (2025). The illusion of thinking: Understanding the strengths and limitations of reasoning models via the lens of problem complexity. NeurIPS 2025. arXiv:2506.06941. https://arxiv.org/abs/2506.06941
+link: https://arxiv.org/abs/2410.05229
+further: []
+resp:
+- Lawsen, A. (2025). Comment on “The illusion of thinking…”. arXiv:2506.09250. Argues the reported collapse reflects experimental design (output-token limits, unsolvable River Crossing instances, scoring that cannot tell failure from truncation). The first version circulated as “The illusion of the illusion of thinking” with Claude Opus credited as first author; the current arXiv version lists Lawsen alone, in line with arXiv policy. https://arxiv.org/abs/2506.09250
+- 'Turpin, M., Michael, J., Perez, E., & Bowman, S. R. (2023). Language models don’t always say what they think: Unfaithful explanations in chain-of-thought prompting. NeurIPS 2023. arXiv:2305.04388. Finds chain-of-thought explanations can be plausible yet misleading. https://arxiv.org/abs/2305.04388'
+note: ''
+see_also: []
+todo: Find further responses and replications.
+ver: 'Pass 2 (checked via search): Mirzadeh et al. (arXiv, ICLR), Shojaee et al. (arXiv, NeurIPS 2025), Lawsen (arXiv history) and Turpin et al. confirmed. Link check (19 Nov 2026): NeurIPS 2025 proceedings page not found; arXiv kept. Renumbered 19 Nov 2026 (previously 7.12). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Mirzadeh et al. (arXiv, ICLR), Shojaee et al. (arXiv, NeurIPS 2025), Lawsen (arXiv history) and Turpin et al. confirmed. Link check (19 Nov 2026): NeurIPS 2025 proceedings page not found; arXiv kept. Renumbered 19 Nov 2026 (previously 7.12). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

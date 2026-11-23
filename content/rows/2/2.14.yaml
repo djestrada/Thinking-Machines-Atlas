@@ -1,0 +1,28 @@
+id: '2.14'
+cluster: '2'
+thread: Wittgensteinian arguments
+order: 14
+stance: Deflationary
+arg: 'Wittgenstein: is “machines cannot think” an empirical claim?'
+target: Thinking; psychological concepts
+scope: Machines generally
+family: F04
+summary: 'Wittgenstein suggests that “a machine cannot think” is not an empirical discovery but a remark about how psychological concepts work: we ascribe thought and sensation to living human beings and to what resembles them in behavior. Readers divide over whether this rules machines out or leaves room for machines that come to share our form of life. Bennett and Hacker extend the point: such predicates apply to whole living beings, not to their parts.'
+orig: Wittgenstein, L. (1953). Philosophical Investigations, §281 and §§359–360.
+link: ''
+further:
+- 'Bennett, M. R., & Hacker, P. M. S. (2003). Philosophical Foundations of Neuroscience. Blackwell. Review: https://ndpr.nd.edu/news/philosophical-foundations-of-neuroscience/'
+resp:
+- Proudfoot, D. (2002). Wittgenstein’s anticipation of the Chinese Room. In Preston & Bishop (Eds.), Views into the Chinese Room. Oxford UP. Argues that the room’s Chinese outputs are not genuine speech acts (see 2.01).
+- 'Rapaport’s review of Views into the Chinese Room questions Proudfoot’s claim: https://cse.buffalo.edu/~rapaport/Papers/crareview.pdf'
+- Dennett’s intentional stance (2.11) takes the opposite view of how attributions work.
+note: ''
+see_also: []
+todo: ''
+ver: 'Checked via search (19 Nov 2026): Bennett & Hacker (NDPR review; the mereological fallacy confirmed) and Proudfoot (her claim confirmed via Rapaport’s review) checked. The Investigations section numbers are standard but from memory; the reading of §§359–360 is mine. Renumbered 19 Nov 2026 (previously 2.15). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Checked via search (19 Nov 2026): Bennett & Hacker (NDPR review; the mereological fallacy confirmed) and Proudfoot (her claim confirmed via Rapaport’s review) checked. The Investigations section numbers are standard but from memory; the reading of §§359–360 is mine. Renumbered 19 Nov 2026 (previously 2.15). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- No free copy linked (book or paywalled)
+- ''

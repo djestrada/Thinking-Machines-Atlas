@@ -1,0 +1,25 @@
+id: '3.04'
+cluster: '3'
+thread: Computability and complexity
+order: 4
+stance: Against
+arg: Computational intractability of learning human-level cognition
+target: Cognition; AGI via machine learning
+scope: LLMs and current AI
+family: F14
+summary: Van Rooij and colleagues prove that, under their formalization of the task, learning human-like cognitive capacities from data is computationally intractable in general. If the formalization fits, scaling learning systems will not by itself yield human-level cognition, and theories of cognition must respect tractability limits. Critics question whether worst-case results of this kind apply to the data and tasks AI systems actually face.
+orig: 'van Rooij, I. (2008). The tractable cognition thesis. Cognitive Science 32(6): 939–984. https://doi.org/10.1080/03640210801897856 van Rooij, I., Guest, O., Adolfi, F., de Haan, R., Kolokolova, A., & Rich, P. (2024). Reclaiming AI as a theoretical tool for cognitive science. Computational Brain & Behavior 7(4): 616–636. https://doi.org/10.1007/s42113-024-00217-5 https://www.dare.uva.nl/id/58d9c47d-d6b0-4e91-8169-594cc71acfd4 Cherniak, C. (1986). Minimal Rationality. MIT Press.'
+link: https://doi.org/10.1080/03640210801897856
+further: []
+resp:
+- 'Complexity-based points about Blockhead: Aaronson (2013), see 1.12.'
+note: ''
+see_also: []
+todo: Find replies to van Rooij et al. (2024).
+ver: 'Pass 2 (checked via search): van Rooij (2008, DOI) and van Rooij et al. (2024, university repositories) confirmed. Cherniak from memory. Renumbered 19 Nov 2026 (previously 3.05). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): van Rooij (2008, DOI) and van Rooij et al. (2024, university repositories) confirmed. Cherniak from memory. Renumbered 19 Nov 2026 (previously 3.05). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

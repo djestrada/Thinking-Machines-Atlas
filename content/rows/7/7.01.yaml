@@ -1,0 +1,28 @@
+id: '7.01'
+cluster: '7'
+thread: Meaning and grounding
+order: 1
+stance: For
+arg: Distributional semantics as meaning
+target: Meaning
+scope: LLMs
+family: F07
+summary: Much of what meaning consists in may be recoverable from patterns of use, so models trained on text can acquire substantial semantic competence without sensory grounding.
+orig: 'Harris, Z. S. (1954). Distributional structure. Word 10(2–3): 146–162. https://doi.org/10.1080/00437956.1954.11659520 Firth, J. R. (1957). A synopsis of linguistic theory, 1930–1955, in Studies in Linguistic Analysis, Blackwell. Copy: https://languagelog.ldc.upenn.edu/myl/Firth1957.pdf Wittgenstein, L. (1953). Philosophical Investigations. Boleda (2020) cites Harris (1954) as the source of the distributional hypothesis.'
+link: https://doi.org/10.1080/00437956.1954.11659520
+further: []
+resp:
+- 'Boleda, G. (2020). Distributional semantics and linguistic theory. Annual Review of Linguistics 6: 213–234. https://doi.org/10.1146/annurev-linguistics-011619-030303 (arXiv:1905.01896)'
+- Piantadosi & Hill (2022), arXiv:2208.02957. https://arxiv.org/abs/2208.02957
+- 'Sahlgren & Carlsson (2021): they see no theoretical reason why structural knowledge would be insufficient to count as “real” understanding. https://doi.org/10.3389/frai.2021.682578'
+- 'Opposing: Bender & Koller (7.02). Harnad, S. (2025). Language writ large: LLMs, ChatGPT, meaning, and understanding. Frontiers in Artificial Intelligence 7: 1490698 (arXiv:2402.02243, title there: Language Writ Large: LLMs, ChatGPT, Grounding, Meaning and Understanding). Argues that LLMs lack direct sensorimotor grounding. https://doi.org/10.3389/frai.2024.1490698'
+note: ''
+see_also: []
+todo: Verify Harris’s pages and Firth. Havlík, V. (2024), Meaning and understanding in large language models (seen in a related-articles list; venue to confirm). Millière & Buckner on semantic competence.
+ver: 'Pass 2 (checked via search): Boleda, Piantadosi & Hill, Sahlgren & Carlsson and Harnad confirmed. Harris, Firth and Wittgenstein from memory. Primary-link check (19 Nov 2026): the link pointed to Boleda (2020), a review; it now points to Harris (1954), confirmed via Scilit (Taylor & Francis DOI). Renumbered 19 Nov 2026 (previously 7.03). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Boleda, Piantadosi & Hill, Sahlgren & Carlsson and Harnad confirmed. Harris, Firth and Wittgenstein from memory. Primary-link check (19 Nov 2026): the link pointed to Boleda (2020), a review; it now points to Harris (1954), confirmed via Scilit (Taylor & Francis DOI). Renumbered 19 Nov 2026 (previously 7.03). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

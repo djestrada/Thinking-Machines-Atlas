@@ -1,0 +1,30 @@
+id: '1.16'
+cluster: '1'
+thread: Behavioral evidence in practice
+order: 16
+stance: For
+arg: The AI effect (moving goalposts)
+target: Intelligence (concept of)
+scope: Digital computers; LLMs
+family: F04
+summary: Whenever AI accomplishes something once thought to need intelligence (chess, translation, conversation), the accomplishment is reclassified as “mere computation”. On this view skeptics keep shifting the criterion for intelligence, so the denial of machine intelligence is unfalsifiable in practice.
+orig: |-
+  McCorduck, P. (2004). Machines who think (2nd ed.). A K Peters.
+  Hofstadter, D. R. (1979). Gödel, Escher, Bach. Basic Books (“Tesler’s theorem”).
+link: ''
+further:
+- 'Hauser (2001), “Look who’s moving the goal posts now,” Minds and Machines 11: 41–51.'
+resp:
+- 'A common reply: early proxies such as chess and conversation proved poor measures, so revising the criteria was rational rather than evasive. See 1.12, 1.18, 1.17.'
+note: Stance is For because the argument targets the skeptic’s grounds for denial; it does not by itself show that any behavior is enough for thought. The current debate over whether LLMs “really” understand is a prime case of this dispute, and a good prompt for asking what evidence could count against machine understanding.
+see_also:
+- '1.01'
+- '1.18'
+todo: ''
+ver: 'Weakest-sourced row. McCorduck and Hofstadter from memory [unchecked]. Hauser from a bibliography listing only. Renumbered 19 Nov 2026 (previously 1.11). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Weakest-sourced row. McCorduck and Hofstadter from memory [unchecked]. Hauser from a bibliography listing only. Renumbered 19 Nov 2026 (previously 1.11). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- No free copy linked (book or paywalled)
+- ''

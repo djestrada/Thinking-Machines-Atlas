@@ -1,0 +1,815 @@
+<meta charset="utf-8">
+<title>Thinking Machines Atlas</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Archivo+Narrow:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: the overview is a spine of questions read top to bottom, each with its answers as lanes; the cluster views are exchanges:
+   a contested claim at the top, moves that affirm it on the left, moves that deny it on the right, reframings in the middle, arrows for what answers what. */
+:root {
+  --bg: #f3f5f8; --surface: #ffffff; --ink: #17202b; --muted: #5a6675; --line: #d3d9e1; --band: #e9edf2;
+  --accent: #1f3864; --for: #2c8552; --against: #c24d2c; --defl: #78828f;
+  --for-soft: #e3f1e8; --against-soft: #f8e6e0; --defl-soft: #eceef1;
+  --e-oppose: #b2412a; --e-build: #2b6fa6; --e-respond: #17202b; --e-parallel: #8a94a2;
+  --c1: #2f62a8; --c2: #6d47a8; --c3: #4f5f74; --c4: #24807a; --c5: #9a6a1f; --c6: #a83f68;
+  --c7: #1f7aa8; --c8: #7a6a24; --c9: #3d7f3f; --c10: #8a4a2c; --c11: #a3343a;
+  --claude: #6b3fa0; --claude-soft: #f1ebf8; --aion: #3f4b5b; --aion-soft: #eef1f5; --mod2: #17796f; --mod3: #8a5a12; --mod4: #5a6675; --mod5: #a3365c; --mod6: #4a5bb0; --mod7: #8a6d12;
+  --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --narrow: "Archivo Narrow", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --body: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f1318; --surface: #171d25; --ink: #e5eaf0; --muted: #97a2b0; --line: #2b3440; --band: #141a21;
+  --accent: #9bb7ea; --for: #4cb57a; --against: #e8774f; --defl: #9aa4b1;
+  --for-soft: #18291f; --against-soft: #2c1c17; --defl-soft: #1d232b;
+  --e-oppose: #e8774f; --e-build: #6fa8dc; --e-respond: #e5eaf0; --e-parallel: #7d8896;
+  --c1: #6f9be0; --c2: #a786de; --c3: #95a3b6; --c4: #5bc0b6; --c5: #d6a24f; --c6: #e07aa2;
+  --c7: #5fb2de; --c8: #c4b15a; --c9: #79c07b; --c10: #d58a66; --c11: #e57379; --claude: #b99be8; --claude-soft: #231b30; --aion: #b4bfcc; --aion-soft: #1d232c; --mod2: #5cc4b8; --mod3: #d9a54e; --mod4: #a0aab8; --mod5: #e48aa8; --mod6: #9aa6e8; --mod7: #d6b45a; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0f1318; --surface: #171d25; --ink: #e5eaf0; --muted: #97a2b0; --line: #2b3440; --band: #141a21;
+  --accent: #9bb7ea; --for: #4cb57a; --against: #e8774f; --defl: #9aa4b1;
+  --for-soft: #18291f; --against-soft: #2c1c17; --defl-soft: #1d232b;
+  --e-oppose: #e8774f; --e-build: #6fa8dc; --e-respond: #e5eaf0; --e-parallel: #7d8896;
+  --c1: #6f9be0; --c2: #a786de; --c3: #95a3b6; --c4: #5bc0b6; --c5: #d6a24f; --c6: #e07aa2;
+  --c7: #5fb2de; --c8: #c4b15a; --c9: #79c07b; --c10: #d58a66; --c11: #e57379; --claude: #b99be8; --claude-soft: #231b30; --aion: #b4bfcc; --aion-soft: #1d232c; --mod2: #5cc4b8; --mod3: #d9a54e; --mod4: #a0aab8; --mod5: #e48aa8; --mod6: #9aa6e8; --mod7: #d6b45a; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 1720px; margin: 0 auto; padding-block: 28px 60px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header h1 { font-family: var(--display); font-weight: 800; font-size: clamp(26px, 3.4vw, 40px); letter-spacing: -0.01em; margin: 0 0 6px; text-wrap: balance; }
+header p { margin: 0; max-width: 76ch; color: var(--muted); }
+header p + p { margin-top: 6px; font-size: 13.5px; }
+nav.views { display: flex; flex-wrap: wrap; gap: 6px; margin: 22px 0 14px; }
+nav.views button { font-family: var(--narrow); font-weight: 600; font-size: 13.5px; border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+  padding: 5px 10px 5px 8px; border-radius: 4px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+nav.views button .sw { width: 9px; height: 9px; border-radius: 2px; background: var(--accent); }
+nav.views button[aria-current="true"] { border-color: var(--ink); box-shadow: inset 0 -2px 0 var(--ink); }
+nav.views .later { opacity: .62; }
+button:focus-visible, .chip:focus-visible, .arg:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.layout { display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; }
+@media (min-width: 1240px) { .layout { grid-template-columns: minmax(0, 1fr) 360px; } }
+main { min-width: 0; display: grid; gap: 0; }
+.plate { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; min-width: 0; }
+.plate-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 18px; padding: 14px 16px 6px; }
+.plate-head h2 { font-family: var(--display); font-weight: 700; font-size: 19px; margin: 0; }
+.plate-head .sub { color: var(--muted); font-size: 13.5px; max-width: 80ch; }
+.scroll { overflow-x: auto; padding: 0 8px 10px; }
+svg { display: block; }
+svg text { font-family: var(--narrow); fill: var(--ink); }
+
+/* argument chips, shared by every view */
+.arg { all: unset; box-sizing: border-box; cursor: pointer; display: inline-flex; align-items: baseline; gap: 5px; font-family: var(--narrow); font-size: 13px; line-height: 1.25;
+  padding: 3px 7px 3px 6px; border-radius: 3px; background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--defl); max-width: 100%; }
+.arg .aid { font-family: var(--mono); font-size: 11px; color: var(--muted); flex: none; }
+.arg span:last-child { min-width: 0; overflow-wrap: break-word; white-space: normal; }
+.rung-h .arg { min-width: 0; }
+.arg.For { border-left-color: var(--for); } .arg.Against { border-left-color: var(--against); } .arg.Deflationary { border-left-color: var(--defl); }
+.arg.sel { outline: 2px solid var(--ink); outline-offset: 1px; }
+.dim .arg:not(.lit) { opacity: .22; }
+.arg.lit { box-shadow: 0 0 0 2px var(--accent); }
+@media (prefers-reduced-motion: no-preference) { .arg, .move, .arrow { transition: opacity .16s ease; } }
+.chips { display: flex; flex-wrap: wrap; gap: 5px; }
+
+/* overview: the spine */
+.lens { padding: 14px 16px 16px; border-top: 1px solid var(--line); background: var(--band); border-radius: 0 0 6px 6px; }
+.lens summary { cursor: pointer; font-family: var(--narrow); font-weight: 600; font-size: 14px; }
+.lens .row { display: grid; gap: 6px; margin-top: 10px; }
+.lens h4 { margin: 0; font-family: var(--narrow); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.chip { font-family: var(--narrow); font-size: 13px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); padding: 3px 8px; border-radius: 3px; cursor: pointer; }
+.chip b { font-family: var(--mono); font-weight: 500; font-size: 11.5px; margin-right: 4px; color: var(--muted); }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.chip[aria-pressed="true"] b { color: var(--bg); }
+.spine { padding: 6px 16px 22px; }
+.q { display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 0 14px; }
+.qkey { grid-row: span 3; font-family: var(--display); font-weight: 800; font-size: 34px; line-height: 1; color: var(--accent); padding-top: 18px; text-align: right; }
+.qkey.frame { font-size: 17px; padding-top: 26px; letter-spacing: .02em; }
+.q h2 { font-family: var(--display); font-weight: 800; font-size: clamp(20px, 2.1vw, 26px); margin: 18px 0 2px; text-wrap: balance; }
+.q .lede { margin: 0 0 12px; color: var(--muted); max-width: 78ch; }
+.lanes { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 10px; }
+.lane { background: var(--band); border-radius: 5px; padding: 10px 12px 12px; display: grid; gap: 8px; align-content: start; min-width: 0; }
+.lane h3 { margin: 0; font-family: var(--narrow); font-weight: 600; font-size: 14.5px; line-height: 1.25; }
+.lane .note { margin: 0; font-size: 13.5px; color: var(--muted); }
+.next { display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 0 14px; margin: 14px 0 4px; }
+.next .stem { justify-self: end; width: 34px; display: flex; justify-content: center; }
+.next .stem svg { overflow: visible; }
+.next p { margin: 0; font-style: italic; font-size: 14.5px; max-width: 80ch; padding: 6px 0; border-top: 1px dashed var(--line); }
+.ladder { display: grid; gap: 0; }
+.sidelab { font-family: var(--narrow); font-size: 11.5px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+.cbtn { all: unset; cursor: pointer; font-family: var(--mono); font-size: 11px; padding: 0 5px; border-radius: 8px; border: 1.4px solid; }
+.gate { display: grid; grid-template-columns: minmax(0,1.3fr) minmax(0,1.6fr) minmax(0,1fr); gap: 8px 14px; align-items: start; background: transparent; border: 1px dashed var(--muted); border-radius: 5px; padding: 10px; margin-bottom: 14px; }
+.gate .ghead { grid-column: 1 / -1; display: grid; gap: 4px; }
+.gate .greply { margin: 2px 0 0; font-size: 12.5px; color: var(--muted); font-style: italic; }
+.gate .chips { flex-direction: row !important; flex-wrap: wrap; align-items: flex-start !important; }
+.gate h3, .rhead h3 { margin: 0; font-family: var(--narrow); font-weight: 600; font-size: 15px; line-height: 1.2; }
+.lad-h { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 8px; }
+.rung-h { background: var(--band); border-radius: 5px; padding: 10px; display: grid; gap: 7px; align-content: start; min-width: 0; }
+.rung-h h3 { margin: 0; font-family: var(--narrow); font-weight: 600; font-size: 15px; line-height: 1.2; }
+.rung-h .why { overflow-wrap: break-word; margin: 0; font-size: 12.5px; line-height: 1.35; color: var(--muted); font-style: italic; }
+.rung-h .chips { flex-direction: column; align-items: stretch; }
+.rung-h .cl { display: flex; gap: 4px; flex-wrap: wrap; }
+.rung-h .arg { flex-direction: column; align-items: flex-start; gap: 0; }
+.ladder-axis { margin-top: 8px; font-family: var(--narrow); font-size: 12.5px; color: var(--muted); }
+.ladder-axis .ax { display: flex; align-items: center; gap: 8px; }
+.ladder-axis .ax i { flex: 1; height: 0; border-top: 1.5px solid var(--muted); position: relative; }
+.ladder-axis .ax i::after { content: ""; position: absolute; right: -1px; top: -5px; border: 4.5px solid transparent; border-left: 7px solid var(--muted); }
+.ladder-more { margin-top: 6px; }
+.gsec .ladp { margin: 0 0 10px; max-width: 85ch; }
+.gsec .ladp b { font-family: var(--narrow); }
+.idl { all: unset; cursor: pointer; font-family: var(--mono); font-size: .88em; color: var(--accent); border-bottom: 1px dotted var(--accent); }
+.idl:focus-visible { outline: 2px solid var(--accent); }
+@media (max-width: 1600px) { .lad-h { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 760px) { .lad-h { grid-template-columns: repeat(2, minmax(0, 1fr)); } .gate { grid-template-columns: minmax(0,1fr); } .gate .ghead { grid-column: auto; } }
+
+/* exchanges */
+.ex { border-top: 1px solid var(--line); padding: 16px 16px 20px; }
+.ex:first-of-type { border-top: 0; }
+.ex h3.ext { font-family: var(--display); font-weight: 700; font-size: 18px; margin: 0 0 10px; }
+.ex h3.ext span { font-family: var(--mono); font-weight: 500; font-size: 13px; color: var(--muted); margin-right: 8px; }
+.field-scroll { overflow-x: auto; }
+.field { position: relative; min-width: 940px; padding: 0 40px; }
+.claim { margin: 0 auto 8px; max-width: 520px; text-align: center; border: 2px solid var(--ink); border-radius: 6px; padding: 10px 16px; background: var(--surface); position: relative; z-index: 1; }
+.claim .lab { font-family: var(--narrow); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); }
+.claim p { margin: 2px 0 0; font-family: var(--display); font-weight: 700; font-size: 16.5px; line-height: 1.3; text-wrap: balance; }
+.colheads { display: grid; grid-template-columns: 1fr 0.8fr 1fr; gap: 0 64px; margin: 14px 0 6px; font-family: var(--narrow); font-weight: 600; font-size: 13px; }
+.colheads div { border-top: 4px solid; padding-top: 4px; }
+.moves { display: grid; grid-template-columns: 1fr 0.8fr 1fr; gap: 0 64px; align-items: start; position: relative; z-index: 1; }
+.mcol { display: flex; flex-direction: column; min-width: 0; }
+.move { align-self: start; background: var(--surface); border: 1px solid var(--line); border-radius: 5px; padding: 8px 10px 9px; min-width: 0; cursor: pointer; }
+.move.A { border-top: 3px solid var(--for); } .move.D { border-top: 3px solid var(--against); } .move.M { border-top: 3px solid var(--defl); }
+.move .mh { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; }
+.move .num { font-family: var(--mono); font-size: 11.5px; color: var(--muted); }
+.move .type { font-family: var(--narrow); font-weight: 600; font-size: 11.5px; text-transform: uppercase; letter-spacing: .05em; }
+.move.A .type { color: var(--for); } .move.D .type { color: var(--against); } .move.M .type { color: var(--defl); }
+.move .who { font-family: var(--narrow); font-weight: 600; font-size: 14px; line-height: 1.25; margin-top: 2px; }
+.move .who .aid { font-family: var(--mono); font-size: 11.5px; color: var(--muted); font-weight: 500; margin-right: 4px; }
+.move .gist { margin: 3px 0 0; font-size: 13.5px; line-height: 1.4; }
+.move.sel { outline: 2px solid var(--ink); }
+.arrow { opacity: .32; }
+.field.hov .arrow.hl { opacity: 1; }
+.field.hov .move:not(.hl) { opacity: .3; }
+.field.hov .arrow:not(.hl) { opacity: .06; }
+.bundle { cursor: default; }
+.bundle .grp { margin-top: 8px; }
+.bundle .grp h5 { margin: 0 0 4px; font-family: var(--narrow); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+.sub { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1px; padding: 5px 7px; border-radius: 4px; cursor: pointer; }
+.sub + .sub { margin-top: 3px; }
+.sub:hover, .sub.sel { background: var(--against-soft); }
+.sub .who { font-size: 13.5px; }
+.sub .rep { font-size: 13px; color: var(--muted); line-height: 1.35; }
+.sub .rep b { font-weight: 600; color: var(--ink); }
+.passes { display: inline-flex; gap: 4px; flex-wrap: wrap; margin-left: 4px; }
+.outcome { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 12px 24px; margin-top: 16px; padding-top: 12px; border-top: 2px solid var(--ink); }
+@media (max-width: 760px) { .outcome { grid-template-columns: 1fr; } }
+.outcome h4 { margin: 0 0 4px; font-family: var(--narrow); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); }
+.outcome p { margin: 0; font-size: 14.5px; }
+.handoffs { display: grid; gap: 5px; }
+.handoff { all: unset; cursor: pointer; display: flex; gap: 8px; align-items: baseline; font-family: var(--narrow); font-size: 13.5px; line-height: 1.3; }
+.handoff .tag { font-family: var(--mono); font-size: 11.5px; padding: 0 6px; border-radius: 9px; border: 1.4px solid; white-space: nowrap; }
+.handoff .why { color: var(--muted); }
+.handoff:hover .nm, .handoff:focus-visible .nm { text-decoration: underline; }
+.arrows { position: absolute; inset: 0; pointer-events: none; z-index: 0; overflow: visible; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; padding: 6px 16px 14px; font-family: var(--narrow); font-size: 13px; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.ln { width: 22px; height: 0; border-top: 2px solid; display: inline-block; }
+.notice { margin: 0 16px 12px; padding: 8px 12px; border-left: 3px solid var(--accent); background: var(--band); font-size: 14px; }
+.sits { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; padding: 0 16px 10px; font-family: var(--narrow); font-size: 13px; color: var(--muted); }
+
+/* AI on AI */
+.aion-intro summary { cursor: pointer; font-family: var(--narrow); font-weight: 600; font-size: 13.5px; color: var(--aion); }
+.aion-intro[open] summary { margin-bottom: 4px; }
+.aion-intro { margin: 4px 16px 14px; padding: 10px 14px; border-left: 4px solid var(--aion); background: var(--aion-soft); font-size: 14.5px; max-width: 100ch; }
+.aion-top { margin: 0 16px 18px; padding: 14px; border: 2px solid var(--aion); border-radius: 6px; display: grid; gap: 8px; }
+.aion-top h3 { margin: 0; font-family: var(--display); font-weight: 700; font-size: 17px; }
+.aion-top p { margin: 0; font-size: 14.5px; }
+.aion-axis { display: grid; grid-template-columns: 190px minmax(0,1fr) minmax(0,1.35fr) minmax(0,1fr); gap: 0 14px; padding: 0 16px; font-family: var(--narrow); font-size: 12.5px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+.aion-axis .bar { grid-column: 2 / 5; display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+.aion-axis .bar i { flex: 1; height: 0; border-top: 1.5px solid var(--muted); position: relative; }
+.aion-axis .bar i::after { content: ""; position: absolute; right: -1px; top: -5px; border: 4.5px solid transparent; border-left: 7px solid var(--muted); }
+.aion-heads { display: grid; grid-template-columns: 190px minmax(0,1fr) minmax(0,1.35fr) minmax(0,1fr); gap: 0 14px; padding: 0 16px 6px; font-family: var(--narrow); font-weight: 600; font-size: 13px; }
+.aion-row { display: grid; grid-template-columns: 190px minmax(0,1fr) minmax(0,1.35fr) minmax(0,1fr); gap: 8px 14px; padding: 12px 16px; border-top: 1px solid var(--line); align-items: start; }
+.aion-row .cl { font-family: var(--narrow); font-weight: 600; font-size: 14.5px; line-height: 1.25; }
+.aion-row .cl .k { font-family: var(--mono); font-weight: 500; margin-right: 6px; }
+.aion-row .cl .qq { display: block; font-family: var(--body); font-weight: 400; font-style: italic; font-size: 13px; color: var(--muted); margin-top: 4px; }
+.aion-row .weak .arg { opacity: .6; border-style: dashed; border-left-style: solid; }
+.aion-row .strong .arg { box-shadow: 0 0 0 2px var(--mc, var(--aion)); }
+.aion-row .land { font-size: 14px; line-height: 1.45; padding: 0 10px; border-left: 2px solid var(--mc, var(--aion)); border-right: 2px solid var(--mc, var(--aion)); }
+.aion-row .follow { grid-column: 2 / 5; font-size: 13.5px; color: var(--muted); }
+.aion-row .follow b { color: var(--ink); font-weight: 600; }
+.aion-row details { grid-column: 2 / 5; font-size: 13.5px; }
+.aion-row summary { cursor: pointer; font-family: var(--narrow); font-size: 13px; color: var(--aion); }
+.aion-row details p { margin: 6px 0 0; }
+.aion-row .none { font-size: 13px; color: var(--muted); font-style: italic; }
+.cmpcol .none { font-size: 13px; color: var(--muted); font-style: italic; margin: 0; }
+.cmpcol details.pn summary { cursor: pointer; font-size: 12.5px; color: var(--muted); font-style: italic; }
+.pnote { font-size: 13px; color: var(--muted); font-style: italic; margin: 6px 0 0; line-height: 1.4; }
+.conf { font-size: 13px; margin: 6px 0 0; }
+@media (max-width: 900px) { .aion-row, .aion-heads, .aion-axis { grid-template-columns: minmax(0,1fr); } .aion-heads, .aion-axis { display: none; } .aion-row .follow, .aion-row details { grid-column: auto; } .aion-row .land { border: 0; padding: 0; } }
+.lens-claude b { color: var(--aion); }
+.mtabs { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 16px 12px; }
+.mtabs button { font-family: var(--narrow); font-weight: 600; font-size: 13.5px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); padding: 5px 10px 5px 8px; border-radius: 4px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+.mtabs button .sw { width: 9px; height: 9px; border-radius: 2px; }
+.mtabs button[aria-selected="true"] { border-color: var(--ink); box-shadow: inset 0 -2px 0 var(--ink); }
+#aion .aion-row .strong .arg, .strongchips .arg { box-shadow: 0 0 0 2px var(--mc, var(--aion)); }
+.weakchips .arg { opacity: .6; border-style: dashed; border-left-style: solid; }
+.mtag { font-family: var(--narrow); font-weight: 600; font-size: 13px; border: 1.5px solid; border-radius: 10px; padding: 0 8px; justify-self: start; }
+.cmpgrid { display: grid; gap: 14px; }
+.cmpcol { display: grid; gap: 6px; align-content: start; min-width: 0; }
+.cmp-heads { display: grid; gap: 0 14px; padding: 6px 16px; font-family: var(--narrow); font-weight: 600; font-size: 13px; }
+.cmp-row { display: grid; gap: 8px 14px; padding: 12px 16px; border-top: 1px solid var(--line); align-items: start; }
+.cmp-row .cl { font-family: var(--narrow); font-weight: 600; font-size: 14.5px; line-height: 1.25; }
+.cmp-row .cl .k { font-family: var(--mono); font-weight: 500; margin-right: 6px; }
+.agree { --mc: var(--ink); display: grid; gap: 6px; align-content: start; padding-left: 12px; border-left: 2px solid var(--line); min-width: 0; }
+.cmp-row details.lands { grid-column: 2 / -1; font-size: 13.5px; }
+.cmp-row details.lands summary { cursor: pointer; font-family: var(--narrow); font-size: 13px; color: var(--accent); }
+.cmp-row details.lands p { margin: 6px 0 0; }
+@media (max-width: 900px) { .cmp-row, .cmp-heads, .cmpgrid { grid-template-columns: minmax(0,1fr) !important; } .cmp-heads { display: none; } .cmp-row details.lands { grid-column: auto; } .agree { border-left: 0; padding-left: 0; } }
+
+.guide .gsec { padding: 6px 16px 14px; border-top: 1px solid var(--line); max-width: 110ch; }
+.guide .gsec h3 { font-family: var(--display); font-weight: 700; font-size: 17px; margin: 10px 0 8px; }
+.guide .gsec p { margin: 0 0 6px; font-size: 14.5px; }
+.gdl { display: grid; grid-template-columns: minmax(160px, 230px) minmax(0, 1fr); gap: 6px 16px; margin: 0; font-size: 14.5px; }
+.gdl dt { font-family: var(--narrow); font-weight: 600; }
+.gdl dd { margin: 0; }
+.gnote { color: var(--muted); font-style: italic; margin-top: 10px !important; }
+@media (max-width: 640px) { .gdl { grid-template-columns: minmax(0, 1fr); } .gdl dd { margin-bottom: 6px; } }
+.aion-how { margin: 0 16px 12px; font-size: 14px; }
+.aion-how summary { cursor: pointer; font-family: var(--narrow); font-weight: 600; font-size: 13.5px; color: var(--aion); }
+.aion-how p { margin: 6px 0 0; max-width: 100ch; }
+
+/* panel */
+aside { min-width: 0; }
+.panel { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 16px; max-height: calc(100vh - 24px); overflow: auto; }
+.panel .eyebrow { font-family: var(--narrow); font-weight: 600; text-transform: uppercase; letter-spacing: .06em; font-size: 12px; color: var(--muted); display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.panel h3 { font-family: var(--display); font-weight: 700; font-size: 18px; line-height: 1.25; margin: 6px 0 8px; text-wrap: balance; }
+.panel p { margin: 0 0 10px; font-size: 14.5px; }
+.panel .src { font-size: 13px; color: var(--muted); }
+.panel a { color: var(--accent); word-break: break-word; }
+.panel ul { list-style: none; padding: 0; margin: 6px 0 0; display: grid; gap: 4px; }
+.panel li button { all: unset; cursor: pointer; font-size: 13.5px; line-height: 1.35; display: block; }
+.panel li button:hover .nm, .panel li button:focus-visible .nm { text-decoration: underline; }
+.panel li .rl { font-family: var(--narrow); color: var(--muted); }
+.panel .id { font-family: var(--mono); font-size: 12px; }
+.stance { font-family: var(--narrow); font-weight: 600; font-size: 12px; padding: 1px 7px; border-radius: 10px; color: #fff; text-transform: none; letter-spacing: 0; }
+.panel .hint { color: var(--muted); font-size: 14px; }
+.panel .open { margin-top: 10px; font-family: var(--narrow); font-weight: 600; font-size: 13.5px; border: 1px solid var(--ink); background: transparent; color: var(--ink); border-radius: 4px; padding: 5px 10px; cursor: pointer; }
+.panel h4 { font-family: var(--narrow); font-weight: 600; text-transform: uppercase; letter-spacing: .06em; font-size: 12px; color: var(--muted); margin: 14px 0 2px; }
+#tip { position: fixed; pointer-events: none; background: var(--ink); color: var(--bg); font-family: var(--narrow); font-size: 13px; padding: 4px 8px; border-radius: 3px; max-width: 320px; z-index: 20; }
+.clickable { cursor: pointer; }
+footer { margin-top: 26px; color: var(--muted); font-size: 13px; max-width: 90ch; }
+footer .credit { margin: 10px 0 0; padding-top: 10px; border-top: 1px solid var(--line); }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Thinking Machines Atlas</h1>
+    <p><span id="nargs">123</span> arguments for and against machine minds. The overview follows the questions the debate asks, in order. Each cluster shows its exchanges: what is contested, the moves on each side, and where the argument goes next.</p>
+    <p>A companion to the workbook <i>Arguments for and against thinking machines</i>; row IDs match.</p>
+  </header>
+  <nav class="views" id="views" aria-label="Views"></nav>
+  <div class="layout">
+    <main id="main"></main>
+    <aside><div class="panel" id="panel" aria-live="polite"></div></aside>
+  </div>
+  <footer>Stance is relative to each cluster’s question (in cluster 11, to the claim that AI poses serious risk). The overview is selective: some arguments appear under several questions, and a few appear only in their cluster. The Guide explains every mark and has a glossary.<p class="credit">Created and edited by Daniel Estrada (NJIT). Drafted and built with Claude (Anthropic); reviewed by AI models (see AI on AI). The questions, the placement of arguments under them, and the exchanges are an interpretation, drafted by Claude and edited by Daniel Estrada.</p></footer>
+</div>
+<div id="tip" hidden></div>
+
+<script>
+const NS = "http://www.w3.org/2000/svg";
+const ST = { For: "var(--for)", Against: "var(--against)", Deflationary: "var(--defl)" };
+const SIDEC = { A: "var(--for)", D: "var(--against)", M: "var(--defl)" };
+const CAT = r => /objects|rejects|qualifies/.test(r) ? "oppose" : /responds|solution|alternative|reinterprets/.test(r) ? "respond"
+  : /parallels|anticipates|contrasts|bears/.test(r) ? "parallel" : "build";
+const CATN = { oppose: "objects to", respond: "responds to", build: "extends or supports", parallel: "parallels or anticipates" };
+const hue = k => `var(--c${k})`;
+let D, R = {}, byC = {}, state = { view: "overview", sel: null, fam: null, clu: null };
+
+function el(tag, attrs = {}, parent) {
+  const e = document.createElementNS(NS, tag);
+  for (const [k, v] of Object.entries(attrs)) if (v !== undefined && v !== null) e.setAttribute(k, v);
+  if (parent) parent.appendChild(e);
+  return e;
+}
+function h(tag, attrs = {}, html = "") { const e = document.createElement(tag); Object.assign(e, attrs); if (html) e.innerHTML = html; return e; }
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+function wrap(text, n) {
+  const words = text.split(" "), lines = []; let cur = "";
+  for (const w of words) { if ((cur + " " + w).trim().length > n && cur) { lines.push(cur); cur = w; } else cur = (cur + " " + w).trim(); }
+  if (cur) lines.push(cur); return lines;
+}
+const tip = document.getElementById("tip");
+function showTip(ev, text) { tip.textContent = text; tip.hidden = false; moveTip(ev); }
+function moveTip(ev) { tip.style.left = Math.min(ev.clientX + 12, innerWidth - 330) + "px"; tip.style.top = (ev.clientY + 14) + "px"; }
+function hideTip() { tip.hidden = true; }
+function hoverable(node, text) {
+  node.addEventListener("mouseenter", e => showTip(e, text)); node.addEventListener("mousemove", moveTip); node.addEventListener("mouseleave", hideTip);
+}
+const short = c => c.tab.replace(/^\d+\s*/, "");
+const groupsOf = k => { const g = new Map(); byC[k].forEach(r => { if (!g.has(r.g)) g.set(r.g, []); g.get(r.g).push(r); }); return [...g.entries()]; };
+
+/* an argument chip: ID, short name, stance on the left edge */
+function argChip(id, full = false) {
+  const r = R[id];
+  const b = h("button", { type: "button", className: `arg ${r.s}` }, `<span class="aid">${id}</span><span>${esc(full ? r.a : r.sh)}</span>`);
+  b.dataset.id = id;
+  hoverable(b, `${id}  ${r.a}  (${r.s}, cluster ${r.c})`);
+  b.onclick = ev => { ev.stopPropagation(); hideTip(); select(id); };
+  return b;
+}
+function chipsOf(ids, full) { const c = h("div", { className: "chips" }); ids.forEach(i => c.appendChild(argChip(i, full))); return c; }
+function clusterBtn(k) {
+  const b = h("button", { type: "button", className: "cbtn" }, k); b.style.borderColor = hue(k); b.style.color = hue(k);
+  hoverable(b, `Cluster ${k}: ${short(D.clusters.find(c => c.k === k))}`); b.onclick = ev => { ev.stopPropagation(); hideTip(); go("c" + k); }; return b;
+}
+
+/* ---------------- overview: the spine of questions ---------------- */
+function drawOverview(main) {
+  main.innerHTML = "";
+  const plate = h("div", { className: "plate" }); main.appendChild(plate);
+  plate.appendChild(h("div", { className: "plate-head" },
+    `<h2>The debate as a series of questions</h2><span class="sub">Read from top to bottom. Each lane is one answer to the question above it. Each chip is an argument, with its stance on its left edge; click it for the summary. Highlighting tools are below the map.</span>`));
+  // lens
+  const lens = h("details", { className: "lens lens-bottom", open: true });
+  lens.innerHTML = `<summary>Highlight across the questions</summary>`;
+  const r1 = h("div", { className: "row" }); r1.appendChild(h("h4", {}, "A cluster: where its arguments answer each question"));
+  const cc = h("div", { className: "chips" });
+  D.clusters.forEach(c => { const b = h("button", { type: "button", className: "chip" }, `<b>${c.k}</b>${esc(short(c))}`); b.dataset.clu = c.k;
+    b.onclick = () => { state.clu = state.clu === c.k ? null : c.k; state.fam = null; state.cla = null; state.sel = null; refresh(); }; cc.appendChild(b); });
+  r1.appendChild(cc); lens.appendChild(r1);
+  const r2 = h("div", { className: "row" }); r2.appendChild(h("h4", {}, "A family: the same move made in different places"));
+  const fc = h("div", { className: "chips" });
+  D.fam.forEach(f => { const b = h("button", { type: "button", className: "chip" }, `<b>${f.key}</b>${esc(f.name)}`); b.dataset.fam = f.key;
+    b.onclick = () => { state.fam = state.fam === f.key ? null : f.key; state.clu = null; state.cla = null; state.sel = null; refresh(); }; fc.appendChild(b); });
+  r2.appendChild(fc); lens.appendChild(r2);
+  const r3 = h("div", { className: "row" }); r3.appendChild(h("h4", {}, "The AI models’ readings (see AI on AI)"));
+  const lc = h("div", { className: "chips lens-claude" });
+  const lensOpts = [];
+  D.models.filter(m => m.rows.some(a => a.strong.length)).forEach(m => { lensOpts.push([m.key + ":strong", `${m.name}: strongest`, mcol(m.key)]); lensOpts.push([m.key + ":weak", `${m.name}: least convincing`, mcol(m.key)]); });
+  if (D.models.length > 1) { lensOpts.push(["all:strong", "Every model’s strongest", "var(--ink)"]); const S = picksBy("strong"), W = picksBy("weak"); if (Object.keys(S).some(id => W[id])) lensOpts.push(["split", "Where models clash", "var(--ink)"]); }
+  lensOpts.forEach(([k, t, col]) => {
+    const b = h("button", { type: "button", className: "chip" }, `<b style="color:${col}">AI</b>${esc(t)}`); b.dataset.cla = k;
+    b.onclick = () => { state.cla = state.cla === k ? null : k; state.fam = null; state.clu = null; state.sel = null; refresh(); }; lc.appendChild(b); });
+  r3.appendChild(lc); lens.appendChild(r3);
+
+  const spine = h("div", { className: "spine", id: "spine" }); plate.appendChild(spine);
+  D.spine.forEach((s, si) => {
+    const q = h("section", { className: "q" });
+    q.appendChild(h("div", { className: "qkey" }, s.key));
+    q.appendChild(h("h2", {}, esc(s.q)));
+    q.appendChild(h("p", { className: "lede" }, esc(s.lede)));
+    const body = h("div", {});
+    if (s.lanes) {
+      const lanes = h("div", { className: "lanes" });
+      s.lanes.forEach(l => { const ln = h("div", { className: "lane" }); ln.appendChild(h("h3", {}, esc(l.label)));
+        if (l.note) ln.appendChild(h("p", { className: "note" }, esc(l.note)));
+        ln.appendChild(chipsOf(l.ids)); lanes.appendChild(ln); });
+      body.appendChild(lanes);
+    }
+    if (s.rungs) {
+      const lad = h("div", { className: "ladder" });
+      const g = h("div", { className: "gate" }); g.appendChild(h("div", { className: "ghead" }, `<h3>${esc(s.gate.label)}</h3><p class="why" style="margin:0;font-size:13px;color:var(--muted);font-style:italic;max-width:90ch">${esc(s.gate.note)}</p>`));
+      const gn = h("div", {}); gn.appendChild(h("div", { className: "sidelab" }, "No, in principle: formal limits")); gn.appendChild(chipsOf(s.gate.no)); if (s.gate.reply) { gn.appendChild(h("p", { className: "greply" }, esc(s.gate.reply))); if (s.gate.reply_id) gn.appendChild(chipsOf([s.gate.reply_id])); } g.appendChild(gn);
+      if (s.gate.practice) { const gp = h("div", {}); gp.appendChild(h("div", { className: "sidelab" }, "Possible, but feasible? Practical limits")); gp.appendChild(chipsOf(s.gate.practice)); g.appendChild(gp); }
+      const gy = h("div", {}); gy.appendChild(h("div", { className: "sidelab" }, "Yes, if cognition is computable")); gy.appendChild(chipsOf(s.gate.yes)); g.appendChild(gy);
+      lad.appendChild(g);
+      const LH = h("div", { className: "lad-h" }); lad.appendChild(LH);
+      const LB = ["Proposes it", "Machines can meet it", "Not enough, or machines lack it"];
+      s.rungs.forEach((r, i) => {
+        const c = h("div", { className: "rung-h" });
+        c.appendChild(h("h3", {}, `<span style="font-family:var(--mono);font-size:12px;color:var(--muted);margin-right:5px">${i + 1}</span>${esc(r.label)}`));
+        c.appendChild(h("p", { className: "why" }, esc(r.why)));
+        [r.pro || [], r.yes, r.no].forEach((ids, k) => { if (ids.length) { c.appendChild(h("div", { className: "sidelab" }, LB[k])); c.appendChild(chipsOf(ids)); } });
+        const cl = h("div", { className: "cl" }); cl.appendChild(h("span", { className: "sidelab" }, "Clusters ")); r.c.forEach(k => cl.appendChild(clusterBtn(k))); c.appendChild(cl);
+        LH.appendChild(c);
+      });
+      lad.appendChild(h("div", { className: "ladder-axis" }, `<div class="ax"><span>thinner conditions</span><i></i><span>thicker conditions</span></div>`));
+      const more = h("button", { type: "button", className: "chip ladder-more" }, "How the rungs connect: read the Guide"); more.onclick = () => { go("guide"); setTimeout(() => { const t = document.getElementById("g-ladder"); if (t) t.scrollIntoView({ behavior: "smooth" }); }, 60); };
+      lad.appendChild(more);
+      body.appendChild(lad);
+    }
+    q.appendChild(body);
+    spine.appendChild(q);
+    if (s.next) {
+      const n = h("div", { className: "next" });
+      n.innerHTML = `<div class="stem"><svg width="14" height="40" viewBox="0 0 14 40" aria-hidden="true"><line x1="7" y1="0" x2="7" y2="32" stroke="var(--accent)" stroke-width="2"/><path d="M1,30 L7,39 L13,30" fill="none" stroke="var(--accent)" stroke-width="2"/></svg></div><p>${esc(s.next)}</p>`;
+      spine.appendChild(n);
+    }
+  });
+  plate.appendChild(lens);
+  refresh();
+}
+function lensIds() {
+  if (state.fam) return new Set(D.fam.find(f => f.key === state.fam).members);
+  if (state.clu) return new Set(byC[state.clu].map(r => r.id));
+  if (state.cla) {
+    if (state.cla === "all:strong") { const S = picksBy("strong"); return new Set(Object.keys(S).filter(id => new Set(S[id]).size === D.models.length)); }
+    if (state.cla === "split") { const S = picksBy("strong"), W = picksBy("weak"); return new Set(Object.keys(S).filter(id => W[id])); }
+    const [mk, kind] = state.cla.split(":"); const m = D.models.find(x => x.key === mk);
+    return new Set(mrows(m).flatMap(a => kind === "strong" ? a.strong : a.weak));
+  }
+  return null;
+}
+function refresh() {
+  const main = document.getElementById("main");
+  main.querySelectorAll("[data-fam]").forEach(b => b.setAttribute("aria-pressed", state.fam === b.dataset.fam));
+  main.querySelectorAll("[data-clu]").forEach(b => b.setAttribute("aria-pressed", state.clu === b.dataset.clu));
+  main.querySelectorAll("[data-cla]").forEach(b => b.setAttribute("aria-pressed", state.cla === b.dataset.cla));
+  const set = lensIds(), sp = document.getElementById("spine");
+  if (sp) { sp.classList.toggle("dim", !!set); sp.querySelectorAll(".arg").forEach(a => a.classList.toggle("lit", !!set && set.has(a.dataset.id))); }
+  main.querySelectorAll(".arg").forEach(a => a.classList.toggle("sel", a.dataset.id === state.sel));
+  main.querySelectorAll(".move[data-id], .sub[data-id]").forEach(m => m.classList.toggle("sel", m.dataset.id === state.sel));
+  renderPanel(); paintCluster();
+}
+
+/* ---------------- guide ---------------- */
+function drawGuide(main) {
+  const G = D.guide; main.innerHTML = "";
+  const plate = h("div", { className: "plate guide" }); main.appendChild(plate);
+  plate.appendChild(h("div", { className: "plate-head" }, `<h2>Guide</h2><span class="sub">${esc(G.intro)}</span>`));
+  const sec = (title, inner) => { const d = h("section", { className: "gsec" }); d.appendChild(h("h3", {}, esc(title))); if (typeof inner === "string") d.appendChild(h("p", {}, esc(inner))); else d.appendChild(inner); plate.appendChild(d); return d; };
+  const dl = rows => { const x = h("dl", { className: "gdl" }); rows.forEach(([t, d]) => { x.appendChild(h("dt", {}, esc(t))); x.appendChild(h("dd", {}, esc(d))); }); return x; };
+  const s1 = sec("What “thinking” can mean", dl(G.senses)); s1.appendChild(h("p", { className: "gnote" }, esc(G.senses_note)));
+  sec("Reading the map", dl(G.marks));
+  const idl = t => esc(t).replace(/\b(\d{1,2}\.\d{2})\b/g, m => R[m] ? `<button type="button" class="idl" data-sel="${m}" title="${esc(R[m].a)}">${m}</button>` : m);
+  const L = G.ladder, lw = h("div", {});
+  lw.appendChild(h("p", { className: "ladp" }, idl(L.intro)));
+  L.steps.forEach(([t, d]) => lw.appendChild(h("p", { className: "ladp" }, `<b>${esc(t)}.</b> ${idl(d)}`)));
+  lw.appendChild(h("p", { className: "ladp" }, `<b>${esc(L.jumps_title)}.</b> ${idl(L.jumps_intro)}`));
+  L.jumps.forEach(d => lw.appendChild(h("p", { className: "ladp", style: "padding-left:16px" }, idl(d))));
+  lw.appendChild(h("p", { className: "ladp" }, idl(L.close)));
+  const ls = sec("Reading the Q2 ladder", lw); ls.id = "g-ladder";
+  ls.querySelectorAll("[data-sel]").forEach(b => b.onclick = () => select(b.dataset.sel));
+  sec("Terms", dl(G.terms));
+  sec("Dates", G.dates);
+  sec("Scope", G.scope);
+  sec("About the AI on AI page", G.aion_note);
+}
+
+/* ---------------- AI on AI ---------------- */
+const MCOL = { claude: "var(--claude)", gemini: "var(--mod2)", chatgpt: "var(--mod3)", grok: "var(--mod5)", glm: "var(--mod6)", qwen: "var(--mod7)" };
+const mcol = k => MCOL[k] || "var(--mod4)";
+const mrows = m => m.rows.filter(a => a.k !== "all");
+function pickCol(ids, note, cls, fold) { const d = h("div", {}); if (ids.length) { const c = chipsOf(ids); if (cls) c.classList.add(cls); d.appendChild(c); }
+  if (note) d.appendChild(fold ? h("details", { className: "pn" }, `<summary>${ids.length ? "Its wording" : "Names a kind of argument"}</summary><p class="pnote">${esc(note)}</p>`) : h("p", { className: "pnote" }, esc(note))); if (!ids.length && !note) d.appendChild(h("p", { className: "none" }, "None singled out")); return d; }
+function whyHTML(a) {
+  if (a.assess && a.assess.length) return `<summary>Its assessment</summary>` + a.assess.map(p => `<p>${esc(p)}</p>`).join("") +
+    (a.conn ? `<p><b>Connections:</b> ${esc(a.conn)}</p>` : "") + (a.conf ? `<p><b>Confidence:</b> ${esc(a.conf)}</p>` : "");
+  return `<summary>Why these picks</summary><p><b>Strongest:</b> ${esc(a.strong_txt)}</p><p><b>Least convincing:</b> ${esc(a.weak_txt)}</p>`; }
+function picksBy(kind, clusterKey) { // {id: [model keys]}
+  const out = {};
+  D.models.forEach(m => m.rows.filter(a => clusterKey ? a.k === clusterKey : a.k !== "all").forEach(a => (kind === "strong" ? a.strong : a.weak).forEach(id => (out[id] = out[id] || []).push(m.key))));
+  return out;
+}
+function agreement(clusterKey) {
+  const S = picksBy("strong", clusterKey), W = picksBy("weak", clusterKey), n = D.models.length;
+  const all = Object.keys(S).filter(id => S[id].length === n);
+  const split = [...new Set([...Object.keys(S)].filter(id => W[id]))];
+  const allWeak = Object.keys(W).filter(id => W[id].length === n);
+  return { all, split, allWeak, S, W };
+}
+function modelChip(m, small) {
+  const b = h("span", { className: "mtag" }, esc(m.name)); b.style.borderColor = mcol(m.key); b.style.color = mcol(m.key); if (small) b.style.fontSize = "11.5px"; return b;
+}
+function drawAion(main) {
+  main.innerHTML = "";
+  if (!state.model || (state.model !== "compare" && !D.models.find(m => m.key === state.model))) state.model = D.models.length > 1 ? "compare" : D.models[0].key;
+  const plate = h("div", { className: "plate" }); main.appendChild(plate);
+  const tabs = h("div", { className: "mtabs", role: "tablist" });
+  const mk = (key, label, color) => { const b = h("button", { type: "button", role: "tab" }, `<i class="sw" style="background:${color}"></i>${esc(label)}`);
+    b.setAttribute("aria-selected", state.model === key); b.onclick = () => { state.model = key; drawAion(main); renderPanel(); }; tabs.appendChild(b); };
+  if (D.models.length > 1) mk("compare", "Compare the models", "var(--muted)");
+  const how = h("details", { className: "aion-how" }, `<summary>How to use this page</summary><p>${esc(D.guide.aion_note)}</p>`);
+  D.models.forEach(m => mk(m.key, m.name, mcol(m.key)));
+  if (state.model === "compare") drawCompare(plate, tabs); else drawModel(plate, tabs, D.models.find(m => m.key === state.model));
+  plate.insertBefore(how, tabs.nextSibling);
+}
+function drawModel(plate, tabs, m) {
+  const col = mcol(m.key);
+  plate.appendChild(h("div", { className: "plate-head" }, `<h2 style="color:${col}">AI on AI: how ${esc(m.name)} weighs the arguments</h2><span class="sub">For each cluster, the arguments ${esc(m.name)} finds least convincing on the left and strongest on the right, ${mrows(m).some(a => a.follow) ? "with where it lands in the middle and what follows if the strongest arguments are right." : "with what it thinks matters most in the middle. Open a row to read its full assessment."}</span>`));
+  plate.appendChild(tabs);
+  const intro = h("details", { className: "aion-intro" }); intro.style.borderLeftColor = col;
+  intro.innerHTML = `<summary>About ${esc(m.name)}’s entry: its own introduction, and how it was collected</summary><p style="margin:8px 0 6px"><i>${esc(m.intro)}</i></p><p style="margin:0;font-size:13px;color:var(--muted)"><b>About this assessment:</b> ${esc(m.name)} (${esc(m.maker)}), collected ${esc(m.collected)}. ${esc(m.method)}</p>`;
+  plate.appendChild(intro);
+  const all = m.rows.find(a => a.k === "all");
+  if (all) {
+    const top = h("div", { className: "aion-top" }); top.style.borderColor = col;
+    top.appendChild(h("h3", {}, "What it takes most seriously")); top.appendChild(pickCol(all.strong, all.strong_note));
+    top.appendChild(h("p", {}, esc(all.land))); if (all.follow) top.appendChild(h("p", {}, `<b>What follows:</b> ${esc(all.follow)}`));
+    if ((all.weak && all.weak.length) || all.weak_note) { top.appendChild(h("div", { className: "sidelab" }, "Least convincing overall")); top.appendChild(pickCol(all.weak || [], all.weak_note, "weakchips")); }
+    if (all.assess) top.appendChild(h("details", {}, whyHTML(all).replace("Its assessment", "Its full overall assessment")));
+    plate.appendChild(top);
+  }
+  plate.appendChild(h("div", { className: "aion-axis" }, `<div></div><div class="bar"><span>less convincing</span><i></i><span>more convincing</span></div>`));
+  plate.appendChild(h("div", { className: "aion-heads" }, `<div>Cluster</div><div>Least convincing</div><div style="color:${col}">Where it lands</div><div>Strongest</div>`));
+  const wrap = h("div", { id: "aion" }); wrap.style.setProperty("--mc", col); plate.appendChild(wrap);
+  mrows(m).forEach(a => {
+    const c = D.clusters.find(x => x.k === a.k);
+    const row = h("div", { className: "aion-row" });
+    const cl = h("div", { className: "cl" }, `<span class="k" style="color:${hue(a.k)}">${a.k}</span>${esc(short(c))}${a.q ? `<span class="qq">${esc(a.q)}</span>` : ""}`);
+    const open = h("button", { type: "button", className: "chip", style: "margin-top:6px" }, "Open exchanges"); open.onclick = () => go("c" + a.k); cl.appendChild(open);
+    row.appendChild(cl);
+    const w = h("div", { className: "weak" }); w.appendChild(pickCol(a.weak, a.weak_note)); row.appendChild(w);
+    const ld = h("div", { className: "land" }, esc(a.land)); if (a.conf) ld.appendChild(h("p", { className: "conf" }, `<b>Confidence:</b> ${esc(a.conf)}`)); row.appendChild(ld);
+    const st = h("div", { className: "strong" }); st.appendChild(pickCol(a.strong, a.strong_note)); row.appendChild(st);
+    if (a.follow) row.appendChild(h("div", { className: "follow" }, `<b>What follows if they’re right:</b> ${esc(a.follow)}`));
+    row.appendChild(h("details", {}, whyHTML(a)));
+    wrap.appendChild(row);
+  });
+}
+function drawCompare(plate, tabs) {
+  const n = D.models.length;
+  plate.appendChild(h("div", { className: "plate-head" }, `<h2>AI on AI: how the models compare</h2><span class="sub">Each model chose the arguments it finds strongest and least convincing. Read these as views shaped by each model’s training and maker, not as scores. Models agreeing does not make them right: they learned from much the same literature.</span>`));
+  plate.appendChild(tabs);
+  const notes = h("details", { className: "aion-intro" });
+  notes.innerHTML = `<summary>How each entry was collected</summary>` + D.models.map(m => `<p style="margin:6px 0 4px;font-size:13.5px"><b style="color:${mcol(m.key)}">${esc(m.name)}</b> (${esc(m.maker)}, ${esc(m.collected)}): ${esc(m.method)}</p>`).join("");
+  plate.appendChild(notes);
+  const ov = agreement("all");
+  const top = h("div", { className: "aion-top" });
+  top.appendChild(h("h3", {}, "Overall: what each model takes most seriously"));
+  const grid = h("div", { className: "cmpgrid" }); grid.style.gridTemplateColumns = `repeat(${n}, minmax(0, 1fr))`;
+  D.models.forEach(m => { const a = m.rows.find(x => x.k === "all"); const col = h("div", { className: "cmpcol" }); col.style.setProperty("--mc", mcol(m.key));
+    col.appendChild(modelChip(m)); if (a) { const s = chipsOf(a.strong); s.classList.add("strongchips"); col.appendChild(s); } grid.appendChild(col); });
+  top.appendChild(grid);
+  top.appendChild(agreeLine(ov, true));
+  plate.appendChild(top);
+  const heads = h("div", { className: "cmp-heads" }); heads.style.gridTemplateColumns = `190px repeat(${n}, minmax(0, 1fr)) minmax(0, 1fr)`;
+  heads.innerHTML = `<div>Cluster</div>` + D.models.map(m => `<div style="color:${mcol(m.key)}">${esc(m.name)}</div>`).join("") + `<div>Where they agree and differ</div>`;
+  plate.appendChild(heads);
+  const wrap = h("div", { id: "aion" }); plate.appendChild(wrap);
+  D.clusters.forEach(c => {
+    if (!D.models.some(m => m.rows.find(a => a.k === c.k))) return;
+    const row = h("div", { className: "cmp-row" }); row.style.gridTemplateColumns = `190px repeat(${n}, minmax(0, 1fr)) minmax(0, 1fr)`;
+    const cl = h("div", { className: "cl" }, `<span class="k" style="color:${hue(c.k)}">${c.k}</span>${esc(short(c))}`);
+    const open = h("button", { type: "button", className: "chip", style: "margin-top:6px" }, "Open exchanges"); open.onclick = () => go("c" + c.k); cl.appendChild(open);
+    row.appendChild(cl);
+    D.models.forEach(m => {
+      const a = m.rows.find(x => x.k === c.k); const col = h("div", { className: "cmpcol" }); col.style.setProperty("--mc", mcol(m.key));
+      if (!a) { col.appendChild(h("p", { className: "none" }, "No answer")); row.appendChild(col); return; }
+      col.appendChild(h("div", { className: "sidelab" }, "Strongest")); col.appendChild(pickCol(a.strong, a.strong_note, "strongchips", true));
+      col.appendChild(h("div", { className: "sidelab" }, "Least convincing")); col.appendChild(pickCol(a.weak, a.weak_note, "weakchips", true));
+      row.appendChild(col);
+    });
+    row.appendChild(agreeLine(agreement(c.k)));
+    const det = h("details", { className: "lands" }, `<summary>Where each model lands</summary>` + D.models.map(m => { const a = m.rows.find(x => x.k === c.k);
+      return a ? `<p><b style="color:${mcol(m.key)}">${esc(m.name)}:</b> ${esc(a.land)}</p>` : ""; }).join(""));
+    row.appendChild(det);
+    wrap.appendChild(row);
+  });
+}
+function agreeLine(A, overall) {
+  const d = h("div", { className: "agree" });
+  const part = (label, ids, cls) => { if (!ids.length) return; d.appendChild(h("div", { className: "sidelab" }, label)); const c = chipsOf(ids); if (cls) c.classList.add(cls); d.appendChild(c); };
+  part("Every model’s strongest", A.all, "strongchips");
+  part("Every model’s least convincing", A.allWeak, "weakchips");
+  part("Strongest for one, least convincing for another", A.split);
+  if (!A.all.length && !A.split.length && !A.allWeak.length) d.appendChild(h("p", { className: "none" }, "No full agreement and no direct clash"));
+  return d;
+}
+
+/* ---------------- exchanges ---------------- */
+function drawExchanges(main, k) {
+  const c = D.clusters.find(x => x.k === k), exs = D.ex[k];
+  main.innerHTML = "";
+  const plate = h("div", { className: "plate" }); main.appendChild(plate);
+  plate.appendChild(h("div", { className: "plate-head" },
+    `<h2><span style="color:${hue(k)};font-family:var(--mono);font-weight:500">${k}</span>&nbsp; ${esc(c.name.replace(/^\d+\.\s*/, ""))}</h2>
+     <span class="sub">${c.q ? `<b style="color:var(--ink)">The cluster’s question: ${esc(c.q)}</b> Stances are relative to it. ` : ""}${exs.length} exchange${exs.length > 1 ? "s" : ""}. Each starts from a contested claim. Moves that affirm it are on the left, moves that reframe it in the middle, moves that deny it on the right. Arrows show what each move answers; hover over a move to trace them.</span>`));
+  plate.appendChild(sitsEl(k));
+  exs.forEach((x, xi) => plate.appendChild(exchangeEl(x, xi, k)));
+  const lg = h("div", { className: "legend" });
+  lg.innerHTML = `<span><i class="ln" style="border-color:var(--for)"></i>move affirming the claim</span><span><i class="ln" style="border-color:var(--against)"></i>move denying it</span><span><i class="ln" style="border-color:var(--defl)"></i>move reframing it</span><span>Coloured tags lead to other clusters, in that cluster’s colour.</span>`;
+  plate.appendChild(lg);
+  requestAnimationFrame(drawAllArrows);
+}
+function sitsEl(k) {
+  const qs = D.spine.filter(s => { const ids = [...(s.lanes || []).flatMap(l => l.ids), ...(s.rungs || []).flatMap(r => (r.pro || []).concat(r.yes, r.no)), ...(s.gate ? s.gate.no.concat(s.gate.yes, s.gate.practice || [], s.gate.reply_id ? [s.gate.reply_id] : []) : [])];
+    return ids.some(i => R[i].c === k); });
+  const d = h("div", { className: "sits" }, `<span>Answers in the overview:</span>`);
+  qs.forEach(s => { const b = h("button", { type: "button", className: "chip" }, `<b>${s.key}</b>${esc(s.q)}`);
+    b.onclick = () => { state.clu = k; state.fam = null; go("overview"); }; d.appendChild(b); });
+  return d;
+}
+function exchangeEl(x, xi, k) {
+  const sec = h("section", { className: "ex" });
+  sec.appendChild(h("h3", { className: "ext" }, `<span>Exchange ${xi + 1}</span>${esc(x.title)}`));
+  const fs = h("div", { className: "field-scroll" }); const field = h("div", { className: "field" }); fs.appendChild(field); sec.appendChild(fs);
+  const claim = h("div", { className: "claim" }, `<div class="lab">Contested claim</div><p>${esc(x.claim)}</p>`); claim.dataset.key = "claim"; field.appendChild(claim);
+  const heads = h("div", { className: "colheads" });
+  heads.innerHTML = `<div style="border-color:var(--for);color:var(--for)">Affirms the claim</div><div style="border-color:var(--defl);color:var(--defl)">Reframes the question</div><div style="border-color:var(--against);color:var(--against)">Denies the claim</div>`;
+  field.appendChild(heads);
+  const grid = h("div", { className: "moves" }); field.appendChild(grid);
+  const cols = { A: h("div", { className: "mcol" }), M: h("div", { className: "mcol" }), D: h("div", { className: "mcol" }) };
+  grid.append(cols.A, cols.M, cols.D);
+  const col = { A: 1, M: 2, D: 3 };
+  x.moves.forEach((m, i) => {
+    const card = h("div", { className: `move ${m.side}` + (m.groups ? " bundle" : "") });
+    card.dataset.key = m.key; card.dataset.to = m.to;
+    const who = m.id ? `<span class="aid">${m.id}</span>${esc(R[m.id].a)}` : esc(m.label || m.title);
+    card.innerHTML = `<div class="mh"><span class="num">${i + 1}</span><span class="type">${esc(m.type)}</span></div><div class="who">${who}</div>` + (m.gist ? `<p class="gist">${esc(m.gist)}</p>` : "");
+    if (m.id) { card.dataset.id = m.id; card.onclick = () => select(m.id); }
+    if (m.groups) {
+      m.groups.forEach(g => {
+        const gd = h("div", { className: "grp" }, `<h5>${esc(g.label)}</h5>`);
+        g.items.forEach(it => {
+          const s = h("div", { className: "sub" }); s.dataset.id = it.id; s.dataset.key = m.key + ":" + it.id;
+          s.innerHTML = `<div class="who"><span class="aid">${it.id}</span>${esc(R[it.id].a)}</div><div class="rep"><b>Reply:</b> ${esc(it.reply)}</div>`;
+          if (it.pass_ && it.pass_.length) { const p = h("span", { className: "passes" }); it.pass_.forEach(pid => p.appendChild(passTag(pid))); s.querySelector(".rep").appendChild(p); }
+          s.onclick = ev => { ev.stopPropagation(); select(it.id); };
+          gd.appendChild(s);
+        });
+        card.appendChild(gd);
+      });
+    }
+    cols[m.side].appendChild(card);
+  });
+  const svg = el("svg", { class: "arrows", "aria-hidden": "true" }); field.appendChild(svg);
+  // hover tracing
+  field.querySelectorAll(".move, .sub").forEach(n => {
+    n.addEventListener("mouseenter", () => trace(field, n.dataset.key));
+    n.addEventListener("mouseleave", () => { field.classList.remove("hov"); field.querySelectorAll(".hl").forEach(e => e.classList.remove("hl")); });
+  });
+  // outcome
+  const out = h("div", { className: "outcome" });
+  out.innerHTML = `<div><h4>Where it stands</h4><p>${esc(x.stands)}</p></div>`;
+  const ho = h("div", {}); ho.appendChild(h("h4", {}, "Where the argument goes next"));
+  const list = h("div", { className: "handoffs" });
+  x.passes.forEach(p => { const r = R[p.id];
+    const b = h("button", { type: "button", className: "handoff" }, `<span class="tag" style="border-color:${hue(r.c)};color:${hue(r.c)}">${p.id}</span><span><span class="nm">${esc(r.a)}</span>${r.a.toLowerCase().replace(/[’']/g, "").includes(p.why.toLowerCase().replace(/^the /, "").replace(/[’']/g, "")) ? "" : ` <span class="why">· ${esc(p.why)}</span>`}</span>`);
+    b.onclick = () => go("c" + r.c, p.id); list.appendChild(b); });
+  ho.appendChild(list); out.appendChild(ho); sec.appendChild(out);
+  return sec;
+}
+function passTag(pid) {
+  const r = R[pid];
+  const b = h("button", { type: "button", className: "cbtn" }, "→ " + pid); b.style.borderColor = hue(r.c); b.style.color = hue(r.c);
+  hoverable(b, `Carried on in ${pid} ${r.a} (cluster ${r.c})`); b.onclick = ev => { ev.stopPropagation(); hideTip(); go("c" + r.c, pid); };
+  return b;
+}
+function trace(field, key) {
+  const top = key.split(":")[0];
+  const keys = new Set([key, top]);
+  // the move it answers and the moves that answer it
+  field.querySelectorAll(".move").forEach(m => { if (m.dataset.key === top) keys.add(m.dataset.to.split(":")[0]); if ((m.dataset.to || "") === key || (m.dataset.to || "").split(":")[0] === top && !key.includes(":")) keys.add(m.dataset.key); if (m.dataset.to === key) keys.add(m.dataset.key); });
+  field.classList.add("hov");
+  field.querySelectorAll(".move").forEach(m => m.classList.toggle("hl", keys.has(m.dataset.key)));
+  field.querySelectorAll(".arrow").forEach(a => a.classList.toggle("hl", keys.has(a.dataset.from) && (keys.has(a.dataset.to.split(":")[0]) || a.dataset.to === "claim")));
+}
+function layoutMoves(field) {
+  const GAP = 12, cursor = { A: 0, M: 0, D: 0 }, count = { A: 0, M: 0, D: 0 }, top = {};
+  const cards = [...field.querySelectorAll(".move")];
+  cards.forEach(c => c.style.marginTop = "0px");
+  cards.forEach(c => {
+    const side = c.classList.contains("A") ? "A" : c.classList.contains("D") ? "D" : "M";
+    const tk = (c.dataset.to || "").split(":")[0];
+    let want = cursor[side] + (count[side] ? GAP : 0);
+    if (tk !== "claim" && top[tk] && top[tk].side !== side) {
+      let t = top[tk].y;
+      if (c.dataset.to.includes(":")) { const sub = field.querySelector(`[data-key="${CSS.escape(c.dataset.to)}"]`), host = field.querySelector(`.move[data-key="${CSS.escape(tk)}"]`);
+        if (sub && host) t += sub.getBoundingClientRect().top - host.getBoundingClientRect().top - 8; }
+      want = Math.max(want, t);
+    }
+    c.style.marginTop = (want - cursor[side]) + "px";
+    top[c.dataset.key] = { y: want, side };
+    cursor[side] = want + c.offsetHeight; count[side]++;
+  });
+}
+function drawAllArrows() { document.querySelectorAll(".field").forEach(f => { layoutMoves(f); drawArrows(f); }); }
+function drawArrows(field) {
+  const svg = field.querySelector(".arrows"); svg.innerHTML = "";
+  const fb = field.getBoundingClientRect();
+  svg.setAttribute("width", fb.width); svg.setAttribute("height", fb.height); svg.setAttribute("viewBox", `0 0 ${fb.width} ${fb.height}`);
+  const defs = el("defs", {}, svg);
+  ["A", "D", "M"].forEach(s => { const m = el("marker", { id: "ah-" + s + field.dataset.n, viewBox: "0 0 10 10", refX: 9, refY: 5, markerWidth: 7, markerHeight: 7, orient: "auto-start-reverse" }, defs);
+    el("path", { d: "M0,0 L10,5 L0,10 z", fill: SIDEC[s] }, m); });
+  const rect = n => { const b = n.getBoundingClientRect(); return { l: b.left - fb.left, r: b.right - fb.left, t: b.top - fb.top, b: b.bottom - fb.top, cx: (b.left + b.right) / 2 - fb.left }; };
+  const claim = rect(field.querySelector(".claim"));
+  field.querySelectorAll(".move").forEach(m => {
+    const side = m.classList.contains("A") ? "A" : m.classList.contains("D") ? "D" : "M";
+    const s = rect(m), to = m.dataset.to; let d;
+    const sy = s.t + 18;
+    if (to === "claim") {
+      const ex = claim.cx + (side === "A" ? -90 : side === "D" ? 90 : 0), ey = claim.b;
+      if (side === "M") d = `M${s.cx},${s.t} C${s.cx},${s.t - 30} ${ex},${ey + 40} ${ex},${ey + 2}`;
+      else { // run up the gutter beside the column, so the line never crosses another card
+        const sx = side === "A" ? s.r : s.l, xg = side === "A" ? s.r + 30 : s.l - 30;
+        const gx = Math.max(claim.l + 16, Math.min(claim.r - 16, xg));
+        d = `M${sx},${sy} C${xg},${sy} ${xg},${sy} ${xg},${sy - 14} L${xg},${ey + 24} C${xg},${ey + 10} ${gx},${ey + 12} ${gx},${ey + 2}`; }
+    } else {
+      const tn = field.querySelector(`[data-key="${CSS.escape(to)}"]`); if (!tn) return;
+      const t = rect(tn), ty = t.t + 18;
+      const sameCol = Math.abs(s.cx - t.cx) < 30;
+      if (sameCol) { const outer = side === "A" ? s.l : s.r, dir = side === "A" ? -1 : 1, tx = side === "A" ? t.l : t.r;
+        const bulge = 28; d = `M${outer},${sy} C${outer + dir * bulge},${sy} ${tx + dir * bulge},${ty} ${tx + dir * 2},${ty}`; }
+      else if (t.cx < s.cx) { const sx = s.l, tx = t.r, mx = (sx + tx) / 2; d = `M${sx},${sy} C${mx},${sy} ${mx},${ty} ${tx + 2},${ty}`; }
+      else { const sx = s.r, tx = t.l, mx = (sx + tx) / 2; d = `M${sx},${sy} C${mx},${sy} ${mx},${ty} ${tx - 2},${ty}`; }
+    }
+    const p = el("path", { d, fill: "none", stroke: SIDEC[side], "stroke-width": 1.8, class: "arrow", "marker-end": `url(#ah-${side}${field.dataset.n})`, "data-from": m.dataset.key, "data-to": to }, svg);
+  });
+}
+let fieldN = 0;
+new MutationObserver(() => document.querySelectorAll(".field:not([data-n])").forEach(f => f.dataset.n = ++fieldN)).observe(document.body, { childList: true, subtree: true });
+let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(drawAllArrows, 80); });
+document.fonts && document.fonts.ready.then(() => drawAllArrows());
+
+/* ---------------- older cluster map, kept for clusters not yet redrawn ---------------- */
+/*OLDMAP*/
+
+/* ---------------- detail panel ---------------- */
+function inExchange(id) {
+  const r = R[id], exs = D.ex[r.c]; if (!exs) return null;
+  for (let i = 0; i < exs.length; i++) for (const m of exs[i].moves) { if (m.id === id) return [i, m]; for (const g of m.groups || []) for (const it of g.items) if (it.id === id) return [i, m]; }
+  return null;
+}
+function renderPanel() {
+  const P = document.getElementById("panel");
+  if (state.sel) {
+    const r = R[state.sel], f = D.fam.find(x => x.key === r.f);
+    const rels = D.rel.filter(e => e.a === r.id || e.b === r.id);
+    const ex = inExchange(r.id);
+    P.innerHTML = `<div class="eyebrow"><span class="id" style="color:${hue(r.c)}">${r.id}</span><span class="stance" style="background:${ST[r.s]}">${r.s}</span><span>Cluster ${r.c} · ${esc(r.g)}</span></div>
+      <h3>${esc(r.a)}</h3><p>${esc(r.sum)}</p>${r.chk === 0 ? `<p class="src" style="font-style:italic">This summary is a paraphrase not yet checked against the source. Read the source before relying on it.</p>` : ""}
+      <p class="src"><b>Target:</b> ${esc(r.t)}. <b>Scope:</b> ${esc(r.sc)}.</p>
+      <p class="src"><b>Original source:</b> ${esc(r.orig)}${r.link ? `<br><a href="${esc(r.link)}" target="_blank" rel="noopener">Primary link</a>` : ""}</p>
+      ${f ? `<p class="src"><b>Family:</b> ${f.key} ${esc(f.name)}</p>` : ""}
+      ${ex ? `<p class="src"><b>In exchange ${ex[0] + 1}:</b> ${esc(D.ex[r.c][ex[0]].title)} (move type: ${esc(ex[1].type)})</p>` : ""}
+      ${rels.length ? `<h4>Links (${rels.length})</h4><ul>${rels.map(e => { const o = e.a === r.id ? e.b : e.a, out = e.a === r.id;
+        return `<li><button type="button" data-go="${o}"><span class="rl">${out ? esc(e.r) : "← " + esc(e.r)}</span> <span class="id" style="color:${hue(R[o].c)}">${o}</span> <span class="nm">${esc(R[o].a)}</span></button></li>`; }).join("")}</ul>` : ""}
+      ${state.view !== "c" + r.c ? `<button class="open" type="button" data-open="${r.c}">Open cluster ${r.c}</button>` : ""}`;
+  } else if (state.fam) {
+    const f = D.fam.find(x => x.key === state.fam);
+    P.innerHTML = `<div class="eyebrow">Family ${f.key} · ${esc(f.q)}</div><h3>${esc(f.name)}</h3><p>${esc(f.claim)}</p><p class="src">${esc(f.note)}</p>
+      <h4>Members (${f.members.length})</h4><ul>${f.members.map(m => `<li><button type="button" data-go="${m}"><span class="id" style="color:${hue(R[m].c)}">${m}</span> <span class="nm">${esc(R[m].a)}</span> <span class="rl">${R[m].s}</span></button></li>`).join("")}</ul>`;
+  } else if (state.cla && state.view === "overview") {
+    const [mk, kind] = state.cla.split(":"); const m = D.models.find(x => x.key === mk);
+    const title = state.cla === "all:strong" ? "Arguments every model counts among the strongest" : state.cla === "split" ? "Arguments one model finds strongest and another least convincing"
+      : `The arguments ${m.name} finds ${kind === "strong" ? "strongest" : "least convincing"}`;
+    P.innerHTML = `<div class="eyebrow" style="color:var(--aion)">The AI models’ readings</div><h3>${esc(title)}</h3>
+      <p class="hint">These are the models’ own judgments, not scholarship, and each model is an interested party. Models agreeing does not make them right. Their reasons are on the AI on AI page.</p>
+      <button class="open" type="button" data-aion="1">Open AI on AI</button>`;
+  } else if (state.clu && state.view === "overview") {
+    const c = D.clusters.find(x => x.k === state.clu);
+    P.innerHTML = `<div class="eyebrow" style="color:${hue(c.k)}">Cluster ${c.k}</div><h3>${esc(c.name.replace(/^\d+\.\s*/, ""))}</h3>
+      <p class="hint">Its arguments are outlined wherever they answer a question. A cluster that lights up under several questions is where those questions meet.</p>
+      <button class="open" type="button" data-open="${c.k}">Open cluster ${c.k}</button>`;
+  } else if (state.view === "overview") {
+    P.innerHTML = `<div class="eyebrow">How to read the overview</div><h3>Five questions, in order</h3>
+      <ul>${D.kernel.map(q => `<li><span class="id">${q.key}</span> ${esc(q.q)}</li>`).join("")}</ul>
+      <p class="hint" style="margin-top:12px">Each question’s answers are laid out as lanes, with the arguments that give them. The italic notes between questions say how one answer leads to the next. Q2 is a ladder of proposed conditions, from thinner to thicker. The Guide explains how the rungs connect.</p>
+      <p class="hint">Use “Highlight across the questions”, below the map, to see where one cluster, one kind of move, or the AI models’ picks turn up.</p>`;
+  } else if (state.view === "guide") {
+    P.innerHTML = `<div class="eyebrow">Guide</div><h3>Reading the Atlas</h3><p class="hint">Start with the overview to see the questions in order, then open a cluster to see its exchanges. Every argument links to its source.</p>`;
+  } else if (state.view === "claude") {
+    P.innerHTML = `<div class="eyebrow" style="color:var(--aion)">AI on AI</div><h3>How AI models weigh the arguments</h3>
+      <p class="hint">Each model’s own view, and a comparison. Click any argument for its summary and sources. Ringed chips are a model’s strongest picks; faded, dashed chips its least convincing.</p>`;
+  } else {
+    const c = D.clusters.find(x => x.k === state.view.slice(1));
+    P.innerHTML = `<div class="eyebrow" style="color:${hue(c.k)}">Cluster ${c.k}</div><h3>${esc(c.name.replace(/^\d+\.\s*/, ""))}</h3>
+      <p class="hint">${D.ex[c.k] ? "Click a move for the argument’s summary, source and links. The tags under “Where the argument goes next” open other clusters." : "This cluster is still drawn the older way: columns by stance, bands by group, lines for links inside the cluster."}</p>`;
+  }
+  P.querySelectorAll("[data-go]").forEach(b => b.onclick = () => { const id = b.dataset.go; if (state.view !== "overview" && R[id].c !== state.view.slice(1)) go("c" + R[id].c, id); else select(id); });
+  P.querySelectorAll("[data-open]").forEach(b => b.onclick = () => go("c" + b.dataset.open, state.sel));
+  P.querySelectorAll("[data-aion]").forEach(b => b.onclick = () => go("claude"));
+}
+function select(id) { state.sel = state.sel === id ? null : id; refresh(); }
+
+/* ---------------- views and routing ---------------- */
+function nav() {
+  const N = document.getElementById("views"); N.innerHTML = "";
+  const mk = (key, label, color, later) => { const b = h("button", { type: "button", className: later ? "later" : "" }, `<i class="sw" style="background:${color}"></i>${label}`);
+    b.setAttribute("aria-current", state.view === key); b.onclick = () => go(key); if (later) hoverable(b, "Not yet redrawn as exchanges"); N.appendChild(b); };
+  mk("overview", "Overview", "var(--accent)");
+  D.clusters.forEach(c => mk("c" + c.k, `${c.k} ${esc(short(c))}`, hue(c.k), !D.ex[c.k]));
+  mk("claude", "AI on AI", "var(--aion)");
+  mk("guide", "Guide", "var(--muted)");
+}
+function go(view, sel = null) {
+  if (view !== state.view) { try { history.replaceState(null, "", "#" + view); } catch (e) { location.hash = view; } }
+  render(view, sel);
+}
+function render(view, sel = null) {
+  hideTip();
+  const prev = state.view; state.view = view; state.sel = sel;
+  if (view !== "overview") { state.fam = null; state.cla = null; } else if (prev !== "overview" && !state.clu) { state.fam = null; }
+  if (view !== "overview" && prev === "overview") state.clu = null;
+  nav(); const main = document.getElementById("main");
+  if (view === "overview") drawOverview(main);
+  else if (view === "claude") drawAion(main);
+  else if (view === "guide") drawGuide(main);
+  else if (D.ex[view.slice(1)]) drawExchanges(main, view.slice(1));
+  else { main.innerHTML = ""; const plate = h("div", { className: "plate" }); main.appendChild(plate); drawCluster(plate, view.slice(1)); }
+  refresh();
+  if (sel) { const n = main.querySelector(`.move[data-id="${sel}"], .sub[data-id="${sel}"]`) || (CM.nodeEls && CM.nodeEls[sel] && CM.nodeEls[sel].g); n && n.scrollIntoView && n.scrollIntoView({ block: "center", behavior: "smooth" }); }
+  window.scrollTo && !sel && window.scrollTo({ top: 0 });
+}
+const fromHash = () => { const v = (location.hash || "").slice(1); return v === "overview" || v === "claude" || v === "guide" || /^c(1[01]|[1-9])$/.test(v) ? v : "overview"; };
+addEventListener("hashchange", () => { const v = fromHash(); if (v !== state.view) render(v); });
+
+fetch("data.json").then(r => r.json()).then(data => {
+  D = data; D.rows.forEach(r => { R[r.id] = r; (byC[r.c] = byC[r.c] || []).push(r); });
+  Object.values(byC).forEach(a => a.sort((x, y) => x.o - y.o));
+  const na = document.getElementById("nargs"); if (na) na.textContent = D.rows.length;
+  render(fromHash());
+}).catch(err => { console.error(err); document.getElementById("main").innerHTML = `<div class="plate"><div class="plate-head"><h2>The map data didn’t load</h2><span class="sub">Reload the page. If it still fails, the data file (data.json) is missing.</span></div></div>`; });
+</script>

@@ -1,0 +1,25 @@
+id: '10.12'
+cluster: '10'
+thread: Power and political economy
+order: 12
+stance: Against
+arg: Hype as distraction from present harms
+target: Framing of AI
+scope: AI generally
+family: F23
+summary: 'Critics argue that talk of thinking machines and speculative superintelligence draws attention and resources away from the documented harms of systems already in use: exploited labor, data taken without consent, concentrated power and discrimination. In their response to the 2023 “AI pause” letter, the authors of the stochastic parrots paper argue that accountability should focus on the companies building and deploying systems now, not on hypothetical digital minds.'
+orig: Gebru, T., Bender, E. M., McMillan-Major, A., & Mitchell, M. (2023). Statement from the listed authors of Stochastic Parrots on the “AI pause” letter. DAIR Institute, 31 March 2023. https://www.dair-institute.org/blog/letter-statement-March2023 Bender, E. M., & Hanna, A. (2025). The AI Con. Harper.
+link: https://www.dair-institute.org/blog/letter-statement-March2023
+further: []
+resp:
+- Proponents of risk research reply that present harms and long-term risks need not compete for attention, and that the same institutions and rules can address both (see cluster 11).
+note: ''
+see_also: []
+todo: ''
+ver: DAIR statement page confirmed 20 Nov 2026.
+ver_detail: DAIR statement page confirmed 20 Nov 2026.
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

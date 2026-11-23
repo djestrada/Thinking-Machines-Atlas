@@ -1,0 +1,27 @@
+id: '4.07'
+cluster: '4'
+thread: Life–mind continuity
+order: 7
+stance: Against
+arg: Autopoiesis and life–mind continuity
+target: Cognition; sense-making; mind
+scope: Computers; machines unless living
+family: F11
+summary: 'Mind is continuous with life: living systems produce themselves, are precarious, and generate their own norms and meanings (sense-making). Systems without this organization, such as digital computers, lack genuine cognition.'
+orig: 'Maturana, H., & Varela, F. (1980). Autopoiesis and Cognition. Reidel. Varela, F., Thompson, E., & Rosch, E. (1991). The Embodied Mind. MIT Press. Thompson, E. (2007). Mind in Life: Biology, Phenomenology, and the Sciences of Mind. Harvard University Press. Review: https://ndpr.nd.edu/news/mind-in-life-biology-phenomenology-and-the-sciences-of-mind/'
+link: https://ndpr.nd.edu/news/mind-in-life-biology-phenomenology-and-the-sciences-of-mind/
+further: []
+resp:
+- Enactive AI (4.08) asks what an artificial system would need in order to meet these conditions.
+- 'Kirchhoff, M. D., & Froese, T. (2017). Where there is life there is mind: In support of a strong life-mind continuity thesis. Entropy 19(4): 169. https://www.mdpi.com/1099-4300/19/4/169'
+- Hutto & Myin (2012), Radicalizing Enactivism, MIT Press (a radical enactivist alternative).
+note: ''
+see_also: []
+todo: Di Paolo and colleagues on the enactive conception of life; critics of strong life–mind continuity.
+ver: 'Pass 2 (checked via search): Froese & Ziemke, Villalobos & Dewhurst, Kirchhoff & Froese and the further-reading item confirmed (repositories, publisher). Book citations are standard; Synthese pages from memory. Link check (19 Nov 2026): Froese & Ziemke now linked to ScienceDirect (publisher). Primary-link check (19 Nov 2026): the link pointed to Froese & Ziemke (a response); the original sources are books, so the link now goes to the NDPR review of Thompson (2007). Revised 19 Nov 2026: enactive AI given its own row (4.08). Renumbered 19 Nov 2026 (previously 4.03). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Froese & Ziemke, Villalobos & Dewhurst, Kirchhoff & Froese and the further-reading item confirmed (repositories, publisher). Book citations are standard; Synthese pages from memory. Link check (19 Nov 2026): Froese & Ziemke now linked to ScienceDirect (publisher). Primary-link check (19 Nov 2026): the link pointed to Froese & Ziemke (a response); the original sources are books, so the link now goes to the NDPR review of Thompson (2007). Revised 19 Nov 2026: enactive AI given its own row (4.08). Renumbered 19 Nov 2026 (previously 4.03). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

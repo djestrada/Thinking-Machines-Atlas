@@ -1,0 +1,30 @@
+id: '1.08'
+cluster: '1'
+thread: Turing’s nine objections (1950)
+order: 8
+stance: Against
+arg: Lovelace objection and the Lovelace Tests
+target: Creativity / originality
+scope: Digital computers
+family: F03
+summary: 'Lovelace observed that the Analytical Engine can do only what we know how to order it to perform. The objection holds that computers cannot originate anything, so cannot be creative or, by extension, minded. Bringsjord et al. turn this into a test: an artificial agent passes only if it produces an output its human architect cannot explain by appeal to the agent’s design and knowledge base.'
+orig: |-
+  Lovelace, A. A. (1843). Notes by the translator, in L. F. Menabrea, Sketch of the Analytical Engine invented by Charles Babbage. Scientific Memoirs, 3, 666–731. Free text: https://psychclassics.yorku.ca/Lovelace/lovelace.htm
+  Turing (1950), §6, objection (6), is the main source of the debate. https://doi.org/10.1093/mind/LIX.236.433
+link: https://doi.org/10.1093/mind/LIX.236.433
+further:
+- 'Bringsjord, Bello & Ferrucci (2001), “Creativity, the Turing test, and the (better) Lovelace test,” Minds and Machines 11(1): 3–27. https://doi.org/10.1023/A:1011206622741'
+- Riedl (2014), “The Lovelace 2.0 test of artificial creativity and intelligence,” arXiv:1410.6142. https://arxiv.org/abs/1410.6142
+resp:
+- 'Turing (1950), §6(6): machines surprise us constantly; surprise is not the same as originality.'
+- 'Riedl (2014): a graded, comparative variant of the test.'
+note: Generative models produce outputs their designers cannot predict or explain, so the original Lovelace test may be met in a trivial sense. Whether novelty of this kind is origination is exactly what is now disputed.
+see_also: []
+todo: ''
+ver: 'Bringsjord et al. and Riedl checked (Springer record; arXiv). Riedl’s authorship is from memory (the retrieved page did not show the name). Lovelace 1843 [unchecked]. Characterization check (19 Nov 2026): objection and reply compared with the SEP Turing Test entry (https://plato.stanford.edu/entries/turing-test/). Where the entry is silent (e.g., the “polite convention”, “rules of conduct” vs. “laws of behaviour”, the appeal to God’s omnipotence), the wording is Turing’s own. Renumbered 19 Nov 2026 (previously 1.07). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Bringsjord et al. and Riedl checked (Springer record; arXiv). Riedl’s authorship is from memory (the retrieved page did not show the name). Lovelace 1843 [unchecked]. Characterization check (19 Nov 2026): objection and reply compared with the SEP Turing Test entry (https://plato.stanford.edu/entries/turing-test/). Where the entry is silent (e.g., the “polite convention”, “rules of conduct” vs. “laws of behaviour”, the appeal to God’s omnipotence), the wording is Turing’s own. Renumbered 19 Nov 2026 (previously 1.07). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

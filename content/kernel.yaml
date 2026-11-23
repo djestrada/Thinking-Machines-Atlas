@@ -1,0 +1,46 @@
+# The Kernel tab of the workbook (first row is the header).
+- - Level
+  - Question
+  - Positions on offer
+  - Where it is argued
+  - Note
+- - Q0
+  - Who asks, and why?
+  - The questions below are asked from particular positions. Talk of thinking machines can serve interests and draw attention away from the costs of AI systems already in use (labor, data, bias, surveillance, energy), and the line between person and thing is drawn differently across traditions.
+  - Cluster 10; F23, with F08 for the non-Western rows.
+  - Asked first because these critiques question the framing of everything that follows, rather than answering one question.
+- - Q1
+  - Is there a fact of the matter?
+  - 'Realism: whether a system thinks, understands or matters morally is a fact about the system. Attribution: these are statuses conferred by stance, relation and practice.'
+  - Assumed by most rows on both sides; the attributive side is gathered in F04, F08 and F09 (clusters 1, 2, 6, 7, 9, 10).
+  - 'Searle and Chalmers assume there is a fact and doubt that machines have it; functionalists assume the same and think machines could. Turing’s text supports two readings: he calls the question too meaningless to deserve discussion, yet predicts that usage will come to allow talk of machines thinking. Dennett’s real patterns are a middle view. The attributive answer does not answer the later questions; it turns them into questions about practice.'
+- - Q2
+  - What would it take, and can computation supply it?
+  - 'Conditions proposed, roughly from thin to thick: behavior, running a program, functional organization, grounding in the world, a living body, the right substrate, felt experience. The ordering is an interpretation: the rungs are not nested, and some views skip rungs. Before the ladder is a gate. In principle, formal-limits arguments say computation cannot reach any rung, and Church–Turing universality says it can reach whatever is computable. In practice, intractability and the frame problem grant that machine thought is possible and ask whether it is feasible.'
+  - Clusters 1–6 and part of 7; F01, F03, F05–F07, F11–F15.
+  - 'Most of the variety in clusters 1–6 is this one question. A new rung is usually proposed after a counterexample to the one below: Blockhead and the Chinese Room push from behavior to organization, the robot reply and grounding push toward the world, enactivists toward life, biological naturalists toward substrate, the hard problem toward experience.'
+- - 'Q2: how the rungs connect'
+  - ''
+  - 'From each rung to the next. 1→2: Blockhead and the ELIZA effect show that matching behavior is not enough, so look at the program. 2→3: the Chinese Room says a program is not enough; functionalism answers that what matters is the causal organization that runs it. 3→4: the robot reply and the grounding problem: symbols must be connected to what they are about. 4→5: Dreyfus and the enactivists: connection to the world needs a body that acts in it, and perhaps a life at stake. 5→6 (a separate tradition): on biological naturalism and IIT, what the system is made of matters, not only how it is organized. 6→7 (a separate tradition): even the right physical system seems to leave felt experience unexplained. Skips and returns: Harnad (1.13) goes from behavior to grounding; Jefferson (1.05) from behavior to felt experience; IIT (5.06) from organization to physical structure, skipping life; enactive AI (4.08) treats life as organization that could be built; fading qualia (5.04) and illusionism (6.06) bring felt experience back to organization.'
+  - ''
+  - 'The order is an interpretation: most rungs answer a counterexample to the one before, but the conditions do not all sit on one scale.'
+- - Q3
+  - How could we tell?
+  - Watch behavior; distrust behavior that is easy to fake; look inside (interpretability, architecture); apply theories of consciousness; accept limited evidence, as with other minds.
+  - Clusters 1, 6 and 7; F02, F10, F16, F17.
+  - The thinner the condition accepted at Q2, the easier it is to test. Behavior is visible, organization partly, experience hardly at all.
+- - Q4
+  - What follows?
+  - Agency and responsibility (cluster 8); what is owed to machines (9); what risks they pose (11).
+  - F18–F22, F24–F25.
+  - 'Some of these questions arise whether or not machines think: the responsibility gap, misuse, our relationships with machines. Others depend on earlier answers: what is owed to a machine depends on whether it can feel, and the argument for catastrophic risk assumes goal-directed agency.'
+- - Status
+  - ''
+  - Editorial. The kernel is Claude’s reading of the whole table, and the most contestable part of it. It matches the overview diagram.
+  - ''
+  - ''
+- - Alternative framing
+  - ''
+  - 'Put consciousness first: is phenomenal consciousness the target, and does anything short of it count as understanding? On that framing Searle, Block and Chalmers form the core, and the attributive side looks like a change of subject. The choice between framings is itself part of the debate.'
+  - ''
+  - ''

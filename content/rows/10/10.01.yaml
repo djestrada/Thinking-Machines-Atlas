@@ -1,0 +1,25 @@
+id: '10.01'
+cluster: '10'
+thread: Early critique
+order: 1
+stance: Against
+arg: Weizenbaum’s critique of computer reason
+target: Judgment; human values
+scope: Computers; AI
+family: F23
+summary: Some decisions require judgment and wisdom, not calculation, and should not be delegated to machines even when machines can make them.
+orig: Weizenbaum, J. (1976). Computer Power and Human Reason. W. H. Freeman.
+link: ''
+further: []
+resp:
+- McCarthy (1976), An unreasonable book, SIGART Newsletter 58. http://www-formal.stanford.edu/jmc/reviews/weizenbaum.html
+note: ''
+see_also: []
+todo: Verify. Add other contemporaneous responses.
+ver: ' Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: ' Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- No free copy linked (book or paywalled)
+- ''

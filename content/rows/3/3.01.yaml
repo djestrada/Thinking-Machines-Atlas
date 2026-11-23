@@ -1,0 +1,31 @@
+id: '3.01'
+cluster: '3'
+thread: Gödelian arguments
+order: 1
+stance: Against
+arg: Gödelian argument (Lucas)
+target: Mathematical insight; mind
+scope: Digital computers (formal systems)
+family: F14
+summary: For any consistent formal system strong enough for arithmetic there is a Gödel sentence it cannot prove but a mind can see to be true. So no formal system captures the mind, and minds are not machines.
+orig: 'Lucas, J. R. (1961). Minds, machines and Gödel. Philosophy 36(137): 112–127. https://doi.org/10.1017/S0031819100057983 Free copy: https://web-archive.southampton.ac.uk/cogprints.org/356/1/lucas.html'
+link: https://doi.org/10.1017/S0031819100057983
+further:
+- Raatikainen, P. Gödel’s Incompleteness Theorems. Stanford Encyclopedia of Philosophy (section on minds and machines). https://plato.stanford.edu/entries/goedel-incompleteness/
+resp:
+- 'Gödel himself (1951 Gibbs lecture) drew only a disjunction: either the mind infinitely surpasses any finite machine, or there are absolutely unsolvable mathematical problems. He was inclined toward the first.'
+- 'The standard reply (3.06): Turing 1950, Putnam 1960 and Benacerraf 1967 on consistency.'
+- 'Benacerraf, P. (1967). God, the Devil, and Gödel. The Monist 51: 9–32. Argues Lucas shows at most that if we are machines we cannot know which machine we are. (Lucas and Benacerraf were reviewed together in the Journal of Symbolic Logic.)'
+- 'Lewis, D. (1969). Lucas against mechanism. Philosophy 44: 231–233. https://doi.org/10.1017/S0031819100024591'
+- LaForte, G., Hayes, P. J., & Ford, K. M. (1998). Why Gödel’s theorem cannot refute computationalism. Artificial Intelligence 104. https://doi.org/10.1016/S0004-3702(98)00052-6
+- 'Chalmers’s MindPapers bibliography has a section on Gödelian arguments: https://philpapers.org/browse/godelian-arguments-against-ai'
+note: ''
+see_also: []
+todo: Add Gödel’s own disjunction (1951 Gibbs lecture), Putnam (1960) and Lucas’s later restatements.
+ver: 'Pass 2 (checked via search): Lucas and Benacerraf confirmed with pages via a JSL review record; LaForte et al. title and journal confirmed. Lewis unchecked. Link check (19 Nov 2026): publisher DOI (Cambridge) confirmed; free copy kept in the text. Characterization check (19 Nov 2026): Gödel’s disjunction, Benacerraf and Putnam’s reply checked against the SEP entry. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Lucas and Benacerraf confirmed with pages via a JSL review record; LaForte et al. title and journal confirmed. Lewis unchecked. Link check (19 Nov 2026): publisher DOI (Cambridge) confirmed; free copy kept in the text. Characterization check (19 Nov 2026): Gödel’s disjunction, Benacerraf and Putnam’s reply checked against the SEP entry. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

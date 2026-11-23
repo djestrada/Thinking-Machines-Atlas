@@ -1,0 +1,20 @@
+The content of the Thinking Machines Atlas is licensed under the
+Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+
+Covered: everything in content/ (the arguments, summaries, notes, relations, families,
+kernel questions, AI on AI entries, README text and changelog); the overview, Guide and
+exchange text written into build/build_data.py and build/ex_3_11.py; and the files built
+from them (the workbook and the Atlas).
+
+Copyright (c) 2026 Daniel Estrada and contributors.
+
+Full legal code: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by-sa/4.0/
+
+You are free to share and adapt this material for any purpose, including commercially,
+provided you give appropriate credit, link to the license, indicate if changes were made,
+and distribute your contributions under the same license.
+
+Not covered: the works cited and linked (they belong to their authors and publishers),
+and short quotations from them, which are included under fair use. The code in build/,
+scripts/ and .github/ (apart from the text named above) is under the MIT License (see LICENSE).

@@ -1,0 +1,28 @@
+id: '7.12'
+cluster: '7'
+thread: Representation and mechanism
+order: 12
+stance: For
+arg: World models in LLMs
+target: Representation; understanding
+scope: LLMs
+family: F17
+summary: 'Probing and intervention studies suggest that models trained only to predict tokens can develop internal representations of the structure behind their data. A model trained on Othello move sequences represents the board state (Li et al. 2023), and Llama-2 models linearly represent places and times (Gurnee & Tegmark 2024). What counts as a “world model” is disputed: these results show structured representations of particular domains, not a general model of the world.'
+orig: 'Li, K., Hopkins, A. K., Bau, D., Viégas, F., Pfister, H., & Wattenberg, M. (2023). Emergent world representations: Exploring a sequence model trained on a synthetic task. ICLR 2023 (oral). arXiv:2210.13382. https://arxiv.org/abs/2210.13382 Gurnee, W., & Tegmark, M. (2024). Language models represent space and time. ICLR 2024. arXiv:2310.02207. https://arxiv.org/abs/2310.02207'
+link: https://arxiv.org/abs/2210.13382
+further: []
+resp:
+- Gurnee, W., & Tegmark, M. (2024). Language models represent space and time. ICLR 2024. arXiv:2310.02207. Finds linear representations of space and time in Llama-2 models. https://arxiv.org/abs/2310.02207
+- Vafa, K., Chen, J. Y., Rambachan, A., Kleinberg, J., & Mullainathan, S. (2024). Evaluating the world model implicit in a generative model. NeurIPS 2024. arXiv:2406.03689. Finds the models’ world models are far less coherent than standard diagnostics suggest. https://arxiv.org/abs/2406.03689
+- Nanda, N., Lee, A., & Wattenberg, M. (2023). Emergent linear representations in world models of self-supervised sequence models. BlackboxNLP 2023. Finds that Othello-GPT’s board representation is linear. https://arxiv.org/abs/2309.00941
+- 'Mitchell & Krakauer (2023), PNAS 120(13): e2215907120. https://doi.org/10.1073/pnas.2215907120'
+note: ''
+see_also: []
+todo: Add Nanda et al. (2023) with full details. Critiques of probing methods. Philosophical treatments of what counts as a “world model.”
+ver: 'Pass 2 (checked via search): Li et al., Gurnee & Tegmark and Vafa et al. confirmed. Nanda et al. known only through another paper’s citation. Link check (19 Nov 2026): ICLR papers have no DOI; arXiv kept. Renumbered 19 Nov 2026 (previously 7.04). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Li et al., Gurnee & Tegmark and Vafa et al. confirmed. Nanda et al. known only through another paper’s citation. Link check (19 Nov 2026): ICLR papers have no DOI; arXiv kept. Renumbered 19 Nov 2026 (previously 7.04). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

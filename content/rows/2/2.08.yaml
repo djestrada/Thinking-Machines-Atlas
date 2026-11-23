@@ -1,0 +1,33 @@
+id: '2.08'
+cluster: '2'
+thread: Searle’s generalizations
+order: 8
+stance: Against
+arg: Syntax is not sufficient for semantics
+target: Meaning; mind
+scope: Digital computers (programs)
+family: F05
+summary: 'Searle’s argument in axiom form: programs are purely formal (syntactic); minds have intrinsic mental contents (semantics); and syntax by itself is neither constitutive of nor sufficient for semantics. So programs by themselves are not minds. The Chinese Room is offered as support for the third premise.'
+orig: |-
+  Searle, J. R. (1990). Is the brain’s mind a computer program? Scientific American 262(1): 26–31 (the axiom form, in the same issue as the Churchlands’ reply). https://doi.org/10.1038/scientificamerican0190-26
+  Searle (1984), Minds, Brains and Science, Harvard University Press (Reith Lectures; first statement of the axiom form).
+link: https://doi.org/10.1038/scientificamerican0190-26
+further:
+- 'Searle (1990), “Is the brain a digital computer?”, Proceedings and Addresses of the APA 64(3): 21–37, restates the argument and adds the separate claim in 2.09 that syntax is not intrinsic to physics. https://philpapers.org/rec/SEAITB-2'
+- Cole, D. The Chinese Room Argument, section on syntax and semantics. https://plato.stanford.edu/entries/chinese-room/
+- Searle (1992), The Rediscovery of the Mind, ch. 9 (a revised version of the 1990 APA address).
+resp:
+- Churchland, P. M., & Churchland, P. S. (1990). Could a machine think? Scientific American 262(1). They argue that Searle’s third axiom, that syntax is not sufficient for semantics, is not known to be true and that the room gives no independent reason to believe it (the “luminous room” analogy).
+- The connectionist reply is listed in the IEP entry (https://iep.utm.edu/chinese-room/).
+note: The premise most at issue for LLMs is whether statistical learning over text can yield content, or whether it is more syntax. Millière & Buckner (2024) and Mollo & Millière discuss this.
+see_also:
+- '2.09'
+- '2.10'
+todo: ''
+ver: 'The statement of the argument in Searle 1990 checked via the Cambridge chapter page and PhilPapers. The axiom form and Reith Lectures attribution are from memory. Link check (19 Nov 2026): no DOI for the 1990 APA address was found; the PhilPapers record is kept as the link. Renumbered 19 Nov 2026 (previously 2.02). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'The statement of the argument in Searle 1990 checked via the Cambridge chapter page and PhilPapers. The axiom form and Reith Lectures attribution are from memory. Link check (19 Nov 2026): no DOI for the 1990 APA address was found; the PhilPapers record is kept as the link. Renumbered 19 Nov 2026 (previously 2.02). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Index or catalogue record (links on to the publisher)
+- ''

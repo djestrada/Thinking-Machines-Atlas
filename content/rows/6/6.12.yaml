@@ -1,0 +1,27 @@
+id: '6.12'
+cluster: '6'
+thread: Explaining consciousness or explaining it away?
+order: 6.5
+stance: Deflationary
+arg: Heterophenomenology (treating reports as data)
+target: Consciousness
+scope: Machines generally
+family: F09
+summary: 'Dennett’s method for a science of consciousness: take a subject’s reports about their experience as data to be explained, without assuming that they are true or false. The researcher builds the subject’s world as the subject describes it, then asks what in the subject explains why they describe it that way. Dennett presents it as a conservative extension of ordinary science that leaves out none of the data. Applied to AI, it says a system’s reports about its own experience are where inquiry starts, not where it ends: they are evidence about the system, not testimony to be believed or dismissed. The gaming problem (6.11) sharpens the difficulty, since a system trained on human reports can produce them for reasons that have nothing to do with experience.'
+orig: 'Dennett, D. C. (1991). Consciousness Explained. Little, Brown (ch. 4). Dennett, D. C. (2003). Who’s on first? Heterophenomenology explained. Journal of Consciousness Studies 10(9–10): 19–30. Copy: https://dl.tufts.edu/downloads/br86bg072'
+link: https://dl.tufts.edu/downloads/br86bg072
+further:
+- 'Dennett, D. C. (2007). Heterophenomenology reconsidered. Phenomenology and the Cognitive Sciences 6(1–2): 247–270. Replies to critics: the method does not assume that subjects are deluded, and it can be applied to oneself. https://doi.org/10.1007/s11097-006-9044-9'
+resp:
+- 'Zahavi, D. (2007). Killing the straw man: Dennett and phenomenology. Phenomenology and the Cognitive Sciences 6(1–2): 21–43. Argues that Dennett misreads phenomenology as introspection, and that the method’s claimed neutrality collapses into eliminativism about experience. Author’s copy: https://cfs.ku.dk/staff/zahavi-publications/dennett.pdf'
+- 'Defenders of the hard problem (6.04) reply that treating reports as data changes the subject: the question is whether there is experience behind the reports, not why the reports are made.'
+note: ''
+see_also: []
+todo: ''
+ver: ''
+ver_detail: ''
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

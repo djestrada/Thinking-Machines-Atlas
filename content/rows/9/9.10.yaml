@@ -1,0 +1,25 @@
+id: '9.10'
+cluster: '9'
+thread: Relationships with machines
+order: 10
+stance: For
+arg: The case for robot friendship (Danaher)
+target: Friendship; relationships
+scope: Robots and AI companions
+family: F29
+summary: Danaher argues that robots could be friends in a meaningful sense. The conditions of Aristotelian friendship, such as mutuality, authenticity and equality, can either be met well enough on the evidence of behavior, or are set so high that many human friendships would fail them too. Robot friendship could therefore have real value, as a complement to human friendship rather than a replacement.
+orig: 'Danaher, J. (2019). The philosophical case for robot friendship. Journal of Posthuman Studies 3(1): 5–24. https://philarchive.org/rec/DANTPC-3'
+link: https://philarchive.org/rec/DANTPC-3
+further: []
+resp:
+- Sparrow and Sparrow (9.11) argue that comfort from machine companions depends on deception.
+note: ''
+see_also: []
+todo: ''
+ver: PhilArchive record confirmed 20 Nov 2026.
+ver_detail: PhilArchive record confirmed 20 Nov 2026.
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

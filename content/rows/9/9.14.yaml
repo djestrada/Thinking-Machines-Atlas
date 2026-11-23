@@ -1,0 +1,24 @@
+id: '9.14'
+cluster: '9'
+thread: What grounds moral status
+order: 4.5
+stance: For
+arg: Self-reports as evidence of moral status (Perez & Long)
+target: Moral status
+scope: LLMs and current AI
+family: F20
+summary: Self-reports are our main evidence about other minds, but a model’s reports reflect its training on human text. Perez and Long propose training models to answer questions about themselves that have checkable answers, testing whether that skill carries over to new questions, and only then treating their reports about experience or preferences as evidence about moral status.
+orig: Perez, E., & Long, R. (2023). Towards evaluating AI systems for moral status using self-reports. arXiv:2311.08576. https://arxiv.org/abs/2311.08576
+link: https://arxiv.org/abs/2311.08576
+further: []
+resp: []
+note: ''
+see_also: []
+todo: ''
+ver: ''
+ver_detail: ''
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

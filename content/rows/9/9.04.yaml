@@ -1,0 +1,26 @@
+id: '9.04'
+cluster: '9'
+thread: What grounds moral status
+order: 4
+stance: For
+arg: Ethical behaviourism
+target: Moral status
+scope: Machines generally
+family: F20
+summary: If a robot behaves like beings with moral status, we have good reason to treat it as having it, since behavior is our only access to those properties.
+orig: 'Danaher, J. (2020). Welcoming robots into the moral circle: A defence of ethical behaviourism. Science and Engineering Ethics 26: 2023–2049. https://doi.org/10.1007/s11948-019-00119-x (free copy: https://philarchive.org/archive/DANWRI)'
+link: https://doi.org/10.1007/s11948-019-00119-x
+further: []
+resp:
+- 'Smids (2020), Danaher’s ethical behaviourism: An adequate guide to assessing the moral status of a robot?, Science and Engineering Ethics 26: 2849–2866.'
+- Connects to 1.01 and 6.11.
+note: ''
+see_also: []
+todo: Verify.
+ver: 'Pass 2 (checked via search): Danaher confirmed (university repository, dblp, PhilArchive). Smids (2020) from memory. Link check (19 Nov 2026): Danaher now linked to the publisher DOI (Springer); PhilArchive copy kept in the text. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Danaher confirmed (university repository, dblp, PhilArchive). Smids (2020) from memory. Link check (19 Nov 2026): Danaher now linked to the publisher DOI (Springer); PhilArchive copy kept in the text. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

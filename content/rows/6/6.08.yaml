@@ -1,0 +1,25 @@
+id: '6.08'
+cluster: '6'
+thread: Scientific theories applied to AI
+order: 8
+stance: For
+arg: Higher-order theories and AI
+target: Consciousness
+scope: Current AI
+family: F10
+summary: A mental state is conscious when the system represents itself as being in it. Such metarepresentation could in principle be implemented in artificial systems, and it is among the indicator properties Butlin et al. (6.09) assess in AI systems.
+orig: 'Rosenthal, D. (2005). Consciousness and Mind. Oxford UP. Lau, H. (2022). In Consciousness We Trust. Oxford UP. Statement by proponents: Brown, R., Lau, H., & LeDoux, J. E. (2019). Understanding the higher-order approach to consciousness. Trends in Cognitive Sciences 23(9): 754–768. https://www.cell.com/trends/cognitive-sciences/pdf/S1364-6613(19)30161-5.pdf'
+link: https://www.cell.com/trends/cognitive-sciences/pdf/S1364-6613(19)30161-5.pdf
+further: []
+resp:
+- Block, N. (2011). The higher order approach to consciousness is defunct. Analysis 71(3).
+note: ''
+see_also: []
+todo: Verify. Add recent work applying the theory to LLMs.
+ver: 'Pass 2 (checked via search): Brown, Lau & LeDoux confirmed (PhilArchive, university record). Rosenthal (2005), Lau (2022) and Block (2011) from memory. Link check (19 Nov 2026): Brown, Lau & LeDoux now linked to the publisher (Cell Press); PhilArchive kept in the text. Primary-link check (19 Nov 2026): Brown, Lau & LeDoux (2019), written by proponents of the view, moved from responses to Original source to match the link. Renumbered 19 Nov 2026 (previously 6.10). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Brown, Lau & LeDoux confirmed (PhilArchive, university record). Rosenthal (2005), Lau (2022) and Block (2011) from memory. Link check (19 Nov 2026): Brown, Lau & LeDoux now linked to the publisher (Cell Press); PhilArchive kept in the text. Primary-link check (19 Nov 2026): Brown, Lau & LeDoux (2019), written by proponents of the view, moved from responses to Original source to match the link. Renumbered 19 Nov 2026 (previously 6.10). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

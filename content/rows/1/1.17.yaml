@@ -1,0 +1,29 @@
+id: '1.17'
+cluster: '1'
+thread: Behavioral evidence in practice
+order: 17
+stance: For
+arg: Winograd Schema Challenge and its “defeat”
+target: Commonsense understanding
+scope: Digital computers; LLMs
+family: F01
+summary: Levesque proposed pairs of sentences whose pronoun reference can be resolved only with commonsense knowledge, as a more objective and less gameable alternative to the Turing test. By around 2019 large pretrained language models reached above 90% accuracy on versions of the task, prompting the question of what such surrogate tasks measure.
+orig: |-
+  Levesque, H. J., Davis, E., & Morgenstern, L. (2012). The Winograd schema challenge. Proceedings of the 13th International Conference on Principles of Knowledge Representation and Reasoning (KR 2012), 552–561. https://aaai.org/ocs/index.php/KR/KR12/paper/view/4492 (author’s copy: https://cs.nyu.edu/~ed1/papers/WSKR2012.pdf)
+  Levesque, H. J. (2014). On our best behaviour. Artificial Intelligence, 212, 27–35.
+link: https://aaai.org/ocs/index.php/KR/KR12/paper/view/4492
+further:
+- 'Kocijan, Davis, Lukasiewicz, Marcus & Morgenstern (2023), “The defeat of the Winograd schema challenge,” Artificial Intelligence 325: 103971. https://doi.org/10.1016/j.artint.2023.103971 (preprint: https://arxiv.org/abs/2201.02387)'
+resp:
+- 'Kocijan et al. (2023): the outcome is framed as a lesson about surrogate tasks, not as evidence of human-level commonsense.'
+- See 1.18 for the main objection to inferring competence from benchmark success.
+note: Results on the challenge are task-specific evidence about behavior, not a demonstration of general commonsense understanding. A clear case of a proposed “better test” that LLMs satisfied without settling the underlying question, which strengthens the case for the AI-effect and shortcut worries (1.18, 1.16).
+see_also: []
+todo: ''
+ver: 'Kocijan et al. checked (arXiv, journal metadata). Original Levesque et al. 2012 and Levesque 2014 are from memory; the 2012 paper’s existence was confirmed only through a citing paper (arXiv:1410.6142) [unchecked]. Link check (19 Nov 2026): primary link now the published Artificial Intelligence version; arXiv preprint kept in the text. Primary-link check (19 Nov 2026): the link pointed to Kocijan et al. (the response); it now points to Levesque et al. (2012), confirmed on the AAAI proceedings page. Renumbered 19 Nov 2026 (previously 1.10). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Kocijan et al. checked (arXiv, journal metadata). Original Levesque et al. 2012 and Levesque 2014 are from memory; the 2012 paper’s existence was confirmed only through a citing paper (arXiv:1410.6142) [unchecked]. Link check (19 Nov 2026): primary link now the published Artificial Intelligence version; arXiv preprint kept in the text. Primary-link check (19 Nov 2026): the link pointed to Kocijan et al. (the response); it now points to Levesque et al. (2012), confirmed on the AAAI proceedings page. Renumbered 19 Nov 2026 (previously 1.10). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

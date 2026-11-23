@@ -1,0 +1,28 @@
+id: '4.01'
+cluster: '4'
+thread: Phenomenology and AI
+order: 1
+stance: Against
+arg: Phenomenology of embodiment (Merleau-Ponty)
+target: Perception; skilled action
+scope: Digital computers (disembodied systems)
+family: F11
+summary: Perception and skilled action are structured by a lived body engaged with a world, not by internal representations, so a disembodied symbolic system lacks the basis of this kind of intelligence.
+orig: 'Merleau-Ponty, M. (1945). Phénoménologie de la perception. Gallimard (English: Phenomenology of Perception, trans. D. Landes, Routledge, 2012).'
+link: https://plato.stanford.edu/entries/merleau-ponty/
+further:
+- Toadvine, T. Maurice Merleau-Ponty. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/merleau-ponty/
+resp:
+- Dreyfus (4.02) draws on this tradition.
+- Gallagher, S. (2005). How the Body Shapes the Mind. Oxford UP.
+- Gallagher, S., & Zahavi, D. (2008). The Phenomenological Mind. Routledge.
+note: ''
+see_also: []
+todo: Verify. Add other phenomenological sources (Heidegger, Husserl) and critics.
+ver: 'Pass 1: from memory. Merleau-Ponty edition details unchecked. Renumbered 19 Nov 2026 (previously 4.06). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 1: from memory. Merleau-Ponty edition details unchecked. Renumbered 19 Nov 2026 (previously 4.06). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- No free copy linked (book or paywalled)
+- ''

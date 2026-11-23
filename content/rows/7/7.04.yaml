@@ -1,0 +1,30 @@
+id: '7.04'
+cluster: '7'
+thread: Language and thought
+order: 4
+stance: Against
+arg: Chomsky’s critique
+target: Language; explanation
+scope: LLMs
+family: F17
+summary: LLMs learn languages humans cannot and do not explain why, so they are engineering tools, not theories of language or thought, and show nothing about how humans acquire language.
+orig: Chomsky, N., Roberts, I., & Watumull, J. (2023). The false promise of ChatGPT. New York Times (guest essay), 8 March 2023. (paywalled; no free copy)
+link: ''
+further: []
+resp:
+- Piantadosi, S. T. (2023). Modern language models refute Chomsky’s approach to language. LingBuzz 007180 (chapter in press). https://lingbuzz.net/lingbuzz/007180
+- 'Katzir, R. (2023). Why large language models are poor theories of human linguistic cognition: A reply to Piantadosi (2023). LingBuzz 007190; published in Biolinguistics. https://lingbuzz.net/lingbuzz/007190'
+- 'Kallini, J., Papadimitriou, I., Futrell, R., Mahowald, K., & Potts, C. (2024). Mission: Impossible language models. Proceedings of the 62nd Annual Meeting of the ACL, 14691–14714 (best paper). https://doi.org/10.18653/v1/2024.acl-long.787 (arXiv:2401.06416). Finds GPT-2 struggles to learn impossible languages relative to English, challenging the claim that LLMs learn possible and impossible languages equally.'
+- Hunter, T. (2024). Kallini et al. (2024) do not compare impossible languages with constituency-based ones. arXiv:2410.12271. https://arxiv.org/abs/2410.12271
+- Quanta Magazine (13 January 2025). Can AI models show us how people learn? Impossible languages point a way (accessible account of this exchange). https://quantamagazine.org/can-ai-models-show-us-how-people-learn-impossible-languages-point-a-way-20250113
+- Millière & Buckner (2024), Part I. https://arxiv.org/abs/2401.03910
+note: Its target is language models as theories of human language; it does not directly address whether the models themselves think.
+see_also: []
+todo: Confirm the NYT URL. Add the poverty-of-the-stimulus debate in the LLM context and Chomsky’s earlier remarks (submarine analogy).
+ver: 'Pass 2 (checked via search): the NYT essay’s text and the Piantadosi, Katzir, Kallini and Hunter items confirmed. NYT URL from memory. Link check (19 Nov 2026): the New York Times URL could not be checked (the site is not reachable by my search tool) and remains from memory. Renumbered 19 Nov 2026 (previously 7.06). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added. NYT URL (nytimes.com/2023/03/08/opinion/noam-chomsky-chatgpt-ai.html) confirmed via pages that cite it; the article itself is paywalled.'
+ver_detail: 'Pass 2 (checked via search): the NYT essay’s text and the Piantadosi, Katzir, Kallini and Hunter items confirmed. NYT URL from memory. Link check (19 Nov 2026): the New York Times URL could not be checked (the site is not reachable by my search tool) and remains from memory. Renumbered 19 Nov 2026 (previously 7.06). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added. NYT URL (nytimes.com/2023/03/08/opinion/noam-chomsky-chatgpt-ai.html) confirmed via pages that cite it; the article itself is paywalled.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- No free copy linked (book or paywalled)
+- ''

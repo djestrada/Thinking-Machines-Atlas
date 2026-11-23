@@ -1,0 +1,25 @@
+id: '11.05'
+cluster: '11'
+thread: Goals and instrumental reasoning
+order: 5
+stance: For
+arg: Instrumental convergence
+target: Goals
+scope: AI
+family: F24
+summary: Omohundro and Bostrom argue that sufficiently capable agents pursuing open-ended final goals would tend to seek self-preservation, resources and the protection of their goals, since these help with almost any goal. The argument is conditional on systems being goal-directed in this way, which is itself debated.
+orig: Omohundro, S. M. (2008). The basic AI drives. In Proceedings of the First AGI Conference (AGI-08). https://selfawaresystems.com/2007/11/30/paper-on-the-basic-ai-drives/ Bostrom (2014). Superintelligence. Oxford UP. Russell, S. (2019). Human Compatible. Viking.
+link: https://selfawaresystems.com/2007/11/30/paper-on-the-basic-ai-drives/
+further: []
+resp:
+- 'Müller & Cannon (2021): the risk argument needs instrumental intelligence here but general intelligence elsewhere (see 11.04).'
+note: ''
+see_also: []
+todo: Verify. Find philosophical critiques.
+ver: 'Checked via search (19 Nov 2026): Omohundro (2008) confirmed (author’s page, bibliographic records). Book citations standard. Renumbered 19 Nov 2026 (previously 11.03). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Checked via search (19 Nov 2026): Omohundro (2008) confirmed (author’s page, bibliographic records). Book citations standard. Renumbered 19 Nov 2026 (previously 11.03). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

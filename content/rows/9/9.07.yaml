@@ -1,0 +1,27 @@
+id: '9.07'
+cluster: '9'
+thread: Protection, rights and welfare
+order: 7
+stance: For
+arg: AI welfare and precaution
+target: Moral status
+scope: Current and near-term AI
+family: F20
+summary: There is a realistic possibility that some AI systems will be conscious or robustly agentic, and so morally significant, in the near future, so developers should assess and prepare for AI welfare now. The authors do not claim that current systems are conscious; they argue that the possibility is realistic enough to warrant preparation.
+orig: Long, R., Sebo, J., Butlin, P., Finlinson, K., Fish, K., Harding, J., Pfau, J., Sims, T., Birch, J., & Chalmers, D. (2024). Taking AI welfare seriously. arXiv:2411.00986. https://arxiv.org/abs/2411.00986
+link: https://arxiv.org/abs/2411.00986
+further: []
+resp:
+- Sebo & Long (2023), Moral consideration for AI systems by 2030, AI and Ethics.
+- Birch (2024), The Edge of Sentience.
+- 'Critics: Bryson (2018), Patiency is not a virtue, Ethics and Information Technology 20: 15–26 (9.08).'
+note: ''
+see_also: []
+todo: Verify. Add dissenting academic work.
+ver: 'Pass 2 (checked via search): Long et al. confirmed (arXiv, author list). Sebo & Long (2023) from memory. Link check (19 Nov 2026): Long et al. exists only on arXiv. Renumbered 19 Nov 2026 (previously 9.06). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Long et al. confirmed (arXiv, author list). Sebo & Long (2023) from memory. Link check (19 Nov 2026): Long et al. exists only on arXiv. Renumbered 19 Nov 2026 (previously 9.06). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

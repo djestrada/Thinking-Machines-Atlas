@@ -1,0 +1,24 @@
+id: '7.18'
+cluster: '7'
+thread: Meaning and grounding
+order: 3.5
+stance: For
+arg: Large language models understand us (Agüera y Arcas)
+target: Understanding
+scope: LLMs and current AI
+family: F17
+summary: 'Agüera y Arcas argues that large language models, trained on text alone, show real if partial understanding, including of concepts and of other minds. On his view, “mere statistics” is the wrong contrast: understanding is itself a matter of modelling patterns, and at scale statistics can amount to it. The models’ abilities in dialogue are offered as evidence.'
+orig: 'Agüera y Arcas, B. (2022). Do large language models understand us? Daedalus 151(2): 183–197. https://www.amacad.org/publication/daedalus/do-large-language-models-understand-us'
+link: https://www.amacad.org/publication/daedalus/do-large-language-models-understand-us
+further: []
+resp: []
+note: ''
+see_also: []
+todo: ''
+ver: ''
+ver_detail: ''
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

@@ -1,0 +1,28 @@
+id: '3.05'
+cluster: '3'
+thread: The frame problem
+order: 5
+stance: Against
+arg: The frame problem
+target: Commonsense reasoning; relevance
+scope: Digital computers (symbolic AI)
+family: F15
+summary: A system must update its model of the world after an action without re-checking everything that did not change. Specifying what stays the same is logically and computationally burdensome, and the broader version asks how a system could settle what is relevant at all.
+orig: 'McCarthy, J., & Hayes, P. J. (1969). Some philosophical problems from the standpoint of artificial intelligence. Machine Intelligence 4: 463–502. https://www-formal.stanford.edu/jmc/mcchay69.html Philosophical broadening: Dennett, D. C. (1984). Cognitive wheels: The frame problem of AI. In Hookway (Ed.), Minds, Machines and Evolution. Cambridge UP. Fodor, J. A. (1987), in Pylyshyn (Ed.), The Robot’s Dilemma. Ablex.'
+link: https://www-formal.stanford.edu/jmc/mcchay69.html
+further: []
+resp:
+- 'Shanahan, M. The Frame Problem. Stanford Encyclopedia of Philosophy. Reviews the logical and philosophical versions and their solutions. https://plato.stanford.edu/entries/frame-problem/ (linked bibliography: https://philpapers.org/sep/frame-problem/)'
+- 'Ford & Pylyshyn (Eds.) (1996). The Robot’s Dilemma Revisited: The Frame Problem in Artificial Intelligence. Ablex.'
+- Shanahan, M. (1997). Solving the Frame Problem. MIT Press.
+- 'Embodied and situated responses: Wheeler (2005), Reconstructing the Cognitive World (see 4.06).'
+note: ''
+see_also: []
+todo: How the problem looks for LLMs and agentic systems.
+ver: 'Pass 2 (checked via search): McCarthy & Hayes (author’s page) and the SEP entry confirmed. Dennett, Fodor, Ford & Pylyshyn and Shanahan (1997) are as listed in the SEP-linked bibliography search, not individually opened. Link check (19 Nov 2026): no DOI exists (Machine Intelligence 4 is a book series); author’s page kept. Renumbered 19 Nov 2026 (previously 3.04). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): McCarthy & Hayes (author’s page) and the SEP entry confirmed. Dennett, Fodor, Ford & Pylyshyn and Shanahan (1997) are as listed in the SEP-linked bibliography search, not individually opened. Link check (19 Nov 2026): no DOI exists (Machine Intelligence 4 is a book series); author’s page kept. Renumbered 19 Nov 2026 (previously 3.04). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

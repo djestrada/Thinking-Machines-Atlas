@@ -1,0 +1,30 @@
+id: '1.14'
+cluster: '1'
+thread: Is behavior enough? Later critiques
+order: 14
+stance: Deflationary
+arg: The Turing Test as thought experiment
+target: Thinking; the concept of “thinking”
+scope: Machines generally
+family: F04
+summary: 'Gonçalves reads the imitation game as a thought experiment in the scientific tradition of Mach, Popper and Kuhn, not a controlled experiment or a definition of thought. Turing varied the game’s design to answer particular opponents; it illustrates a property of intelligence and suggests a hypothesis about machine learning. Read this way, it resolves the “Turing Test dilemma”: the test is criticised as an underspecified experiment yet defended as the test of real AI. The background is Turing’s own remark that “Can machines think?” is “too meaningless to deserve discussion.”'
+orig: 'Gonçalves (2023), “The Turing Test is a thought experiment,” Minds and Machines 33(1): 1–31. Open access. https://doi.org/10.1007/s11023-022-09616-8. Background: Turing (1950), §1 and §6. https://doi.org/10.1093/mind/LIX.236.433'
+link: https://doi.org/10.1007/s11023-022-09616-8
+further:
+- 'Proudfoot (2022), “An analysis of Turing’s criterion for ‘thinking’,” Philosophies 7(6): 124. Open access. Argues that Turing’s criterion is response-dependent: intelligence is, in Turing’s words, an “emotional concept,” so whether something counts as thinking depends partly on how observers respond to it. https://doi.org/10.3390/philosophies7060124'
+- Dennett (1985), “Can machines think?” in Shafto (ed.), How We Know, Harper & Row. Reprinted in Dennett, Brainchildren (1998).
+- Gonçalves, B. (2024). Turing’s test, a beautiful thought experiment. IEEE Annals of the History of Computing. A separate, later paper by the same author. https://arxiv.org/abs/2401.00009
+resp:
+- Hayes & Ford (1995) read the test as a research goal and reject it as such. https://courses.cs.umbc.edu/471/papers/hayes95.pdf
+- Jones & Bergen (2025) treat it as an empirical measure of substitutability, in some tension with the thought-experiment reading. https://arxiv.org/abs/2503.23674
+note: 'Frames the classroom question: is the test an argument about concepts, or an experiment with results? Both uses appear in current LLM discussion.'
+see_also:
+- '1.12'
+todo: ''
+ver: 'Gonçalves appears in a PhilPapers citation listing only; Dennett [unchecked]. Hayes & Ford and Jones & Bergen checked. Renumbered 19 Nov 2026 (previously 1.12). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Gonçalves appears in a PhilPapers citation listing only; Dennett [unchecked]. Hayes & Ford and Jones & Bergen checked. Renumbered 19 Nov 2026 (previously 1.12). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

@@ -1,0 +1,718 @@
+# Relations between rows. source and target are row IDs; argument names are filled in at build time.
+# The related-rows field of each row is computed from this file plus the row's own see_also list.
+- source: '1.06'
+  relation: responds to
+  target: '1.05'
+  note: Turing’s polite convention answers Jefferson’s consciousness requirement
+- source: '1.13'
+  relation: extends
+  target: '1.01'
+  note: adds robotic capacity to the verbal test
+- source: '1.12'
+  relation: objects to
+  target: '1.01'
+  note: behavior is not sufficient for intelligence
+- source: '1.15'
+  relation: objects to
+  target: '1.01'
+  note: apparent competence is cheap to induce
+- source: '1.17'
+  relation: proposes alternative to
+  target: '1.01'
+  note: commonsense test as a less gameable replacement
+- source: '1.18'
+  relation: objects to
+  target: '1.17'
+  note: benchmark success can come from shortcuts
+- source: '1.17'
+  relation: supports
+  target: '1.16'
+  note: 'once the challenge was met, it was judged not to measure commonsense after all: a case for the AI-effect worry, or a lesson about surrogate tasks'
+- source: '1.14'
+  relation: reinterprets
+  target: '1.01'
+  note: the test as a thought experiment, not a benchmark
+- source: '1.08'
+  relation: proposes alternative to
+  target: '1.01'
+  note: creativity test in place of imitation
+- source: '1.08'
+  relation: extends
+  target: '1.07'
+  note: originality is one alleged disability
+- source: '2.01'
+  relation: objects to
+  target: '1.01'
+  note: a program passing the test could still lack understanding
+- source: '1.12'
+  relation: parallels
+  target: '2.01'
+  note: both deny that behavior-matching suffices; one targets behavior, the other the program
+- source: '2.08'
+  relation: formalizes
+  target: '2.01'
+  note: axiom form of the argument
+- source: '2.09'
+  relation: extends
+  target: '2.01'
+  note: computation itself is not an intrinsic property
+- source: '2.01'
+  relation: presupposes
+  target: '2.10'
+  note: intrinsic vs. derived intentionality
+- source: '2.13'
+  relation: extends
+  target: '2.01'
+  note: generalizes the problem to formal symbol systems
+- source: '2.13'
+  relation: motivates
+  target: '1.13'
+  note: grounding requires sensorimotor capacity, hence the total test
+- source: '2.02'
+  relation: responds to
+  target: '2.01'
+  note: the system understands
+- source: '2.03'
+  relation: refines
+  target: '2.02'
+  note: a virtual mind distinct from the operator
+- source: '2.04'
+  relation: responds to
+  target: '2.01'
+  note: causal contact with the world supplies meaning
+- source: '2.04'
+  relation: anticipates
+  target: '2.13'
+  note: early grounding proposal
+- source: '2.05'
+  relation: responds to
+  target: '2.01'
+  note: simulate the brain itself
+- source: '2.06'
+  relation: objects to
+  target: '2.01'
+  note: challenges the method of the thought experiment
+- source: '2.11'
+  relation: rejects the premise of
+  target: '2.10'
+  note: there is no further fact about original intentionality
+- source: '2.12'
+  relation: responds to
+  target: '2.10'
+  note: content can be naturalized
+- source: '1.15'
+  relation: contrasts with
+  target: '2.11'
+  note: attribution is easily induced vs. attribution as the criterion
+- source: '1.02'
+  relation: parallels
+  target: '1.05'
+  note: both appeal to something beyond behavior (soul; felt experience)
+- source: '1.10'
+  relation: anticipates
+  target: '4.02'
+  note: rules versus situated know-how
+- source: '1.10'
+  relation: anticipates
+  target: '3.05'
+  note: no finite rule set covers every circumstance
+- source: '2.07'
+  relation: extends
+  target: '2.01'
+  note: a simulation of understanding no more understands than a simulated storm makes anything wet
+- source: '2.07'
+  relation: parallels
+  target: '5.05'
+  note: both rest on Searle’s claim that minds are caused by specific biological powers, which a simulation lacks
+- source: '6.05'
+  relation: objects to
+  target: '6.06'
+  note: Searle’s case against Dennett applies to illusionism, which develops Dennett’s side
+- source: '4.01'
+  relation: grounds
+  target: '4.02'
+  note: phenomenological basis of Dreyfus’s critique
+- source: '4.03'
+  relation: parallels
+  target: '4.02'
+  note: a critique from within AI
+- source: '6.08'
+  relation: contributes to
+  target: '6.09'
+  note: higher-order indicators
+- source: '7.13'
+  relation: bears on
+  target: '7.03'
+  note: interpretability evidence in the parrot debate
+- source: '1.02'
+  relation: objects to
+  target: '1.01'
+  note: 'Turing’s objection 1: thinking requires a God-given soul'
+- source: '1.03'
+  relation: objects to
+  target: '1.01'
+  note: 'Turing’s objection 2: the consequences would be too dreadful'
+- source: '1.04'
+  relation: objects to
+  target: '1.01'
+  note: 'Turing’s objection 3: limits shown by mathematical logic'
+- source: '1.05'
+  relation: objects to
+  target: '1.01'
+  note: 'Turing’s objection 4: behavior does not show felt experience'
+- source: '1.09'
+  relation: objects to
+  target: '1.01'
+  note: 'Turing’s objection 7: the nervous system is continuous'
+- source: '1.10'
+  relation: objects to
+  target: '1.01'
+  note: 'Turing’s objection 8: no rules could cover all behavior'
+- source: '1.11'
+  relation: objects to
+  target: '1.01'
+  note: 'Turing’s objection 9: telepathy would spoil the test'
+- source: '1.07'
+  relation: objects to
+  target: '1.01'
+  note: 'Turing’s objection 5: machines will never do X'
+- source: '1.05'
+  relation: anticipates
+  target: '6.04'
+  note: behavior leaves felt experience unexplained
+- source: '1.18'
+  relation: parallels
+  target: '1.15'
+  note: both show that apparent competence can be produced without the capacity
+- source: '2.14'
+  relation: anticipates
+  target: '2.01'
+  note: Proudfoot reads Wittgenstein as anticipating the Chinese Room
+- source: '2.14'
+  relation: contrasts with
+  target: '2.11'
+  note: criteria of ascription vs. the usefulness of a stance
+- source: '2.12'
+  relation: offers a solution to
+  target: '2.13'
+  note: causal and historical relations fix content
+- source: '2.03'
+  relation: parallels
+  target: '7.14'
+  note: a program may realize a character distinct from its operator
+- source: '2.05'
+  relation: parallels
+  target: '5.04'
+  note: replacing or simulating neurons one by one
+- source: '2.09'
+  relation: parallels
+  target: '5.07'
+  note: computation is not intrinsic to physical systems
+- source: '2.02'
+  relation: presupposes
+  target: '5.01'
+  note: understanding belongs to the system’s functional organization
+- source: '2.10'
+  relation: parallels
+  target: '8.01'
+  note: genuine vs. merely attributed intentionality
+- source: '2.11'
+  relation: parallels
+  target: '9.03'
+  note: status conferred by how we treat a system
+- source: '3.01'
+  relation: develops
+  target: '1.04'
+  note: turns Turing’s objection 3 into a full argument
+- source: '3.02'
+  relation: extends
+  target: '3.01'
+  note: adds a non-computable physics of consciousness
+- source: '3.03'
+  relation: supports
+  target: '5.01'
+  note: if cognition is computable, a program could realize it
+- source: '4.06'
+  relation: responds to
+  target: '3.05'
+  note: a system that acts on the world directly need not model everything that changes, which sidesteps the frame problem
+- source: '3.04'
+  relation: objects to
+  target: '7.06'
+  note: learning human-level cognition from data is intractable
+- source: '7.10'
+  relation: supports
+  target: '7.11'
+  note: formal limits on what transformers can compute
+- source: '4.04'
+  relation: responds to
+  target: '4.02'
+  note: Heidegger used to support a kind of AI, against Dreyfus
+- source: '4.04'
+  relation: builds on
+  target: '4.06'
+  note: embodied, embedded robotics as Heideggerian AI
+- source: '4.04'
+  relation: responds to
+  target: '3.05'
+  note: situated systems as an answer to the frame problem
+- source: '4.05'
+  relation: develops
+  target: '4.01'
+  note: understanding requires a shared bodily form of life
+- source: '4.05'
+  relation: parallels
+  target: '1.15'
+  note: projecting minds onto machines
+- source: '4.08'
+  relation: responds to
+  target: '4.07'
+  note: asks what an artificial system would need to be autonomous
+- source: '4.09'
+  relation: develops
+  target: '4.07'
+  note: consciousness rooted in the regulation of a living body
+- source: '4.09'
+  relation: parallels
+  target: '5.05'
+  note: consciousness depends on biological processes
+- source: '4.09'
+  relation: objects to
+  target: '6.09'
+  note: rejects the computational functionalism the method assumes
+- source: '4.10'
+  relation: parallels
+  target: '8.05'
+  note: cognition and agency spread across humans and artifacts
+- source: '4.08'
+  relation: parallels
+  target: '8.02'
+  note: autonomy as self-constituting organization
+- source: '5.02'
+  relation: objects to
+  target: '5.01'
+  note: functional duplicates might lack or differ in experience
+- source: '5.03'
+  relation: objects to
+  target: '5.01'
+  note: a nation implementing a brain’s organization seems to lack experience
+- source: '5.03'
+  relation: parallels
+  target: '2.01'
+  note: a mindless implementation of a mind’s organization
+- source: '5.04'
+  relation: responds to
+  target: '5.02'
+  note: absent or shifting qualia would go unnoticed, which is implausible
+- source: '5.05'
+  relation: objects to
+  target: '5.01'
+  note: only brain-like causal powers produce minds
+- source: '5.05'
+  relation: extends
+  target: '2.01'
+  note: Searle’s positive view behind the Chinese Room
+- source: '5.06'
+  relation: objects to
+  target: '5.01'
+  note: consciousness depends on intrinsic causal structure, not computation
+- source: '5.07'
+  relation: objects to
+  target: '5.01'
+  note: if everything implements every computation, computation explains nothing
+- source: '6.09'
+  relation: presupposes
+  target: '5.01'
+  note: assumes computational functionalism as a working hypothesis
+- source: '6.01'
+  relation: anticipates
+  target: '6.04'
+  note: subjectivity resists objective explanation
+- source: '6.02'
+  relation: supports
+  target: '6.04'
+  note: conceivable duplicates without experience
+- source: '6.03'
+  relation: supports
+  target: '6.04'
+  note: physical knowledge leaves something out
+- source: '6.02'
+  relation: objects to
+  target: '5.01'
+  note: functional organization does not entail experience
+- source: '6.06'
+  relation: objects to
+  target: '6.04'
+  note: the problem rests on an introspective illusion
+- source: '6.07'
+  relation: contributes to
+  target: '6.09'
+  note: global-workspace indicators
+- source: '6.10'
+  relation: parallels
+  target: '6.09'
+  note: theory-based assessment of LLM consciousness
+- source: '6.11'
+  relation: objects to
+  target: '6.10'
+  note: trained systems can mimic the markers we rely on
+- source: '6.11'
+  relation: parallels
+  target: '1.15'
+  note: behavioral evidence is cheap to induce
+- source: '7.02'
+  relation: applies to LLMs
+  target: '2.13'
+  note: form alone cannot yield meaning
+- source: '7.02'
+  relation: parallels
+  target: '2.01'
+  note: Søgaard calls it a modified Chinese Room
+- source: '7.03'
+  relation: develops
+  target: '7.02'
+  note: fluency without meaning, plus social harms
+- source: '7.01'
+  relation: contrasts with
+  target: '7.02'
+  note: meaning can be recovered from patterns of use
+- source: '7.01'
+  relation: contrasts with
+  target: '7.03'
+  note: structure in text carries meaning
+- source: '7.12'
+  relation: responds to
+  target: '7.03'
+  note: internal models of the world behind the text
+- source: '7.13'
+  relation: contributes to
+  target: '7.12'
+  note: mechanistic evidence about representations
+- source: '7.07'
+  relation: supports
+  target: '7.06'
+  note: new abilities appear with scale
+- source: '7.05'
+  relation: qualifies
+  target: '7.08'
+  note: good at language does not mean good at thought
+- source: '7.04'
+  relation: objects to
+  target: '7.06'
+  note: scale yields engineering tools, not explanations of language
+- source: '7.04'
+  relation: contrasts with
+  target: '7.05'
+  note: whether LLMs can inform the science of language and thought
+- source: '7.11'
+  relation: objects to
+  target: '7.08'
+  note: reasoning collapses under small changes
+- source: '7.11'
+  relation: extends
+  target: '1.18'
+  note: shortcut learning in LLM reasoning
+- source: '7.09'
+  relation: parallels
+  target: '1.18'
+  note: success that does not survive trivial alterations
+- source: '7.14'
+  relation: parallels
+  target: '2.11'
+  note: both treat mental talk about a system as a useful way of describing its behavior rather than a report of inner states
+- source: '7.14'
+  relation: parallels
+  target: '10.02'
+  note: avoiding anthropomorphism
+- source: '8.02'
+  relation: develops
+  target: '4.07'
+  note: enactive conditions for agency
+- source: '8.05'
+  relation: parallels
+  target: '10.11'
+  note: agency of non-human things
+- source: '8.05'
+  relation: responds to
+  target: '8.04'
+  note: responsibility shared across human–machine systems
+- source: '8.06'
+  relation: bears on
+  target: '8.04'
+  note: how much agency LLM-based agents have bears on whether their actions open a responsibility gap
+- source: '8.06'
+  relation: parallels
+  target: '8.03'
+  note: both treat agency in graded, functional terms rather than requiring full mental states
+- source: '9.03'
+  relation: rejects the premise of
+  target: '9.01'
+  note: status is not an intrinsic property
+- source: '9.03'
+  relation: rejects the premise of
+  target: '9.02'
+  note: status is not an intrinsic property
+- source: '9.01'
+  relation: contrasts with
+  target: '9.02'
+  note: sentience vs. rational agency as the ground of status
+- source: '9.04'
+  relation: parallels
+  target: '1.06'
+  note: behavior as our only access to others’ status
+- source: '6.11'
+  relation: objects to
+  target: '9.04'
+  note: behavioral markers can be gamed
+- source: '9.07'
+  relation: develops
+  target: '6.09'
+  note: uses indicator-based assessment to argue for precaution
+- source: '9.08'
+  relation: contrasts with
+  target: '9.07'
+  note: machines should be designed as tools, not patients
+- source: '9.08'
+  relation: contrasts with
+  target: '9.05'
+  note: moral concern belongs to people, not artifacts
+- source: '9.06'
+  relation: parallels
+  target: '9.07'
+  note: acting under uncertainty about machine status
+- source: '9.09'
+  relation: parallels
+  target: '10.02'
+  note: the harms of machines passing as persons
+- source: '10.01'
+  relation: develops
+  target: '1.15'
+  note: Weizenbaum drew his critique from ELIZA
+- source: '10.02'
+  relation: parallels
+  target: '1.15'
+  note: projection of minds onto machines
+- source: '10.08'
+  relation: rejects the premise of
+  target: '9.01'
+  note: property-based criteria fix the answer in advance
+- source: '10.08'
+  relation: rejects the premise of
+  target: '9.02'
+  note: property-based criteria fix the answer in advance
+- source: '10.08'
+  relation: parallels
+  target: '9.03'
+  note: critique and positive proposal of relational views
+- source: '10.04'
+  relation: objects to
+  target: '11.08'
+  note: existential-risk discourse as ideology
+- source: '10.05'
+  relation: parallels
+  target: '10.03'
+  note: AI and patterns of power
+- source: '10.06'
+  relation: builds on
+  target: '10.07'
+  note: draws on Haraway
+- source: '10.06'
+  relation: builds on
+  target: '4.02'
+  note: draws on critiques of disembodied AI
+- source: '10.07'
+  relation: parallels
+  target: '8.05'
+  note: agency distributed across humans and machines
+- source: '10.09'
+  relation: parallels
+  target: '9.03'
+  note: personhood in relations
+- source: '10.11'
+  relation: parallels
+  target: '10.09'
+  note: non-Western relational ontologies
+- source: '10.10'
+  relation: parallels
+  target: '10.11'
+  note: Japanese religious perspectives on machines
+- source: '11.02'
+  relation: objects to
+  target: '11.01'
+  note: growth assumptions lack support
+- source: '11.04'
+  relation: objects to
+  target: '11.03'
+  note: two notions of intelligence are conflated
+- source: '11.04'
+  relation: objects to
+  target: '11.08'
+  note: the standard argument is unsound
+- source: '11.09'
+  relation: objects to
+  target: '11.08'
+  note: AI as normal technology, not superintelligence
+- source: '11.01'
+  relation: supports
+  target: '11.08'
+  note: rapid self-improvement
+- source: '11.03'
+  relation: supports
+  target: '11.08'
+  note: intelligence does not guarantee benign goals
+- source: '11.05'
+  relation: supports
+  target: '11.08'
+  note: dangerous subgoals for almost any goal
+- source: '11.07'
+  relation: extends
+  target: '11.06'
+  note: misaligned goals can arise inside trained systems
+- source: '2.01'
+  relation: objects to
+  target: '5.08'
+  note: a program alone is not sufficient for understanding
+- source: '4.02'
+  relation: objects to
+  target: '5.08'
+  note: intelligence is not rule-governed symbol manipulation
+- source: '5.09'
+  relation: contrasts with
+  target: '5.08'
+  note: distributed networks instead of explicit symbols
+- source: '5.10'
+  relation: objects to
+  target: '5.09'
+  note: networks cannot explain systematic thought
+- source: '5.10'
+  relation: parallels
+  target: '7.11'
+  note: systematic generalization in neural networks
+- source: '7.15'
+  relation: parallels
+  target: '7.03'
+  note: text produced without concern for meaning or truth
+- source: '7.16'
+  relation: contrasts with
+  target: '7.15'
+  note: outputs as assertions with content
+- source: '7.16'
+  relation: parallels
+  target: '2.12'
+  note: both hold that content can be fixed by external relations, not by the system’s inner understanding
+- source: '9.10'
+  relation: parallels
+  target: '9.04'
+  note: behavior as evidence enough
+- source: '9.11'
+  relation: contrasts with
+  target: '9.10'
+  note: comfort that depends on deception
+- source: '9.11'
+  relation: parallels
+  target: '9.09'
+  note: machines that pass as persons
+- source: '10.12'
+  relation: objects to
+  target: '11.08'
+  note: speculative risk distracts from present harms
+- source: '10.12'
+  relation: parallels
+  target: '10.03'
+  note: what intelligence talk hides
+- source: '10.13'
+  relation: parallels
+  target: '10.03'
+  note: the material costs of AI
+- source: '10.13'
+  relation: parallels
+  target: '7.03'
+  note: environmental and social costs of large models
+- source: '11.05'
+  relation: presupposes
+  target: '8.06'
+  note: the argument assumes goal-directed agency of the kind 8.06 attributes to LLM-based agents
+- source: '11.07'
+  relation: presupposes
+  target: '8.06'
+  note: assumes that trained systems can have goals of their own
+- source: '11.03'
+  relation: contrasts with
+  target: '8.01'
+  note: if agency requires answerability to norms, arbitrary goals joined to high intelligence may not amount to agency in that sense
+- source: '8.04'
+  relation: parallels
+  target: '11.06'
+  note: both concern outcomes that no one intended and that are hard to assign to anyone
+- source: '6.12'
+  relation: contrasts with
+  target: '6.04'
+  note: treats reports of experience as data to explain rather than as access to a further fact
+- source: '6.12'
+  relation: grounds
+  target: '6.06'
+  note: 'Dennett’s method underlies his illusionism: explain why subjects describe experience as they do'
+- source: '6.11'
+  relation: qualifies
+  target: '6.12'
+  note: reports from systems trained on human reports are weak data, even on heterophenomenological terms
+- source: '6.12'
+  relation: parallels
+  target: '1.06'
+  note: 'both start from the evidence we have about other minds: what they say and do'
+- source: '5.11'
+  relation: develops
+  target: '6.04'
+  note: the hard problem, applied to a functional duplicate on another substrate
+- source: '5.11'
+  relation: contrasts with
+  target: '5.04'
+  note: organizational invariance says the duplicate is conscious; Block says we could not know
+- source: '7.17'
+  relation: proposes alternative to
+  target: '7.14'
+  note: a cultural technology rather than a simulator of characters
+- source: '7.18'
+  relation: objects to
+  target: '7.03'
+  note: statistics at scale can amount to understanding
+- source: '8.07'
+  relation: supports
+  target: '8.06'
+  note: minimal agency in learning systems
+- source: '9.12'
+  relation: parallels
+  target: '9.06'
+  note: both recommend not building systems of uncertain status
+- source: '9.13'
+  relation: extends
+  target: '9.01'
+  note: if digital minds can have well-being, their interests may outweigh ours
+- source: '9.14'
+  relation: responds to
+  target: '6.11'
+  note: a way to make self-reports usable despite training on human text
+- source: '10.14'
+  relation: parallels
+  target: '10.06'
+  note: both find a particular kind of person built into ideas of intelligence
+- source: '11.10'
+  relation: formalizes
+  target: '11.08'
+  note: the case for catastrophic risk, premise by premise
+- source: '11.06'
+  relation: contributes to
+  target: '11.08'
+  note: misalignment supports the catastrophic-risk conclusion only together with claims about capability, goals and loss of control
+- source: '3.06'
+  relation: objects to
+  target: '3.01'
+  note: we can see the Gödel sentence is true only if we know the system is consistent
+- source: '3.06'
+  relation: objects to
+  target: '3.02'
+  note: the same consistency point applies to Penrose’s version
+- source: '3.06'
+  relation: responds to
+  target: '1.04'
+  note: Turing’s own answer to his objection 3, developed by Putnam and Benacerraf

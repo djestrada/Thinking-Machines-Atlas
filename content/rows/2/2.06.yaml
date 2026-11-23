@@ -1,0 +1,31 @@
+id: '2.06'
+cluster: '2'
+thread: The Chinese Room and the replies (1980)
+order: 6
+stance: Deflationary
+arg: Intuition-pump objection to the Chinese Room
+target: Understanding; method
+scope: Digital computers
+family: F06
+summary: 'The Chinese Room is an intuition pump: it invites us to picture a slow, simple rule-follower. A system that really passed the Turing test would run vastly faster and be enormously more complex, so our verdict that nothing in it understands is not reliable. The thought experiment shows how we imagine the case, not what is true of it.'
+orig: |-
+  Hofstadter, D. R., & Dennett, D. C. (Eds.) (1981). The Mind’s I. Basic Books (reprints Searle’s article with Hofstadter’s reflections on it). https://archive.org/details/mindsi00doug/
+  Dennett, D. C. (1991). Consciousness Explained. Little, Brown.
+link: ''
+further:
+- Cole, D. The Chinese Room Argument. Stanford Encyclopedia of Philosophy, section on the intuition reply (citing Dennett, Pinker and Maudlin). https://plato.stanford.edu/entries/chinese-room/
+resp:
+- Searle’s insistence that the internalized system remains purely syntactic, however complex, is the standard rejoinder (see 2.01).
+- 'Harnad, Minds, machines and Searle 2: what’s right and wrong about the Chinese Room argument, treats such objections as “Granny objections.” https://web-archive.southampton.ac.uk/cogprints.org/1622/1/harnad00.searle.html'
+note: 'A good way to introduce the method question: what weight should an intuition about a simple imagined case carry when the real systems are astronomically complex?'
+see_also:
+- '1.12'
+- '2.02'
+todo: ''
+ver: 'Weakly sourced. Dennett’s own commentary on Searle was not located; the objection is described from SEP’s section list. Hofstadter & Dennett (1981) from a listing. Characterization check (19 Nov 2026): summary revised to include the speed point, which the SEP entry emphasizes; Dennett coined “intuition pump.” Renumbered 19 Nov 2026 (previously 2.10). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Weakly sourced. Dennett’s own commentary on Searle was not located; the objection is described from SEP’s section list. Hofstadter & Dennett (1981) from a listing. Characterization check (19 Nov 2026): summary revised to include the speed point, which the SEP entry emphasizes; Dennett coined “intuition pump.” Renumbered 19 Nov 2026 (previously 2.10). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- No free copy linked (book or paywalled)
+- ''

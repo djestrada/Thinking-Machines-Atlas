@@ -1,0 +1,29 @@
+id: '7.09'
+cluster: '7'
+thread: Capabilities and their limits
+order: 9
+stance: For
+arg: Theory of mind in LLMs
+target: Social cognition
+scope: LLMs
+family: F02
+summary: Kosinski tests large language models on 40 bespoke false-belief tasks of the kind used with children. He reports that the most capable model tested (GPT-4, June 2023) solved about three quarters of them, comparable to six-year-olds, and suggests theory-of-mind-like abilities may emerge from language modeling. Passing such tasks does not by itself show human-like mental-state attribution, and later studies find performance fragile under small changes to the tasks.
+orig: 'Kosinski, M. (2024). Evaluating large language models in theory of mind tasks. PNAS 121(45): e2405460121. https://doi.org/10.1073/pnas.2405460121 (preprint arXiv:2302.02083, first titled “Theory of mind may have spontaneously emerged in large language models”).'
+link: https://doi.org/10.1073/pnas.2405460121
+further: []
+resp:
+- Ullman, T. (2023). Large language models fail on trivial alterations to theory-of-mind tasks. arXiv:2302.08399. https://arxiv.org/abs/2302.08399
+- 'Pi, Z., Vadaparty, A., et al. (2024). Dissecting the Ullman variations with a SCALPEL: Why do LLMs fail at trivial alterations to the false belief task? arXiv:2406.14737. https://arxiv.org/abs/2406.14737'
+- Bubeck et al. (2023), §6.1, report that GPT-4 shows a very advanced level of theory of mind on their tests (see 7.08).
+- Pang, D. K. F., Pang, S. K. Y., Broeker, M. D., & Hibble, A. (2025). Do large language models have a theory of mind? PNAS (letter replying to Kosinski). Argues the attribution is premature until simpler explanations are ruled out. https://doi.org/10.1073/pnas.2507080122
+- 'Strachan, J. W. A., et al. (2024). Testing theory of mind in large language models and humans. Nature Human Behaviour 8: 1285–1295. https://doi.org/10.1038/s41562-024-01882-z'
+note: 'Marked For as evidence of social reasoning in models, not as proof of it: the responses show how fragile the results are under small changes to the tasks.'
+see_also: []
+todo: Add the broader theory-of-mind benchmark literature.
+ver: 'Pass 2 (checked via search): Kosinski (PNAS volume, issue and DOI; arXiv history), Ullman, the SCALPEL paper and Pang et al. confirmed. Strachan et al. only as cited. Renumbered 19 Nov 2026 (previously 7.11). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Kosinski (PNAS volume, issue and DOI; arXiv history), Ullman, the SCALPEL paper and Pang et al. confirmed. Strachan et al. only as cited. Renumbered 19 Nov 2026 (previously 7.11). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- one response seen only in a reference list

@@ -1,0 +1,27 @@
+id: '5.08'
+cluster: '5'
+thread: Symbols or networks?
+order: 8
+stance: For
+arg: 'Computationalism: physical symbol systems and the computational theory of mind'
+target: Thinking
+scope: Digital computers
+family: F27
+summary: 'Newell and Simon hypothesize that a physical symbol system has the necessary and sufficient means for general intelligent action. Fodor’s computational theory of mind holds that thinking is computation over mental representations with a language-like structure, a “language of thought”. Together they state the positive thesis that much of this table argues about: thinking is a kind of symbol processing, so a suitably programmed computer could think.'
+orig: 'Newell, A., & Simon, H. A. (1976). Computer science as empirical inquiry: Symbols and search. Communications of the ACM 19(3): 113–126. Scan: https://www.computerhistory.org/chess/doc-431614f691642/ Fodor, J. A. (1975). The Language of Thought. Thomas Y. Crowell.'
+link: https://www.computerhistory.org/chess/doc-431614f691642/
+further:
+- The language of thought hypothesis, Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/language-thought/
+resp:
+- The Chinese Room (2.01) and Dreyfus’s critique (4.02) are aimed at this thesis.
+- Connectionism (5.09) offers a rival account of cognitive architecture.
+note: ''
+see_also: []
+todo: ''
+ver: Newell & Simon (CACM record and archive scan) and Fodor (catalogue record) confirmed 20 Nov 2026.
+ver_detail: Newell & Simon (CACM record and archive scan) and Fodor (catalogue record) confirmed 20 Nov 2026.
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

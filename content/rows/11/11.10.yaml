@@ -1,0 +1,25 @@
+id: '11.10'
+cluster: '11'
+thread: Existential risk and its critics
+order: 8.5
+stance: For
+arg: Is power-seeking AI an existential risk? (Carlsmith)
+target: Risk
+scope: Machines generally
+family: F24
+summary: 'Carlsmith breaks the case into premises: that powerful, agentic, strategically aware systems become possible and are built; that aligning them is hard; that some seek power in high-impact ways; that this escalates to disempowering humanity; and that this would be a catastrophe. He gives a rough probability for each, so readers can see which premise carries the weight.'
+orig: Carlsmith, J. (2022). Is power-seeking AI an existential risk? arXiv:2206.13353. https://arxiv.org/abs/2206.13353
+link: https://arxiv.org/abs/2206.13353
+further: []
+resp:
+- Müller & Cannon (11.04) and Thorstad (11.02) dispute premises on which this version depends.
+note: ''
+see_also: []
+todo: ''
+ver: ''
+ver_detail: ''
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

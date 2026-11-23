@@ -1,0 +1,284 @@
+# The Families tab of the workbook (first row is the header).
+- - Family
+  - Core claim (editorial)
+  - Members (row ID, argument, stance)
+  - Kernel question
+  - Note
+- - F01 Behavior suffices
+  - If a system is indistinguishable from a thinker in what it does, there is no principled ground for denying that it thinks.
+  - |-
+    • 1.01 Turing Test (Imitation Game) (For)
+    • 1.06 Polite convention / argument from other minds (For)
+    • 1.13 Total Turing Test (TTT) (For)
+    • 1.17 Winograd Schema Challenge and its “defeat” (For)
+  - Q2 (behavior); Q3
+  - The Winograd challenge (1.17) proposes a better test rather than defending the imitation game, but shares the premise that a test could settle the matter.
+- - F02 Behavior is shallow evidence
+  - Adequate behavior can come from processes that lack the capacity, so behavior cannot settle whether the capacity is present.
+  - |-
+    • 1.12 Blockhead (look-up table argument) (Against)
+    • 1.15 ELIZA effect (Against)
+    • 1.18 Clever Hans / shortcut learning (Against)
+    • 6.11 The gaming problem (Against)
+    • 7.11 Reasoning or pattern matching? (Against)
+    • 7.09 Theory of mind in LLMs (For)
+    • 10.02 Critique of anthropomorphism (Against)
+  - Q3
+  - Blockhead is the conceptual version; ELIZA, shortcut learning, the gaming problem and the reasoning studies are empirical versions. Theory-of-mind results (7.09) are placed here because the row centres on whether they survive small changes.
+- - F03 Something further is missing
+  - Even flawless performance would leave out felt experience or originality, which are what thinking really requires.
+  - |-
+    • 1.05 Argument from consciousness (Jefferson) (Against)
+    • 1.07 Arguments from various disabilities (Against)
+    • 1.08 Lovelace objection and the Lovelace Tests (Against)
+    • 5.02 Absent and inverted qualia (Against)
+    • 6.01 What it is like to be a bat (Against)
+    • 6.02 Zombie argument (Against)
+    • 6.03 Knowledge argument (Mary’s room) (Against)
+    • 6.04 The hard problem (Against)
+    • 5.11 The harder problem of consciousness (Block) (Against)
+  - Q2 (experience)
+  - Turing pushed the disabilities list and the Lovelace objection back to the consciousness requirement. The hard-problem arguments in cluster 6 are the developed form of Jefferson’s objection.
+- - F04 What are the criteria for?
+  - 'Disputes over machine minds are partly disputes over concepts: criteria shift when met, are thought experiments rather than benchmarks, or mark distinctions the question runs together.'
+  - |-
+    • 1.14 The Turing Test as thought experiment (dissolving the question) (Deflationary)
+    • 1.16 The AI effect (moving goalposts) (For)
+    • 2.14 Wittgenstein: is “machines cannot think” an empirical claim? (Deflationary)
+    • 7.05 Formal vs. functional linguistic competence (Deflationary)
+  - Q1; Q3
+  - The only family that questions whether there is a fixed target, without saying that the answer is a matter of attribution (F08).
+- - F05 Syntax is not enough
+  - Formal symbol manipulation is not by itself sufficient for understanding, and computation is not an intrinsic physical property.
+  - |-
+    • 2.01 The Chinese Room Argument (Against)
+    • 2.07 Simulation is not duplication (Against)
+    • 2.08 Syntax is not sufficient for semantics (Against)
+    • 2.09 Computation is observer-relative (Against)
+    • 5.03 China brain (the Chinese nation) (Against)
+    • 5.07 Universal realizability (triviality of computation) (Against)
+  - Q2 (program); Q1 (realism)
+  - Searle’s argument in thought-experiment, axiom and metaphysical form, with Block’s China brain and the triviality arguments as relatives aimed at functionalism.
+- - F06 Organization suffices
+  - What matters is the organization of the whole running system, not the component that executes it or the material it is made of.
+  - |-
+    • 2.02 Systems reply (For)
+    • 2.03 Virtual mind reply (For)
+    • 2.05 Brain simulator reply (and the Chinese gym / luminous room) (For)
+    • 2.06 Intuition-pump objection to the Chinese Room (Deflationary)
+    • 5.01 Multiple realizability and machine functionalism (For)
+    • 5.04 Fading and dancing qualia (organizational invariance) (For)
+    • 5.09 Connectionism (For)
+  - Q2 (organization)
+  - The replies to the Chinese Room and the defenses of functionalism are one family under two names.
+- - F07 Meaning must be grounded
+  - 'Understanding requires content fixed by something beyond the symbols: causal contact with the world, history, or use. The disagreement is over what does the fixing and whether text can supply it.'
+  - |-
+    • 2.04 Robot reply (For)
+    • 2.10 Original vs. derived intentionality (Against)
+    • 2.12 Naturalized semantics (informational and teleosemantic accounts) (For)
+    • 2.13 The symbol grounding problem (Against)
+    • 7.01 Distributional semantics as meaning (For)
+    • 7.02 The octopus test (Against)
+    • 7.03 Stochastic parrots (Against)
+  - Q2 (grounding)
+  - The octopus test and stochastic parrots are the symbol grounding problem applied to LLMs; distributional semantics (7.01) is the reply that use in text already grounds meaning.
+- - F08 Mind and status are attributed or relational
+  - Whether a system has beliefs, or moral standing, is settled by stance, relation and practice, not by an intrinsic property waiting to be discovered.
+  - |-
+    • 2.11 The intentional stance (Deflationary)
+    • 7.14 Simulators and role-play (Deflationary)
+    • 9.03 Social-relational approaches to moral status (Deflationary)
+    • 10.07 Cyborg and posthumanist critiques (Deflationary)
+    • 10.08 Critique of anthropocentrism and property-based thinking about machines (Deflationary)
+    • 10.09 Relational ontologies: Indigenous kinship and Ubuntu (Deflationary)
+    • 10.10 Robots have Buddha-nature (Mori) (For)
+    • 10.11 Techno-animism in Japan (Deflationary)
+  - Q1 (attribution)
+  - 'A broad family: it runs from Dennett’s stance, on which the patterns are real, to traditions that locate personhood in kinship. What they share is that the answer is not settled by an intrinsic property alone. Mori (10.10) is placed here loosely: his claim is that Buddha-nature pervades all things, not that status is conferred.'
+- - F09 Explained or explained away?
+  - Is consciousness a real first-person phenomenon that science must explain, or a feature of how systems model themselves?
+  - |-
+    • 6.05 Searle’s critique of Dennett on consciousness (the 1995 exchange) (Against)
+    • 6.06 Illusionism and the attention schema (Deflationary)
+    • 6.12 Heterophenomenology (treating reports as data) (Deflationary)
+  - Q1 and Q2 (experience)
+  - The Searle–Dennett exchange and illusionism; this is where the realism of Q1 is contested for consciousness itself.
+- - F10 Theories of consciousness, applied
+  - Scientific theories of consciousness can be applied to AI systems to estimate whether they are conscious.
+  - |-
+    • 6.07 Global workspace theory and AI (For)
+    • 6.08 Higher-order theories and AI (For)
+    • 6.09 Indicator-properties method (For)
+    • 6.10 Could a large language model be conscious? (For)
+  - Q3; Q2 (organization)
+  - The indicator method (6.09) adopts computational functionalism (5.01) as a working hypothesis; the theories it draws on differ in how far they are committed to it.
+- - F11 Life and body matter
+  - Mind is rooted in a living body that maintains itself and for which things matter; disembodied symbol processing leaves this out.
+  - |-
+    • 4.01 Phenomenology of embodiment (Merleau-Ponty) (Against)
+    • 4.02 Dreyfus’s phenomenological critique (Against)
+    • 4.03 Hermeneutic and Heideggerian critiques from within AI (Against)
+    • 4.05 No understanding without a living, feeling partner (Fuchs) (Against)
+    • 4.07 Autopoiesis and life–mind continuity (Against)
+    • 4.09 Beast machine (consciousness from bodily regulation) (Against)
+    • 8.02 Autonomy as self-constituting organization (Against)
+  - Q2 (body and life)
+  - Autonomy as self-constitution (8.02) is the same view applied to agency.
+- - F12 Embodied and situated AI is possible
+  - The lessons of phenomenology and biology can be built into artificial systems.
+  - |-
+    • 4.04 Heideggerian AI is possible (Wheeler) (For)
+    • 4.06 Situated, non-representational AI (Brooks) (For)
+    • 4.08 Enactive AI (For)
+  - Q2 (body and life)
+  - The constructive answer to F11.
+- - F13 The substrate matters
+  - Only physical systems with the right causal powers or physical structure, such as brains, produce minds or consciousness.
+  - |-
+    • 1.09 Argument from continuity in the nervous system (Against)
+    • 5.05 Biological naturalism (Against)
+    • 5.06 IIT’s verdict on digital hardware (Against)
+  - Q2 (substrate)
+  - Turing’s continuity objection is an early form; Searle’s biological naturalism and IIT are the main current ones.
+- - F14 Computability and its limits
+  - 'Results in logic and computer science bear on what computation can do. They differ in kind: Gödelian arguments claim limits that minds escape; Church–Turing universality says a computer can do whatever is effectively computable, which leaves open whether cognition is; complexity and architecture results concern what particular methods can feasibly do.'
+  - |-
+    • 1.04 The mathematical objection (Turing’s objection 3) (Against)
+    • 3.01 Gödelian argument (Lucas) (Against)
+    • 3.02 Penrose’s Gödelian argument and quantum consciousness (Against)
+    • 3.03 Church–Turing universality (For)
+    • 3.04 Computational intractability of learning human-level cognition (Against)
+    • 7.10 Expressivity limits of transformers (Against)
+    • 3.06 The standard reply to the Gödelian arguments (For)
+  - Q2
+  - Gödelian arguments are widely rejected; universality is a conditional bridge, not an argument that machines think; the complexity and expressivity results are more current and more modest in scope.
+- - F15 No rules for everything
+  - No finite set of rules covers every circumstance, so rule-following systems cannot capture relevance or common sense.
+  - |-
+    • 1.10 Argument from informality of behavior (Against)
+    • 3.05 The frame problem (Against)
+  - Q2; Q2 (body and life)
+  - Turing’s informality objection anticipates the frame problem and Dreyfus (4.02).
+- - F16 Capabilities from scale
+  - General methods plus scale produce new and general capabilities.
+  - |-
+    • 7.06 Scaling hypothesis and the bitter lesson (For)
+    • 7.07 Emergent abilities (For)
+    • 7.08 Sparks of AGI (For)
+  - Q3
+  - Mostly empirical claims about current systems, with disputed implications for Q3.
+- - F17 What LLMs show about minds
+  - Whether LLMs are theories of language and thought, and what their internal structure reveals.
+  - |-
+    • 7.04 Chomsky’s critique (Against)
+    • 7.12 World models in LLMs (For)
+    • 7.13 Mechanistic interpretability as evidence (Deflationary)
+    • 7.17 AI models as cultural and social technologies (Deflationary)
+    • 7.18 Large language models understand us (Agüera y Arcas) (For)
+  - Q3
+  - Chomsky denies that LLMs explain anything; world-model and interpretability research looks inside for evidence.
+- - F18 Machines as agents
+  - Artificial systems can be agents, alone or as parts of larger human–machine systems, in a sense that does not require full human-like minds.
+  - |-
+    • 4.10 Extended mind applied to AI (hybrid human–machine cognition) (Deflationary)
+    • 8.03 Artificial moral agency (For)
+    • 8.05 Hybrid and distributed agency (Deflationary)
+    • 8.06 Artificial agency in LLM-based agents (Deflationary)
+    • 8.07 Minimal agency in reinforcement learning systems (Butlin) (For)
+  - Q4 (agency)
+  - The extended mind applied to AI (4.10) belongs here as a claim about hybrid systems.
+- - F19 Agency requires norms or answerability
+  - Genuine agency and responsibility require being bound by and answerable to norms, which current machines are not; acting systems can leave a gap in responsibility.
+  - |-
+    • 8.01 Normative accounts of intentionality and agency (Against)
+    • 8.04 The responsibility gap (Against)
+  - Q4 (agency); Q1
+  - The responsibility gap is the practical face of the normative accounts.
+- - F20 Status from properties
+  - Moral status depends on properties such as sentience or rational agency, so the question is whether machines have them, and what to do under uncertainty.
+  - |-
+    • 9.01 Sentientism (For)
+    • 9.02 Personhood and rational-agency criteria (Against)
+    • 9.04 Ethical behaviourism (For)
+    • 9.06 Full rights dilemma and the excluded middle (For)
+    • 9.07 AI welfare and precaution (For)
+    • 9.12 A moratorium on synthetic phenomenology (Metzinger) (For)
+    • 9.13 Sharing the world with digital minds (Shulman & Bostrom) (For)
+    • 9.14 Self-reports as evidence of moral status (Perez & Long) (For)
+  - Q4 (status); Q3
+  - Ethical behaviourism (9.04) is the evidential version; precaution (9.07) and the excluded-middle dilemma (9.06) are policies under uncertainty.
+- - F21 Protect for our sake
+  - Machines may deserve protection for reasons that concern humans, such as how cruelty to them shapes us.
+  - • 9.05 Legal protection for social robots (indirect argument) (For)
+  - Q4 (status)
+  - Kant’s indirect-duty argument about animals, applied to social robots.
+- - F22 Against machine patiency
+  - Machines should be designed and treated as tools; inviting moral concern for them harms people.
+  - |-
+    • 9.08 Robots should be slaves; patiency is not a virtue (Against)
+    • 9.09 Counterfeit people (Against)
+  - Q4 (status)
+  - Bryson’s design argument and Dennett’s counterfeit-people argument.
+- - F23 Critiques of power and framing
+  - Claims about machine minds serve interests and encode exclusions; ask who benefits from how the question is asked.
+  - |-
+    • 10.01 Weizenbaum’s critique of computer reason (Against)
+    • 10.03 AI as ideology and political economy (Against)
+    • 10.04 Critique of AGI discourse (TESCREAL) (Against)
+    • 10.05 Decolonial critiques of AI (Against)
+    • 10.06 Gendered knowing in AI (Adam) (Against)
+    • 10.12 Hype as distraction from present harms (Against)
+    • 10.13 Hidden costs: bias, surveillance and environment (Against)
+    • 10.14 The whiteness of AI (Cave & Dihal) (Against)
+  - Q0
+  - The frame around the whole table. Anthropomorphism (10.02) is placed in F02 because its main claim is evidential.
+- - F24 Risk from goal-directed AI
+  - Capable systems pursuing mis-specified goals could cause catastrophic harm.
+  - |-
+    • 11.01 Intelligence explosion (For)
+    • 11.03 Orthogonality thesis (For)
+    • 11.05 Instrumental convergence (For)
+    • 11.06 The alignment problem (For)
+    • 11.07 Learned optimization and deceptive alignment (For)
+    • 11.08 Existential risk from AI (For)
+    • 11.10 Is power-seeking AI an existential risk? (Carlsmith) (For)
+  - Q4 (risk)
+  - The standard argument assembled from several premises; each premise has its own critics.
+- - F25 Risk skepticism
+  - The arguments for catastrophic risk rest on unsupported growth assumptions or equivocations, and AI is better treated as a normal technology.
+  - |-
+    • 11.02 Against the singularity hypothesis (Thorstad) (Against)
+    • 11.04 Orthogonality and the risk argument cannot be combined (Müller & Cannon) (Against)
+    • 11.09 AI as normal technology (Narayanan & Kapoor) (Against)
+  - Q4 (risk)
+  - TESCREAL critiques (10.04) make a related case from the frame.
+- - F26 Objections outside the debate
+  - 'Objections that Turing set aside because they do not engage the question on its merits: theology, fear of the consequences, telepathy.'
+  - |-
+    • 1.02 Theological objection (Against)
+    • 1.03 Heads-in-the-sand objection (Against)
+    • 1.11 Argument from extrasensory perception (Against)
+  - —
+  - 'A grab-bag by design: these are the objections Turing set aside as not engaging the question on its merits, grouped for that reason rather than for a shared argument. The theological objection parallels the appeal to something beyond behavior in F03.'
+- - F27 Thinking as computation
+  - Thinking is the manipulation of structured symbols, so the right kind of computation would be thought.
+  - |-
+    • 5.08 Computationalism: physical symbol systems and the computational theory of mind (For)
+    • 5.10 The systematicity challenge to connectionism (Fodor & Pylyshyn) (For)
+  - Q2 (program)
+  - The positive thesis behind strong AI; Fodor and Pylyshyn defend its classical form against connectionism.
+- - F28 Do machines say anything?
+  - Whether the outputs of language models are claims that can be true or false, or text produced without regard to truth.
+  - |-
+    • 7.15 Language models as bullshitters (Against)
+    • 7.16 AI outputs can have content (Cappelen & Dever) (For)
+  - Q3; Q2 (grounding)
+  - Connects meaning (cluster 2) with testimony and reliability.
+- - F29 Relationships with machines
+  - Whether relationships with machines, such as friendship or companionship, can be genuine and good for us.
+  - |-
+    • 9.10 The case for robot friendship (Danaher) (For)
+    • 9.11 Companion machines and deception (Sparrow & Sparrow) (Against)
+  - Q4 (status)
+  - Raises the evidential questions of Q3 in everyday life, with AI companion apps.

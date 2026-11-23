@@ -1,0 +1,28 @@
+id: '2.09'
+cluster: '2'
+thread: Searle’s generalizations
+order: 9
+stance: Against
+arg: Computation is observer-relative
+target: Computation; mind
+scope: Digital computers; brains
+family: F05
+summary: Syntax is not intrinsic to physics. Given a description, a sufficiently complex object, such as a wall, can be interpreted as implementing any program. Whether something is a computer is therefore relative to an observer, so computational descriptions cannot explain the brain, and the claim that the brain is a digital computer is not false but incoherent.
+orig: Searle, J. R. (1990). Is the brain a digital computer? Proceedings and Addresses of the American Philosophical Association, 64(3), 21–37. https://philpapers.org/rec/SEAITB-2
+link: https://philpapers.org/rec/SEAITB-2
+further:
+- Searle (1992), The Rediscovery of the Mind, ch. 9.
+resp:
+- Shagrir, O. (2006). Why we view the brain as a computer. Synthese, 153(3), 393–416. Argues that computational status is partly a matter of perspective and content.
+- 'Chalmers, D. J. (1996). Does a rock implement every finite-state automaton? Synthese, 108(3), 309–333. https://doi.org/10.1007/BF00413692 (author’s copy: https://consc.net/papers/rock.html)'
+note: Bears on substrate debates in Cluster 5 and on whether talk of what LLMs “compute” is objective.
+see_also:
+- '2.08'
+todo: ''
+ver: 'Searle 1990 checked via PhilPapers, JSTOR-derived text and Cambridge chapter page. Shagrir and Rapaport from a course reading list. Chalmers from memory. Link check (19 Nov 2026): no DOI for the 1990 APA address was found; the PhilPapers record is kept as the link. Renumbered 19 Nov 2026 (previously 2.03). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Searle 1990 checked via PhilPapers, JSTOR-derived text and Cambridge chapter page. Shagrir and Rapaport from a course reading list. Chalmers from memory. Link check (19 Nov 2026): no DOI for the 1990 APA address was found; the PhilPapers record is kept as the link. Renumbered 19 Nov 2026 (previously 2.03). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Index or catalogue record (links on to the publisher)
+- one response known only from a listing and abstract

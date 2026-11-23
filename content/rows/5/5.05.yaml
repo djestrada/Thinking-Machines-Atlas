@@ -1,0 +1,28 @@
+id: '5.05'
+cluster: '5'
+thread: Biology and physical substrate
+order: 5
+stance: Against
+arg: Biological naturalism
+target: Consciousness; intentionality
+scope: Computers
+family: F13
+summary: Consciousness and intentionality are caused by specific biological processes in brains, as digestion is caused by stomachs. Simulating those processes on a computer no more creates consciousness than simulating digestion digests anything.
+orig: Searle, J. R. (1980). Minds, brains, and programs (see 2.01). Searle, J. R. (1992). The Rediscovery of the Mind. MIT Press. Searle, J. R. (1995). The mystery of consciousness. New York Review of Books, 2 November 1995.
+link: ''
+further: []
+resp:
+- 'Dennett, D. C., & Searle, J. R. (1995). The mystery of consciousness: An exchange. New York Review of Books, 21 December 1995. (see 6.05)'
+- 'Seth (2025): see 4.09. Godfrey-Smith (2016): see 5.04.'
+- Chalmers (1996), organizational invariance (5.04).
+- Dennett (1991), Consciousness Explained, Little, Brown.
+note: ''
+see_also: []
+todo: Contemporary defenders and critics.
+ver: 'Pass 2 (checked via search): the NYRB articles confirmed. Book citations are standard. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): the NYRB articles confirmed. Book citations are standard. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- No free copy linked (book or paywalled)
+- ''

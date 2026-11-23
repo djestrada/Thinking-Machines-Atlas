@@ -1,0 +1,25 @@
+id: '10.05'
+cluster: '10'
+thread: Power and political economy
+order: 5
+stance: Against
+arg: Decolonial critiques of AI
+target: Power; knowledge
+scope: AI
+family: F23
+summary: Contemporary AI reproduces colonial patterns of extraction and of who defines intelligence and benefit, and a decolonial lens reorients the debate toward those it harms.
+orig: 'Mohamed, S., Png, M.-T., & Isaac, W. (2020). Decolonial AI: Decolonial theory as sociotechnical foresight in artificial intelligence. Philosophy & Technology 33: 659–684. https://doi.org/10.1007/s13347-020-00405-8 (arXiv:2007.04068)'
+link: https://doi.org/10.1007/s13347-020-00405-8
+further: []
+resp:
+- 'Related: 10.03 and 10.09.'
+note: ''
+see_also: []
+todo: Verify. Add more decolonial and non-Western sources.
+ver: 'Pass 2 (checked via search): confirmed (Springer DOI, arXiv). Page range from memory. Link check (19 Nov 2026): now linked to the publisher DOI (Springer); arXiv in the text. Renumbered 19 Nov 2026 (previously 10.09). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): confirmed (Springer DOI, arXiv). Page range from memory. Link check (19 Nov 2026): now linked to the publisher DOI (Springer); arXiv in the text. Renumbered 19 Nov 2026 (previously 10.09). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

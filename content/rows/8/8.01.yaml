@@ -1,0 +1,26 @@
+id: '8.01'
+cluster: '8'
+thread: Normativity and autonomy
+order: 1
+stance: Against
+arg: Normative accounts of intentionality and agency
+target: Intentionality; agency
+scope: Machines generally
+family: F19
+summary: 'Haugeland argues that genuine understanding requires answerability to norms of correctness: a system must be responsible to the world and to others and must care about getting things right. Reliable differential response is not enough, and on his view current machines lack such commitment.'
+orig: 'Haugeland, J. (1990). The intentionality all-stars. Philosophical Perspectives 4: 383–427. Haugeland, J. (1998). Having Thought. Harvard UP.'
+link: ''
+further: []
+resp:
+- 'Dennett’s stance view as a rival: see 2.11.'
+- 'Brandom, R. (2008). Between Saying and Doing: Towards an Analytic Pragmatism. Oxford UP, ch. 3, “Artificial intelligence and analytic pragmatism.” A normative pragmatist who considers a pragmatic version of the AI thesis rather than rejecting it. https://academic.oup.com/book/26709'
+note: ''
+see_also: []
+todo: Verify. Find work applying Haugeland or Brandom to LLMs.
+ver: 'Pass 1: from memory. Haugeland (1990) did not surface in a targeted search; Haugeland (1998) is a standard book citation. Balance check (19 Nov 2026): Brandom moved from the source list to the responses: his own discussion of AI (Between Saying and Doing, ch. 3, confirmed via OUP record) does not support the anti-AI conclusion. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 1: from memory. Haugeland (1990) did not surface in a targeted search; Haugeland (1998) is a standard book citation. Balance check (19 Nov 2026): Brandom moved from the source list to the responses: his own discussion of AI (Between Saying and Doing, ch. 3, confirmed via OUP record) does not support the anti-AI conclusion. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- No free copy linked (book or paywalled)
+- ''

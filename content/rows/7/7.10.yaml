@@ -1,0 +1,26 @@
+id: '7.10'
+cluster: '7'
+thread: Capabilities and their limits
+order: 10
+stance: Against
+arg: Expressivity limits of transformers
+target: Reasoning; formal competence
+scope: LLMs
+family: F14
+summary: Formal analyses show that fixed-depth transformers cannot compute some functions without growing in size. Some of those limits are relaxed by chain-of-thought generation, so the practical import for LLM reasoning is contested.
+orig: 'Hahn, M. (2020). Theoretical limitations of self-attention in neural sequence models. TACL 8: 156–171. https://aclanthology.org/2020.tacl-1.11 (arXiv:1906.06755). Merrill, W., & Sabharwal, A. (2023). The parallelism tradeoff: Limitations of log-precision transformers. TACL 11: 531–545. https://aclanthology.org/2023.tacl-1.31 (arXiv:2207.00729).'
+link: https://aclanthology.org/2020.tacl-1.11
+further: []
+resp:
+- Merrill, W., & Sabharwal, A. (2024). The expressive power of transformers with chain of thought. ICLR 2024. Chain-of-thought steps extend what transformers can compute. https://arxiv.org/abs/2310.07923
+- Gap between what can be expressed and what is learnable in practice (general point).
+note: ''
+see_also: []
+todo: Philosophical treatments; whether this row belongs in cluster 7.
+ver: 'Pass 2 (checked via search): all three papers confirmed (ACL Anthology, arXiv, ICLR proceedings). TACL volume and page numbers from memory. Moved 19 Nov 2026 from cluster 3 to cluster 7: the limits concern transformer language models specifically. Renumbered 19 Nov 2026 (previously 3.06). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): all three papers confirmed (ACL Anthology, arXiv, ICLR proceedings). TACL volume and page numbers from memory. Moved 19 Nov 2026 from cluster 3 to cluster 7: the limits concern transformer language models specifically. Renumbered 19 Nov 2026 (previously 3.06). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

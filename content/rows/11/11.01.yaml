@@ -1,0 +1,28 @@
+id: '11.01'
+cluster: '11'
+thread: Intelligence explosion
+order: 1
+stance: For
+arg: Intelligence explosion
+target: Capability growth
+scope: AI
+family: F24
+summary: Good argues that an ultraintelligent machine could design better machines, which could design better ones still, so that machine intelligence would rapidly leave human intelligence far behind. Chalmers reconstructs this as an argument whose premises can be assessed separately; whether such a process would be fast, or would happen at all, is disputed.
+orig: 'Good, I. J. (1965). Speculations concerning the first ultraintelligent machine. In F. L. Alt & M. Rubinoff (Eds.), Advances in Computers 6: 31–88. Academic Press. Chalmers, D. J. (2010). The singularity: A philosophical analysis. Journal of Consciousness Studies 17(9–10): 7–65. https://consc.net/papers/singularity.pdf'
+link: https://consc.net/papers/singularity.pdf
+further: []
+resp:
+- 'Thorstad (2024) argues the hypothesis rests on unsupported growth assumptions: see 11.02.'
+- 'Hanson & Yudkowsky (2013), The Hanson–Yudkowsky AI-Foom Debate (MIRI). Overview: https://www.lesswrong.com/w/the-hanson-yudkowsky-ai-foom-debate'
+- Chollet, F. (2017), The impossibility of intelligence explosion (essay). https://medium.com/@francois.chollet/the-impossibility-of-intelligence-explosion-5be4a9eda6ec
+- 'Walsh, T. (2017). The singularity may never be near. AI Magazine 38(3): 58–62. https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2702'
+note: ''
+see_also: []
+todo: Verify.
+ver: 'Checked via search (19 Nov 2026): Good (1965; volume, pages, editors via a bibliographic record) and Chalmers (2010; author’s copy and university record) confirmed. Responses other than Thorstad unchecked. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Checked via search (19 Nov 2026): Good (1965; volume, pages, editors via a bibliographic record) and Chalmers (2010; author’s copy and university record) confirmed. Responses other than Thorstad unchecked. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

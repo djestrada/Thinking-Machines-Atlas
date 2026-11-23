@@ -1,0 +1,28 @@
+id: '7.08'
+cluster: '7'
+thread: Capabilities and their limits
+order: 8
+stance: For
+arg: Sparks of AGI
+target: General intelligence
+scope: LLMs
+family: F16
+summary: Bubeck and colleagues report early experiments (March 2023) with a pre-release version of GPT-4 across diverse tasks, and argue that its breadth and depth of capability justify viewing it as an early, incomplete form of general intelligence. The report is an informal set of examples, not a controlled evaluation.
+orig: 'Bubeck, S., Chandrasekaran, V., Eldan, R., Gehrke, J., Horvitz, E., Kamar, E., Lee, P., Lee, Y. T., Li, Y., Lundberg, S., Nori, H., Palangi, H., Ribeiro, M. T., & Zhang, Y. (2023). Sparks of artificial general intelligence: Early experiments with GPT-4. arXiv:2303.12712. https://arxiv.org/abs/2303.12712'
+link: https://arxiv.org/abs/2303.12712
+further: []
+resp:
+- Mahowald et al. (2024) take claims of this kind as an example of the “good at language → good at thought” fallacy (see 7.05). https://arxiv.org/abs/2301.06627
+- Chollet, F. (2019). On the measure of intelligence. arXiv:1911.01547. Defines intelligence as skill-acquisition efficiency and proposes the ARC benchmark. https://arxiv.org/abs/1911.01547
+- Mitchell & Krakauer (2023), PNAS 120(13). https://doi.org/10.1073/pnas.2215907120
+- Narayanan, A., & Kapoor, S. (2024). AI Snake Oil. Princeton University Press.
+note: ''
+see_also: []
+todo: Verify Narayanan & Kapoor. Add responses from cognitive scientists.
+ver: 'Pass 2 (checked via search): Bubeck et al., Mahowald et al. and Chollet confirmed. Narayanan & Kapoor unchecked. Link check (19 Nov 2026): Bubeck et al. exists only on arXiv. Renumbered 19 Nov 2026 (previously 7.10). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Bubeck et al., Mahowald et al. and Chollet confirmed. Narayanan & Kapoor unchecked. Link check (19 Nov 2026): Bubeck et al. exists only on arXiv. Renumbered 19 Nov 2026 (previously 7.10). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

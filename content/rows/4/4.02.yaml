@@ -1,0 +1,27 @@
+id: '4.02'
+cluster: '4'
+thread: Phenomenology and AI
+order: 2
+stance: Against
+arg: Dreyfus’s phenomenological critique
+target: Skilled intelligence; background know-how
+scope: Digital computers (symbolic AI)
+family: F11
+summary: Human expertise rests on embodied, situated know-how and a background of practices that cannot be reduced to explicit rules and facts. So rule-based symbol manipulation cannot yield general intelligence.
+orig: 'Dreyfus, H. L. (1972). What Computers Can’t Do. Harper & Row. (1992). What Computers Still Can’t Do. MIT Press. Later restatement: Dreyfus, H. L. (2007). Why Heideggerian AI failed and how fixing it would require making it more Heideggerian. Philosophical Psychology 20(2): 247–268. https://philpapers.org/rec/DREWHA (free copy: https://static1.squarespace.com/static/53f8bd2ee4b0271e3bcc40eb/t/609c97fcb65b6359f28e905d/1620875262459/Why+Heideggerian+AI+Failed+and+How+Fixing+it+Would+Require+Making+it+More+Heideggerian.pdf)'
+link: https://philpapers.org/rec/DREWHA
+further: []
+resp:
+- 'Papert, S. (1968). The artificial intelligence of Hubert L. Dreyfus: A budget of fallacies. MIT AI Memo 154. https://dspace.mit.edu/handle/1721.1/6084'
+- Wheeler, M. (2005). Reconstructing the Cognitive World. MIT Press (a sympathetic development).
+- 'Turing’s argument from informality of behavior is the precursor: see 1.10.'
+note: ''
+see_also: []
+todo: Recent applications of Dreyfus to deep learning and LLMs.
+ver: 'Pass 2 (checked via search): the 2007 paper confirmed. Book dates are standard; Papert and Wheeler from memory. Link check (19 Nov 2026): Dreyfus (2007) record (PhilPapers) used; publisher DOI not confirmed; free copy kept in the text. Primary-link check (19 Nov 2026): the linked 2007 paper is now listed in Original source as Dreyfus’s own later restatement. Renumbered 19 Nov 2026 (previously 4.01). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): the 2007 paper confirmed. Book dates are standard; Papert and Wheeler from memory. Link check (19 Nov 2026): Dreyfus (2007) record (PhilPapers) used; publisher DOI not confirmed; free copy kept in the text. Primary-link check (19 Nov 2026): the linked 2007 paper is now listed in Original source as Dreyfus’s own later restatement. Renumbered 19 Nov 2026 (previously 4.01). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Index or catalogue record (links on to the publisher)
+- ''

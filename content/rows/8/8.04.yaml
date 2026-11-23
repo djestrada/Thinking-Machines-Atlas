@@ -1,0 +1,28 @@
+id: '8.04'
+cluster: '8'
+thread: Moral agency and responsibility
+order: 4
+stance: Against
+arg: The responsibility gap
+target: Moral responsibility
+scope: Learning systems; AI
+family: F19
+summary: 'When a learning system acts in ways its designers cannot foresee or control, no one may be properly responsible, which leaves a gap that undermines accountability. Several things can come apart here: blame, accountability, legal liability, control and foreseeability, and proposed solutions often address some of these but not others.'
+orig: 'Matthias, A. (2004). The responsibility gap: Ascribing responsibility for the actions of learning automata. Ethics and Information Technology 6(3): 175–183. https://doi.org/10.1007/s10676-004-3422-1 Sparrow, R. (2007). Killer robots. Journal of Applied Philosophy 24(1): 62–77.'
+link: https://doi.org/10.1007/s10676-004-3422-1
+further: []
+resp:
+- 'Tigard, D. W. (2021). There is no techno-responsibility gap. Philosophy & Technology 34: 589–607.'
+- 'Königs, P. (2022). Artificial intelligence and responsibility gaps: What is the problem? Ethics and Information Technology 24: 36. https://doi.org/10.1007/s10676-022-09643-0'
+- 'Hindriks, F., & Veluwenkamp, H. (2023). The risks of autonomous machines: From responsibility gaps to control gaps. Synthese 201: 21. Repository record: https://repository.tudelft.nl/record/uuid:b4e47a03-5184-4d93-9b6c-c3eae7a58c45 See also Veluwenkamp, H. (2025). What responsibility gaps are and what they should be. Ethics and Information Technology. https://dc2.philarchive.org/rec/VELWRG'
+- 'Santoni de Sio, F., & Mecacci, G. (2021). Four responsibility gaps with artificial intelligence: Why they matter and how to address them. Philosophy & Technology 34: 1057–1084. Distinguish gaps in culpability, moral accountability, public accountability and active responsibility, and argue that designing for meaningful human control can address them. https://doi.org/10.1007/s13347-021-00450-x'
+note: ''
+see_also: []
+todo: Verify.
+ver: 'Pass 2 (checked via search): Matthias (DOI), Königs (dblp) and Tigard (title and journal) confirmed. Sparrow seen only as a copy; Hindriks & Veluwenkamp unchecked. Renumbered 19 Nov 2026 (previously 8.03). Link check (19 Nov 2026): Königs now linked to the Springer DOI (dblp blocks automated access); Veluwenkamp’s year and journal added from PhilArchive. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Matthias (DOI), Königs (dblp) and Tigard (title and journal) confirmed. Sparrow seen only as a copy; Hindriks & Veluwenkamp unchecked. Renumbered 19 Nov 2026 (previously 8.03). Link check (19 Nov 2026): Königs now linked to the Springer DOI (dblp blocks automated access); Veluwenkamp’s year and journal added from PhilArchive. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

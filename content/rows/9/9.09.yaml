@@ -1,0 +1,24 @@
+id: '9.09'
+cluster: '9'
+thread: Against treating machines as moral patients
+order: 9
+stance: Against
+arg: Counterfeit people
+target: Deception; personhood
+scope: LLMs
+family: F22
+summary: Systems that pass as persons threaten trust and social order, and making them should be treated like counterfeiting.
+orig: Dennett, D. C. (2023). The problem with counterfeit people. The Atlantic, May 2023 (reported by Daily Nous, 17 May 2023). https://dailynous.com/2023/05/17/dennett-on-ai-we-must-protect-ourselves-against-counterfeit-people/
+link: https://dailynous.com/2023/05/17/dennett-on-ai-we-must-protect-ourselves-against-counterfeit-people/
+further: []
+resp: []
+note: 'Dennett’s argument is about deception and trust more than moral status: it asks what systems that pass as persons do to us.'
+see_also: []
+todo: Verify. Related work on deception and anthropomorphic design.
+ver: 'Pass 2 (checked via search): the Atlantic essay confirmed via Daily Nous and other reports; the Atlantic URL itself not opened. Link check (19 Nov 2026): the Atlantic URL could not be checked (site not reachable by my search tool); the confirmed Daily Nous report is kept as the link. Renumbered 19 Nov 2026 (previously 9.08). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): the Atlantic essay confirmed via Daily Nous and other reports; the Atlantic URL itself not opened. Link check (19 Nov 2026): the Atlantic URL could not be checked (site not reachable by my search tool); the confirmed Daily Nous report is kept as the link. Renumbered 19 Nov 2026 (previously 9.08). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

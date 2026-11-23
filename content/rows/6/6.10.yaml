@@ -1,0 +1,25 @@
+id: '6.10'
+cluster: '6'
+thread: Scientific theories applied to AI
+order: 10
+stance: For
+arg: Could a large language model be conscious?
+target: Consciousness
+scope: LLMs
+family: F10
+summary: Chalmers weighs evidence for and against consciousness in current LLMs (self-report, conversational ability, versus missing recurrent processing, global workspace and unified agency). He treats current models as unlikely candidates but successors as serious ones.
+orig: Chalmers, D. J. (2023). Could a large language model be conscious? Boston Review. https://www.bostonreview.net/articles/could-a-large-language-model-be-conscious/ (also arXiv:2303.07103). https://arxiv.org/abs/2303.07103
+link: https://www.bostonreview.net/articles/could-a-large-language-model-be-conscious/
+further: []
+resp:
+- Seth (4.09), Birch (6.11), Butlin et al. (6.09) offer varying assessments.
+note: ''
+see_also: []
+todo: Verify. Other published appraisals of LLM consciousness.
+ver: 'Pass 2 (checked via search): arXiv record confirmed; Boston Review publication confirmed in the link check. Link check (19 Nov 2026): Boston Review article confirmed and now the primary link; arXiv kept in the text. Renumbered 19 Nov 2026 (previously 6.09). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): arXiv record confirmed; Boston Review publication confirmed in the link check. Link check (19 Nov 2026): Boston Review article confirmed and now the primary link; arXiv kept in the text. Renumbered 19 Nov 2026 (previously 6.09). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

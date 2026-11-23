@@ -1,0 +1,27 @@
+id: '4.06'
+cluster: '4'
+thread: Situated robotics
+order: 6
+stance: For
+arg: Situated, non-representational AI (Brooks)
+target: Intelligence
+scope: Machines (robots)
+family: F12
+summary: Intelligence need not be built from a central world model and symbolic reasoning. Layered reactive systems coupled to their environment can show intelligent behavior, since the world is its own best model.
+orig: 'Brooks, R. A. (1991). Intelligence without representation. Artificial Intelligence 47(1–3): 139–159. https://doi.org/10.1016/0004-3702(91)90053-M Free copy: https://jmvidal.cse.sc.edu/library/brooks91b.pdf Brooks, R. A. (1990). Elephants don’t play chess. Robotics and Autonomous Systems 6: 3–15.'
+link: https://doi.org/10.1016/0004-3702(91)90053-M
+further: []
+resp:
+- 'Barsalou, L. W. (1999). Perceptual symbol systems. Behavioral and Brain Sciences 22(4): 577–660 (grounded cognition). https://doi.org/10.1017/S0140525X99002149'
+- 'Kirsh, D. (1991). Today the earwig, tomorrow man? Artificial Intelligence 47: 161–184. https://doi.org/10.1016/0004-3702(91)90054-N'
+- 'Clark, A., & Toribio, J. (1994). Doing without representing? Synthese 101(3): 401–431. https://doi.org/10.1007/BF01063896'
+note: ''
+see_also: []
+todo: Verify the responses. How Brooks’s program fared; relation to the frame problem (3.05).
+ver: 'Pass 2 (checked via search): Brooks (1991) confirmed (library records, free copy). Responses from memory. Link check (19 Nov 2026): publisher DOI confirmed (Scilit record); free copy kept in the text. Renumbered 19 Nov 2026 (previously 4.02). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Brooks (1991) confirmed (library records, free copy). Responses from memory. Link check (19 Nov 2026): publisher DOI confirmed (Scilit record); free copy kept in the text. Renumbered 19 Nov 2026 (previously 4.02). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

@@ -1,0 +1,25 @@
+id: '10.03'
+cluster: '10'
+thread: Power and political economy
+order: 3
+stance: Against
+arg: AI as ideology and political economy
+target: Power; labor
+scope: AI
+family: F23
+summary: ‘Intelligence’ talk obscures extraction, labor and power relations, and AI systems are products of social and economic structures rather than neutral discoveries.
+orig: 'Crawford, K. (2021). Atlas of AI. Yale UP. Pasquinelli, M. (2023). The Eye of the Master. Verso. Bender, E. M., & Hanna, A. (2025). The AI Con: How to Fight Big Tech’s Hype and Create the Future We Want. Harper.'
+link: ''
+further: []
+resp:
+- 'A common reply: that AI is shaped by labor, extraction and power does not show that claims about its capacities are false; questions of political economy and questions of capability can be pursued together.'
+note: ''
+see_also: []
+todo: Verify. Add labor studies and critical data studies.
+ver: 'Characterization check (19 Nov 2026): The AI Con confirmed (Harper, 2025); author order corrected to Bender & Hanna. Renumbered 19 Nov 2026 (previously 10.05). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Characterization check (19 Nov 2026): The AI Con confirmed (Harper, 2025); author order corrected to Bender & Hanna. Renumbered 19 Nov 2026 (previously 10.05). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- No free copy linked (book or paywalled)
+- ''

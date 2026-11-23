@@ -1,0 +1,95 @@
+# The workbook README, as [kind, text] items.
+- - title
+  - 'Arguments for and against thinking machines: a study map'
+- - text
+  - Working draft, 21 November 2026. Created and edited by Daniel Estrada (NJIT). Drafted and built with Claude (Anthropic); reviewed by AI models (see the AI on AI tab). Daniel Estrada set the project’s aims, audience and standards, made the editorial decisions and checked the work; Claude did most of the drafting, research, verification and code.
+- - text
+  - 'For students in philosophy of AI. The summaries are paraphrases: read the original source before citing any claim.'
+- - text
+  - ''
+- - head
+  - How the table works
+- - text
+  - Each cluster tab covers one topic, and each row is one argument. Arguments that belong together, such as Turing’s nine objections or the replies to the Chinese Room, sit next to each other, roughly in date order, and share a label in the Group column.
+- - text
+  - 'Columns: Group; ID; Stance; Argument; Target (what the argument is about: thinking, understanding, consciousness, agency, moral status); Scope (machines in general, digital computers, or current AI); Summary; Summary checked? (whether the summary has been checked against the source); Original source; Primary link; Further reading; Responses and objections; Related rows; Family (see the Families tab).'
+- - text
+  - 'Stance is relative to the cluster’s question. For: the argument supports the possibility in question (that machines can think, understand, be conscious, act as agents or have moral status). Against: it denies or doubts it. Deflationary: it reframes or dissolves the question. Filter the Stance column to see one side at a time.'
+- - text
+  - ''
+- - head
+  - What “thinking” can mean
+- - text
+  - 'Arguments about thinking machines often run together questions that come apart. A system might have some of these and not others: intelligence; command of language; understanding; mental content (intentionality); consciousness, especially felt experience; self-awareness; agency; moral responsibility; sentience and moral status. Passing a behavioral test does not settle consciousness or moral status, and doubts about consciousness do not show that a system lacks cognitive abilities. The Target column says which of these a row is about.'
+- - text
+  - ''
+- - head
+  - Clusters
+- - text
+  - '1. The Turing test and behavioral criteria: Can behavior show that a machine thinks?'
+- - text
+  - '2. The Chinese Room and the problem of meaning: Can running a program amount to understanding, with meaning of its own?'
+- - text
+  - '3. Formal and computational limits: Do formal or computational limits rule out machine minds?'
+- - text
+  - '4. Embodiment, enaction and life: Can there be a mind without a living, acting body?'
+- - text
+  - '5. Functionalism and substrate: does organization suffice?: Is the right organization enough for a mind, whatever it is made of?'
+- - text
+  - '6. Consciousness: the hard problem and its science: Could a machine be conscious, and could anyone tell?'
+- - text
+  - '7. Large language models: Do large language models understand, reason or model the world?'
+- - text
+  - '8. Agency, autonomy and responsibility: Can machines be agents, and who is responsible for what they do?'
+- - text
+  - '9. Moral status, rights and welfare: Could a machine have moral status?'
+- - text
+  - '10. Critical and cultural approaches: Who frames the question of machine minds, and on whose terms? (Stances still refer to machine minds or moral status.)'
+- - text
+  - '11. Intelligence explosion, orthogonality and alignment: Does advanced AI pose serious risks? (For supports the risk claim; Against disputes it.)'
+- - text
+  - 'Clusters 5 and 6 are related: cluster 5 asks whether the right organization is enough for a mind, and whether the material matters; cluster 6 asks what consciousness is and how we could detect it in AI. Clusters 8 and 9 are also a pair: 8 is about machines as agents (what they do and who answers for it), 9 about machines as moral patients (what is owed to them).'
+- - text
+  - 'Cluster 11 asks a different question: whether advanced AI poses serious risks. For: supports the risk claim. Against: disputes it. Some of its arguments assume that machines can think; others do not.'
+- - text
+  - 'Cluster 7 reports findings about current language models. These date quickly: check for newer work before relying on any claim about what models can do. Keep apart task performance, robust generalization, internal representation, meaningful content and human-like understanding: evidence for one is not evidence for the others.'
+- - text
+  - ''
+- - head
+  - Other tabs
+- - text
+  - 'Relations: typed links between arguments (responds to, extends, objects to, and so on).'
+- - text
+  - 'Existing surveys: published overviews of the same ground, including Horn et al.’s 1998 argument maps of the “Can computers think?” debate (cited, not included).'
+- - text
+  - 'Kernel and Families: an interpretation of the debate’s structure, drafted by Claude. The Kernel names the five questions (Q0 to Q4) that the clusters answer; each Family groups arguments that make the same move in different clusters. Both match the Atlas overview.'
+- - text
+  - 'Exchanges: the Atlas exchanges as a table. Each has a contested claim and a series of moves that affirm, reframe or deny it. A row’s stance is relative to its cluster’s question, but its side in an exchange is relative to that exchange’s claim, so the two can differ: connectionism is For machine minds but denies that thinking is symbol manipulation.'
+- - text
+  - 'AI on AI: each AI model’s own assessment, in the same template: the arguments it finds strongest and least convincing, where it lands, and what follows. Models are listed alphabetically, and each entry says how it was collected. Each model is an interested party, and models agreeing does not make them right. Claude built the table and the Atlas, so its picks are the least independent.'
+- - text
+  - 'Notes on current AI: Claude’s short, unsourced remarks on how individual rows bear on current AI systems.'
+- - text
+  - 'Verification: three levels of checking. The bibliographic record has been confirmed for every row. The summary has been checked against an abstract, encyclopedia entry or open copy for every row (the “Summary checked?” column); this is not a specialist’s review. Full-text or page-level checking has not been done. Changelog: a dated record of changes.'
+- - text
+  - ''
+- - head
+  - The Atlas
+- - text
+  - 'Thinking Machines Atlas, the interactive companion: https://claude.ai/artifact/PUiafw3rggoZgJVzAxoJji. The overview follows the five questions in order, with each argument placed under the answer it gives. Each cluster view shows its exchanges. The AI on AI page shows each model’s assessment and compares them. The Guide explains every mark and has a glossary.'
+- - text
+  - ''
+- - head
+  - Sources and links
+- - text
+  - 'The Primary link goes to the source named in the row: a free copy where one exists, otherwise the publisher’s page or DOI. Books without a free copy, and paywalled newspaper pieces, have no link. Links were checked against publisher, repository or index records. Page numbers have not been checked.'
+- - text
+  - ''
+- - head
+  - Caveats
+- - text
+  - This is a map of a large literature, not a complete bibliography, and the choice of clusters is itself an interpretation. Some traditions, such as phenomenology beyond Dreyfus and non-Western philosophy, are thinly covered.
+- - text
+  - The table and the Atlas have been reviewed by several AI models working independently, and their corrections are recorded in the Changelog. No review replaces reading the sources. If you find an error, note the row ID and the correction.
+- - text
+  - 'Scope: this maps the debate about machine minds, not AI ethics as a whole. Bias, surveillance, labor and environmental costs appear where they bear on how the question is framed and whose interests it serves (Q0 and cluster 10).'

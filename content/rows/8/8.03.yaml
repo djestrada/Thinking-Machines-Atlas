@@ -1,0 +1,26 @@
+id: '8.03'
+cluster: '8'
+thread: Moral agency and responsibility
+order: 3
+stance: For
+arg: Artificial moral agency
+target: Moral agency
+scope: Machines generally; AI
+family: F18
+summary: Artificial systems can be moral agents without full mental states, if agency is analyzed at a suitable level of abstraction in terms of interactivity, autonomy and adaptability.
+orig: 'Floridi, L., & Sanders, J. W. (2004). On the morality of artificial agents. Minds and Machines 14(3): 349–379. https://doi.org/10.1023/B:MIND.0000035461.63578.9d Free copy: https://uhra.herts.ac.uk/id/eprint/2235/ Wallach, W., & Allen, C. (2009). Moral Machines. Oxford UP.'
+link: https://doi.org/10.1023/B:MIND.0000035461.63578.9d
+further: []
+resp:
+- 'Johnson (2006), Computer systems: Moral entities but not moral agents, Ethics and Information Technology 8: 195–204.'
+- 'Himma (2009), Artificial agency, consciousness, and the criteria for moral agency, Ethics and Information Technology 11: 19–29.'
+note: ''
+see_also: []
+todo: Verify. Add recent LLM-era discussions.
+ver: 'Pass 2 (checked via search): Floridi & Sanders confirmed (Springer PDF, university repository). Johnson (2006) and Himma (2009) from memory. Link check (19 Nov 2026): now linked to the publisher DOI (Springer); repository copy kept in the text. Renumbered 19 Nov 2026 (previously 8.04). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Floridi & Sanders confirmed (Springer PDF, university repository). Johnson (2006) and Himma (2009) from memory. Link check (19 Nov 2026): now linked to the publisher DOI (Springer); repository copy kept in the text. Renumbered 19 Nov 2026 (previously 8.04). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Publisher page (full text may need library access)
+- ''

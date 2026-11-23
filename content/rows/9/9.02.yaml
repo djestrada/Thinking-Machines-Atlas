@@ -1,0 +1,26 @@
+id: '9.02'
+cluster: '9'
+thread: What grounds moral status
+order: 2
+stance: Against
+arg: Personhood and rational-agency criteria
+target: Moral status
+scope: Current AI
+family: F20
+summary: Moral status requires capacities such as rational agency, autonomy and self-awareness. If current AI lacks them, it lacks full moral status however it behaves.
+orig: 'Kant, I. (1785). Groundwork of the Metaphysics of Morals (persons as rational agents and ends in themselves). Free translation (Abbott): https://www.gutenberg.org/ebooks/5682'
+link: https://www.gutenberg.org/ebooks/5682
+further: []
+resp:
+- 'Rival views: 9.01, 9.03.'
+- Warren (1997), Moral Status, rejects single-criterion accounts, rational agency included (see 9.01).
+note: Marked Against because it is usually invoked to deny current machines full status. Rational-agency criteria are not anti-machine in principle, and could favor language-model agents more than sentience criteria do.
+see_also: []
+todo: Add AI-specific treatments of the criteria.
+ver: 'Pass 1: from memory. Balance check (19 Nov 2026): Warren (1997) removed as a source for this row; her view is multi-criterial. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 1: from memory. Balance check (19 Nov 2026): Warren (1997) removed as a source for this row; her view is multi-criterial. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

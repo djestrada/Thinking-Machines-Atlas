@@ -1,0 +1,26 @@
+id: '10.10'
+cluster: '10'
+thread: Non-Western perspectives
+order: 10
+stance: For
+arg: Robots have Buddha-nature (Mori)
+target: Status of machines; human–machine relations
+scope: Robots and machines generally
+family: F08
+summary: Mori, a robotics engineer, argues from Buddhist premises that Buddha-nature is present in all things, including the machines people build. He also stresses that control runs both ways between people and machines, and treats the human–machine relation as shared rather than as mastery.
+orig: 'Mori, M. (1981). The Buddha in the Robot: A Robot Engineer’s Thoughts on Science and Religion. Kosei Publishing (Japanese original 1974). Discussion: https://tricycle.org/article/robot-buddhanature/'
+link: https://tricycle.org/article/robot-buddhanature/
+further:
+- 'Hongladarom, S. (2020). The Ethics of AI and Robotics: A Buddhist Viewpoint. Lexington Books. Proposes “machine enlightenment,” combining ethical and technical excellence, as a norm for AI.'
+resp:
+- If Buddha-nature is present in everything, it cannot single out machines; Mori’s claim is about how to regard machines, not about what they can do.
+note: ''
+see_also: []
+todo: ''
+ver: 'Checked via search (19 Nov 2026): Mori’s claims confirmed via a Tricycle article (which dates the Japanese original 1974); Hongladarom’s book and its central proposal confirmed via a library catalogue description. Renumbered 19 Nov 2026 (previously 10.11). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Checked via search (19 Nov 2026): Mori’s claims confirmed via a Tricycle article (which dates the Japanese original 1974); Hongladarom’s book and its central proposal confirmed via a library catalogue description. Renumbered 19 Nov 2026 (previously 10.11). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

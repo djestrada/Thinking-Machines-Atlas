@@ -1,0 +1,27 @@
+id: '10.08'
+cluster: '10'
+thread: Beyond the human
+order: 8
+stance: Deflationary
+arg: Critique of anthropocentrism and property-based thinking about machines
+target: Moral status; mind concepts
+scope: Machines generally
+family: F08
+summary: Gunkel argues that debates about machine agency and patiency have been organized by an exclusive logic that admits only beings with human-like properties (reason, consciousness, sentience), so the answer is fixed before the machine is considered. Drawing on Levinas and Derrida, he proposes thinking otherwise about who or what counts, rather than extending the same criteria to machines.
+orig: 'Gunkel, D. J. (2012). The Machine Question: Critical Perspectives on AI, Robots, and Ethics. MIT Press. Review: https://ndpr.nd.edu/news/the-machine-question-critical-perspectives-on-ai-robots-and-ethics/ Gunkel, D. J. (2007). Thinking Otherwise: Philosophy, Communication, Technology. Purdue University Press.'
+link: https://ndpr.nd.edu/news/the-machine-question-critical-perspectives-on-ai-robots-and-ethics/
+further: []
+resp:
+- The relational positive proposal is in 9.03 (Coeckelbergh 2010; Gunkel 2018, Robot Rights).
+- Bryson (9.08) rejects the project of widening moral consideration to machines.
+- 'Further reading: Estrada, D. (2020). Human supremacy as posthuman risk. Journal of Sociotechnical Critique 1(1), article 5. Argues that human-supremacist assumptions are themselves a source of risk. https://digitalcommons.odu.edu/sociotechnicalcritique/vol1/iss1/5'
+note: ''
+see_also: []
+todo: Add critics of the critique; add other anti-anthropocentric work.
+ver: 'Pass 2 (checked via search): Gunkel (2012; NDPR review and library records) and Gunkel (2007; publisher listing) confirmed. Balance check (19 Nov 2026): Mills (2005) removed: his paper concerns ideal theory in political philosophy, not machines. The author’s dissertation and conference talk removed; his 2020 paper kept as further reading. Renumbered 19 Nov 2026 (previously 10.03). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Gunkel (2012; NDPR review and library records) and Gunkel (2007; publisher listing) confirmed. Balance check (19 Nov 2026): Mills (2005) removed: his paper concerns ideal theory in political philosophy, not machines. The author’s dissertation and conference talk removed; his 2020 paper kept as further reading. Renumbered 19 Nov 2026 (previously 10.03). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

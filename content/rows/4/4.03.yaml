@@ -1,0 +1,26 @@
+id: '4.03'
+cluster: '4'
+thread: Phenomenology and AI
+order: 3
+stance: Against
+arg: Hermeneutic and Heideggerian critiques from within AI
+target: Understanding; language
+scope: Digital computers (symbolic AI)
+family: F11
+summary: Understanding is grounded in being-in-the-world and shared commitments, not in the manipulation of representations, so design built on the representational view misunderstands understanding.
+orig: 'Winograd, T., & Flores, F. (1986). Understanding Computers and Cognition: A New Foundation for Design. Ablex. Agre, P. E. (1997). Computation and Human Experience. Cambridge University Press. https://pages.gseis.ucla.edu/faculty/agre/che-intro.html'
+link: https://pages.gseis.ucla.edu/faculty/agre/che-intro.html
+further: []
+resp:
+- Dreyfus (4.02); Brooks (4.06) as an engineering response.
+- 'A contemporary review of Winograd & Flores appeared in the Knowledge Engineering Review: https://cambridge.org/core/journals/knowledge-engineering-review/article/understanding-computers-and-cognition-a-new-foundation-for-design-by-terry-winograd-and-fernando-flores-207-pages-ablex-1986-2495/FAB886F60BB70DB0F61C43B13604526D'
+note: ''
+see_also: []
+todo: Reception of Agre’s critical technical practice.
+ver: 'Pass 2 (checked via search): both books confirmed (review record; author’s page for Agre’s introduction). Link check (19 Nov 2026): both are books; the author’s page for Agre and a review record for Winograd & Flores are kept. Renumbered 19 Nov 2026 (previously 4.07). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): both books confirmed (review record; author’s page for Agre’s introduction). Link check (19 Nov 2026): both are books; the author’s page for Agre and a review record for Winograd & Flores are kept. Renumbered 19 Nov 2026 (previously 4.07). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

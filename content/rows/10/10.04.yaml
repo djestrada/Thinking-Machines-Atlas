@@ -1,0 +1,25 @@
+id: '10.04'
+cluster: '10'
+thread: Power and political economy
+order: 4
+stance: Against
+arg: Critique of AGI discourse (TESCREAL)
+target: Ideology
+scope: AI discourse
+family: F23
+summary: AGI discourse bundles together ideologies whose roots lie in eugenics and techno-utopianism and shapes research priorities accordingly.
+orig: 'Gebru, T., & Torres, É. P. (2024). The TESCREAL bundle: Eugenics and the promise of utopia through artificial general intelligence. First Monday 29(4). https://firstmonday.org/ojs/index.php/fm/article/view/13636'
+link: https://firstmonday.org/ojs/index.php/fm/article/view/13636
+further: []
+resp:
+- Critics of the label argue that it groups movements with different commitments, and that tracing an idea’s history does not settle whether it is true (the genetic fallacy).
+note: ''
+see_also: []
+todo: Verify. Relevant to Cluster 11.
+ver: 'Pass 2 (checked via search): title and venue confirmed (DAIR, Montreal AI Ethics summary). Link check (19 Nov 2026): now linked to the article on First Monday (29(4), 1 April 2024). Renumbered 19 Nov 2026 (previously 10.06). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): title and venue confirmed (DAIR, Montreal AI Ethics summary). Link check (19 Nov 2026): now linked to the article on First Monday (29(4), 1 April 2024). Renumbered 19 Nov 2026 (previously 10.06). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

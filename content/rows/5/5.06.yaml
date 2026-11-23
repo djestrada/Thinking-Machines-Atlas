@@ -1,0 +1,27 @@
+id: '5.06'
+cluster: '5'
+thread: Biology and physical substrate
+order: 6
+stance: Against
+arg: IIT’s verdict on digital hardware
+target: Consciousness
+scope: Digital computers; current AI
+family: F13
+summary: On integrated information theory (in its recent versions, IIT 3.0 and 4.0), consciousness is a system’s intrinsic cause–effect structure, not its computation. By IIT’s own measures, conventional digital hardware has very little integrated cause–effect structure whatever software it runs, so on this theory a computer simulating a brain would not be conscious, though neuromorphic hardware with the right physical structure could be. The verdict depends on IIT’s contested axioms and measures.
+orig: 'Tononi, G. (2004). An information integration theory of consciousness. BMC Neuroscience 5: 42. https://pmc.ncbi.nlm.nih.gov/articles/PMC543470/ Oizumi, M., Albantakis, L., & Tononi, G. (2014). From the phenomenology to the mechanisms of consciousness: Integrated information theory 3.0. PLoS Computational Biology 10(5): e1003588. https://pmc.ncbi.nlm.nih.gov/articles/PMC4014402 Tononi & Koch (2015), Consciousness: here, there and everywhere? Phil. Trans. R. Soc. B 370: 20140167. https://pmc.ncbi.nlm.nih.gov/articles/PMC4387509 Albantakis, L., et al. (2023). Integrated information theory (IIT) 4.0: Formulating the properties of phenomenal existence in physical terms. PLoS Computational Biology 19(10): e1011465. https://doi.org/10.1371/journal.pcbi.1011465'
+link: https://pmc.ncbi.nlm.nih.gov/articles/PMC4014402
+further: []
+resp:
+- Aaronson, S. (2014). Why I am not an integrated information theorist (blog). https://scottaaronson.blog/?p=1799
+- 'Cerullo, M. A. (2015). The problem with phi: A critique of integrated information theory. PLoS Computational Biology 11(11): e1004286. https://doi.org/10.1371/journal.pcbi.1004286'
+- 'The 2023 open letter by over 100 researchers calling IIT pseudoscience (reported in Nature: https://www.nature.com/articles/d41586-023-02971-1), followed by Klincewicz et al. (2025), What makes a theory of consciousness unscientific?, Nature Neuroscience. https://pubmed.ncbi.nlm.nih.gov/40065187/'
+note: ''
+see_also: []
+todo: IIT applied to LLMs; neuromorphic hardware.
+ver: 'Pass 2 (checked via search): Tononi (2004), Oizumi et al. (2014), the Nature report and the 2025 Nature Neuroscience piece confirmed. Tononi & Koch, Aaronson and Cerullo from memory. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Tononi (2004), Oizumi et al. (2014), the Nature report and the 2025 Nature Neuroscience piece confirmed. Tononi & Koch, Aaronson and Cerullo from memory. Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

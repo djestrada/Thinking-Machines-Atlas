@@ -1,0 +1,27 @@
+id: '6.04'
+cluster: '6'
+thread: The hard problem and its arguments
+order: 4
+stance: Against
+arg: The hard problem
+target: Consciousness
+scope: Machines generally
+family: F03
+summary: Explaining the brain’s functions does not explain why there is experience at all. For AI, functional success would leave open whether the system is conscious.
+orig: 'Chalmers, D. J. (1995). Facing up to the problem of consciousness. Journal of Consciousness Studies 2(3): 200–219. https://consc.net/papers/facing.html Chalmers, D. J. (1996). The Conscious Mind. Oxford UP.'
+link: https://consc.net/papers/facing.html
+further: []
+resp:
+- 'Dennett (1996), Facing backwards on the problem of consciousness, JCS 3(1): 4–6.'
+- 'P. S. Churchland (1996), The hornswoggle problem, JCS 3(5–6): 402–408.'
+- 'Illusionism: see 6.06.'
+note: ''
+see_also: []
+todo: 'Add other framings (explanatory gap: Levine 1983).'
+ver: 'Pass 2 (checked via search): Chalmers (1995) confirmed (repository records, author’s page). Dennett (1996) and Churchland (1996) from memory. Link check (19 Nov 2026): Journal of Consciousness Studies articles from 1995 have no DOI; author’s page kept. Renumbered 19 Nov 2026 (previously 6.01). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Chalmers (1995) confirmed (repository records, author’s page). Dennett (1996) and Churchland (1996) from memory. Link check (19 Nov 2026): Journal of Consciousness Studies articles from 1995 have no DOI; author’s page kept. Renumbered 19 Nov 2026 (previously 6.01). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

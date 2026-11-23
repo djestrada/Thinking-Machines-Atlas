@@ -1,0 +1,20 @@
+name: Suggest an argument or source
+description: An argument, response or source the Atlas should include
+labels: [suggestion]
+body:
+  - type: input
+    id: cluster
+    attributes:
+      label: Cluster or related row
+      description: For example "7 Language models" or "near 7.03"
+  - type: textarea
+    id: what
+    attributes:
+      label: The argument or source
+      description: What it claims, who made it, and where (with a link if possible)
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it belongs

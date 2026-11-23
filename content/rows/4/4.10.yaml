@@ -1,0 +1,25 @@
+id: '4.10'
+cluster: '4'
+thread: Extended mind
+order: 10
+stance: Deflationary
+arg: Extended mind applied to AI (hybrid human–machine cognition)
+target: Boundaries of cognition
+scope: Machines generally; LLMs
+family: F18
+summary: Clark argues that generative AI systems can become parts of extended, hybrid human–machine cognitive systems, much as notebooks and other tools can. On this view the question shifts from whether the machine has a mind of its own to how AI reshapes the cognitive systems humans form with it. The argument applies the extended-mind thesis of Clark and Chalmers (1998), which was about tools in general, not AI.
+orig: 'Clark, A. (2025). Extending minds with generative AI. Nature Communications. https://www.nature.com/articles/s41467-025-59906-9 Background thesis: Clark, A., & Chalmers, D. J. (1998). The extended mind. Analysis 58(1): 7–19. https://academic.oup.com/analysis/article-abstract/58/1/7/153111'
+link: https://www.nature.com/articles/s41467-025-59906-9
+further: []
+resp:
+- 'Adams, F., & Aizawa, K. (2001). The bounds of cognition. Philosophical Psychology 14(1): 43–64. The coupling–constitution objection to the extended-mind thesis. https://www.tandfonline.com/doi/abs/10.1080/09515080120033571'
+note: 'Placed in cluster 4 as a reframe of the question whether a mind must be alive: Clark’s extended mind concerns hybrid human–machine cognition, not life or machine agency as such.'
+see_also: []
+todo: Clark’s Natural-Born Cyborgs (2003); responses to Clark (2025); critical literature on extended cognition and AI.
+ver: 'Pass 2 (checked via search): Clark (2025) confirmed on the publisher’s site (Nature) and PubMed; Clark & Chalmers (OUP record) and Adams & Aizawa (Taylor & Francis) confirmed. Revised 19 Nov 2026: the row now takes Clark (2025) as its source, since the 1998 paper is not about AI; stance changed from For to Deflationary, because the argument reframes the question rather than affirming machine minds. Renumbered 19 Nov 2026 (previously 4.05). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Clark (2025) confirmed on the publisher’s site (Nature) and PubMed; Clark & Chalmers (OUP record) and Adams & Aizawa (Taylor & Francis) confirmed. Revised 19 Nov 2026: the row now takes Clark (2025) as its source, since the 1998 paper is not about AI; stance changed from For to Deflationary, because the argument reframes the question rather than affirming machine minds. Renumbered 19 Nov 2026 (previously 4.05). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''

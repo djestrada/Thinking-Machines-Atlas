@@ -1,0 +1,430 @@
+# Clusters, families of arguments, the five kernel questions, and build settings.
+clusters:
+- key: '1'
+  tab: 1 Turing test & behavior
+  name: 1. The Turing test and behavioral criteria
+  question: Can behavior show that a machine thinks?
+- key: '2'
+  tab: 2 Chinese Room & meaning
+  name: 2. The Chinese Room and the problem of meaning
+  question: Can running a program amount to understanding, with meaning of its own?
+- key: '3'
+  tab: 3 Formal limits
+  name: 3. Formal and computational limits
+  question: Do formal or computational limits rule out machine minds?
+- key: '4'
+  tab: 4 Embodiment & life
+  name: 4. Embodiment, enaction and life
+  question: Can there be a mind without a living, acting body?
+- key: '5'
+  tab: 5 Functionalism & substrate
+  name: '5. Functionalism and substrate: does organization suffice?'
+  question: Is the right organization enough for a mind, whatever it is made of?
+- key: '6'
+  tab: 6 Consciousness
+  name: '6. Consciousness: the hard problem and its science'
+  question: Could a machine be conscious, and could anyone tell?
+- key: '7'
+  tab: 7 Language models
+  name: 7. Large language models
+  question: Do large language models understand, reason or model the world?
+- key: '8'
+  tab: 8 Agency & responsibility
+  name: 8. Agency, autonomy and responsibility
+  question: Can machines be agents, and who is responsible for what they do?
+- key: '9'
+  tab: 9 Moral status
+  name: 9. Moral status, rights and welfare
+  question: Could a machine have moral status?
+- key: '10'
+  tab: 10 Critical approaches
+  name: 10. Critical and cultural approaches
+  question: Who frames the question of machine minds, and on whose terms? (Stances still refer to machine minds or moral status.)
+- key: '11'
+  tab: 11 Risk & alignment
+  name: 11. Intelligence explosion, orthogonality and alignment
+  bracketed: false
+  question: Does advanced AI pose serious risks? (For supports the risk claim; Against disputes it.)
+family_defs:
+- key: F01
+  name: Behavior suffices
+  claim: If a system is indistinguishable from a thinker in what it does, there is no principled ground for denying that it thinks.
+  q: Q2 (behavior); Q3
+  members:
+  - '1.01'
+  - '1.06'
+  - '1.13'
+  - '1.17'
+  note: The Winograd challenge (1.17) proposes a better test rather than defending the imitation game, but shares the premise that a test could settle the matter.
+- key: F02
+  name: Behavior is shallow evidence
+  claim: Adequate behavior can come from processes that lack the capacity, so behavior cannot settle whether the capacity is present.
+  q: Q3
+  members:
+  - '1.12'
+  - '1.15'
+  - '1.18'
+  - '6.11'
+  - '7.11'
+  - '7.09'
+  - '10.02'
+  note: Blockhead is the conceptual version; ELIZA, shortcut learning, the gaming problem and the reasoning studies are empirical versions. Theory-of-mind results (7.09) are placed here because the row centres on whether they survive small changes.
+- key: F03
+  name: Something further is missing
+  claim: Even flawless performance would leave out felt experience or originality, which are what thinking really requires.
+  q: Q2 (experience)
+  members:
+  - '1.05'
+  - '1.07'
+  - '1.08'
+  - '5.02'
+  - '6.01'
+  - '6.02'
+  - '6.03'
+  - '6.04'
+  - '5.11'
+  note: Turing pushed the disabilities list and the Lovelace objection back to the consciousness requirement. The hard-problem arguments in cluster 6 are the developed form of Jefferson’s objection.
+- key: F04
+  name: What are the criteria for?
+  claim: 'Disputes over machine minds are partly disputes over concepts: criteria shift when met, are thought experiments rather than benchmarks, or mark distinctions the question runs together.'
+  q: Q1; Q3
+  members:
+  - '1.14'
+  - '1.16'
+  - '2.14'
+  - '7.05'
+  note: The only family that questions whether there is a fixed target, without saying that the answer is a matter of attribution (F08).
+- key: F05
+  name: Syntax is not enough
+  claim: Formal symbol manipulation is not by itself sufficient for understanding, and computation is not an intrinsic physical property.
+  q: Q2 (program); Q1 (realism)
+  members:
+  - '2.01'
+  - '2.07'
+  - '2.08'
+  - '2.09'
+  - '5.03'
+  - '5.07'
+  note: Searle’s argument in thought-experiment, axiom and metaphysical form, with Block’s China brain and the triviality arguments as relatives aimed at functionalism.
+- key: F06
+  name: Organization suffices
+  claim: What matters is the organization of the whole running system, not the component that executes it or the material it is made of.
+  q: Q2 (organization)
+  members:
+  - '2.02'
+  - '2.03'
+  - '2.05'
+  - '2.06'
+  - '5.01'
+  - '5.04'
+  - '5.09'
+  note: The replies to the Chinese Room and the defenses of functionalism are one family under two names.
+- key: F07
+  name: Meaning must be grounded
+  claim: 'Understanding requires content fixed by something beyond the symbols: causal contact with the world, history, or use. The disagreement is over what does the fixing and whether text can supply it.'
+  q: Q2 (grounding)
+  members:
+  - '2.04'
+  - '2.10'
+  - '2.12'
+  - '2.13'
+  - '7.01'
+  - '7.02'
+  - '7.03'
+  note: The octopus test and stochastic parrots are the symbol grounding problem applied to LLMs; distributional semantics (7.01) is the reply that use in text already grounds meaning.
+- key: F08
+  name: Mind and status are attributed or relational
+  claim: Whether a system has beliefs, or moral standing, is settled by stance, relation and practice, not by an intrinsic property waiting to be discovered.
+  q: Q1 (attribution)
+  members:
+  - '2.11'
+  - '7.14'
+  - '9.03'
+  - '10.07'
+  - '10.08'
+  - '10.09'
+  - '10.10'
+  - '10.11'
+  note: 'A broad family: it runs from Dennett’s stance, on which the patterns are real, to traditions that locate personhood in kinship. What they share is that the answer is not settled by an intrinsic property alone. Mori (10.10) is placed here loosely: his claim is that Buddha-nature pervades all things, not that status is conferred.'
+- key: F09
+  name: Explained or explained away?
+  claim: Is consciousness a real first-person phenomenon that science must explain, or a feature of how systems model themselves?
+  q: Q1 and Q2 (experience)
+  members:
+  - '6.05'
+  - '6.06'
+  - '6.12'
+  note: The Searle–Dennett exchange and illusionism; this is where the realism of Q1 is contested for consciousness itself.
+- key: F10
+  name: Theories of consciousness, applied
+  claim: Scientific theories of consciousness can be applied to AI systems to estimate whether they are conscious.
+  q: Q3; Q2 (organization)
+  members:
+  - '6.07'
+  - '6.08'
+  - '6.09'
+  - '6.10'
+  note: The indicator method (6.09) adopts computational functionalism (5.01) as a working hypothesis; the theories it draws on differ in how far they are committed to it.
+- key: F11
+  name: Life and body matter
+  claim: Mind is rooted in a living body that maintains itself and for which things matter; disembodied symbol processing leaves this out.
+  q: Q2 (body and life)
+  members:
+  - '4.01'
+  - '4.02'
+  - '4.03'
+  - '4.05'
+  - '4.07'
+  - '4.09'
+  - '8.02'
+  note: Autonomy as self-constitution (8.02) is the same view applied to agency.
+- key: F12
+  name: Embodied and situated AI is possible
+  claim: The lessons of phenomenology and biology can be built into artificial systems.
+  q: Q2 (body and life)
+  members:
+  - '4.04'
+  - '4.06'
+  - '4.08'
+  note: The constructive answer to F11.
+- key: F13
+  name: The substrate matters
+  claim: Only physical systems with the right causal powers or physical structure, such as brains, produce minds or consciousness.
+  q: Q2 (substrate)
+  members:
+  - '1.09'
+  - '5.05'
+  - '5.06'
+  note: Turing’s continuity objection is an early form; Searle’s biological naturalism and IIT are the main current ones.
+- key: F14
+  name: Computability and its limits
+  claim: 'Results in logic and computer science bear on what computation can do. They differ in kind: Gödelian arguments claim limits that minds escape; Church–Turing universality says a computer can do whatever is effectively computable, which leaves open whether cognition is; complexity and architecture results concern what particular methods can feasibly do.'
+  q: Q2
+  members:
+  - '1.04'
+  - '3.01'
+  - '3.02'
+  - '3.06'
+  - '3.03'
+  - '3.04'
+  - '7.10'
+  note: Gödelian arguments are widely rejected; universality is a conditional bridge, not an argument that machines think; the complexity and expressivity results are more current and more modest in scope.
+- key: F15
+  name: No rules for everything
+  claim: No finite set of rules covers every circumstance, so rule-following systems cannot capture relevance or common sense.
+  q: Q2; Q2 (body and life)
+  members:
+  - '1.10'
+  - '3.05'
+  note: Turing’s informality objection anticipates the frame problem and Dreyfus (4.02).
+- key: F16
+  name: Capabilities from scale
+  claim: General methods plus scale produce new and general capabilities.
+  q: Q3
+  members:
+  - '7.06'
+  - '7.07'
+  - '7.08'
+  note: Mostly empirical claims about current systems, with disputed implications for Q3.
+- key: F17
+  name: What LLMs show about minds
+  claim: Whether LLMs are theories of language and thought, and what their internal structure reveals.
+  q: Q3
+  members:
+  - '7.04'
+  - '7.12'
+  - '7.13'
+  - '7.17'
+  - '7.18'
+  note: Chomsky denies that LLMs explain anything; world-model and interpretability research looks inside for evidence.
+- key: F18
+  name: Machines as agents
+  claim: Artificial systems can be agents, alone or as parts of larger human–machine systems, in a sense that does not require full human-like minds.
+  q: Q4 (agency)
+  members:
+  - '4.10'
+  - '8.03'
+  - '8.05'
+  - '8.06'
+  - '8.07'
+  note: The extended mind applied to AI (4.10) belongs here as a claim about hybrid systems.
+- key: F19
+  name: Agency requires norms or answerability
+  claim: Genuine agency and responsibility require being bound by and answerable to norms, which current machines are not; acting systems can leave a gap in responsibility.
+  q: Q4 (agency); Q1
+  members:
+  - '8.01'
+  - '8.04'
+  note: The responsibility gap is the practical face of the normative accounts.
+- key: F20
+  name: Status from properties
+  claim: Moral status depends on properties such as sentience or rational agency, so the question is whether machines have them, and what to do under uncertainty.
+  q: Q4 (status); Q3
+  members:
+  - '9.01'
+  - '9.02'
+  - '9.04'
+  - '9.06'
+  - '9.07'
+  - '9.12'
+  - '9.13'
+  - '9.14'
+  note: Ethical behaviourism (9.04) is the evidential version; precaution (9.07) and the excluded-middle dilemma (9.06) are policies under uncertainty.
+- key: F21
+  name: Protect for our sake
+  claim: Machines may deserve protection for reasons that concern humans, such as how cruelty to them shapes us.
+  q: Q4 (status)
+  members:
+  - '9.05'
+  note: Kant’s indirect-duty argument about animals, applied to social robots.
+- key: F22
+  name: Against machine patiency
+  claim: Machines should be designed and treated as tools; inviting moral concern for them harms people.
+  q: Q4 (status)
+  members:
+  - '9.08'
+  - '9.09'
+  note: Bryson’s design argument and Dennett’s counterfeit-people argument.
+- key: F23
+  name: Critiques of power and framing
+  claim: Claims about machine minds serve interests and encode exclusions; ask who benefits from how the question is asked.
+  q: Q0
+  members:
+  - '10.01'
+  - '10.03'
+  - '10.04'
+  - '10.05'
+  - '10.06'
+  - '10.12'
+  - '10.13'
+  - '10.14'
+  note: The frame around the whole table. Anthropomorphism (10.02) is placed in F02 because its main claim is evidential.
+- key: F24
+  name: Risk from goal-directed AI
+  claim: Capable systems pursuing mis-specified goals could cause catastrophic harm.
+  q: Q4 (risk)
+  members:
+  - '11.01'
+  - '11.03'
+  - '11.05'
+  - '11.06'
+  - '11.07'
+  - '11.08'
+  - '11.10'
+  note: The standard argument assembled from several premises; each premise has its own critics.
+- key: F25
+  name: Risk skepticism
+  claim: The arguments for catastrophic risk rest on unsupported growth assumptions or equivocations, and AI is better treated as a normal technology.
+  q: Q4 (risk)
+  members:
+  - '11.02'
+  - '11.04'
+  - '11.09'
+  note: TESCREAL critiques (10.04) make a related case from the frame.
+- key: F26
+  name: Objections outside the debate
+  claim: 'Objections that Turing set aside because they do not engage the question on its merits: theology, fear of the consequences, telepathy.'
+  q: —
+  members:
+  - '1.02'
+  - '1.03'
+  - '1.11'
+  note: 'A grab-bag by design: these are the objections Turing set aside as not engaging the question on its merits, grouped for that reason rather than for a shared argument. The theological objection parallels the appeal to something beyond behavior in F03.'
+- key: F27
+  name: Thinking as computation
+  claim: Thinking is the manipulation of structured symbols, so the right kind of computation would be thought.
+  q: Q2 (program)
+  members:
+  - '5.08'
+  - '5.10'
+  note: The positive thesis behind strong AI; Fodor and Pylyshyn defend its classical form against connectionism.
+- key: F28
+  name: Do machines say anything?
+  claim: Whether the outputs of language models are claims that can be true or false, or text produced without regard to truth.
+  q: Q3; Q2 (grounding)
+  members:
+  - '7.15'
+  - '7.16'
+  note: Connects meaning (cluster 2) with testimony and reliability.
+- key: F29
+  name: Relationships with machines
+  claim: Whether relationships with machines, such as friendship or companionship, can be genuine and good for us.
+  q: Q4 (status)
+  members:
+  - '9.10'
+  - '9.11'
+  note: Raises the evidential questions of Q3 in everyday life, with AI companion apps.
+kernel_defs:
+- key: Q0
+  q: Who asks, and why?
+  pos: The questions below are asked from particular positions. Talk of thinking machines can serve interests and draw attention away from the costs of AI systems already in use (labor, data, bias, surveillance, energy), and the line between person and thing is drawn differently across traditions.
+  where: Cluster 10; F23, with F08 for the non-Western rows.
+  note: Asked first because these critiques question the framing of everything that follows, rather than answering one question.
+- key: Q1
+  q: Is there a fact of the matter?
+  pos: 'Realism: whether a system thinks, understands or matters morally is a fact about the system. Attribution: these are statuses conferred by stance, relation and practice.'
+  where: Assumed by most rows on both sides; the attributive side is gathered in F04, F08 and F09 (clusters 1, 2, 6, 7, 9, 10).
+  note: 'Searle and Chalmers assume there is a fact and doubt that machines have it; functionalists assume the same and think machines could. Turing’s text supports two readings: he calls the question too meaningless to deserve discussion, yet predicts that usage will come to allow talk of machines thinking. Dennett’s real patterns are a middle view. The attributive answer does not answer the later questions; it turns them into questions about practice.'
+- key: Q2
+  q: What would it take, and can computation supply it?
+  pos: 'Conditions proposed, roughly from thin to thick: behavior, running a program, functional organization, grounding in the world, a living body, the right substrate, felt experience. The ordering is an interpretation: the rungs are not nested, and some views skip rungs. Before the ladder is a gate. In principle, formal-limits arguments say computation cannot reach any rung, and Church–Turing universality says it can reach whatever is computable. In practice, intractability and the frame problem grant that machine thought is possible and ask whether it is feasible.'
+  where: Clusters 1–6 and part of 7; F01, F03, F05–F07, F11–F15.
+  note: 'Most of the variety in clusters 1–6 is this one question. A new rung is usually proposed after a counterexample to the one below: Blockhead and the Chinese Room push from behavior to organization, the robot reply and grounding push toward the world, enactivists toward life, biological naturalists toward substrate, the hard problem toward experience.'
+- key: Q3
+  q: How could we tell?
+  pos: Watch behavior; distrust behavior that is easy to fake; look inside (interpretability, architecture); apply theories of consciousness; accept limited evidence, as with other minds.
+  where: Clusters 1, 6 and 7; F02, F10, F16, F17.
+  note: The thinner the condition accepted at Q2, the easier it is to test. Behavior is visible, organization partly, experience hardly at all.
+- key: Q4
+  q: What follows?
+  pos: Agency and responsibility (cluster 8); what is owed to machines (9); what risks they pose (11).
+  where: F18–F22, F24–F25.
+  note: 'Some of these questions arise whether or not machines think: the responsibility gap, misuse, our relationships with machines. Others depend on earlier answers: what is owed to a machine depends on whether it can feel, and the argument for catastrophic risk assumes goal-directed agency.'
+fam_map:
+  '1.01': F01 Behavioral sufficiency
+  '1.02': F01 Behavioral sufficiency
+  '1.04': F01 Behavioral sufficiency
+  '1.10': F01 Behavioral sufficiency
+  '1.05': F02 Behavior as shallow evidence
+  '1.08': F02 Behavior as shallow evidence
+  '1.09': F02 Behavior as shallow evidence
+  '1.03': F03 Missing inner life or originality
+  '1.06': F03 Missing inner life or originality
+  '1.07': F03 Missing inner life or originality
+  '1.11': F04 What the criteria are for
+  '1.12': F04 What the criteria are for
+  '2.01': F05 Syntax is not enough
+  '2.02': F05 Syntax is not enough
+  '2.03': F05 Syntax is not enough
+  '2.06': F06 Organization suffices
+  '2.07': F06 Organization suffices
+  '2.09': F06 Organization suffices
+  '2.10': F06 Organization suffices
+  '2.04': F07 Meaning must be grounded
+  '2.05': F07 Meaning must be grounded
+  '2.08': F07 Meaning must be grounded
+  '2.12': F07 Meaning must be grounded
+  '2.11': F08 Meaning is attributed
+  '1.13': F04 What the criteria are for
+  '1.14': F03 Missing inner life or originality
+  '1.15': — (unassigned, pass 1)
+  '1.16': — (unassigned, pass 1)
+  '1.17': — (unassigned, pass 1)
+  '1.18': — (unassigned, pass 1)
+  '2.13': — (unassigned, pass 1)
+  '2.14': F05 Syntax is not enough
+relation_chronology_fixes:
+- - '7.01'
+  - responds to
+  - '7.02'
+- - '7.01'
+  - responds to
+  - '7.03'
+- - '9.08'
+  - objects to
+  - '9.07'
+- - '9.08'
+  - objects to
+  - '9.05'
+notes_tab: true
+show_drafts: true

@@ -1,0 +1,27 @@
+id: '9.05'
+cluster: '9'
+thread: Protection, rights and welfare
+order: 5
+stance: For
+arg: Legal protection for social robots (indirect argument)
+target: Legal and moral protection
+scope: Social and service robots
+family: F21
+summary: Because people readily anthropomorphize and empathize with social robots, mistreating them may erode human empathy and social values. That gives indirect, Kantian-style reasons to extend some legal protection to such robots, whatever their inner life.
+orig: 'Darling, K. (2012). Extending legal protection to social robots: The effects of anthropomorphism, empathy, and violent behavior towards robotic objects. We Robot 2012 (SSRN 2044797); published in Calo, Froomkin & Kerr (Eds.), Robot Law (Edward Elgar, 2016). https://papers.ssrn.com/abstract=2044797'
+link: https://papers.ssrn.com/abstract=2044797
+further: []
+resp:
+- Bryson (9.08) as the opposing line.
+- Coeckelbergh (2010) and Gunkel (2018) give relational rather than indirect justifications (see 9.03).
+- 'Further reading: Estrada, D. (2018). Value alignment, fair play, and the rights of service robots. AIES ’18: 102–107. Argues that rights for service robots in public spaces support alignment between human and machine interests. https://doi.org/10.1145/3278721.3278730'
+note: 'For in an indirect sense: the reasons to protect social robots come from their effects on people, not from the robots’ own status.'
+see_also: []
+todo: Add responses to Darling and empirical work on robot abuse.
+ver: 'Pass 2 (checked via search): Darling (SSRN record) confirmed; the 2016 book publication from memory. Balance check (19 Nov 2026): row previously built around the author’s own paper; reframed around Darling, with that paper as further reading. Unpublished and in-progress items removed. Renumbered 19 Nov 2026 (previously 9.09). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_detail: 'Pass 2 (checked via search): Darling (SSRN record) confirmed; the 2016 book publication from memory. Balance check (19 Nov 2026): row previously built around the author’s own paper; reframed around Darling, with that paper as further reading. Unpublished and in-progress items removed. Renumbered 19 Nov 2026 (previously 9.09). Final citation pass (19 Nov 2026): remaining further-reading and response citations checked against publisher, repository or catalogue records where marked; links added.'
+ver_status:
+- Bibliographic record confirmed
+- Checked against an abstract, encyclopedia entry or open copy
+- Open access
+- ''
